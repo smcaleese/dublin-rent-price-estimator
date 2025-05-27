@@ -146,12 +146,9 @@ def _process_large_card(listing_locator, link, main_listing_idx) -> Listing:
         # Extract meta (beds, baths, type)
         meta_div_locator = listing_locator.locator("div[data-tracking='srp_meta']")
         meta_text = meta_div_locator.text_content(timeout=2000).strip()
-        print(f"Meta text: {meta_text}")
 
         if price_text:
             price = extract_price_with_regex(price_text)
-            print(f"Price text: {price_text}")
-            print(f"Price: {price}")
 
         if meta_text:
             beds = extract_beds_with_regex(
@@ -159,8 +156,6 @@ def _process_large_card(listing_locator, link, main_listing_idx) -> Listing:
             )  # meta_text typically like "1 Bed • 1 Bath • Apartment"
             baths = extract_baths_with_regex(meta_text)
             prop_type = extract_property_type_with_regex(meta_text)
-            print(f"Beds: {beds}, Baths: {baths}, Prop type: {prop_type}")
-            print()
 
         if prop_type.lower() == "studio":
             beds = "0"

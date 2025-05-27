@@ -7,8 +7,9 @@ from dataclasses import asdict
 DUBLIN_RENT_URL = "https://www.daft.ie/property-for-rent/dublin-city"  # Base URL for Dublin City rentals
 DUBLIN_SHARING_URL = "https://www.daft.ie/sharing/dublin-city"
 BASE_URL = DUBLIN_SHARING_URL
+
 OUTPUT_FILE = "data_sharing.csv"
-MAX_PAGES_TO_SCRAPE = 5
+MAX_PAGES_TO_SCRAPE = 50
 PAGE_SIZE = 20  # Number of results per page
 REQUEST_DELAY_BETWEEN_PAGES = 5
 
