@@ -32,20 +32,37 @@ def accept_cookies_if_present(page):
 def extract_price_with_regex(text):
     if text == "N/A" or not text:
         return "N/A"
-    # Matches price like €2,549 per month or €2549 per month
-    match = re.search(r"€([\d,]+)\s*per month", text, re.IGNORECASE)
+    # Matches price like €2,549 per month or €2549 per week
+    match = re.search(r"€([\d,]+)\s*per (?:month|week)", text, re.IGNORECASE)
     return match.group(1).replace(",", "") if match else "N/A"
 
 
 def extract_beds_with_regex(text):
     if text == "N/A" or not text:
         return ""
-    # Matches "1 Bed", "2 Beds", etc. or "Studio"
-    studio_match = re.search(r"(Studio)", text, re.IGNORECASE)
+
+    # Check for "Studio"
+    studio_match = re.search(r"\bStudio\b", text, re.IGNORECASE)
     if studio_match:
         return "0"
 
-    match = re.search(r"(\d+)\s*Bed(s)?", text, re.IGNORECASE)
+    # Check for "Single"
+    single_match = re.search(r"\bSingle\b", text, re.IGNORECASE)
+    if single_match:
+        return "single"
+
+    # Check for "Twin"
+    twin_match = re.search(r"\bTwin\b", text, re.IGNORECASE)
+    if twin_match:
+        return "twin"
+
+    # Check for "Double"
+    double_match = re.search(r"\bDouble\b", text, re.IGNORECASE)
+    if double_match:
+        return "double"
+
+    # Check for numeric bed count, e.g., "1 Bed", "2 Beds"
+    match = re.search(r"(\d+)\s*Bed(?:s)?", text, re.IGNORECASE)
     return match.group(1) if match else ""  # Return empty string if no bed info
 
 
@@ -105,6 +122,10 @@ def _process_large_card(listing_locator, link, main_listing_idx) -> Listing:
             meta_text = meta_div_locator.text_content(timeout=2000).strip()
 
         price = extract_price_with_regex(price_text)
+        # multiply weekly price by 4 to get monthly price
+        if int(price) <= 300:
+            price *= 4
+
         beds = extract_beds_with_regex(
             meta_text
         )  # meta_text typically like "1 Bed • 1 Bath • Apartment"
@@ -155,6 +176,9 @@ def _process_card_with_mini_cards(
             main_info_text = main_info_locator.text_content().strip()
 
             price = extract_price_with_regex(main_info_text)
+            if int(price) <= 300:
+                price *= 4
+
             beds = extract_beds_with_regex(main_info_text)
             baths = extract_baths_with_regex(main_info_text)
             prop_type = extract_property_type_with_regex(main_info_text)

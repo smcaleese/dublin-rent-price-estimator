@@ -4,9 +4,11 @@ import csv
 from utils import _process_listings_on_page, accept_cookies_if_present
 from dataclasses import asdict
 
-BASE_URL = "https://www.daft.ie/property-for-rent/dublin-city"  # Base URL for Dublin City rentals
-OUTPUT_FILE = "data.csv"
-MAX_PAGES_TO_SCRAPE = 3
+DUBLIN_RENT_URL = "https://www.daft.ie/property-for-rent/dublin-city"  # Base URL for Dublin City rentals
+DUBLIN_SHARING_URL = "https://www.daft.ie/sharing/dublin-city"
+BASE_URL = DUBLIN_SHARING_URL
+OUTPUT_FILE = "data_sharing.csv"
+MAX_PAGES_TO_SCRAPE = 50
 PAGE_SIZE = 20  # Number of results per page
 REQUEST_DELAY_BETWEEN_PAGES = 5
 
@@ -57,7 +59,7 @@ def scrape_daft_playwright():
 
                 try:
                     listings_area_locator = page.locator(LISTINGS_AREA_SELECTOR)
-                    listings_area_locator.wait_for(state="visible", timeout=45000)
+                    listings_area_locator.wait_for(state="visible", timeout=10000)
                     print(
                         f"Listings area ({LISTINGS_AREA_SELECTOR}) found and visible."
                     )
