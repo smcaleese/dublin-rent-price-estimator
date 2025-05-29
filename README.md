@@ -3,12 +3,9 @@ Web app to estimate Dublin rent prices
 
 ## Done 
 - Daft scraper
+- Set up the new Next.js frontend
+- Build out the initial frontend UI using Shadcn with dummy data
 
 ## To do
-- Set up the new Next.js and Chakra UI project in the frontend
-- Build out the initial frontend UI with dummy data + commit it
-
-- Implement the frontend using V0 and Next.js
-
-- Create a plan for the Next.js frontend and FastAPI backend
+- Implement a simple backend with dummy data using FastAPI
 - Implement the plan

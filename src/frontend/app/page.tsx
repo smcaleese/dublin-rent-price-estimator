@@ -1,11 +1,13 @@
 "use client"
 
 import { useState } from "react"
+import axios from "axios"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Home, MapPin, Bed, Bath } from "lucide-react"
+
 
 export default function RentPredictor() {
   const [bedrooms, setBedrooms] = useState("")
@@ -53,69 +55,25 @@ export default function RentPredictor() {
     { value: "swords", label: "Swords" },
   ]
 
-  const simulatePrediction = (): number => {
-    // Simulate API call with realistic Dublin rent prices
-    const basePrice = 1200
-    const bedroomMultiplier = Number.parseInt(bedrooms) * 400
-    const bathroomMultiplier = Number.parseInt(bathrooms) * 200
-
-    let areaMultiplier = 1
-    switch (dublinArea) {
-      case "dublin-1":
-      case "dublin-2":
-      case "dublin-4":
-        areaMultiplier = 1.4
-        break
-      case "dublin-6":
-      case "blackrock":
-      case "dun-laoghaire":
-        areaMultiplier = 1.2
-        break
-      case "howth":
-      case "malahide":
-        areaMultiplier = 1.1
-        break
-      default:
-        areaMultiplier = 1
-    }
-
-    let typeMultiplier = 1
-    switch (propertyType) {
-      case "house":
-        typeMultiplier = 1.3
-        break
-      case "townhouse":
-        typeMultiplier = 1.2
-        break
-      case "duplex":
-        typeMultiplier = 1.15
-        break
-      case "studio":
-        typeMultiplier = 0.7
-        break
-      default:
-        typeMultiplier = 1
-    }
-
-    const prediction = Math.round(
-      (basePrice + bedroomMultiplier + bathroomMultiplier) * areaMultiplier * typeMultiplier,
-    )
-    return prediction
-  }
-
   const handlePredict = async () => {
     if (!bedrooms || !bathrooms || !propertyType || !dublinArea) {
       return
     }
 
     setIsLoading(true)
-
-    // Simulate API delay
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-
-    const prediction = simulatePrediction()
-    setPredictedPrice(prediction)
-    setIsLoading(false)
+    try {
+      const response = await axios.post("http://localhost:8000/predict", {
+        bedrooms,
+        bathrooms,
+        propertyType,
+        dublinArea,
+      })
+      setPredictedPrice(response.data.predictedPrice)
+    } catch (error) {
+      console.error("Network or other error:", error)
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   const isFormValid = bedrooms && bathrooms && propertyType && dublinArea
