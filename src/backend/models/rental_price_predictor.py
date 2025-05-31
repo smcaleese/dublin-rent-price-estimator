@@ -17,8 +17,8 @@ class RentalPricePredictor:
             min_samples_leaf=2
         )
         self.is_trained = False
-        self.model_path = 'models/rent_predictor_model.joblib'
-        self.metrics_path = 'models/model_metrics.json'
+        self.model_path = 'saved_data/rent_predictor_model.joblib'
+        self.metrics_path = 'saved_data/model_metrics.json'
         self.logger = logging.getLogger(__name__)
         self.metrics = {}
         self.feature_names = []

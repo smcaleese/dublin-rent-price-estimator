@@ -1,2 +1,7 @@
 .DS_Store
 __pycache__
+
+# ML Model artifacts
+src/backend/saved_models/
+*.joblib
+*.pkl
