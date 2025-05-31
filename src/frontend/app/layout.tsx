@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
+import Navigation from "@/components/Navigation"
 import "./globals.css"
 
 const geistSans = Geist({
@@ -38,25 +37,11 @@ export default function RootLayout({
                   <h1 className="text-3xl font-bold text-gray-900">Dublin Rent Predictor</h1>
                   <div className="flex items-center justify-center gap-4">
                     <p className="text-gray-600">Get an estimated rental price for properties in Dublin</p>
-                    <div className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                      🤖 Powered by Machine Learning
-                    </div>
                   </div>
                 </div>
                 
                 {/* Navigation */}
-                <nav className="flex space-x-2">
-                  <Link href="/">
-                    <Button variant="ghost" className="text-gray-700 hover:text-gray-900">
-                      Rent Predictor
-                    </Button>
-                  </Link>
-                  <Link href="/model-info">
-                    <Button variant="ghost" className="text-gray-700 hover:text-gray-900">
-                      Model Info
-                    </Button>
-                  </Link>
-                </nav>
+                <Navigation />
               </div>
             </div>
           </header>
