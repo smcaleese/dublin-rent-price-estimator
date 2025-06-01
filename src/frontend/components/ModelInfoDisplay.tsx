@@ -36,14 +36,12 @@ interface ModelInfo {
 
 export default function ModelInfoDisplay() {
   const [modelInfo, setModelInfo] = useState<ModelInfo | null>(null)
-  const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [filterSharedStats, setFilterSharedStats] = useState<boolean | null>(null)
 
   useEffect(() => {
     const fetchModelInfo = async () => {
       try {
-        setIsLoading(true)
         let url = "http://localhost:8000/model-info"
         if (filterSharedStats === true) {
           url += "?filter_shared=true"
@@ -56,8 +54,6 @@ export default function ModelInfoDisplay() {
       } catch (err) {
         console.error("Error fetching model info:", err)
         setError("Failed to load model information")
-      } finally {
-        setIsLoading(false)
       }
     }
 
@@ -73,21 +69,6 @@ export default function ModelInfoDisplay() {
     } else {
       setFilterSharedStats(false)
     }
-  }
-
-  if (isLoading) {
-    return (
-      <div className="space-y-8">
-        <Card className="shadow-lg">
-          <CardContent className="p-8">
-            <div className="text-center">
-              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto"></div>
-              <p className="mt-4 text-gray-600">Loading model information...</p>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-    )
   }
 
   if (error) {
@@ -289,8 +270,23 @@ export default function ModelInfoDisplay() {
               {/* Property Types */}
               <div>
                 <h4 className="font-semibold mb-4">Property Types</h4>
-                {Object.keys(modelInfo.data_summary.property_types).length > 0 ? (
+                {Object.keys(modelInfo.data_summary.property_types).length > 0 || modelInfo.data_summary.total_records > 0 ? (
                   <div className="space-y-2">
+                    {/* Add "All Properties" entry */}
+                    {modelInfo.data_summary.total_records > 0 && (
+                      <div className="flex justify-between items-center font-semibold text-gray-700">
+                        <span className="capitalize">All Properties (Current Filter):</span>
+                        <div className="flex items-center space-x-2">
+                          <span>{modelInfo.data_summary.total_records}</span>
+                          <div className="w-16 bg-gray-200 rounded-full h-2">
+                            <div
+                              className="bg-blue-600 h-2 rounded-full" // Use a distinct color for "All"
+                              style={{ width: `100%` }}
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
+                    )}
                     {Object.entries(modelInfo.data_summary.property_types)
                       .sort(([, a], [, b]) => b - a)
                       .map(([type, count]) => (
