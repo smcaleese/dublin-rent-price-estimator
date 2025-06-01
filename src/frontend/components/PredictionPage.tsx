@@ -6,17 +6,29 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 import { Home, MapPin, Bed, Bath, Users } from "lucide-react"
 
+interface SubmittedDetails {
+  bedrooms?: string | null
+  bathrooms?: string | null
+  propertyType: string
+  dublinArea: string
+  isShared: boolean
+  roomType?: string | null
+}
+
 export default function PredictionPage() {
+  const [activeFormType, setActiveFormType] = useState<'property' | 'sharing'>('property')
   const [bedrooms, setBedrooms] = useState("")
   const [bathrooms, setBathrooms] = useState("")
   const [propertyType, setPropertyType] = useState("")
   const [dublinArea, setDublinArea] = useState("")
-  const [isShared, setIsShared] = useState(false)
   const [roomType, setRoomType] = useState("")
   const [predictedPrice, setPredictedPrice] = useState<number | null>(null)
   const [isLoading, setIsLoading] = useState(false)
+  const [submittedDetails, setSubmittedDetails] = useState<SubmittedDetails | null>(null)
+
 
   const bedroomOptions = [
     { value: "1", label: "1 Bedroom" },
@@ -73,171 +85,251 @@ export default function PredictionPage() {
   ]
 
   const handlePredict = async () => {
-    if (!bedrooms || !bathrooms || !propertyType || !dublinArea) {
-      return
-    }
-
-    // If shared room is selected, room type is required
-    if (isShared && !roomType) {
-      return
-    }
-
     setIsLoading(true)
-    try {
-      const response = await axios.post("http://localhost:8000/predict", {
+    setPredictedPrice(null)
+    setSubmittedDetails(null)
+
+    let payload: any = {}
+    let currentSubmittedDetails: SubmittedDetails | null = null
+
+    if (activeFormType === "property") {
+      if (!bedrooms || !bathrooms || !propertyType || !dublinArea) {
+        setIsLoading(false)
+        return
+      }
+      payload = {
         bedrooms,
         bathrooms,
         propertyType,
         dublinArea,
-        isShared,
-        roomType: isShared ? roomType : null,
-      })
+        isShared: false,
+        roomType: null,
+      }
+      currentSubmittedDetails = { bedrooms, bathrooms, propertyType, dublinArea, isShared: false, roomType: null }
+    } else { // activeFormType === "sharing"
+      if (!propertyType || !dublinArea || !roomType) {
+        setIsLoading(false)
+        return
+      }
+      payload = {
+        propertyType,
+        dublinArea,
+        isShared: true,
+        roomType,
+      }
+      currentSubmittedDetails = { propertyType, dublinArea, roomType, isShared: true }
+    }
+
+    try {
+      const response = await axios.post("http://localhost:8000/predict", payload)
       setPredictedPrice(response.data.predictedPrice)
+      setSubmittedDetails(currentSubmittedDetails)
     } catch (error) {
       console.error("Network or other error:", error)
+      // TODO: Display error to user
     } finally {
       setIsLoading(false)
     }
   }
 
-  const isFormValid = bedrooms && bathrooms && propertyType && dublinArea && (!isShared || roomType)
+  const isFormValid = () => {
+    if (activeFormType === "property") {
+      return !!(bedrooms && bathrooms && propertyType && dublinArea)
+    } else { // activeFormType === "sharing"
+      return !!(propertyType && dublinArea && roomType)
+    }
+  }
+
+  const handleTabChange = (value: string) => {
+    setActiveFormType(value as 'property' | 'sharing')
+    // Optionally reset form fields when tab changes to avoid confusion
+    setBedrooms("")
+    setBathrooms("")
+    setPropertyType("")
+    setDublinArea("")
+    setRoomType("")
+    setPredictedPrice(null) // Clear prediction when tab changes
+    setSubmittedDetails(null)
+  }
+
+
+  const renderPropertyForm = () => (
+    <div className="space-y-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="space-y-2">
+          <Label htmlFor="bedrooms" className="flex items-center gap-2">
+            <Bed className="h-4 w-4" />
+            Number of Bedrooms
+          </Label>
+          <Select value={bedrooms} onValueChange={setBedrooms}>
+            <SelectTrigger id="bedrooms" className="w-full">
+              <SelectValue placeholder="Select bedrooms" />
+            </SelectTrigger>
+            <SelectContent>
+              {bedroomOptions.map((option) => (
+                <SelectItem key={option.value} value={option.value}>
+                  {option.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div className="space-y-2">
+          <Label htmlFor="bathrooms" className="flex items-center gap-2">
+            <Bath className="h-4 w-4" />
+            Number of Bathrooms
+          </Label>
+          <Select value={bathrooms} onValueChange={setBathrooms}>
+            <SelectTrigger id="bathrooms" className="w-full">
+              <SelectValue placeholder="Select bathrooms" />
+            </SelectTrigger>
+            <SelectContent>
+              {bathroomOptions.map((option) => (
+                <SelectItem key={option.value} value={option.value}>
+                  {option.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="space-y-2">
+          <Label htmlFor="property-type-prop" className="flex items-center gap-2">
+            <Home className="h-4 w-4" />
+            Property Type
+          </Label>
+          <Select value={propertyType} onValueChange={setPropertyType}>
+            <SelectTrigger id="property-type-prop" className="w-full">
+              <SelectValue placeholder="Select property type" />
+            </SelectTrigger>
+            <SelectContent>
+              {propertyTypeOptions.map((option) => (
+                <SelectItem key={option.value} value={option.value}>
+                  {option.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div className="space-y-2">
+          <Label htmlFor="dublin-area-prop" className="flex items-center gap-2">
+            <MapPin className="h-4 w-4" />
+            Dublin Area
+          </Label>
+          <Select value={dublinArea} onValueChange={setDublinArea}>
+            <SelectTrigger id="dublin-area-prop" className="w-full">
+              <SelectValue placeholder="Select Dublin area" />
+            </SelectTrigger>
+            <SelectContent>
+              {dublinAreaOptions.map((option) => (
+                <SelectItem key={option.value} value={option.value}>
+                  {option.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+    </div>
+  )
+
+  const renderSharedRoomForm = () => (
+    <div className="space-y-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="space-y-2">
+          <Label htmlFor="property-type-shared" className="flex items-center gap-2">
+            <Home className="h-4 w-4" />
+            Property Type
+          </Label>
+          <Select value={propertyType} onValueChange={setPropertyType}>
+            <SelectTrigger id="property-type-shared" className="w-full">
+              <SelectValue placeholder="Select property type" />
+            </SelectTrigger>
+            <SelectContent>
+              {propertyTypeOptions.map((option) => (
+                <SelectItem key={option.value} value={option.value}>
+                  {option.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div className="space-y-2">
+          <Label htmlFor="dublin-area-shared" className="flex items-center gap-2">
+            <MapPin className="h-4 w-4" />
+            Dublin Area
+          </Label>
+          <Select value={dublinArea} onValueChange={setDublinArea}>
+            <SelectTrigger id="dublin-area-shared" className="w-full">
+              <SelectValue placeholder="Select Dublin area" />
+            </SelectTrigger>
+            <SelectContent>
+              {dublinAreaOptions.map((option) => (
+                <SelectItem key={option.value} value={option.value}>
+                  {option.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+      <div className="space-y-2">
+        <Label htmlFor="room-type" className="flex items-center gap-2">
+          <Users className="h-4 w-4" />
+          Room Type
+        </Label>
+        <Select value={roomType} onValueChange={setRoomType}>
+          <SelectTrigger id="room-type" className="w-full">
+            <SelectValue placeholder="Select room type" />
+          </SelectTrigger>
+          <SelectContent>
+            {roomTypeOptions.map((option) => (
+              <SelectItem key={option.value} value={option.value}>
+                {option.label}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
+      </div>
+    </div>
+  )
 
   return (
     <div className="space-y-8 mt-8">
       <Card className="shadow-lg">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
-            <Home className="h-5 w-5" />
-            Property Details
+            {activeFormType === 'property' ? <Home className="h-5 w-5" /> : <Users className="h-5 w-5" />}
+            {activeFormType === 'property' ? "Property Details" : "Shared Room Details"}
           </CardTitle>
-          <CardDescription>Fill in the details below to get a rent prediction</CardDescription>
+          <CardDescription>
+            {activeFormType === 'property'
+              ? "Fill in property details to predict rent for an entire property"
+              : "Fill in details to predict rent for a shared room/accommodation"}
+          </CardDescription>
         </CardHeader>
-        <CardContent className="space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="space-y-2">
-              <Label htmlFor="bedrooms" className="flex items-center gap-2">
-                <Bed className="h-4 w-4" />
-                Number of Bedrooms
-              </Label>
-              <Select value={bedrooms} onValueChange={setBedrooms}>
-                <SelectTrigger id="bedrooms" className="w-full">
-                  <SelectValue placeholder="Select bedrooms" />
-                </SelectTrigger>
-                <SelectContent>
-                  {bedroomOptions.map((option) => (
-                    <SelectItem key={option.value} value={option.value}>
-                      {option.label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <Label htmlFor="bathrooms" className="flex items-center gap-2">
-                <Bath className="h-4 w-4" />
-                Number of Bathrooms
-              </Label>
-              <Select value={bathrooms} onValueChange={setBathrooms}>
-                <SelectTrigger id="bathrooms" className="w-full">
-                  <SelectValue placeholder="Select bathrooms" />
-                </SelectTrigger>
-                <SelectContent>
-                  {bathroomOptions.map((option) => (
-                    <SelectItem key={option.value} value={option.value}>
-                      {option.label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <Label htmlFor="property-type" className="flex items-center gap-2">
-                <Home className="h-4 w-4" />
-                Property Type
-              </Label>
-              <Select value={propertyType} onValueChange={setPropertyType}>
-                <SelectTrigger id="property-type" className="w-full">
-                  <SelectValue placeholder="Select property type" />
-                </SelectTrigger>
-                <SelectContent>
-                  {propertyTypeOptions.map((option) => (
-                    <SelectItem key={option.value} value={option.value}>
-                      {option.label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <Label htmlFor="dublin-area" className="flex items-center gap-2">
-                <MapPin className="h-4 w-4" />
-                Dublin Area
-              </Label>
-              <Select value={dublinArea} onValueChange={setDublinArea}>
-                <SelectTrigger id="dublin-area" className="w-full">
-                  <SelectValue placeholder="Select Dublin area" />
-                </SelectTrigger>
-                <SelectContent>
-                  {dublinAreaOptions.map((option) => (
-                    <SelectItem key={option.value} value={option.value}>
-                      {option.label}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            </div>
-          </div>
-
-          {/* Shared Room Section */}
-          <div className="space-y-4 border-t pt-6">
-            <div className="flex items-center space-x-2">
-              <input
-                type="checkbox"
-                id="is-shared"
-                checked={isShared}
-                onChange={(e) => {
-                  setIsShared(e.target.checked)
-                  if (!e.target.checked) {
-                    setRoomType("")
-                  }
-                }}
-                className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-              />
-              <Label htmlFor="is-shared" className="flex items-center gap-2 cursor-pointer">
-                <Users className="h-4 w-4" />
-                This is a shared room/accommodation
-              </Label>
-            </div>
-
-            {isShared && (
-              <div className="space-y-2">
-                <Label htmlFor="room-type" className="flex items-center gap-2">
-                  <Users className="h-4 w-4" />
-                  Room Type
-                </Label>
-                <Select value={roomType} onValueChange={setRoomType}>
-                  <SelectTrigger id="room-type" className="w-full">
-                    <SelectValue placeholder="Select room type" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {roomTypeOptions.map((option) => (
-                      <SelectItem key={option.value} value={option.value}>
-                        {option.label}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-            )}
-          </div>
+        <CardContent>
+          <Tabs value={activeFormType} onValueChange={handleTabChange} className="w-full">
+            <TabsList className="grid w-full grid-cols-2 mb-6">
+              <TabsTrigger value="property">Entire Property</TabsTrigger>
+              <TabsTrigger value="sharing">Shared Room</TabsTrigger>
+            </TabsList>
+            <TabsContent value="property" className="space-y-6">
+              {renderPropertyForm()}
+            </TabsContent>
+            <TabsContent value="sharing" className="space-y-6">
+              {renderSharedRoomForm()}
+            </TabsContent>
+          </Tabs>
 
           <Button
             onClick={handlePredict}
-            disabled={!isFormValid || isLoading}
-            className="w-full h-12 text-lg cursor-pointer"
+            disabled={!isFormValid() || isLoading}
+            className="w-full h-12 text-lg cursor-pointer mt-6"
             size="lg"
           >
             {isLoading ? "Predicting..." : "Predict Price"}
@@ -245,24 +337,31 @@ export default function PredictionPage() {
         </CardContent>
       </Card>
 
-      {predictedPrice && (
+      {predictedPrice && submittedDetails && (
         <Card className="shadow-lg border-green-200 bg-green-50">
           <CardHeader>
             <CardTitle className="text-green-800">Predicted Rent Price</CardTitle>
-            <CardDescription className="text-green-600">Based on your property details</CardDescription>
+            <CardDescription className="text-green-600">
+              Based on {submittedDetails.isShared ? "shared room" : "property"} details
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <div className="text-center space-y-2">
               <div className="text-4xl font-bold text-green-800">€{predictedPrice.toLocaleString()}</div>
               <div className="text-green-600">per month</div>
               <div className="text-sm text-green-600 mt-4 p-4 bg-green-100 rounded-lg">
-                <strong>Property Summary:</strong> {bedroomOptions.find((b) => b.value === bedrooms)?.label},{" "}
-                {bathroomOptions.find((b) => b.value === bathrooms)?.label},{" "}
-                {propertyTypeOptions.find((p) => p.value === propertyType)?.label} in{" "}
-                {dublinAreaOptions.find((a) => a.value === dublinArea)?.label}
-                {isShared && roomType && (
+                <strong>Summary:</strong>
+                {!submittedDetails.isShared && submittedDetails.bedrooms && (
+                  <> {bedroomOptions.find((b) => b.value === submittedDetails.bedrooms)?.label},</>
+                )}
+                {!submittedDetails.isShared && submittedDetails.bathrooms && (
+                  <> {bathroomOptions.find((b) => b.value === submittedDetails.bathrooms)?.label},</>
+                )}
+                <> {propertyTypeOptions.find((p) => p.value === submittedDetails.propertyType)?.label}</>
+                <> in {dublinAreaOptions.find((a) => a.value === submittedDetails.dublinArea)?.label}</>
+                {submittedDetails.isShared && submittedDetails.roomType && (
                   <span>
-                    {" "}- {roomTypeOptions.find((r) => r.value === roomType)?.label} (Shared)
+                    {" "}- {roomTypeOptions.find((r) => r.value === submittedDetails.roomType)?.label} (Shared)
                   </span>
                 )}
               </div>
