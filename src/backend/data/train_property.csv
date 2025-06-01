@@ -1,0 +1,914 @@
+price,beds,baths,prop_type,address,link
+2612,1,1,Apartment,"Cathedral Court, Unit 6 New Street South, Dublin 8",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-cathedral-court-unit-6-new-street-south-dublin-8/2929874
+3072,2,2,Apartment,"Cathedral Court, Unit 6 New Street South, Dublin 8",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-cathedral-court-unit-6-new-street-south-dublin-8/2929875
+3310,2,2,Apartment,"Cathedral Court, Unit 6 New Street South, Dublin 8",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-cathedral-court-unit-6-new-street-south-dublin-8/3248767
+1850,0,0,Studio,"Node Dublin 7, Phibsborough, D07 V10E, Dublin 7",https://www.daft.ie/for-rent/studio-apartment-cozy-studio-bills-included-node-dublin-7-phibsborough-d07-v10e-dublin-7/5697464
+1875,0,0,Studio,"Node Dublin 7, Phibsborough, D07 V10E, Dublin 7",https://www.daft.ie/for-rent/studio-apartment-comfy-studio-bills-included-node-dublin-7-phibsborough-d07-v10e-dublin-7/5697468
+1925,0,0,Studio,"Node Dublin 7, Phibsborough, D07 V10E, Dublin 7",https://www.daft.ie/for-rent/studio-apartment-roomy-studio-bills-included-node-dublin-7-phibsborough-d07-v10e-dublin-7/5697466
+2100,0,0,Studio,"Griffith Wood, Griffith Avenue, Drumcondra, Dublin 9",https://www.daft.ie/for-rent/studio-apartment-studio-griffith-wood-griffith-wood-griffith-avenue-drumcondra-dublin-9/5720457
+2900,2,2,Apartment,"Griffith Wood, Griffith Avenue, Drumcondra, Dublin 9",https://www.daft.ie/for-rent/apartment-2-bedroom-griffith-wood-griffith-wood-griffith-avenue-drumcondra-dublin-9/3523582
+4078,3,3,Apartment,"Griffith Wood, Griffith Avenue, Drumcondra, Dublin 9",https://www.daft.ie/for-rent/apartment-3-bedroom-griffith-wood-griffith-wood-griffith-avenue-drumcondra-dublin-9/3523581
+2549,1,1,Apartment,"O'Callaghan Court , Erne Street Upper , Dublin 2",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-ocallaghan-court-erne-street-upper-dublin-2/2929971
+2175,1,1,Apartment,"Occu Owenmore, Station Road, Raheny, Dublin 5",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-occu-owenmore-station-road-raheny-dublin-5/6116517
+2550,2,2,Apartment,"Occu Owenmore, Station Road, Raheny, Dublin 5",https://www.daft.ie/for-rent/apartment-two-bed-apartment-occu-owenmore-station-road-raheny-dublin-5/6116518
+2000,1,1,Apartment,"O'Neill Court , Main Street, Belmayne, Dublin 13",https://www.daft.ie/for-rent/apartment-1-bed-oneill-court-main-street-belmayne-dublin-13/5987932
+2450,2,2,Apartment,"O'Neill Court , Main Street, Belmayne, Dublin 13",https://www.daft.ie/for-rent/apartment-2-bed-oneill-court-main-street-belmayne-dublin-13/5987931
+3000,3,2,Apartment,"O'Neill Court , Main Street, Belmayne, Dublin 13",https://www.daft.ie/for-rent/apartment-3-bed-oneill-court-main-street-belmayne-dublin-13/5987935
+1990,0,0,Studio,"Niche Living, Serviced Studio Apartments, Ardee Road, Rathmines, Dublin 6",https://www.daft.ie/for-rent/studio-apartment-serviced-studio-apartments-niche-living-serviced-studio-apartments-ardee-road-rathmines-dublin-6/5705486
+2295,1,1,Apartment,"Newmarket Yards, Dublin City Centre, Dublin 8",https://www.daft.ie/for-rent/apartment-newmarket-yards-1-bed-newmarket-yards-dublin-city-centre-dublin-8/5527308
+2500,1,1,Apartment,"Newmarket Yards, Dublin City Centre, Dublin 8",https://www.daft.ie/for-rent/apartment-newmarket-yards-1-bed-type-a-newmarket-yards-dublin-city-centre-dublin-8/5542051
+1990,0,0,Studio,"Niche Living, Serviced Studio Apartments,  Eblana Avenue, Dun Laoghaire, Co. Dublin",https://www.daft.ie/for-rent/studio-apartment-studio-niche-living-serviced-studio-apartments-eblana-avenue-dun-laoghaire-co-dublin/4549770
+2350,0,0,Studio,"Marshall Yards, East Road, Dublin 3",https://www.daft.ie/for-rent/studio-apartment-studio-apartment-marshall-yards-east-road-dublin-3/6141917
+2500,1,1,Apartment,"Marshall Yards, East Road, Dublin 3",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-marshall-yards-east-road-dublin-3/6141962
+3400,2,2,Apartment,"Marshall Yards, East Road, Dublin 3",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-marshall-yards-east-road-dublin-3/6141979
+2650,1,1,Apartment,"Eglinton Place , Eglinton Road, Dublin 4",https://www.daft.ie/for-rent/apartment-1-bed-apartment-eglinton-place-eglinton-road-dublin-4/5811432
+3550,2,2,Apartment,"Eglinton Place , Eglinton Road, Dublin 4",https://www.daft.ie/for-rent/apartment-2-bed-apartment-eglinton-place-eglinton-road-dublin-4/5811438
+4100,2,2,Apartment,"Eglinton Place , Eglinton Road, Dublin 4",https://www.daft.ie/for-rent/apartment-2-bedroom-duplex-eglinton-place-eglinton-road-dublin-4/5811435
+2150,1,1,Apartment,"Occu Hayfield, Churchview Road, Killiney, Co. Dublin",https://www.daft.ie/for-rent/apartment-1-bed-apartment-occu-hayfield-churchview-road-killiney-co-dublin/5899685
+2400,2,2,Apartment,"Occu Hayfield, Churchview Road, Killiney, Co. Dublin",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-occu-hayfield-churchview-road-killiney-co-dublin/5900743
+3300,3,2,Apartment,"Occu Hayfield, Churchview Road, Killiney, Co. Dublin",https://www.daft.ie/for-rent/apartment-3-bedroom-apartment-occu-hayfield-churchview-road-killiney-co-dublin/5900759
+3355,2,2,Apartment,"Quayside Quarter, Dublin Landings, North Wall Quay, Dublin 1",https://www.daft.ie/for-rent/apartment-2-bed-apartment-quayside-quarter-north-wall-quay-dublin-1/1446985
+3895,2,2,Apartment,"Quayside Quarter, Dublin Landings, North Wall Quay, Dublin 1",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-quayside-quarter-dublin-landings-north-wall-quay-dublin-1/3916952
+2150,1,1,Apartment,"Newtown Gardens , Newtownpark Avenue , Blackrock, Co. Dublin",https://www.daft.ie/for-rent/apartment-newtown-gardens-newtown-gardens-newtownpark-avenue-blackrock-co-dublin/5899543
+2650,2,2,Apartment,"Newtown Gardens , Newtownpark Avenue , Blackrock, Co. Dublin",https://www.daft.ie/for-rent/apartment-newtown-gardens-newtown-gardens-newtownpark-avenue-blackrock-co-dublin/5899542
+2075,1,1,Apartment,"Grand Canal Harbour, Grand Canal Place, Dublin 8",https://www.daft.ie/for-rent/apartment-1-bed-twin-bedroom-grand-canal-harbour-grand-canal-place-dublin-8/5810496
+2095,1,1,Apartment,"Grand Canal Harbour, Grand Canal Place, Dublin 8",https://www.daft.ie/for-rent/apartment-1-bed-grand-canal-harbour-grand-canal-place-dublin-8/5577192
+2650,2,2,Apartment,"Grand Canal Harbour, Grand Canal Place, Dublin 8",https://www.daft.ie/for-rent/apartment-2-bed-grand-canal-harbour-grand-canal-place-dublin-8/5577194
+1950,0,0,Studio,"Hali, Cherrywood, Dublin 18, Cherrywood, Co. Dublin",https://www.daft.ie/for-rent/studio-apartment-studio-apartment-hali-cherrywood-dublin-18-cherrywood-co-dublin/3652524
+2200,1,1,Apartment,"Hali, Cherrywood, Dublin 18, Cherrywood, Co. Dublin",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-hali-cherrywood-dublin-18-cherrywood-co-dublin/3652560
+2650,2,2,Apartment,"Hali, Cherrywood, Dublin 18, Cherrywood, Co. Dublin",https://www.daft.ie/for-rent/apartment-2-bed-apartment-hali-cherrywood-dublin-18-cherrywood-co-dublin/5876745
+1950,0,0,Studio,"Hali - NEW LAUNCH Talbot & Tully Buildings , Cherrywood, Dublin 18",https://www.daft.ie/for-rent/studio-apartment-studio-hali-new-launch-talbot-tully-buildings-cherrywood-dublin-18/5439959
+2200,1,1,Apartment,"Hali - NEW LAUNCH Talbot & Tully Buildings , Cherrywood, Dublin 18",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-hali-new-launch-talbot-tully-buildings-cherrywood-dublin-18/5510411
+2650,2,2,Apartment,"Hali - NEW LAUNCH Talbot & Tully Buildings , Cherrywood, Dublin 18",https://www.daft.ie/for-rent/apartment-2-bed-apartment-hali-new-launch-talbot-tully-buildings-cherrywood-dublin-18/5439958
+2495,1,1,Apartment,"Alta Verde, Cross Avenue, Blackrock, Co. Dublin",https://www.daft.ie/for-rent/apartment-1-bedroom-alta-verde-cross-avenue-blackrock-co-dublin/6117168
+3125,2,2,Apartment,"Alta Verde, Cross Avenue, Blackrock, Co. Dublin",https://www.daft.ie/for-rent/apartment-2-bedroom-alta-verde-cross-avenue-blackrock-co-dublin/6117162
+2400,1,1,Apartment,"Rockpoint, Newtown Avenue, Blackrock, Co. Dublin",https://www.daft.ie/for-rent/apartment-one-bedrooms-rockpoint-newtown-avenue-blackrock-co-dublin/5658299
+2250,1,1,Apartment,"Brickfield Square , Brickfield Drive, Dublin 12",https://www.daft.ie/for-rent/apartment-1-bed-brickfield-square-brickfield-drive-dublin-12/5730448
+2815,2,2,Apartment,"Brickfield Square , Brickfield Drive, Dublin 12",https://www.daft.ie/for-rent/apartment-2-bed-brickfield-square-brickfield-drive-dublin-12/5730172
+2150,1,1,Apartment,"Claremont, Howth Road, Howth, Dublin 13",https://www.daft.ie/for-rent/apartment-1-bed-claremont-howth-road-howth-dublin-13/6124174
+2650,2,2,Apartment,"Claremont, Howth Road, Howth, Dublin 13",https://www.daft.ie/for-rent/apartment-2-bed-claremont-howth-road-howth-dublin-13/6124172
+4900,3,2,Apartment,"Claremont, Howth Road, Howth, Dublin 13",https://www.daft.ie/for-rent/apartment-3-bed-claremont-howth-road-howth-dublin-13/6124175
+4077,2,2,Apartment,"Node D2 - Fitzwilliam Square, 25 Pembroke Street Upper, Dublin 2",https://www.daft.ie/for-rent/apartment-2-bedroom-2-bathroom-platinum-node-living-25-pembroke-street-upper-dublin-2/1527606
+1995,1,1,Apartment,"Castle View, Muirfield Drive, Dublin 12, Bluebell, Dublin 12",https://www.daft.ie/for-rent/apartment-1-bed-castle-view-muirfield-drive-dublin-12-bluebell-dublin-12/4272066
+2525,2,2,Apartment,"Castle View, Muirfield Drive, Dublin 12, Bluebell, Dublin 12",https://www.daft.ie/for-rent/apartment-2-bed-castle-view-muirfield-drive-dublin-12-bluebell-dublin-12/4272068
+3350,3,2,Apartment,"Castle View, Muirfield Drive, Dublin 12, Bluebell, Dublin 12",https://www.daft.ie/for-rent/apartment-3-bed-apartment-castle-view-muirfield-drive-dublin-12-bluebell-dublin-12/4272064
+3600,2,2,Apartment,"Capital Dock Residence, No. 2 Stevens Walk, Dublin 2",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-capital-dock-residence-no-2-stevens-walk-dublin-2/2531008
+3900,2,2,Apartment,"Capital Dock Residence, No. 2 Stevens Walk, Dublin 2",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-capital-dock-residence-capital-dock-82-sir-john-dublin-2/1443909
+1850,0,0,Studio,"DX Living , Donnybrook Road, Dublin 4",https://www.daft.ie/for-rent/studio-apartment-studio-apartment-dx-living-donnybrook-road-dublin-4/5926596
+2175,1,1,Apartment,"East Wharf, East Wall Road, Dublin 3",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-east-wharf-east-wall-road-dublin-3/5920513
+2695,2,2,Apartment,"East Wharf, East Wall Road, Dublin 3",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-east-wharf-east-wall-road-dublin-3/5920511
+2075,1,1,Apartment,"Easra Court , Collins Avenue, Killester, Dublin 5",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-easra-court-collins-avenue-killester-dublin-5/6105825
+2575,2,2,Apartment,"Easra Court , Collins Avenue, Killester, Dublin 5",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-easra-court-collins-avenue-killester-dublin-5/6105826
+2275,0,0,Studio,"Spencer Place, Spencer Place, Dublin 1",https://www.daft.ie/for-rent/studio-apartment--studio-spencer-place-spencer-place-dublin-1/4678956
+2600,1,1,Apartment,"Spencer Place, Spencer Place, Dublin 1",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-spencer-place-spencer-place-dublin-1/4097381
+4072,3,2,House,"Oatlands Manor, Cherrygarth, Mount Merrion, Co. Dublin",https://www.daft.ie/for-rent/house-3-bedroom-duplex-oatlands-manor-cherrygarth-mount-merrion-co-dublin/5353889
+2397,1,1,Apartment,"One Lime Street, Docklands, Dublin 2",https://www.daft.ie/for-rent/apartment-one-bedroom-one-lime-street-docklands-dublin-2/4636155
+3300,2,1,Apartment,"One Lime Street, Docklands, Dublin 2",https://www.daft.ie/for-rent/apartment-two-bedroom-one-lime-street-docklands-dublin-2/4636153
+5000,1,1,Apartment,"Lansdowne Place, Lansdowne Road, Dublin 4",https://www.daft.ie/for-rent/apartment-the-harvey-lansdowne-place-lansdowne-road-dublin-4/6017135
+6250,2,2,Apartment,"Lansdowne Place, Lansdowne Road, Dublin 4",https://www.daft.ie/for-rent/apartment-the-barrington-lansdowne-place-lansdowne-road-dublin-4/6124626
+6700,2,2,Apartment,"Lansdowne Place, Lansdowne Road, Dublin 4",https://www.daft.ie/for-rent/apartment-the-blake-lansdowne-place-lansdowne-road-dublin-4/5956423
+2350,1,1,Apartment,"U HX, Harolds Cross Road, Dublin 6W",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-u-hx-harolds-cross-road-dublin-6w/4479085
+2850,2,2,Apartment,"U HX, Harolds Cross Road, Dublin 6W",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-u-hx-harolds-cross-road-dublin-6w/4479087
+1958,1,1,Apartment,"Charlotte Apartments, Honeypark, Dun Laoghaire, Co. Dublin",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-charlotte-apartments-honeypark-dun-laoghaire-co-dublin/2589785
+2364,2,2,Apartment,"Charlotte Apartments, Honeypark, Dun Laoghaire, Co. Dublin",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-charlotte-apartments-honeypark-dun-laoghaire-co-dublin/2623735
+2675,1,1,Apartment,"Opus, 6 Hanover Quay, Grand Canal Dock, Dublin 2",https://www.daft.ie/for-rent/apartment-one-bedroom-apartment-opus-6-hanov-opus-6-hanover-quay-grand-canal-dock-dublin-2/6041778
+3968,2,2,Apartment,"Opus, 6 Hanover Quay, Grand Canal Dock, Dublin 2",https://www.daft.ie/for-rent/apartment-2-bed-apartment-with-water-views-opus-6-hanover-quay-hanover-quay-dublin-2/1442730
+2800,2,2,Apartment,"Seafield Strand, Greenfield Road, Sutton, Dublin 13",https://www.daft.ie/for-rent/apartment-2-bed-seafield-strand-seafield-strand-greenfield-road-sutton-dublin-13/5460596
+2184,1,1,Apartment,"The Lookout , Harbour Road, Dalkey, Co. Dublin",https://www.daft.ie/for-rent/apartment-1-bed-apartment-the-lookout-harbour-road-dalkey-co-dublin/5525099
+3471,2,2,Apartment,"The Locks, Charlemont Square, Dublin 2, Charlemont Street, Dublin 2",https://www.daft.ie/for-rent/apartment-apt-14-lock-gate-4-the-locks-charlemont-square-dublin-2-charlemont-street-dublin-2/6143611
+3550,2,2,Apartment,"The Locks, Charlemont Square, Dublin 2, Charlemont Street, Dublin 2",https://www.daft.ie/for-rent/apartment-two-bed-15-gate-house-the-locks-charlemont-squa-the-locks-charlemont-square-dublin-2-charlemont-street-dublin-2/5874485
+4000,4,4,House,"Drumkeen, Glenamuck Road, Carrickmines, Dublin 18",https://www.daft.ie/for-rent/house-4-bedroom-4-bathroom-house-drumkeen-carrickmi-drumkeen-glenamuck-road-carrickmines-dublin-18/5646010
+1832,0,0,Studio,"Barnoaks, The Green, Citywest, Co. Dublin",https://www.daft.ie/for-rent/studio-apartment-studios-barnoaks-the-green-citywest-co-dublin/5641635
+1980,1,1,Apartment,"Barnoaks, The Green, Citywest, Co. Dublin",https://www.daft.ie/for-rent/apartment-1-bed-barnoaks-the-green-citywest-co-dublin/5527929
+2177,1,1,Apartment,"U Clay Farm, Clay Farm Leopardstown, Leopardstown, Dublin 18",https://www.daft.ie/for-rent/apartment-4th-floor-1-bedroom-u-clay-farm-clay-farm-leopardstown-leopardstown-dublin-18/3946910
+2669,2,2,Apartment,"U Clay Farm, Clay Farm Leopardstown, Leopardstown, Dublin 18",https://www.daft.ie/for-rent/apartment-2-bed-apartment-u-clay-farm-clay-farm-leopardstown-leopardstown-dublin-18/5983988
+2696,2,2,House,"Castle Walk, Castle Way, Cherrywood, Co. Dublin",https://www.daft.ie/for-rent/house-2-bedroom-house-castle-walk-castle-way-cherrywood-co-dublin/4494414
+3315,3,2,House,"Castle Walk, Castle Way, Cherrywood, Co. Dublin",https://www.daft.ie/for-rent/house-3-bedroom-house-castle-walk-castle-way-cherrywood-co-dublin/4004277
+2132,0,0,Studio,"The Grange Residence , Brewery Road, Stillorgan, Co. Dublin",https://www.daft.ie/for-rent/studio-apartment-studio-apartment-the-grange-residence-brewery-road-stillorgan-co-dublin/5374243
+2199,1,1,Apartment,"The Grange Residence , Brewery Road, Stillorgan, Co. Dublin",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-the-grange-residence-brewery-road-stillorgan-co-dublin/5374242
+2666,2,1,Apartment,"Belvoir by Havitat presents Kilmacud House , Upper Kilmacud Road, Stillorgan, Co. Dublin",https://www.daft.ie/for-rent/apartment-2-bed-belvoir-by-havitat-presents-kilmacud-house-upper-kilmacud-road-stillorgan-co-dublin/3723149
+2946,2,2,Apartment,"Alto Frascati, Frascati Road, Blackrock, Co. Dublin",https://www.daft.ie/for-rent/apartment-2-bedroom-alto-frascati-frascati-road-blackrock-co-dublin/3926909
+1895,0,0,Studio,"Marietta Woods, Castle Park Road, Dalkey, Co. Dublin",https://www.daft.ie/for-rent/studio-apartment-studio-apartment-marietta-woods-castle-park-road-dalkey-co-dublin/4552280
+2898,2,2,Apartment,"Marietta Woods, Castle Park Road, Dalkey, Co. Dublin",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-marietta-woods-castle-park-road-dalkey-co-dublin/4552257
+3500,2,2,Apartment,"Tara View , Merrion Road, Ballsbridge, Dublin 4, Dublin 4",https://www.daft.ie/for-rent/apartment-27-tara-view-tara-view-merrion-road-ballsbridge-dublin-4-dublin-4/5619919
+5250,3,2,Apartment,"Tara View , Merrion Road, Ballsbridge, Dublin 4, Dublin 4",https://www.daft.ie/for-rent/apartment-33-tara-view-tara-view-merrion-road-ballsbridge-dublin-4-dublin-4/5900049
+N/A,0,0,Studio,"Stoneybatter Place, Rope Walk, 20 Stoneybatter, Dublin 7, D07 NP2K, Dublin 7",https://www.daft.ie/for-rent/studio-apartment-studio-apartment-stoneybatter-place-rope-walk-20-stoneybatter-dublin-7-d07-np2k-dublin-7/6140700
+2059,0,0,Studio,"Mespil Estate, Sussex Road, Dublin 4",https://www.daft.ie/for-rent/studio-apartment-studio-mespil-estate-sussex-road-dublin-4/4514637
+2357,1,1,Apartment,"Mespil Estate, Sussex Road, Dublin 4",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-mespil-estate-sussex-road-dublin-4/4514636
+1962,1,1,Apartment,"U Rathborne , Rathborne, Ashtown, Dublin 15",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-u-rathborne-rathborne-ashtown-dublin-15/4532023
+1326,1,1,Apartment,"Griffin Point, Hole in The Wall Road, Dublin 13",https://www.daft.ie/for-rent/apartment-1-bed-apartment-griffin-point-hole-in-the-wall-road-dublin-13/6140272
+1478,2,1,Apartment,"Griffin Point, Hole in The Wall Road, Dublin 13",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-griffin-point-hole-in-the-wall-road-dublin-13/6140271
+2083,1,1,Apartment,"Occu Verville, Vernon Avenue, Clontarf, Dublin 3",https://www.daft.ie/for-rent/apartment-1-bed-occu-verville-vernon-avenue-clontarf-dublin-3/3753088
+2479,2,2,Apartment,"Occu Verville, Vernon Avenue, Clontarf, Dublin 3",https://www.daft.ie/for-rent/apartment-2-bed-occu-verville-vernon-avenue-clontarf-dublin-3/3753091
+2256,3,3,House,"Occu Hollywoodrath, Hollywoodrath, Hollystown, Dublin 15",https://www.daft.ie/for-rent/house-3-bedroom-house-occu-hollywoodrath-occu-hollywoodrath-hollywoodrath-hollystown-dublin-15/3967749
+3451,3,2,Apartment,"Occu Strand View, Howth Road, Raheny, Dublin 5",https://www.daft.ie/for-rent/apartment-2-bed-plus-study-penthouse-occu-strand-view-occu-strand-view-howth-road-raheny-dublin-5/3777736
+2095,1,1,Apartment,"Occu Brookwood, St. Brigid's Road, Killester, Dublin 5",https://www.daft.ie/for-rent/apartment-1-bed-occu-brookwood-st-brigids-road-killester-dublin-5/4506603
+3190,3,3,Apartment,"Occu Brookwood, St. Brigid's Road, Killester, Dublin 5",https://www.daft.ie/for-rent/apartment-3-bed-apartment-occu-brookwood-st-brigids-road-killester-dublin-5/4647129
+2250,1,1,Apartment,"Occu East Village, Leopardstown, Dublin 18, Clay Farm Drive, Leopardstown, Dublin 18",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-occu-east-village-leopardstown-dublin-18-clay-farm-drive-leopardstown-dublin-18/5341470
+2508,2,2,Apartment,"Occu East Village, Leopardstown, Dublin 18, Clay Farm Drive, Leopardstown, Dublin 18",https://www.daft.ie/for-rent/apartment-2-bed-apartment-occu-east-village-leopardstown-dublin-18-clay-farm-drive-leopardstown-dublin-18/5341480
+3000,2,1,Apartment,"Occu Hanover Mills, Dublin 2, Creighton Street, Dublin 2",https://www.daft.ie/for-rent/apartment-2-bed-apartment-occu-hanover-mills-dublin-2-creighton-street-dublin-2/5897258
+3200,2,2,Apartment,"Occu Hanover Mills, Dublin 2, Creighton Street, Dublin 2",https://www.daft.ie/for-rent/apartment-2-bed-2-bath-apartment-occu-hanover-mills-dublin-2-creighton-street-dublin-2/5897256
+3300,2,2,Apartment,"The Benson, The Benson, Britain Quay, Dublin 2",https://www.daft.ie/for-rent/apartment-2-bed-apartment-the-benson-the-benson-britain-quay-dublin-2/3581865
+3950,3,2,Apartment,"The Benson, The Benson, Britain Quay, Dublin 2",https://www.daft.ie/for-rent/apartment-2-bed-study-apartment-the-benson-the-benson-britain-quay-dublin-2/3581866
+1975,1,1,Apartment,"U Clonsilla, Windmill Lodge, Dublin 15",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-u-clonsilla-windmill-lodge-dublin-15/4626708
+2450,2,2,Apartment,"U Clonsilla, Windmill Lodge, Dublin 15",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-u-clonsilla-windmill-lodge-dublin-15/4626709
+6000,3,3,Apartment,"Alto Vetro, Grand Canal Square, Dublin 2",https://www.daft.ie/for-rent/apartment-alto-vetro-alto-vetro-grand-canal-square-dublin-2/2757563
+2825,2,2,Apartment,"Clancy Quay by Kennedy Wilson, South Circular Road, Dublin 8",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-clancy-quay-by-kennedy-wilson-clancy-quay-by-kennedy-wilson-south-circular-road-dublin-8/5799541
+2051,2,2,Apartment,"Wyckham Point, Wyckham Way, Dublin 14",https://www.daft.ie/for-rent/apartment-two-bed-apartment-wyckham-point-wyckham-way-dublin-14/5971128
+2250,1,1,Apartment,"The Cornerstone, Lower Kilmacud Road, Stillorgan, Co. Dublin",https://www.daft.ie/for-rent/apartment-1-bed-apartment-the-cornerstone-lower-kilmacud-road-stillorgan-co-dublin/5650338
+2750,2,2,Apartment,"The Cornerstone, Lower Kilmacud Road, Stillorgan, Co. Dublin",https://www.daft.ie/for-rent/apartment-2-bed-apartment-the-cornerstone-lower-kilmacud-road-stillorgan-co-dublin/5650339
+2157,1,1,Apartment,"The Oslo , Sandyford Central , Sandyford, Dublin 18",https://www.daft.ie/for-rent/apartment-1-bedroom-apartment-the-oslo-sandyford-central-sandyford-dublin-18/5426428
+2731,2,2,Apartment,"The Oslo , Sandyford Central , Sandyford, Dublin 18",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-the-oslo-sandyford-central-sandyford-dublin-18/5426426
+2000,1,1,Apartment,"Palmers Gate, Kennelsfort Road Lower, Palmerstown, Dublin 20",https://www.daft.ie/for-rent/apartment-1-bed-apartment-kennelsfort-road-lower-palmerstown-dublin-20/4729121
+4500,2,3,Apartment,"Number 1 Ballsbridge, Shelbourne Road, Dublin 4",https://www.daft.ie/for-rent/apartment-2-bedroom-apartment-number-1-ballsbridge-shelbourne-road-dublin-4/2509698
+2745,2,2,Apartment,"Shieling Square, Raheny, Dublin 5, Raheny, Dublin 5",https://www.daft.ie/for-rent/apartment-2-bed-shieling-square-raheny-dublin-5-raheny-dublin-5/5630834
+3500,3,1,House,"9 The Gables, Ballinteer Road, Ballinteer, Dublin 16",N/A
+2750,2,2,Apartment,"Alexandra Quay, York Road, Ringsend, Dublin 4, Ringsend, Dublin 4",N/A
+3650,4,2,House,"Virginia Park, Dublin 11, Finglas, Dublin 11",N/A
+3000,2,2,Apartment,"32 Glasthule Road, Glasthule, Co. Dublin",N/A
+2050,1,1,House,"120 Rialto Cottages, South Circular Road, Rialto, Dublin 8",N/A
+1500,1,3,House,"Clontarf Road, Dublin 3, Fairview, Dublin 3",N/A
+4416,3,2,House,"1 Serpentine Mews, Serpentine Park, Sandymount, Dublin 4",N/A
+6000,4,4,House,"31 Garville Lane, Rathgar, Dublin 6",N/A
+4599,3,3,House,"Shandon Park, Monkstown, Co. Dublin",N/A
+2499,2,2,Apartment,"Springdale Road, Dublin 5, Raheny, Dublin 5",N/A
+1750,0,0,Studio,"Daneswell Place, Glasnevin, Dublin 9",N/A
+1500,0,0,Studio,"46 Phibsborough Road, Dublin 7, North Circular Road, Dublin 7",N/A
+1700,1,1,Apartment,"101 Ranelagh, Dublin 6, Ranelagh, Dublin 6",N/A
+2300,1,1,Apartment,"St. Patrick's Close, Dublin 2, Dublin 2",N/A
+4650,3,4,House,"Belarmine / Enniskerry Road, Dublin 18, Stepaside, Dublin 18",N/A
+1500,0,0,Studio,"4 Deerhaven Walk, Huntstown, Dublin 15, Huntstown, Dublin 15",N/A
+1500,0,0,Studio,"North Circular Road, Dublin 7, North Circular Road, Dublin 7",N/A
+2509,2,2,Apartment,"80 Southmede, Dundrum, Dublin 16",N/A
+3850,2,1,Apartment,"Strand Road, Dublin 4, Sandymount, Dublin 4",N/A
+2950,2,1,Apartment,"62 Beresford House, Custom House Square, I.F.S.C., Dublin 1, IFSC, Dublin 1",N/A
+2500,2,1,Apartment,"Apartment Rathfarnham Gate,Rathfarnham,Dublin 14, Dublin 14",N/A
+3200,3,3,House,"23 Domville Square, Dublin 18, Cherrywood, Co. Dublin",N/A
+2500,2,2,Apartment,"Tolka Block, Prospect Hill, Glasnevin, Dublin 11",N/A
+N/A,1,1,Apartment,"ASPEN STUDENT LIFE DUBLIN, Aspen Student Accomodation, Ballymun, Dublin 11",N/A
+3700,2,2,Apartment,"38 Ballsbridge Gardens, Crampton Avenue, Dublin 4, Sandymount, Dublin 4",N/A
+1675,1,1,Apartment,"86 Lower Rathmines Rd, Rathmines, Dublin 6",N/A
+2090,1,1,Apartment,"Tenterfields Complex, South Brown st, Dublin 8",N/A
+1900,1,1,Apartment,"Royal Canal Court, Ashtown, Dublin 15, Royal Canal Park, Dublin 15",N/A
+2700,2,1,Apartment,"Apartment 23, Saint Cathryn'S Court, Newgrove Aven, Sandymount, Dublin 4",N/A
+2309,1,1,Apartment,"Apartment 44, Roselawn, Knocksinna Court, Foxrock, Dublin 18",N/A
+N/A,1,1,Apartment,"Boyne Court, Harold'S Cross Road, Dublin 6w, Harold's Cross, Dublin 6W",N/A
+1850,1,1,Apartment,"Manor Street, Dublin 7, Arbour Hill, Dublin 7",N/A
+6000,9,3,House,"Edgewood Lawns, Dublin 15, Ballycoolin, Dublin 15",N/A
+2115,1,1,Apartment,"Dean Court, Christchurch, Dublin 8",N/A
+N/A,3,2,Apartment,"Cedarmount, Stillorgan, Co. Dublin",N/A
+2350,2,2,Apartment,"Apartment 42, The Willow, Parkview, Dublin 18, Stepaside, Dublin 18",N/A
+3435,3,2,Apartment,"Parkgate Place Apartments, Parkgate Street, Dublin 8, Kilmainham, Dublin 8",N/A
+3500,3,3,House,"11 Clay Farm Avenue, Dublin 18, Leopardstown, Dublin 18",N/A
+2900,2,1,House,"Rose Cottage, Lower Road, Dublin 20",N/A
+4500,4,3,House,"4 Eaton Way, Dublin 18, Shankill, Dublin 18",N/A
+3800,3,2,House,"22 Saint Albans Road, Dublin 8, South Circular Road, Dublin 8",N/A
+2450,2,2,Apartment,"Apt 166, Block 4, Parklands, Northwood, D09 F8W8, Santry, Dublin 9",N/A
+2450,2,1,Apartment,"Apt 26, Henrietta Hall, D01 A780, Dublin 1",N/A
+2350,2,2,Apartment,"Apt 49, The Crescent, D12 XW22, Park West, Dublin 12",N/A
+3150,3,1,Apartment,"Apt 20, 52 Mountjoy Square South, D01 YW29, Dublin 1",N/A
+2700,2,2,Apartment,"Danehill, Phoenix Park Avenue, Castleknock, Dublin 15",N/A
+2540,1,1,Apartment,"Lower Baggot Street, Dublin 2",N/A
+2500,2,2,Apartment,"Apartment, Block 3, Richmond Hall, Ballybough, Dublin 3",N/A
+2800,2,1,Apartment,"Flat 1, 11 Percy Place, Dublin 4",N/A
+2900,2,1,Apartment,"Flat 3, 11 Percy Place, Dublin 4",N/A
+2500,1,1,Apartment,"Anglesea House, Ballsbridge, Dublin 4, Sandymount, Dublin 4",N/A
+2750,2,1,House,"10 Ormond Square, Ormond Quay Upper, Dublin 7",N/A
+2830,2,2,Apartment,"Ailesbury Oaks, Ballsbridge, Ballsbridge, Dublin 4",N/A
+1935,0,0,Studio,"Fitzwilliam Street Upper, Dublin 2",N/A
+1100,0,0,Studio,"Dunsoghly Estate, Dublin 11, Finglas, Dublin 11",N/A
+505,6,2,House,"Manhattan House , The Triangle , Bird Avenue , Clonskeagh, Dublin 14",N/A
+2250,1,1,Apartment,"St. Patrick's Close, Dublin 2",N/A
+2900,2,1,Apartment,"Windmill Lane, Dublin 2",N/A
+2000,2,1,Apartment,"Raheen Close,Dublin 24, Tallaght, Dublin 24",N/A
+2350,1,1,Apartment,"Ely Place,Dublin 2, Dublin 2",N/A
+1700,1,1,Apartment,"Clifden Court,Ellis Quay,Dublin 7, Arbour Hill, Dublin 7",N/A
+1080,0,0,Studio,"North Strand Road, North Strand, Dublin 3",N/A
+2400,1,1,Apartment,"St Raphaelas Road, Stillorgan , Kilmacud, Co. Dublin",N/A
+3500,2,2,Apartment,"Anglesea House, Ballsbridge Court, Serpentine Avenue, Ballsbridge, Dublin 4, Sandymount, Dublin 4",N/A
+2400,2,1,Apartment,"Liffey Street West, Dublin 7",N/A
+3760,4,2,House,"Off North Circular Rd, Phibsborough, Dublin 7",N/A
+4800,4,3,House,"Saval Park Gardens, Dalkey, Co. Dublin",N/A
+4500,3,2,House,"11 The Dockyard, South Dock Street, Dublin 4",N/A
+2900,2,2,Apartment,"The Bottle Works, Block A4, Dermot O'Hurley Avenue,Dublin 4, Irishtown, Dublin 4",N/A
+N/A,0,0,Studio,"Templeogue Village Dublin 6w, Templeogue, Dublin 6W",N/A
+3800,3,3,Apartment,"Apartment 37, The Stockyard, The Steelworks, Foley, Dublin 1",N/A
+2600,3,3,House,"Hayworth mews, Ongar, Dublin 15",N/A
+2000,1,1,Apartment,"Ivy Exchange,Parnell Street,Dublin 1, Dublin 1",N/A
+1850,1,1,Apartment,"Shanganagh Vale, Cabinteely, Dublin 18",N/A
+2600,2,2,Apartment,"Skelligs Court,Waterville,Dublin 15, Ballycoolin, Dublin 15",N/A
+1790,1,1,Apartment,"Apartment 12 , Amiens Square, Amiens Street, Dubli, IFSC, Dublin 1",N/A
+2200,1,1,Apartment,"Hybreasal House,South Circular Road,Dublin 8, Kilmainham, Dublin 8",N/A
+10000,4,4,House,"Heytesbury Lane, Ballsbridge, Dublin 4",N/A
+2400,2,1,House,"Ashworth Place, Harold's Cross, Dublin 6",N/A
+2850,2,2,Apartment,"Harbour View, Crofton Road, Dun Laoghaire, Co. Dublin",N/A
+2150,1,1,Apartment,"Apartment 410, Block J, Castleforbes Square, Castleforbes Rd, D01 ER86, IFSC, Dublin 1",N/A
+2000,2,2,Apartment,"Cedarbrook Avenue, Cherry Orchard, Dublin 10",N/A
+7829,5,3,House,"Otranto Place, Sandycove, Co. Dublin",N/A
+1850,1,1,Apartment,"Timothy Crough House, Emmet Road, Inchicore , Dublin 8",N/A
+950,1,1,House,"Sandymount Castle Drive, Dublin 4, Sandymount, Dublin 4",N/A
+1554,1,1,Apartment,"Wellington Lodge, Serpentine Avenue, Ballsbridge, Dublin 4",N/A
+2250,2,1,Apartment,"Anglers Rest, Beaver Row, Dublin 4, Donnybrook, Dublin 4",N/A
+1800,1,1,Apartment,"15 Richmond Hill, Dublin 6, Ranelagh, Dublin 6",N/A
+3500,3,2,House,"Northumberland Place, Grand Canal Dock, Dublin 4",N/A
+3300,3,3,House,"Earlsfort Lane, Lucan, Co. Dublin",N/A
+14500,1,1,Apartment,"Bolbrook, Tallaght, Dublin 24",N/A
+8500,2,2,Apartment,"Apartment, The Templeton, Ballsbridge, Dublin 4",N/A
+13441,3,2,Apartment,"Apartment, The Burbidge, Ballsbridge, Dublin 4",N/A
+7500,2,2,Apartment,"Apartment, The Nicholson, Ballsbridge, Dublin 4",N/A
+12000,3,3,Apartment,"Apartment, The Barrington, Ballsbridge, Dublin 4",N/A
+2504,2,1,Apartment,"Apartment 1, 17 Stephen Street Upper, Dublin 8",N/A
+2825,3,1,House,"255 Nutgrove Avenue, Churchtown, Churchtown, Dublin 14",N/A
+3800,5,2,House,"30 Springfield Road, Templeogue, Templeogue, Dublin 6W",N/A
+1957,2,1,Apartment,"Apt 64 The Cedars, Herbert Park, Ballsbridge, Dublin 4",N/A
+1650,0,0,Studio,"Kincora House, Belvedere Place , Dublin 1",N/A
+N/A,0,0,Studio,"Church Grove, Oldbawn, Dublin 24",N/A
+2552,1,1,Apartment,"Apartment 9, Caldragh, Dalkey, Co. Dublin",N/A
+1260,2,1,Apartment,"Dunawley Way, Clondalkin, Dublin 22",N/A
+2700,3,3,House,"Woodford Meadows, Clondalkin, Dublin 22",N/A
+1800,1,1,Apartment,"Apartment 7, 3 Queen Street, Dublin 7, Smithfield, Dublin 7",N/A
+1750,1,1,Apartment,"37 Herberton Park, Dublin 8, Rialto, Dublin 8",N/A
+1650,1,1,Apartment,"323 Harold Cross Road, Teranure, Harold's Cross, Dublin 6",N/A
+900,1,1,Apartment,"harts corner, Glasnevin, Dublin 11",N/A
+2750,3,2,Apartment,"Irishtown, Irishtown Road, Dublin 4",N/A
+2200,1,1,Apartment,"Apartment 3 , 50/51 Patrick Street, Dun Laoghaire, Dun Laoghaire, Co. Dublin",N/A
+3000,3,3,House,"18 Donnybrook Manor, Dublin 4, Donnybrook, Dublin 4",N/A
+4000,3,3,House,"Albany Court, Killiney, Killiney, Co. Dublin",N/A
+3000,4,3,House,"Stralem Terrace, Ongar, Dublin 15",N/A
+1395,0,0,Studio,"North Circular Road, Dublin 7, North Circular Road, Dublin 7",N/A
+1787,1,1,Apartment,"Apartment 14 Amiens Street, Dublin 1",N/A
+1863,1,1,Apartment,"14 Amiens Street, Dublin 1",N/A
+5000,4,2,House,"Belgrave Square West, Dublin 6, Rathmines, Dublin 6",N/A
+3300,3,1,House,"13 Fortview Avenue, Dublin 3, Clontarf, Dublin 3",N/A
+4000,4,2,House,"16 Carysfort Grove, Blackrock, Blackrock, Co. Dublin",N/A
+2140,2,2,Apartment,"Apartment 61, Seabury, Sandymount, Dublin 4",N/A
+1934,2,1,Apartment,"Westland Row, Dublin 2",N/A
+2977,2,1,Apartment,"Wellington Road, Dublin 4, Ballsbridge, Dublin 4",N/A
+2500,2,2,Apartment,"Scariff House,Waterville Terrace,Waterville,Dublin 15, Ballycoolin, Dublin 15",N/A
+2679,2,2,Apartment,"Apartment 50, Roselawn, Knocksinna Court, Foxrock, Dublin 18",N/A
+6250,2,2,Apartment,"Apartment, The Barrington, Ballsbridge, Dublin 4",N/A
+3000,2,1,Apartment,"95 Shrewsbury, Dublin 4, Ballsbridge, Dublin 4",N/A
+2250,2,1,Apartment,"34 Tenterfields, South Brown Street, D08 C9K8, Dublin 8",N/A
+1900,0,0,Studio,"Apartment 19, 59 Pembroke Road, Ballsbridge, Dublin 4",N/A
+2500,2,1,Apartment,"Apartment 110, Westland Square, Dublin 2",N/A
+2100,2,2,Apartment,"Apartment 34, Garrison Mews, Cabinteely, Dublin 18",N/A
+2341,2,1,House,"23 Saint John'S Drive, Dublin 22, Grange Castle, Co. Dublin",N/A
+4500,4,1,House,"Rathdown Crescent, Dublin 6w, Terenure, Dublin 6W",N/A
+2625,2,2,House,"4 The Orchard, Cherryfield Avenue Upper, Ranelagh, Dublin 6",N/A
+1300,1,1,Apartment,"Flat 7, 3 Frankfort Avenue, Rathgar, Dublin 6",N/A
+2750,2,1,House,"Belgrave Square West, Dublin 6, Rathmines, Dublin 6",N/A
+3000,1,1,Apartment,"Brighton Vale, Monkstown, Co. Dublin",N/A
+1709,1,1,Apartment,"Ballybough Road, Ballybough, Dublin 3",N/A
+2750,2,2,House,"The Burgage, Dalkey, Co. Dublin",N/A
+1836,1,1,Apartment,"Apartment 10, 37/38 Capel Street, Dublin 1",N/A
+3250,2,2,Apartment,"The Pines, Herbert Park Lane, Ballsbridge, Dublin 4",N/A
+2395,2,1,Apartment,"Apt 43, Amiens Square, Amiens Street, D01 TW30, Dublin 1",N/A
+2500,3,1,House,"7 Avonmore Drive, Dublin 24, Tallaght, Dublin 24",N/A
+1400,0,0,Studio,"37 Herberton Park, Dublin 8, Rialto, Dublin 8",N/A
+2800,2,2,Apartment,"Hook Head, Custom House Harbour , Dublin 1",N/A
+1850,1,1,Apartment,"Apartment  7, 25 North Circular Road, North Circular Road, Dublin 7",N/A
+4400,5,3,House,"Kismet, 14 Woodlawn View, Coolock, Dublin 17",N/A
+1451,1,1,Apartment,"Apartment 3, 25 Richmond Hill, Rathmines, Dublin 6",N/A
+2083,1,1,Apartment,"Bushy Park House, Terenure, Dublin 6W",N/A
+5200,2,2,Apartment,"Herbert Park Lane, Ballsbridge, Dublin 4",N/A
+5200,2,2,Apartment,"Herbert Park Lane, Ballsbridge, Dublin 4",N/A
+3350,4,1,House,"Shanard Road, Santry, Dublin 9",N/A
+1371,2,2,Apartment,"Apartment 80, Block B, Áras Na Cluaine, Clondalkin, Dublin 22",N/A
+2667,2,1,House,"1 The Grove, Beach Avenue, Sandymount, Dublin 4",N/A
+2277,2,2,Apartment,"Avoca Hall, Avoca Park, Blackrock, Co. Dublin, Blackrock, Co. Dublin",N/A
+5500,3,2,House,"2 Morehampton Terrace, Donnybrook, Dublin 4",N/A
+4900,4,2,House,"57 Herbert Lane, Dublin 2",N/A
+2750,2,1,Apartment,"IFSC, Dublin 1",N/A
+1800,1,1,House,"Eugene Street, Dublin 8",N/A
+3200,2,2,Apartment,"Adelaide Square, Whitefriar Street, Dublin 2",N/A
+978,0,0,Studio,"Leinster Road, Dublin 6",N/A
+2537,3,2,Apartment,"Trimbleston, Goatstown, Dublin 14",N/A
+3700,3,2,House,"Seafort Parade, Blackrock, Booterstown, Co. Dublin",N/A
+1564,1,1,Apartment,"Apartment 43, Cranford Court, Stillorgan Road, Donnybrook, Dublin 4",N/A
+1600,0,0,Studio,"37 Herberton Park, Dublin 8, Rialto, Dublin 8",N/A
+1730,1,1,Apartment,"Apartment 2, 72 South Circular Road, Portobello, Dublin 8",N/A
+1875,1,1,Apartment,"37 Herberton Park, Dublin 8, Rialto, Dublin 8",N/A
+2200,2,1,Apartment,"45 Seapark, Dollymount, Dublin 3",N/A
+3800,3,2,House,"Bridgewater Quay, Islandbridge, Dublin 8",N/A
+1850,1,1,Apartment,"Apt 1, Cassell House, Ardilaun Court, D08 C671, Dublin 8",N/A
+5250,3,2,Apartment,"Laburnum, Hazeldene, Anglesea Road, Ballsbridge, Dublin 4",N/A
+4000,2,2,Apartment,"Castlepark Close Dalkey. Co Dublin, Dalkey, Co. Dublin",N/A
+3296,2,2,Apartment,"The Pines, Herbert Park Lane Apartments, Ballsbridge, Dublin 4",N/A
+2400,1,1,Apartment,"Avoca Hall, Avoca Park, Blackrock, Co. Dublin",N/A
+5000,2,2,Apartment,"Penthoouse Apartment,  The Pines, Herbert Park Lane, Ballsbridge, Dublin 4",N/A
+4000,2,1,House,"Baggot Lane, Dublin 4, Ballsbridge, Dublin 4",N/A
+2950,3,1,House,"Rinn Na Mara, Doyles Lane, Off, Clontarf, Dublin 3",N/A
+5965,3,3,Apartment,"Prestigious Penthouse Castlepark Road Dalkey, Co. Dublin, Dalkey, Co. Dublin",N/A
+1737,2,2,Apartment,"22 Tyrconnell Place , Inchicore, Dublin 8",N/A
+1750,1,1,Apartment,"Apt 46, Clifden Court, D07 DK70, Dublin 7",N/A
+1750,1,1,Apartment,"Gardiner  place , Dublin 1",N/A
+8500,4,2,House,"157 Merrion Road, Ballsbridge, Dublin 4",N/A
+2750,1,1,Apartment,"Apartment 8, Convent Hall, Convent Avenue, Mount Saint Annes, Milltown, Dublin 6",N/A
+1485,1,1,Apartment,"Newbridge Avenue, Sandymount, Sandymount, Dublin 4",N/A
+3300,1,1,Apartment,"The Gardens, Merrion, Dublin 4",N/A
+1787,1,1,Apartment,"Apartment on Amiens Street, Dublin 1",N/A
+3500,3,3,House,"Shanliss Walk, Dublin 9, Santry, Dublin 9",N/A
+2405,3,1,House,"Beaumont Road, Beaumont, Dublin 9",N/A
+2121,3,1,House,"Ard Mor Avenue, Tallaght, Dublin 24",N/A
+2700,3,2,Apartment,"Apartment  The Oval, Cabinteely, Dublin 18",N/A
+1727,1,1,Apartment,"Chandlers Guild James Street, Dublin 8",N/A
+1787,1,1,Apartment,"Apartment on Amiens Street, Dublin 1",N/A
+3400,3,3,House,"Newtown Cottages,Malahide Road, Coolock, Dublin 17",N/A
+1950,1,1,Apartment,"Riverbank House, Dublin 8",N/A
+2600,2,2,Apartment,"Apartment 14, The Holly, Rockfield, Kilmacud, Co. Dublin",N/A
+5500,2,1,House,"military road killiney , Killiney, Co. Dublin",N/A
+2350,2,1,House,"Church Terrace, Dublin 7, Smithfield, Dublin 7",N/A
+4072,3,2,House,"Oatlands Manor, Mount Merrion, Mount Merrion, Co. Dublin",N/A
+2000,1,1,Apartment,"Apartment, 24 Northumberland Road, Ballsbridge, Dublin 4",N/A
+1460,1,1,Apartment,"Apartment 47, Hampton Wood Road, Poppintree, Dublin 11",N/A
+2000,1,1,Apartment,"Frascati Hall, Sweetman's Avenue, Blackrock, Co. Dublin",N/A
+2038,1,1,Apartment,"Larkfield, Clayfarm, Leopardstown, Co. Dublin",N/A
+1998,1,1,Apartment,"The Edges, Beacon South Quarter, Sandyford, Dublin 18",N/A
+3823,4,2,House,"Castle Walk, Cherrywood, Co. Dublin",N/A
+1500,1,1,Apartment,"48 Charleville Ave, Dublin 1",N/A
+3400,2,1,Apartment,"Penthouse, 13 St. Stephen's Green, Dublin 2",N/A
+1750,1,1,Apartment,"Tallaght Cross West, Tallaght, Dublin 24",N/A
+4100,4,3,House,"6 The Green, Beaumont Woods, Beaumont, Dublin 9",N/A
+1550,1,1,Apartment,"Orchard Way, Dublin 13, Ayrfield, Dublin 13",N/A
+3200,2,1,Apartment,"Raglan Road, Ballsbridge",N/A
+1800,1,1,Apartment,"Kenilworth Road, Dublin 6",N/A
+2500,2,1,Apartment,"Leonards Court, Dublin 8",N/A
+N/A,5,5,House,"Luxury Retreat in Killiney, Killiney, Co. Dublin",N/A
+4500,5,3,House,"4 Blackberry Hill, Carrickmines, Dublin 18",N/A
+8000,5,3,House,"72 Cowper Road, Dublin 6, Rathgar, Dublin 6",N/A
+3177,2,2,Apartment,"Apartment 1, Verona, Queen's Park, Monkstown, Monkstown, Co. Dublin",N/A
+2535,2,1,Apartment,"Apartment 10, Rosemount Court, Inchicore Road, Kilmainham, Dublin 8",N/A
+2375,2,1,Apartment,"Ard Eadrad Apt, Blakestown Road, Mulhuddart, Dubli, Blanchardstown, Dublin 15",N/A
+1950,1,1,Apartment,"Harold's Cross Road, Harold's Cross, Dublin 6W",N/A
+2000,1,1,Apartment,"1a Ardlea Road, Dublin 5, Artane, Dublin 5",N/A
+2000,1,1,Apartment,"Bachelors Walk, Dublin 1",N/A
+2040,3,1,House,"Kincora Court, Dublin 3, Dublin 3",N/A
+2550,2,2,Apartment,"21 Monkstown Grove Apartments, Monkstown Farm, Monkstown, Co. Dublin",N/A
+1642,1,1,Apartment,"Flat 3 , 90 Drumcondra Road Lower, Drumcondra, Dublin 9",N/A
+1975,1,1,Apartment,"Apartment 20 , Capstan Building, Royal Canal Park, Dublin 15",N/A
+2161,2,1,Apartment,"Apartment 8, Hanbury Mews, The Coombe, Dublin 8",N/A
+2307,2,2,Apartment,"8 Glenamuck Manor, Carrickmines, Dublin 18",N/A
+1883,1,1,Apartment,"4 Hanbury Mews, Hanbury Lane, Dublin 8",N/A
+1797,1,1,Apartment,"Apartment 20, Hanbury Mews, The Coombe, Dublin 8",N/A
+5250,3,2,House,"The Lodge, Charleston Avenue, Ranelagh, Dublin 6",N/A
+N/A,5,5,House,"Ardbrugh Road, Dalkey, Co. Dublin",N/A
+5250,4,4,House,"1 The Close, Hazelbrook Square, Churchtown, Dublin 14",N/A
+4000,2,2,House,"The Mews, 9 Dunville Avenue, Ranelagh, Dublin 6",N/A
+5950,4,2,House,"Brickfield Drive, Honey Park, Dun Laoghaire, Co. Dublin",N/A
+2800,2,1,Apartment,"Semple House,Custom House Square,Mayor Street Lower,I.F.S.C.,Dublin 1, IFSC, Dublin 1",N/A
+3049,2,2,Apartment,"Apartment, Block 1, Grand Canal Dock, Dublin 2",N/A
+2600,2,1,Apartment,"The Waterside, Grand Canal Dock, Dublin 4",N/A
+1919,2,1,Apartment,"Island Key, East Road, East Wall, Dublin 3",N/A
+2128,2,1,Apartment,"Millpark, Clondalkin, Dublin 22",N/A
+4000,3,3,House,"12 Lorcan Park, Santry, Dublin 9",N/A
+1479,1,1,Apartment,"Flat 3, James Street, Dublin D08 X407, Dublin 8",N/A
+2419,2,1,Apartment,"34 The Green, Larch Hill, D17 T341, Dublin 17",N/A
+2700,3,2,House,"6 Rathmore Avenue, Tyrellstown, D15 YV2T, Dublin 15",N/A
+2136,2,2,Apartment,"APARTMENT 246, BLOCK 5, PARKLANDS, NORTHWOOD, D09",N/A
+2300,1,1,Apartment,"Anglesea Road, Dublin 4, Donnybrook, Dublin 4",N/A
+2235,2,1,House,"3 Davis Place, Dublin 8",N/A
+4995,4,3,House,"Ballinclea Road, Killiney, Co, Killiney, Co. Dublin",N/A
+2500,2,2,Apartment,"Harcourt Mews Camden Street, Dublin 2",N/A
+2000,1,1,Apartment,"41 The Waterside, Block A, Charlotte Quay, Dublin 4",N/A
+3800,3,2,Apartment,"Castledawson, Rock Road, Booterstown, Co. Dublin",N/A
+1920,2,2,Apartment,"Hillcrest Manor, Templeogue Road, Templeogue, Dublin 6W",N/A
+4100,4,4,House,"7 The Avenue, Hazelbrook Square, Churchtown, Dublin 14",N/A
+3100,3,2,House,"Fernleigh Estate , Carpenterstown, Dublin 15",N/A
+2900,3,2,House,"79 Culmore Road, Dublin 20, Palmerstown, Dublin 20",N/A
+2000,2,1,Apartment,"Lanesborough Court, Finglas, Dublin 11",N/A
+1650,0,0,Studio,"Flat 12 , 48 Rathmines Road Upper, Rathgar, Dublin 6",N/A
+1750,0,0,Studio,"34 Elgin Road, Dublin 4, Ballsbridge, Dublin 4",N/A
+1695,0,0,Studio,"4 North Circular Road, Dublin 7",N/A
+1995,0,0,Studio,"Apartment 6, 28 Elgin Road, Ballsbridge, Dublin 4",N/A
+1995,1,1,Apartment,"Flat 6, 1 Kingsland Park Avenue, Dublin 8, Portobello, Dublin 8",N/A
+1895,0,0,Studio,"6 Sallymount Avenue, Dublin 6, Ranelagh, Dublin 6",N/A
+2250,1,1,Apartment,"20 Elgin Road, Ballsbridge, Ballsbridge, Dublin 4",N/A
+2150,1,1,Apartment,"7 Sallymount Avenue, Dublin 6, Ranelagh, Dublin 6",N/A
+2150,0,0,Studio,"Apartment 2, 28 Elgin Road, Dublin 4",N/A
+2125,1,1,Apartment,"Flat 7, 4 North Circular Road, Dublin 7",N/A
+1875,0,0,Studio,"Flat 4 , 48 Rathmines Road Upper, Rathgar, Dublin 6",N/A
+1495,0,0,Studio,"46A Cabra Road, Dublin 7",N/A
+2795,2,1,Apartment,"6 Sallymount Avenue, Dublin 6, Ranelagh, Dublin 6",N/A
+1900,1,1,Apartment,"Flat 10, 4 Rathmines Road Lower, Rathmines, Dublin 6",N/A
+2200,1,1,Apartment,"Chancery Court, Bride Street, Dublin 8, Christchurch, Dublin 8",N/A
+2200,1,1,Apartment,"Apartment, Chancery Court, Christchurch, Dublin 8",N/A
+1930,1,1,Apartment,"Flat 4, 161 James's Street, Dublin 8",N/A
+1696,1,1,Apartment,"Riverview, Richmond Road, Dublin 3",N/A
+2533,3,1,Apartment,"Custom Hall, Lower Gardiner Street, Dublin 1",N/A
+3200,4,2,House,"5 Fleming Road, Dublin 9, Drumcondra, Dublin 9",N/A
+3500,3,2,House,"20 Haverty Road, Fairview, Dublin 3",N/A
+5000,3,2,House,"4 Golf Lane, Torquay Road, Foxrock, Dublin 18",N/A
+2397,1,1,Apartment,"Apartment 1, 2 Waterloo Road, Ballsbridge, Dublin 4",N/A
+6000,3,2,Apartment,"Apartment 8, Donnybrook Gardens, Greenfield Park, Belfield, Dublin 4",N/A
+2604,2,1,Apartment,"Apartment 5, Temple Bar Square",N/A
+1836,0,0,Studio,"Raglan Road, Dublin 4, Ballsbridge, Dublin 4",N/A
+2850,2,1,House,"Eden Villas, Glasthule, Glasthule, Co. Dublin",N/A
+6547,5,2,House,"Church Road, Dalkey, Co. Dublin",N/A
+2750,2,1,House,"Pembroke Cottages, Donnybrook, Dublin 4, Donnybrook, Dublin 4",N/A
+1763,1,1,Apartment,"The Oaks, Stradbrook Hill, Blackrock, Co. Dublin",N/A
+2500,2,1,Apartment,"Cedarmount, Saint Brigid's Church Road, Stillorgan, Co. Dublin",N/A
+2600,2,1,House,"Herbert Mews, Baggot Lane, Dublin 4",N/A
+2000,2,2,Apartment,"Belfry Hall, Citywest, Co. Dublin",N/A
+1000,1,1,Apartment,"Ballyfermot Road (Double Room / House Share), Ballyfermot, Dublin 10",N/A
+2142,2,2,Apartment,"Woodbrook Crescent, Castleknock, Dublin 15",N/A
+2100,2,1,Apartment,"Marlfield Terrace, Tallaght, Dublin 24",N/A
+1812,2,1,Apartment,"The Hardwicke, Smithfield, Dublin 7",N/A
+1600,1,1,Apartment,"Cedarbrook Avenue, Cherry Orchard, Dublin 10",N/A
+1713,2,2,Apartment,"Rosse Court House, Balgaddy, Lucan, Co. Dublin",N/A
+1400,1,1,Apartment,"St Maelruans Park, Tallaght, Dublin 24",N/A
+2000,2,2,Apartment,"The Concert Building, Park West, Dublin 12",N/A
+1495,2,1,Apartment,"Kings Hall, Chapelizod, Dublin 20",N/A
+2100,2,2,Apartment,"Kiltipper Gate, Kiltipper, Dublin 24",N/A
+2062,2,2,Apartment,"Melville Square, Finglas, Dublin 11",N/A
+2500,3,2,Apartment,"Lanesborough Square, Finglas, Dublin 11",N/A
+3500,4,4,House,"Castlegrange Row, Castaheany, Clonee, Dublin 15",N/A
+2350,2,1,House,"Donore Avenue, Kilmainham, Dublin 8",N/A
+2500,3,2,House,"Cappagh Avenue, Finglas, Dublin 11",N/A
+2300,2,1,House,"Blessington Place, Dublin 7",N/A
+1500,0,0,Studio,"Cappagh Avenue, Finglas, Dublin 11",N/A
+2714,2,2,Apartment,"Lower Kilmacud Road, Stillorgan, Co. Dublin",N/A
+2054,2,2,Apartment,"Littlewood, Belarmine Avenue, Stepaside, Dublin 18",N/A
+1907,2,2,Apartment,"Premier Square, Finglas, Dublin 11",N/A
+2917,2,1,Apartment,"Longboat Quay, South Dublin 2, Dublin 2",N/A
+1400,1,1,Apartment,"Linden Square, Grove Avenue, Blackrock, Co. Dublin",N/A
+1530,1,1,Apartment,"Camden Court, Camden Street, Dublin 2",N/A
+1907,2,2,Apartment,"Premier Square, Finglas, Dublin 11",N/A
+2917,2,1,Apartment,"Longboat Quay, South Dublin 2, Dublin 2",N/A
+1400,1,1,Apartment,"Linden Square, Grove Avenue, Blackrock, Co. Dublin",N/A
+2600,3,2,Apartment,"Russell Downs, Tallaght, Dublin 24",N/A
+2200,2,1,Apartment,"St. Canices Court, Finglas, Dublin 11",N/A
+3000,3,2,House,"Broadway Road, Clonsilla, Dublin 15",N/A
+2106,3,2,House,"Dunsoghly Park, Finglas, Dublin 11",N/A
+2226,1,1,Apartment,"Parnell Street, Dublin 1",N/A
+1560,1,1,Apartment,"The Crescent Building, Park West, Dublin 12",N/A
+1816,1,1,Apartment,"Clonliffe Road, Drumcondra, Dublin 3",N/A
+2027,2,1,Apartment,"La Rochelle, Christchurch, Dublin 8",N/A
+1920,2,2,Apartment,"St Samsons Court, Balgriffin, Dublin 13",N/A
+2500,3,1,House,"Cherrywood Drive, Clondalkin, Dublin 22",N/A
+2786,3,1,House,"Innisfallen Parade, Phibsborough, Dublin 7",N/A
+2090,2,2,Apartment,"Geraldstown Woods, Santry, Dublin 9",N/A
+1450,1,1,Apartment,"Albert College Park, Glasnevin, Dublin 11",N/A
+1794,2,1,Apartment,"Whitestown Walk, Blanchardstown, Dublin 15",N/A
+2450,3,1,Apartment,"Castlegate Park, Adamstown, Co. Dublin",N/A
+680,1,1,Apartment,"Sheepmore Avenue, Blanchardstown, Dublin 15",N/A
+2650,3,2,House,"Saddlers Crescent, Mulhuddart, Dublin 15",N/A
+2144,2,1,Apartment,"Ranelagh Avenue, Dublin 6, Ranelagh, Dublin 6",N/A
+2300,2,1,Apartment,"The Mullins Wing, Linden Square, Blackrock, Co. Dublin",N/A
+1280,0,0,Studio,"Off Stradbrook Road, Blackrock, Blackrock, Co. Dublin",N/A
+1800,1,1,Apartment,"Apartment 9, Blackrock Lodge, Newtown Avenue, Blac, Blackrock, Co. Dublin",N/A
+3250,2,2,Apartment,"Apartment , Rawson Court, Ballsbridge, Dublin 4",N/A
+2682,2,2,Apartment,"Apartment 435, Block J, IFSC, Dublin 1",N/A
+2556,3,2,House,"20 Bellevue Park, Booterstown, Co. Dublin",N/A
+1163,0,0,Studio,"Portland Street North, Dublin 1, North Circular Road, Dublin 1",N/A
+1473,0,0,Studio,"South Circular Road, Dublin 8",N/A
+2900,2,1,Apartment,"Chancery Street, Dublin 7, Smithfield, Dublin 7",N/A
+N/A,1,1,Apartment,"Northumberland, Ballsbridge, Dublin 4",N/A
+N/A,1,1,Apartment,"Victoria Street, Portobello, Dublin 8",N/A
+N/A,1,1,Apartment,"3 Hatch Street Lower, Dublin 2",N/A
+N/A,0,0,Studio,"Hatch Street, Dublin 2",N/A
+N/A,1,1,Apartment,"Aungier Street, Dublin 2",N/A
+N/A,0,0,Studio,"Aungier Street, Dublin 2",N/A
+N/A,0,0,Studio,"Aungier street, Dublin 2",N/A
+N/A,0,0,Studio,"Victoria Street, Dublin 8",N/A
+2400,2,1,Apartment,"95 Francis Street, The Coombe, Dublin 8",N/A
+1800,1,1,Apartment,"Apartment 7, Auron Court, Dublin 2",N/A
+2215,2,2,Apartment,"Apartment 34, College View, Ballymun, Dublin 11",N/A
+1730,2,1,Apartment,"Apartment 80, The Tramyard, Inchicore, Dublin 8",N/A
+2350,2,2,Apartment,"The Tallow Building, Ashtown, Dublin 15",N/A
+1500,0,0,Studio,"Belvedere Place, Dublin 1",N/A
+2800,3,2,House,"Huntstown Glen, Mulhuddart, Blanchardstown, Dublin 15",N/A
+3588,4,3,House,"Port A Glin House, Westmanstown Road, Lucan, Co. Dublin",N/A
+2200,2,2,Apartment,"Fernleigh Drive, Castleknock, Dublin 15",N/A
+2400,3,1,House,"Sundale Road, Tallaght, Dublin 24",N/A
+2300,2,2,Apartment,"Crofton Hall, Carpenterstown, Dublin 15",N/A
+1758,1,1,House,"25 Belgrave Court, Mountpleasant Avenue Upper, Ranelagh, Dublin 6",N/A
+1653,2,1,Apartment,"Apartment 21, Block B Allendale Court, Clonsilla, Dublin 15",N/A
+6150,4,3,House,"19 Glenara, Kincora Road",N/A
+4203,3,2,Apartment,"Apartment 19, Harcourt Mews, Portobello, Dublin 8",N/A
+2650,2,2,Apartment,"Danehill, Phoenix Park Avenue, Castleknock, Dublin 15",N/A
+1850,1,1,Apartment,"Apartment A, Churchview, Navan Road (D7), Dublin 7",N/A
+2650,2,2,Apartment,"Apartment 203 , Block F, Ashbrook, Dublin 3",N/A
+2850,2,2,Apartment,"Southmede, Ballinteer Road, Dundrum, Dublin 16",N/A
+2700,3,2,Apartment,"23 Main Street, Clongriffin, Dublin 13",N/A
+2750,3,2,Apartment,"Apartment 137 , Rockview, Sandyford, Dublin 18",N/A
+4000,5,3,House,"7 Manorfields Walk, Dublin 15, Hartstown, Dublin 15",N/A
+2500,2,1,House,"1 Glebe View, Dublin 11, Finglas, Dublin 11",N/A
+2600,2,2,Apartment,"Millrace Road, Phoenix Park Racecourse, Castleknock, Dublin 15",N/A
+1948,2,1,Apartment,"Danesfort, Clontarf, Dublin 3",N/A
+1950,2,1,House,"Cherrywood Grove, Clondalkin, Dublin 22",N/A
+1950,1,1,Apartment,"Block A, Smithfield Gate, Smithfield, Dublin 7",N/A
+3500,3,3,House,"3 Springfield Green, Dublin 6w, Templeogue, Dublin 6W",N/A
+1250,1,1,Apartment,"Flat 3, 14 Grosvenor Road, Rathgar, Dublin 6",N/A
+2305,1,1,House,"The Coach House, 11 Stephen's Place, Dublin 2",N/A
+1602,2,1,Apartment,"39 Belfry Manor, Citywest, Co. Dublin",N/A
+3548,5,2,House,"7 Castlewood Park, Dublin 6, Rathmines, Dublin 6",N/A
+2100,1,1,Apartment,"8 Riverside Apartments, Milltown Road, Milltown, Dublin 6",N/A
+1650,1,1,Apartment,"Flat 1, 14 Grosvenor Road, Rathgar, Dublin 6",N/A
+1600,2,1,Apartment,"Apartment 6, 2 Eaton Square, Monkstown, Co. Dublin",N/A
+1500,1,1,Apartment,"Flat 4, 14 Grosvenor Road, Rathgar, Dublin 6",N/A
+1650,1,1,Apartment,"Flat 1, 19 Cabra Park, Phibsborough, Dublin 7",N/A
+3275,4,1,House,"21 Saint Luke's Crescent, Milltown, Dublin 14",N/A
+2400,2,1,House,"32 Kickham Road, Dublin 8, Inchicore, Dublin 8",N/A
+1676,1,1,Apartment,"18 Manor Place, Ongar Village, Ongar, Dublin 15",N/A
+1719,1,1,Apartment,"Apartment 2, 6 Chelmsford Road, Ranelagh, Dublin 6",N/A
+3500,3,1,House,"58 Copeland Avenue, Clontarf, Dublin 3",N/A
+2100,2,2,Apartment,"Gracepark Manor, Drumcondra, Dublin 3",N/A
+1408,0,0,Studio,"Rathgar Road, Rathgar, Dublin 6",N/A
+1951,2,1,House,"45 Coldwell Street, Glasthule, Co. Dublin",N/A
+2450,2,2,Apartment,"Apartment 94, Ridge Hall, Ballybrack, Co. Dublin",N/A
+2488,2,1,House,"120 Saint Columbanus' Road, Dundrum, Windy Arbour, Dublin 14",N/A
+3500,4,3,House,"Carrickmines Manor, Carrickmines, Dublin 18",N/A
+2400,1,1,Apartment,"Apartment 33, The Bay, Dublin 4",N/A
+2848,2,2,Apartment,"8 Ballsbridge Gardens, Crampton Avenue, Ballsbridge, Dublin 4",N/A
+2352,2,2,Apartment,"Apartment 16, Corrig Hall, Ticknock, Co. Dublin",N/A
+5000,4,3,House,"4 Brighton Place, Dublin 18, Foxrock, Dublin 18",N/A
+1780,1,1,Apartment,"Apartment 11, Sion House, Tyrone Court, Dublin 8",N/A
+1950,2,1,Apartment,"Block B, Ashbrook, Howth Road, Clontarf, Dublin 3",N/A
+2290,2,2,Apartment,"City Square, Dublin 2",N/A
+1750,1,1,Apartment,"Apartment 111, The Cedars, Carrington Park, Santry, Dublin 9",N/A
+2985,2,3,Apartment,"Block 9, Grand Canal Square Residences, Dublin 2",N/A
+2257,2,1,Apartment,"Block D, Ashbrook, Howth Road, Clontarf, Dublin 3",N/A
+2930,2,1,Apartment,"Block 4, Grand Canal Square Residences, Grand Canal Dock, Dublin 2",N/A
+1700,0,0,Studio,"Apartment 18, The School Yard, Dublin 1",N/A
+3300,2,2,Apartment,"Apartment 28, Tara View, Dublin 4",N/A
+5000,3,2,House,"73 Shrewsbury, Ballsbridge, Dublin 4, Ballsbridge, Dublin 4",N/A
+5000,3,2,House,"Shrewsbury, Dublin 4, Sandymount, Dublin 4",N/A
+2500,2,1,Apartment,"Burnell Square, Mayne River Way, Malahide Road, Darndale, Dublin 17",N/A
+2400,2,2,Apartment,"Maple, Grattan Wood, Clongriffin, Dublin 13",N/A
+2900,2,2,Apartment,"Apartment 13, Prospect Bay, Mount Prospect Avenue, Clontarf, Dublin 3",N/A
+2750,2,1,Apartment,"Apartment 12 , Finsbury House, Ballsbridge, Dublin 4",N/A
+3750,3,3,House,"14 Glencairn Crescent, The Gallops, Leopardstown, Dublin 18",N/A
+2800,2,1,House,"62 Carlingford Parade, Dublin 2, Grand Canal Dock, Dublin 2",N/A
+2800,2,2,House,"44 Doris Street, Dublin 4, Grand Canal Dock, Dublin 4",N/A
+1675,0,0,Studio,"Rathmines Road Lower, Rathmines, Dublin 6",N/A
+3500,2,2,Apartment,"Dartry House, Dartry, Dublin 6",N/A
+4950,2,3,Apartment,"Apartment 3 , Dartry House, Dartry, Dublin 6",N/A
+2950,1,1,Apartment,"Apartment 6 , Dartry House, Dartry, Dublin 6",N/A
+1389,0,0,Studio,"Old Kilmainham, Kilmainham, Dublin 8",N/A
+2100,1,1,Apartment,"Rathgar Avenue, Rathgar, Dublin 6",N/A
+2100,1,1,Apartment,"Rathgar Avenue, Rathgar, Dublin 6",N/A
+935,0,0,Studio,"South Circular Road, Dublin 8, South Circular Road, Dublin 8",N/A
+2400,2,2,Apartment,"Apt 105, Rathborne Drive, D15 VX06, Ashtown, Dublin 15",N/A
+1850,1,1,Apartment,"Apt 39, Clearwater Court North, D15 RC92",N/A
+1795,1,1,Apartment,"Apt 86, The Chandler Arran Quay, D07 DX80, Smithfield, Dublin 7",N/A
+2450,2,1,Apartment,"Apt 69, Stewart Hall, Ryders Row, D01 RF83, Dublin 1",N/A
+2295,2,1,Apartment,"35 The Square, Larch Hill, D17 Y006, Santry, Dublin 9",N/A
+2700,2,1,House,"53 Lansdowne Village, Sandymount, Sandymount, Dublin 4",N/A
+6000,3,3,Apartment,"Apartment 26, Alto Vetro, Grand Canal Dock, Dublin 2",N/A
+2800,2,2,Apartment,"Apartment 3, Rookstown,Howth,Co.Dublin, Howth, Dublin 13",N/A
+2700,2,2,Apartment,"Danehill, Phoenix Park Racecourse, Dublin 15",N/A
+1760,1,1,Apartment,"Arran Quay, Dublin 7",N/A
+3130,2,2,Apartment,"Westland Square, Pearse Street, Dublin 2",N/A
+3000,2,2,Apartment,"Danehill, Phoenix Park Racecourse, Dublin 15",N/A
+2750,2,1,House,"Foxrock Avenue, Dublin 18, Foxrock, Dublin 18",N/A
+2200,1,1,Apartment,"Block C, Hanover Dock, Hanover Quay, Dublin 2",N/A
+2750,2,1,House,"Foxrock Avenue, Dublin 18, Foxrock, Dublin 18",N/A
+6500,3,3,House,"Elton Mews, Elton Court, Sandycove, Co. Dublin",N/A
+3300,2,2,Apartment,"Apartment, Shrewsbury Square, Sandymount, Dublin 4",N/A
+2400,2,1,Apartment,"Gandon House, IFSC, Dublin 1",N/A
+4350,3,2,Apartment,"Apartment, The Clayton, The Gasworks, Grand Canal Dock, Dublin 4",N/A
+2550,2,1,Apartment,"Cranmer Place, Cranmer Lane, Grand Canal Dock, Dublin 4",N/A
+3045,2,2,Apartment,"Apartment, Shrewsbury Square, Sandymount, Dublin 4",N/A
+4000,4,2,House,"Grangefield, Rathfarnham, Ballinteer, Dublin 16",N/A
+3500,2,2,Apartment,"Quayside Quarter, North Landings, D1, IFSC, Dublin 1",N/A
+2400,2,1,Apartment,"Gandon House, IFSC, Dublin 1",N/A
+4350,3,2,Apartment,"Apartment, The Clayton, The Gasworks, Grand Canal Dock, Dublin 4",N/A
+2550,2,1,Apartment,"Cranmer Place, Cranmer Lane, Grand Canal Dock, Dublin 4",N/A
+3045,2,2,Apartment,"Apartment, Shrewsbury Square, Sandymount, Dublin 4",N/A
+4000,4,2,House,"Grangefield, Rathfarnham, Ballinteer, Dublin 16",N/A
+3500,2,2,Apartment,"Quayside Quarter, North Landings, D1, IFSC, Dublin 1",N/A
+2600,2,2,Apartment,"Apartment 20, Clonbern, Phoenix Park Avenue, Navan Road (D7), Dublin 7",N/A
+2650,3,1,Apartment,"2, 30 Main Street, Chapelizod, Dublin 20",N/A
+3600,2,2,Apartment,"Ailesbury Court, Ailesbury Road, Donnybrook, Dublin 4",N/A
+4770,4,2,House,"21 Cullenswood Gardens, Dublin 6, Ranelagh, Dublin 6",N/A
+3300,1,1,Apartment,"The Gardens, Merrion, Dublin 4",N/A
+3800,2,2,Apartment,"Apartment, Malton, Donnybrook, Dublin 4",N/A
+6439,3,2,House,"Waterloo Lane, Dublin 4, Ballsbridge, Dublin 4",N/A
+4200,2,1,Apartment,"Sandymount Green, Dublin 4, Sandymount, Dublin 4",N/A
+3350,4,1,House,"Sycamore Grove, Westminster Park, Foxrock, Dublin 18",N/A
+3000,2,1,Apartment,"Flat 4, 11 Percy Place, Dublin 4",N/A
+4000,4,3,House,"Outfarm Wood, Dublin 15, Castleknock, Dublin 15",N/A
+1700,1,1,Apartment,"Mellor Court, Dublin 1",N/A
+2128,1,1,Apartment,"Apartment, Wellington Lodge, Sandymount, Dublin 4",N/A
+3063,2,2,Apartment,"The Crofton, Dun Laoghaire, Co. Dublin",N/A
+3500,2,2,Apartment,"L'Oasi, Marino House, 52 Glasthule Road, Glasthule, Glasthule, Co. Dublin",N/A
+2250,2,1,Apartment,"Apartment 8b, Avalon, Burrow Road, Sutton, Dublin 13",N/A
+5145,5,4,House,"CHESTNUT COURT, COLLINSWOOD, BEAUMONT DUBLIN 9, Beaumont, Dublin 9",N/A
+3000,3,1,House,"12 Shandon Gardens, Dublin 7, Phibsborough, Dublin 7",N/A
+2500,2,1,Apartment,"24 Hibernia, De Vesci Court, The Slopes, Monkstown, Co. Dublin",N/A
+1706,1,1,Apartment,"Ground Floor 1 Bed Apartment, Blackhall Square, Smithfield, Dublin 7",N/A
+4525,4,4,House,"4 Bed House, Hawthorn, Bird Avenue, Windy Arbour, Dublin 14",N/A
+2500,2,2,Apartment,"2 Bedroom Apartment, Kingston Hall, Harold's Grange Road, Sandyford, Dublin 18",N/A
+2650,2,2,Apartment,"Spencer Dock, IFSC, Dublin 1, East Wall, Dublin 3",N/A
+4500,4,4,House,"16 Clay Farm Park, Dublin 18, Leopardstown, Dublin 18",N/A
+2500,1,2,Apartment,"Flat 1, Sarrett, Violet Hill, Church Road, Killiney, Co. Dublin",N/A
+3550,2,2,Apartment,"Apartment 19, The Gate House, Gordon Place, Dublin 2",N/A
+3821,3,2,Apartment,"Apartment 17, Lock House 2, Charlemont Lane, Dublin 2",N/A
+3471,2,2,Apartment,"Apartment 14, Lock Gate 4, Charlemont Lane, Dublin 2",N/A
+3600,2,2,Apartment,"Apartment 3, Lock Gate 1, Gordon Place, Dublin 2",N/A
+1500,0,0,Studio,"South Circular Road, Dublin 8",N/A
+3422,2,2,Apartment,"Castle Way, Golden Lane , Dublin 8",N/A
+1650,0,0,Studio,"Grove Park, Rathmines, Dublin 6",N/A
+2360,2,1,Apartment,"Dunville Avenue, Dublin 6, Ranelagh, Dublin 6",N/A
+1700,1,1,Apartment,"South Circular Road, Rialto, Dublin 8",N/A
+1450,0,0,Studio,"South Circular Road, Rialto, Dublin 8",N/A
+2500,2,1,Apartment,"Shelbourne Village, Grand Canal Dock, Dublin 4",N/A
+2600,2,1,House,"The Poplars, Monkstown Valley, Monkstown, Monkstown, Co. Dublin",N/A
+1550,0,0,Studio,"South Circular Road, South Circular Road, Dublin 8",N/A
+1734,1,1,Apartment,"Gardiner Place, Dublin 1",N/A
+1600,0,0,Studio,"Cabra Road, Dublin 7, North Circular Road, Dublin 7",N/A
+2100,1,1,Apartment,"Gordon Street, Dublin 4",N/A
+2000,1,1,Apartment,"Kimmage Road Lower, Harold's Cross, Dublin 6W",N/A
+3300,2,1,Apartment,"6A Merrion Road, Ballsbridge, Dublin 4",N/A
+2350,2,1,Apartment,"Apartment 47 , Eaglewood, Rochestown Avenue, Sallynoggin, Co. Dublin",N/A
+2500,2,2,Apartment,"89 Oak House, Red Arches Drive, Baldoyle, Dublin 13",N/A
+1749,1,1,Apartment,"Apartment 1, 191 Clonliffe Road, Drumcondra, Dublin 3",N/A
+2300,2,2,Apartment,"Apartment 3, 108 Philipsburgh Avenue, Phibsborough, Dublin 7",N/A
+3000,3,2,Apartment,"1 Saint Finbarr'S Close, Dublin 12, Greenhills, Dublin 12",N/A
+2700,3,1,House,"69 Sundale Avenue, Dublin 24, Tallaght, Dublin 24",N/A
+1604,1,1,Apartment,"Apartment 6, Mobhi Court, Glasnevin, Dublin 9",N/A
+3465,3,2,House,"Apartment 144, The Berkeley Block, Pembroke Square, Grand Canal Dock, Dublin 4",N/A
+3000,3,2,House,"1 Saint Finbarr'S Close, Dublin 12, Greenhills, Dublin 12",N/A
+3465,3,2,Apartment,"Apartment 144, The Berkeley Block, Pembroke Square, Grand Canal Dock, Dublin 4",N/A
+1604,1,1,House,"Apartment 6, Mobhi Court, Glasnevin, Dublin 9",N/A
+1749,1,1,Apartment,"No 1, 191 Clonliffe Road, Drumcondra, Dublin 3",N/A
+8250,3,4,House,"62 Ranelagh Road, Dublin 6, Ranelagh, Dublin 6",N/A
+4053,2,2,Apartment,"10 Leeson Court, Leeson Street Upper",N/A
+6500,4,3,House,"2 Avoca Grove, Grove Avenue, Blackrock, Co. Dublin",N/A
+3000,3,1,House,"17 Meadow Grove, Churchtown, Dublin 14",N/A
+1927,2,1,Apartment,"19 The Moorings, Fitzwilliam Quay, Irishtown, Dublin 4",N/A
+2900,3,1,House,"The Lodge, Carysfort Avenue, Blackrock, Co. Dublin",N/A
+2500,2,2,Apartment,"Apartment 27, Kilcross Square, Sandyford, Dublin 18",N/A
+1795,1,1,Apartment,"Prussia St, Stoneybatter, Dublin 7",N/A
+3500,4,1,House,"83 Mountain View Park, Dublin 14, Churchtown, Dublin 14",N/A
+2600,2,1,House,"39 Beaufield Park, Stillorgan, Mount Merrion, Co. Dublin",N/A
+6047,5,4,House,"2 Dalkey Rock, Dalkey, Co. Dublin",N/A
+2500,2,2,Apartment,"Blackthorn Hall, Blackglen Road, Ticknock Pk, Sandyford, Dublin 18",N/A
+2100,1,1,Apartment,"Short let only - The Cubes 6, Sandyford, Dublin 18",N/A
+2750,2,2,House,"Westminster Mews, Foxrock, Dublin 18",N/A
+4000,2,2,Apartment,"The Court, Station Road, Killiney, Co. Dublin",N/A
+2960,2,2,Apartment,"Booterstown Hall, Booterstown, Co. Dublin",N/A
+1450,1,1,Apartment,"16 Cabra Road, Dublin 7",N/A
+2400,2,1,Apartment,"Drumcondra Road Lower, Drumcondra, Dublin 9",N/A
+2533,2,1,Apartment,"25 Wolfe Tone Street, Dublin 1",N/A
+2750,2,2,Apartment,"Heuston South Quarter, Kilmainham, Dublin 8",N/A
+4350,4,2,House,"Sandymount Castle Drive, Dublin 4, Sandymount, Dublin 4",N/A
+6250,6,4,House,"Pavilion Gate, Dublin 18, Foxrock, Dublin 18",N/A
+1418,0,0,Studio,"Apartment 8 , 607 North Circular Road, Ballybough, Dublin 3",N/A
+4490,4,3,House,"10 The Nurseries, Taney Road, Dundrum, Dublin 14",N/A
+2600,2,3,Apartment,"14 Thorncliffe, Dundrum Road, Dublin 14",N/A
+2000,2,2,Apartment,"Amberwood, Blanchardstown, Dublin 15",N/A
+2185,2,1,Apartment,"Apartment 3, 66 Rathmines Road Upper, Rathgar, Dublin 6",N/A
+3000,3,1,Apartment,"Apartment 4, 27 North Circular Road, North Circular Road, Dublin 7",N/A
+1425,0,0,Studio,"Apartment 1, 39 Richmond Street South, Dublin 2",N/A
+2075,2,1,Apartment,"2, 137 Harold's Cross Road, Harold's Cross, Dublin 6W",N/A
+1350,0,0,Studio,"Apartment 3, 24 Chelmsford Road, Ranelagh, Ranelagh, Dublin 6",N/A
+2000,0,0,Studio,"Rathmines House, *** ALL BILLS INCLUDED ***, Rathmines, Dublin 6",N/A
+1800,1,1,Apartment,"Apartment 4, 44 Cabra Park, Phibsborough, Dublin 7",N/A
+1406,0,0,Studio,"Apartment 3, 23 Harrington Street, Dublin 8",N/A
+1850,0,0,Studio,"Rathmines House, *** ALL BILLS INCLUDED ***, Dublin 6",N/A
+2100,0,0,Studio,"Rathmines House, *** ALL BILLS INCLUDED ***, Dublin 6",N/A
+1269,0,0,Studio,"Apartment 8, 157 Clonliffe Road, Drumcondra, Dublin 3",N/A
+1381,1,1,Apartment,"Flat 1, 605 North Circular Road, Ballybough, Dublin 3",N/A
+1292,0,0,Studio,"Apartment 4 , 69 Drumcondra Road Lower, Drumcondra, Dublin 9",N/A
+1184,0,0,Studio,"Apartment 1, 31 Victoria Street, Portobello, Dublin 8",N/A
+3000,3,1,Apartment,"4, 25 North Circular Road, North Circular Road, Dublin 7",N/A
+1500,0,0,Studio,"Apartment 1, 91 South Circular Road, Dublin 8",N/A
+2185,2,1,Apartment,"Apartment 3, 66 Rathmines Road Upper, Rathgar, Dublin 6",N/A
+6000,2,2,Apartment,"The Barrington, Lansdowne Place, Ballsbridge, Dublin 4",N/A
+1630,1,1,Apartment,"55 Mountjoy Square West, Dublin 1, Dublin 1",N/A
+2495,2,2,Apartment,"Second Floor, Block A, Castle Gate, Christchurch, Dublin 8",N/A
+4168,4,4,House,"10a Chelmsford Lane, Dublin 6, Ranelagh, Dublin 6",N/A
+4654,5,2,House,"4 Taney Drive, Dundrum, Kilmacud, Co. Dublin",N/A
+2500,2,1,House,"Binn Eadair View, Sutton, Sutton, Dublin 13",N/A
+6000,4,3,House,"24 Leeson Park, Ranelagh, Dublin 6",N/A
+3018,2,2,Apartment,"Shrewsbury Square, Ballsbridge, Dublin 4",N/A
+2550,3,1,House,"Glencarrig, Firhouse, Dublin 24",N/A
+3800,4,1,House,"The Paddock,Dublin 7, Ashtown, Dublin 7",N/A
+2850,1,1,Apartment,"21 Grand Canal Place, Sandwith Street Upper, Dublin 2",N/A
+N/A,1,1,House,"Flat 1, 22 Beresford Street, Dublin 7, Smithfield, Dublin 7",N/A
+1648,2,2,Apartment,"14 Phibblestown House, Phibblestown, Ongar, Dublin 15",N/A
+3365,3,2,House,"Northumberland Place, Dublin 4",N/A
+1179,0,0,Studio,"Flat 2, 25 Chelmsford Road, Ranelagh, Dublin 6",N/A
+1795,1,1,Apartment,"Apartment 5, 57/58 Dorset Street Lower, North Circular Road, Dublin 1",N/A
+2787,2,2,Apartment,"Apartment 9, House 11, Linden Square, Grove Avenue, Stillorgan, Co. Dublin",N/A
+1950,1,1,Apartment,"Apartment 58, Block A, Mellowes Quay, Dublin 8",N/A
+2208,3,2,Apartment,"37 The Crescent, Larch Hill, Kilmore, Dublin 5",N/A
+4000,3,3,House,"Embassy Mews, 96 Waterloo Lane, Ballsbridge, Dublin 4",N/A
+4950,3,3,House,"5 Pembroke Place, Dublin 2, Dublin 2",N/A
+2025,1,1,Apartment,"Eastmoreland Court, Eastmoreland Place, Ballsbridge, Dublin 4",N/A
+5370,5,3,House,"1 Bloyke, Harbour Road, Dalkey, Co. Dublin",N/A
+1200,0,0,Studio,"24 Belvedere Place, North Circular Road, Dublin 1",N/A
+9950,4,3,House,"55 Waterloo Road, Dublin 4",N/A
+2160,1,1,Apartment,"Apt 3, 10 Sydenham Road, Ballsbridge, Ballsbridge, Dublin 4",N/A
+1676,1,1,Apartment,"Apartment 97, 109 Parnell Street, Dublin 1",N/A
+4450,3,3,House,Cullenswood Place,N/A
+2270,2,1,Apartment,"Hanover Court, Hanover Lane (off Francis St)",N/A
+1900,1,1,Apartment,"Kings Court, Parnell Street",N/A
+1950,1,1,Apartment,"lamb alley, Christchurch, Dublin 8",N/A
+2000,1,1,House,"Harold's Cross Cottages, Dublin 6, Harold's Cross, Dublin 6",N/A
+1800,0,0,Studio,"60 Pembroke Road, Dublin 4, Ballsbridge, Dublin 4",N/A
+2200,2,2,Apartment,"Sandyford View, Sandyford, Sandyford, Dublin 18",N/A
+2335,2,1,House,"Temple Cottages,Dublin 7, Phibsborough, Dublin 7",N/A
+1975,1,1,Apartment,"Flat 3 , 230 South Circular Road, Dublin 8, South Circular Road, Dublin 8",N/A
+3800,3,3,House,"Rafter's Court, Rafters Road, Drimnagh, Dublin 12",N/A
+2700,2,1,Apartment,"17 Lansdowne Crescent, Lansdowne Park, Dublin 4, Dublin 4",N/A
+2700,2,2,Apartment,"Apartment 34, Cedarhurst Road, Phoenix Park Raceco, Navan Road (D7), Dublin 7",N/A
+3000,1,1,Apartment,"78 francis street, Dublin 8",N/A
+2261,2,2,Apartment,"Richmond Road, Fairview, Dublin 3",N/A
+2600,2,1,House,"2 bed house in North Docklands, Dublin 3, Ballybough, Dublin 3",N/A
+2250,2,1,Apartment,"58 Ellesmere Avenue, Dublin 7, North Circular Road, Dublin 7",N/A
+3000,3,2,Apartment,"Skelligs Court, Waterville, Blanchardstown, Dublin 15",N/A
+2990,2,2,Apartment,"Ashurst,Mount Merrion Avenue,Blackrock,Co. Dublin, Stillorgan, Co. Dublin",N/A
+2650,2,2,Apartment,"Spencer Dock, IFSC, Dublin 1",N/A
+2090,1,1,House,"Dundrum Road, Dundrum, Dublin 14",N/A
+2000,2,1,House,"Caledon Road, Dublin 3, East Wall, Dublin 3",N/A
+1550,0,0,Studio,"Stillorgan Road, Donnybrook, Dublin 4, Donnybrook, Dublin 4",N/A
+2900,3,1,Apartment,"The George,Charlotte Quay Dock,Ringsend Road,Dublin 4, Hanover Quay, Dublin 2",N/A
+4000,4,3,House,"Inish Samer, 156 Dublin Road, Sutton, Sutton, Dublin 13",N/A
+2300,2,1,Apartment,"92 Dorset Street Upper, Dublin 1",N/A
+3850,2,1,House,"Strand Road, Dublin 4, Sandymount, Dublin 4",N/A
+1610,1,1,Apartment,"Flat 4, 52 Grove Park, Dublin 6, Rathmines, Dublin 6",N/A
+1300,1,1,Apartment,"Rathgar,Dublin 6, Rathgar, Dublin 6",N/A
+2400,2,2,Apartment,"Stocking Wood Hall, Stocking Avenue, Knocklyon, Dublin 16",N/A
+2300,2,2,House,"Off Stiles Road, Clontarf, Dublin 3",N/A
+1950,1,1,Apartment,"North Circular Road, Stoneybatter, Dublin 7",N/A
+1750,0,0,Studio,"Flat 3, 34 Summer Street North, Dublin 1, North Circular Road, Dublin 1",N/A
+2950,3,2,House,"Abbeyfield, Dublin 6, Milltown, Dublin 6",N/A
+2600,2,1,Apartment,"Lissenfield, Rathmines, Dublin 6",N/A
+2500,2,2,Apartment,"Waterville Terrace,Waterville,Dublin 15, Ballycoolin, Dublin 15",N/A
+1240,0,0,Studio,"Harrington street, Portobello, Dublin 8",N/A
+1850,1,1,Apartment,"Apartment 8, Chandlers Guild, Kilmainham, Dublin 8",N/A
+2526,2,2,Apartment,"Slaney House, Custom House Square, IFSC, Dublin 1",N/A
+2500,2,1,,"Windmill Lane Apartments,Windmill Lane,Dublin 2, Grand Canal Dock, Co. Dublin",N/A
+2600,2,1,Apartment,"Shelbourne Park - Sth Lotts Road, Ringsend, Dublin 4",N/A
+3800,3,2,,"57c Foxrock Avenue, Dublin 18, Foxrock, Co. Dublin",N/A
+2500,2,1,House,"6 Otterbrook, Willbrook Road, Dublin 14",N/A
+1520,0,0,Studio,"2 Huxley Crescent, off Cork Street, Dublin 8",N/A
+2000,1,1,Apartment,"Apartment 4, 213a Larrissa Court, Kimmage, Dublin 6W",N/A
+17000,14,14,House,"3 Clonskeagh Road, Dublin 6, Milltown, Dublin 6",N/A
+1600,0,0,Studio,"Terenure Studio, Terenure, Dublin 6W",N/A
+2695,2,2,Apartment,"28 Symphony House Adelaide Rd, Dublin 2",N/A
+2001,1,1,Apartment,"Apartment 54, The Beeches, Saint Edmunds Avenue, Dublin 20",N/A
+2300,1,1,House,"20a Bath Avenue Gardens, Dublin 4, Sandymount, Dublin 4",N/A
+7200,7,4,House,"11 The Crescent, Kingswood Heights, Kingswood, Dublin 22",N/A
+4950,4,3,House,"Kimmage Road Lower, Harold's Cross, Dublin 6W",N/A
+3600,3,2,House,"8 Woodview Park, Castleknock, Dublin 15, Navan Road (D7), Dublin 7",N/A
+2500,3,2,House,"Pinewood Avenue, Glasnevin, Dublin 11",N/A
+N/A,0,0,Studio,"Templeogue Road, Templeogue, Dublin 6W",N/A
+2148,2,2,Apartment,"Apartment 10, Chapelgate, Saint Alphonsus' Road Upper, Drumcondra, Dublin 9",N/A
+2600,2,1,Apartment,"Apartment 3, 101-103 Francis Street, Dublin 8",N/A
+2040,2,1,Apartment,"Donn Rua, Castleknock Road, Castleknock, Dublin 15, Castleknock, Dublin 15",N/A
+2737,2,1,Apartment,"Apartment 53, Canon Hall, IFSC, Dublin 1",N/A
+2942,2,1,Apartment,"Hanover Dock, Grand Canal Dock, Dublin 2",N/A
+2750,2,2,Apartment,"Apartment 2, 24 Herbert Place, Dublin 2",N/A
+2300,1,1,Apartment,"The Oaks, Herbert Park Lane, Ballsbridge, Dublin 4",N/A
+2300,2,1,Apartment,"Apartment 4, Rosevale Apartments, Raheny, Dublin 5",N/A
+7650,8,2,House,"Naomh Anton, 129 Iveragh Road, Whitehall, Dublin 9",N/A
+4350,3,2,Apartment,"Forbes Quay Apartments, Grand Canal Dock, Dublin 2",N/A
+3986,4,3,House,"9 The Court, Donnybrook Castle, Stillorgan Road, Donnybrook, Dublin 4",N/A
+2209,1,1,Apartment,"Ardilea Crescent, Goatstown, Dublin 14",N/A
+2800,2,1,Apartment,"40 Baggot Street Upper, Ballsbridge, Dublin 4",N/A
+4000,5,3,House,"3 Roseacre, Kilgobbin Road, Sandyford, Dublin 18",N/A
+1600,1,1,Apartment,"Benmadigan Road, Dublin 12, Drimnagh, Dublin 12",N/A
+2200,2,2,Apartment,"15b Crumlin Village, Crumlin, Co. Dublin",N/A
+2700,3,3,House,"327 Collinswood, Collinswood, Dublin 9",N/A
+3100,3,2,House,"9 Belarmine Heath, Belarmine, Stepaside, Dublin 18",N/A
+1695,1,1,Apartment,"Castlewood Avenue, Rathmines, Dublin 6",N/A
+4500,4,3,House,"Grianan, 37 Belgrave Road, Ranelagh, Dublin 6",N/A
+1350,0,0,Studio,"Coolmine, Dublin 15, Coolmine, Dublin 15",N/A
+2600,2,2,Apartment,"76 The Crescent, Carrickmines Manor, Dublin 18, Carrickmines, Dublin 18",N/A
+4000,5,3,House,"Mount Symon Green,Clonsilla,Dublin 15, Clonsilla, Dublin 15",N/A
+3059,2,2,House,"Rose Cottage, Mill Lane, Palmerstown, Dublin 20",N/A
+2950,3,1,House,"Woodfarm Avenue, Dublin 20, Palmerstown, Dublin 20",N/A
+3400,4,3,House,"The Avenue, Scholarstown Wood, Ballyboden, Dublin 16",N/A
+2400,2,1,Apartment,"Christchurch View, Christchurch, Dublin 8",N/A
+2200,2,1,Apartment,"Grange House, Rathfarnham, Dublin 16",N/A
+1750,1,1,Apartment,"Belfield Park,Stillorgan Road,Blackrock,Co. Dublin, Booterstown, Co. Dublin",N/A
+2400,2,1,Apartment,"24 Ratoath Drive, Dublin 11, Finglas, Dublin 11",N/A
+2500,3,1,House,"2 Spawell Cottage,Tallaght Road,Dublin 6w, Templeogue, Dublin 6W",N/A
+1850,1,1,Apartment,"Lissadel Avenue,Dublin 12, Drimnagh, Dublin 12",N/A
+N/A,0,0,Studio,"Orlagh Grove, Knocklyon, Dublin 16",N/A
+1150,1,1,Apartment,"Mourne Road, Drimnagh, Dublin 12",N/A
+3859,2,2,Apartment,"Donnybrook Gardens, Donnybrook, Dublin 4",N/A
+2150,2,1,House,"The Court High Park, Drumcondra, Dublin 3",N/A
+2500,2,2,Apartment,"Smithfield Market, Dublin 7",N/A
+2100,1,1,Apartment,"Apartment 93, The Westmoreland, Dublin 4",N/A
+3395,3,1,House,"Mountjoy, Dublin 1, North Circular Road, Dublin 1",N/A
+1802,1,1,Apartment,"Apartment, Botanic Hall, Addison Avenue, Dublin 11",N/A
+3389,2,2,Apartment,"Hanover Dock, Grand Canal Dock, Dublin 2",N/A
+3500,2,2,Apartment,"Apartment 7, 18 Baggot Street Lower, Dublin 2",N/A
+3560,2,2,Apartment,"18-21 Mount Street Lower, Dublin 2",N/A
+3156,4,2,House,"The Green, Carrickmines Manor, Carrickmines, Dublin 18",N/A
+2100,1,1,Apartment,"Apartment 81 , 109 Parnell Street, Dublin 1",N/A
+4000,4,2,House,"Beaumont Road, Beaumont, Dublin 9",N/A
+3500,4,1,House,"Collins Avenue, Donnycarney, Dublin 9",N/A
+5500,3,2,House,"1 Cove Terrace, Sandycove Avenue East, Sandycove, Co. Dublin",N/A
+3700,3,2,House,"45 Donnybrook Manor, Dublin 4, Donnybrook, Dublin 4",N/A
+2565,3,1,House,"Maple Drive, Castleknock, Castleknock, Dublin 15",N/A
+3465,2,2,House,"Margaret Place, Bath Avenue, Sandymount, Dublin 4",N/A
+2600,3,1,House,"Clonshaugh park, Coolock, Dublin 5",N/A
+3300,2,2,Apartment,"College Green Apartments,25 Saint Andrew Street, Dublin 2, Temple Bar, Dublin 2",N/A
+4800,4,4,House,"6 Linden Place, Grove Avenue, Blackrock, Stillorgan, Co. Dublin",N/A
+3000,2,2,Apartment,"Apartment 213 Kilmainham Square, Kilmainham, Dublin 8",N/A
+3600,2,2,Apartment,"Apartment 5 , Raglan Hall, Clyde Road, Dublin 4, Donnybrook, Dublin 4",N/A
+800,0,0,Studio,"96 Cabra Park, Dublin 7, Phibsborough, Dublin 7",N/A
+1775,2,1,Apartment,"Rosedale crescent, Clonee, Dublin 15",N/A
+2450,2,1,Apartment,"Long Meadows, Islandbridge, Dublin 8",N/A
+N/A,0,0,Studio,"Upper Buckingham Street, Dublin 1, Dublin 1",N/A
+1700,1,1,Apartment,"Flat Drumcondra Road Lower, Drumcondra, Dublin 9",N/A
+1321,0,0,Studio,"Eden Park, Summerhill Road, Dun Laoghaire, Co. Dublin",N/A
+1798,1,1,Apartment,"Apartment, Valencia House, North Circular Road, Dublin 7",N/A
+1300,1,1,Apartment,"Drumcondra Road Lower, Drumcondra, Dublin 9",N/A
+2750,2,1,House,"22 Athlumney Villas, Dublin 6, Ranelagh, Dublin 6",N/A
+N/A,1,1,Apartment,"Kenilworth Park, Harold’s Cross, Dublin 6w, Harold's Cross, Dublin 6W",N/A
+3400,3,1,House,"Larkhill Road, Whitehall, Dublin 9",N/A
+2361,3,1,House,"39 Errigal Road, Drimnagh, Dublin 12",N/A
+1200,0,0,Studio,"Tyrrelstown , Tyrrelstown, Dublin 15",N/A
+N/A,0,0,Studio,"8 wood lane smithfield d07vh22, Killester, Dublin 5",N/A
+1720,1,1,Apartment,"65 Gardiner Street Lower, Dublin 1, Dublin 1",N/A
+1500,1,1,Apartment,"Flat 1, 38 South Circular Road, Dublin 8, Portobello, Dublin 8",N/A
+1300,1,1,Apartment,"Apartment 1, 71a , Belmayne Avenue, Belmayne, Dubl, Clongriffin, Dublin 13",N/A
+2950,2,2,Apartment,"The Links, Elmpark, Merrion, Dublin 4",N/A
+3000,3,2,House,"Emmet Street, Dublin 1, North Circular Road, Dublin 1",N/A
+2900,2,2,Apartment,"St , Patrick's Court . Clanbrassil St . Dublin 8, Dublin 8",N/A
+1932,1,1,Apartment,"Apartment 38, Tibradden, The Crescent, Knocklyon, Dublin 16",N/A
+1165,0,0,Studio,"Cill Cais, Oldbawn, Tallaght, Dublin 24",N/A
+1980,2,2,Apartment,"Apartment 127, Charlestown Place",N/A
+2850,3,1,House,"73 Bayside Walk, Sutton, Bayside, Dublin 13",N/A
+1400,1,1,Apartment,"Allenton Dublin 24, Tallaght, Dublin 24",N/A
+3980,2,2,Apartment,"Donnybrook Gardens, Donnybrook, Dublin 4",N/A
+2575,3,1,Apartment,"Crumlin Road, Dublin 12, Drimnagh, Dublin 12",N/A
+1537,0,0,Studio,"Drumderg Court, Dublin 3",N/A
+10250,4,3,House,"83 Ashfield Road, Dublin 6, Ranelagh, Dublin 6",N/A
+16300,5,7,House,"17 Raglan Road, Dublin 4, Ballsbridge, Dublin 4",N/A
+4000,3,3,House,"11 The Meadows, Meadow Close, Blackrock, Co. Dublin",N/A
+13450,5,5,House,"12 Raglan Road, Dublin 4, Ballsbridge, Dublin 4",N/A
+2950,2,1,Apartment,"Brookfield Anglesea Rd., Ballsbridge, Dublin 4",N/A
+2850,1,1,Apartment,"Grand Canal Place One-Bedroom Apartment, Dublin 2",N/A
+2195,2,1,Apartment,"4 Hibernia, De Vesci Court, The Slopes, Dun Laogha, Monkstown, Co. Dublin",N/A
+N/A,0,0,Studio,"Tonlegee Road, Ard Na Greine, Dublin 13",N/A
+3000,2,2,Apartment,"Apartment 70, College Gate, Townsend Street, Dubli, Dublin 2",N/A
+1390,0,0,Studio,"Sherrard Street Lower, Dublin 1, North Circular Road, Dublin 1",N/A
+4000,5,2,House,"Moyville,Rathfarnham,Dublin 16, Ballyboden, Dublin 16",N/A
+1660,2,1,House,"104 Caledon Road, Dublin 3, East Wall, Dublin 3",N/A
+2194,1,1,Apartment,"Apartment 7 , Swift House, Ardilaun Court, Christchurch, Dublin 8",N/A
+1804,1,1,Apartment,"Apartment 18, King's Court, Dublin 1",N/A
+2901,3,2,Apartment,"Apartment 124, Premier Square, Dublin 11",N/A
+2285,2,1,House,"11 Killala Road, Dublin 7, Cabra, Dublin 7",N/A
+2700,4,3,House,"Mulberry Crescent,Castleknock,Dublin 15, Carpenterstown, Dublin 15",N/A
+1800,1,1,House,"32 Park Street West, Dublin 10, Inchicore, Dublin 8",N/A
+3000,3,2,House,"Parkside Place, Balgriffin , Donaghmede, Dublin 13",N/A
+3950,3,2,House,"37 Hollywood Drive, Dublin 14, Goatstown, Dublin 14",N/A
+1300,1,1,Apartment,"Citywest Drive , Citywest, Co. Dublin",N/A
+2750,2,2,Apartment,"Kiln View, Leopardstown, Dublin 18",N/A
+2250,2,2,House,"Daleview Park, Dale View, Ballybrack, Ballybrack, Co. Dublin",N/A
+2500,2,2,Apartment,"Ormond Quay Lower, Dublin 2",N/A
+2485,2,1,House,"Adealide Terrace, Kilmainham, Dublin 8",N/A
+6500,4,3,House,"124 Leeson Street Upper, Donnybrook, Dublin 4",N/A
+4000,2,2,Apartment,"Apartment 52, Donnybrook Gardens, Greenfield Park, Belfield, Dublin 4",N/A
+2300,2,1,Apartment,"Apartment 76, Eglington, Donnybrook Castle , Dublin 4",N/A
+4345,2,2,House,"Newgrove Avenue, Sandymount, Dublin 4, Sandymount, Dublin 4",N/A
+4000,3,1,House,"9 Millmount Grove, Dublin 14, Windy Arbour, Dublin 14",N/A
+1800,1,1,Apartment,"Butterfield Avenue Rathfarnham D14, Dublin 14",N/A
+N/A,0,0,Studio,"Mayberry Road, Kilnamanagh, Dublin 24",N/A
+1750,1,1,Apartment,"Whatley Hall, Archerswood, Dublin 15, Huntstown, Dublin 15",N/A
+1700,0,0,Studio,"Studio in Larkhill Road, Dublin 9 **All bills are included **, Whitehall, Dublin 9",N/A
+3000,2,1,Apartment,"Waterloo Road, Ballsbridge, Dublin 4",N/A
+1600,1,1,Apartment,"6 Mountjoy Square North, Dublin 1, Dublin 1",N/A
+2800,3,2,House,"4 Glenamuck Road South, Dublin 18, Carrickmines, Dublin 18",N/A
+2100,2,1,Apartment,"Tenterfields, South Brown Street, Dublin 8",N/A
+3600,4,3,House,"6 Mercer Close, Dublin 18, Cherrywood, Co. Dublin",N/A
+2500,2,2,Apartment,"42 sycamore house, silverbanks, Baldoyle, Dublin 13",N/A
+3500,4,3,House,"Egremont, Church Road, Killiney, Ballybrack, Co. Dublin",N/A
+2700,2,2,House,"Off Clonskeagh Road, Clonskeagh, Dublin 14",N/A
+1800,1,1,Apartment,"Apartment 68, The Plaza, Ballymun, Dublin 9",N/A
+4049,5,3,House,"25 Prospect Meadows, Stocking Lane, Rathfarnham, Dublin 16",N/A
+4250,4,3,House,"37 The Palms, Roebuck Road, Clonskeagh, Dublin 14",N/A
+1600,1,1,Apartment,"22 Willow Road, Ballinteer, Dublin 16",N/A
+3000,2,2,Apartment,"Smithfield Market, Dublin 7, Smithfield, Dublin 7",N/A
+2800,1,1,Apartment,"Merchamp, Seafield Road East, Clontarf, Dublin 3",N/A
+4800,3,2,House,"25 Shrewsbury, Dublin 4, Sandymount, Dublin 4",N/A
+3600,1,1,Apartment,"Apartment 35, The Oaks, Herbert Park Lane, Ballsbridge, Dublin 4",N/A
+3800,2,1,Apartment,"Glenesk, Sandymount, Dublin 4",N/A
+3200,1,1,Apartment,"Merchamp, Seafield Road East, Clontarf, Dublin 3",N/A
+3750,3,1,House,"29 Saint Fintan'S Park, Deansgrange, Blackrock, Co, Deansgrange, Co. Dublin",N/A
+2028,2,1,Apartment,"Flat 2, 15 Bow Bridge, Dublin 8, Kilmainham, Dublin 8",N/A
+2600,3,2,House,"Oldcourt Lawn,Dublin 24, Firhouse, Dublin 24",N/A
+2894,2,2,Apartment,"Marietta Woods, Castlepark Road, Dalkey, Dalkey, Co. Dublin",N/A
+3000,3,2,House,"68 Tudor Lawns, Dublin 18, Foxrock, Dublin 18",N/A
+4750,5,4,House,"20 The Paddocks, Clontarf, Dublin 3",N/A
+1790,1,1,Apartment,"Apartment 240, Charlestown Place, Finglas, Dublin 11",N/A
+1790,0,0,Studio,"Cambridge Villas, Ranelagh, Dublin 6",N/A
+4495,5,2,House,"18 La Vista Avenue, Sutton, Sutton, Dublin 13",N/A
+15000,5,6,House,"Howth to Rent, Fairview, Dublin 3",N/A
+2275,2,1,Apartment,"Apartment 19, Blackhall View, Arbour Hill, Dublin 7",N/A
+2200,2,1,Apartment,"Beechmount Drive, Clonskeagh, Dublin 14",N/A
+2335,3,1,House,"11 Montpelier View, Dublin 24, Jobstown, Dublin 24",N/A
+1900,3,1,House,"Donomore Park, Tallaght, Dublin 24",N/A
+1700,1,1,Apartment,"Shalimar, Monastery Road, Clondalkin, Dublin 22",N/A
+2500,2,1,House,"Oak Apple Green, Rathgar, Dublin 6",N/A
+4134,3,4,House,"Ringsend Road, Ringsend, Dublin 4",N/A
+2016,1,1,Apartment,"Type A, Glenamuck Manor, Glenamuck Road, Dublin 18",N/A
+2374,2,2,Apartment,"Type B , Glenamuck Manor, Glenamuck Road, Dublin 18",N/A
+2550,1,1,Apartment,"1 Bedroom, Sandford Lodge, Sandford Lodge, Ranelagh, Dublin 6, Ranelagh, Dublin 6",N/A

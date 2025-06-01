@@ -7,9 +7,13 @@ import logging
 import os
 import json
 from typing import Optional, Any
+from abc import ABC, abstractmethod
 
-class RentalPricePredictor:
-    def __init__(self) -> None:
+
+class BasePricePredictor(ABC):
+    """Abstract base class for price prediction models"""
+    
+    def __init__(self, model_path: str, metrics_path: str) -> None:
         self.model = RandomForestRegressor(
             n_estimators=100,
             random_state=42,
@@ -18,15 +22,14 @@ class RentalPricePredictor:
             min_samples_leaf=2
         )
         self.is_trained = False
-        # relative to the CWD of the main.py script:
-        self.model_path = 'models/saved_data/rent_predictor_model.joblib'
-        self.metrics_path = 'models/saved_data/model_metrics.json'
+        self.model_path = model_path
+        self.metrics_path = metrics_path
         self.logger = logging.getLogger(__name__)
         self.metrics = {}
         self.feature_names = []
-        
+
     def train(self, X: np.ndarray, y: np.ndarray, feature_names: list[str] | None = None) -> bool:
-        """Train the rental price prediction model"""
+        """Train the price prediction model"""
         try:
             # Store feature names
             if feature_names:
@@ -54,7 +57,8 @@ class RentalPricePredictor:
             }
             
             self.is_trained = True
-            self.logger.info(f"Model trained successfully. R² Score: {self.metrics['r2']:.4f}")
+            model_type = self.__class__.__name__
+            self.logger.info(f"{model_type} trained successfully. R² Score: {self.metrics['r2']:.4f}")
             self.logger.info(f"Mean Absolute Error: €{self.metrics['mae']:.2f}")
             
             return True
@@ -62,22 +66,12 @@ class RentalPricePredictor:
         except Exception as e:
             self.logger.error(f"Error training model: {str(e)}")
             return False
-    
+
+    @abstractmethod
     def predict(self, features: np.ndarray) -> float:
-        """Make a price prediction"""
-        if not self.is_trained:
-            raise ValueError("Model not trained. Call train() first or load_model().")
-        
-        try:
-            prediction = self.model.predict(features)
-            # Ensure prediction is positive and within reasonable bounds
-            prediction = max(500, min(20000, prediction[0]))
-            return float(prediction)
-            
-        except Exception as e:
-            self.logger.error(f"Error making prediction: {str(e)}")
-            raise
-    
+        """Make a price prediction - to be implemented by subclasses"""
+        pass
+
     def get_feature_importance(self) -> dict[str, float]:
         """Get feature importance scores"""
         if not self.is_trained:
@@ -93,7 +87,7 @@ class RentalPricePredictor:
         
         # Sort by importance
         return dict(sorted(feature_importance.items(), key=lambda x: x[1], reverse=True))
-    
+
     def save_model(self) -> None:
         """Save the trained model to disk"""
         if not self.is_trained:
@@ -115,12 +109,13 @@ class RentalPricePredictor:
             with open(self.metrics_path, 'w') as f:
                 json.dump(self.metrics, f, indent=2)
             
-            self.logger.info(f"Model saved to {self.model_path}")
+            model_type = self.__class__.__name__
+            self.logger.info(f"{model_type} saved to {self.model_path}")
             
         except Exception as e:
             self.logger.error(f"Error saving model: {str(e)}")
             raise
-    
+
     def load_model(self) -> bool:
         """Load a trained model from disk"""
         try:
@@ -138,17 +133,57 @@ class RentalPricePredictor:
                 with open(self.metrics_path, 'r') as f:
                     self.metrics = json.load(f)
             
-            self.logger.info(f"Model loaded from {self.model_path}")
+            model_type = self.__class__.__name__
+            self.logger.info(f"{model_type} loaded from {self.model_path}")
             return True
             
         except Exception as e:
             self.logger.error(f"Error loading model: {str(e)}")
             raise
-    
+
     def get_metrics(self) -> dict[str, Any]:
         """Get model performance metrics"""
         return self.metrics.copy() if self.metrics else {}
-    
+
     def model_exists(self) -> bool:
         """Check if a saved model exists"""
         return os.path.exists(self.model_path)
+
+
+class PropertyPricePredictor(BasePricePredictor):
+    """Price predictor for whole property rentals"""
+    
+    def predict(self, features: np.ndarray) -> float:
+        """Make a price prediction for whole properties"""
+        if not self.is_trained:
+            raise ValueError("Model not trained. Call train() first or load_model().")
+        
+        try:
+            prediction = self.model.predict(features)
+            # Ensure prediction is positive and within reasonable bounds for whole properties
+            prediction = max(500, min(20000, prediction[0]))
+            return float(prediction)
+            
+        except Exception as e:
+            self.logger.error(f"Error making prediction: {str(e)}")
+            raise
+
+
+class SharedRoomPricePredictor(BasePricePredictor):
+    """Price predictor for shared room rentals"""
+    
+    def predict(self, features: np.ndarray) -> float:
+        """Make a price prediction for shared rooms"""
+        if not self.is_trained:
+            raise ValueError("Model not trained. Call train() first or load_model().")
+        
+        try:
+            prediction = self.model.predict(features)
+            # Ensure prediction is positive and within reasonable bounds for shared rooms
+            # Shared rooms typically have lower prices than whole properties
+            prediction = max(200, min(15000, prediction[0]))
+            return float(prediction)
+            
+        except Exception as e:
+            self.logger.error(f"Error making prediction: {str(e)}")
+            raise
