@@ -281,7 +281,7 @@ export default function ModelInfoDisplay() {
                   </Badge>
                 ))}
             </div>
-            <p className="text-sm text-gray-600 mt-2">
+            <p className="text-sm text-gray-600 mt-4">
               Model trained on {modelInfo.available_options.dublin_areas.length} Dublin postal areas
             </p>
           </div>

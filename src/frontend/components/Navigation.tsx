@@ -13,8 +13,8 @@ export default function Navigation() {
         <Button 
           variant={pathname === "/" ? "default" : "ghost"} 
           className={pathname === "/" 
-            ? "text-white bg-blue-600 hover:bg-blue-700" 
-            : "text-gray-700 hover:text-gray-900"
+            ? "text-white bg-blue-600 hover:bg-blue-700 cursor-pointer"
+            : "text-gray-700 hover:text-gray-900 cursor-pointer"
           }
         >
           Rent Predictor
@@ -24,8 +24,8 @@ export default function Navigation() {
         <Button 
           variant={pathname === "/model-info" ? "default" : "ghost"} 
           className={pathname === "/model-info" 
-            ? "text-white bg-blue-600 hover:bg-blue-700" 
-            : "text-gray-700 hover:text-gray-900"
+            ? "text-white bg-blue-600 hover:bg-blue-700 cursor-pointer" 
+            : "text-gray-700 hover:text-gray-900 cursor-pointer"
           }
         >
           Model Info
