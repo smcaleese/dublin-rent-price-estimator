@@ -6,9 +6,10 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import logging
 import os
 import json
+from typing import Optional, Any
 
 class RentalPricePredictor:
-    def __init__(self):
+    def __init__(self) -> None:
         self.model = RandomForestRegressor(
             n_estimators=100,
             random_state=42,
@@ -17,13 +18,14 @@ class RentalPricePredictor:
             min_samples_leaf=2
         )
         self.is_trained = False
+        # relative to the CWD of the main.py script:
         self.model_path = 'models/saved_data/rent_predictor_model.joblib'
         self.metrics_path = 'models/saved_data/model_metrics.json'
         self.logger = logging.getLogger(__name__)
         self.metrics = {}
         self.feature_names = []
         
-    def train(self, X, y, feature_names=None):
+    def train(self, X: np.ndarray, y: np.ndarray, feature_names: list[str] | None = None) -> bool:
         """Train the rental price prediction model"""
         try:
             # Store feature names
@@ -61,7 +63,7 @@ class RentalPricePredictor:
             self.logger.error(f"Error training model: {str(e)}")
             return False
     
-    def predict(self, features):
+    def predict(self, features: np.ndarray) -> float:
         """Make a price prediction"""
         if not self.is_trained:
             raise ValueError("Model not trained. Call train() first or load_model().")
@@ -76,7 +78,7 @@ class RentalPricePredictor:
             self.logger.error(f"Error making prediction: {str(e)}")
             raise
     
-    def get_feature_importance(self):
+    def get_feature_importance(self) -> dict[str, float]:
         """Get feature importance scores"""
         if not self.is_trained:
             return {}
@@ -92,7 +94,7 @@ class RentalPricePredictor:
         # Sort by importance
         return dict(sorted(feature_importance.items(), key=lambda x: x[1], reverse=True))
     
-    def save_model(self):
+    def save_model(self) -> None:
         """Save the trained model to disk"""
         if not self.is_trained:
             raise ValueError("Model not trained yet.")
@@ -119,7 +121,7 @@ class RentalPricePredictor:
             self.logger.error(f"Error saving model: {str(e)}")
             raise
     
-    def load_model(self):
+    def load_model(self) -> bool:
         """Load a trained model from disk"""
         try:
             if not os.path.exists(self.model_path):
@@ -143,10 +145,10 @@ class RentalPricePredictor:
             self.logger.error(f"Error loading model: {str(e)}")
             raise
     
-    def get_metrics(self):
+    def get_metrics(self) -> dict[str, Any]:
         """Get model performance metrics"""
         return self.metrics.copy() if self.metrics else {}
     
-    def model_exists(self):
+    def model_exists(self) -> bool:
         """Check if a saved model exists"""
         return os.path.exists(self.model_path)

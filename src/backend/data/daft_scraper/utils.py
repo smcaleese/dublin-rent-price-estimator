@@ -2,6 +2,7 @@ from dataclasses import dataclass, asdict
 import time
 import csv
 import re
+from typing import Optional, Any
 
 COOKIE_BUTTON_SELECTOR = "button[id='didomi-notice-agree-button']"
 
@@ -16,7 +17,7 @@ class Listing:
     address: str
 
 
-def accept_cookies_if_present(page):
+def accept_cookies_if_present(page: Any) -> None:
     """Attempt to click the cookie consent button if it is present and visible."""
     try:
         if page.is_visible(COOKIE_BUTTON_SELECTOR, timeout=5000):
@@ -29,7 +30,7 @@ def accept_cookies_if_present(page):
         print(f"No cookie button, or error interacting with it: {e_cookie}")
 
 
-def extract_price_with_regex(text):
+def extract_price_with_regex(text: str) -> str:
     if text == "N/A" or not text:
         return "N/A"
 
@@ -58,7 +59,7 @@ def extract_price_with_regex(text):
     return "N/A"  # Return N/A if no price pattern is matched
 
 
-def extract_beds_with_regex(text):
+def extract_beds_with_regex(text: str) -> str:
     if text == "N/A" or not text:
         return ""
 
@@ -92,7 +93,7 @@ def extract_beds_with_regex(text):
     return match.group(1) if match else ""  # Return empty string if no bed info
 
 
-def extract_baths_with_regex(text):
+def extract_baths_with_regex(text: str) -> str:
     if text == "N/A" or not text:
         return ""
     # Matches "1 Bath", "2 Baths", etc.
@@ -100,7 +101,7 @@ def extract_baths_with_regex(text):
     return match.group(1) if match else ""  # Return empty string if no bath info
 
 
-def extract_property_type_with_regex(text):
+def extract_property_type_with_regex(text: str) -> str:
     if text == "N/A" or not text:
         return ""
     # Matches common property types. Order matters if types can be substrings of others.
@@ -126,7 +127,7 @@ def extract_property_type_with_regex(text):
     return ""  # Return empty string if no type found
 
 
-def _process_large_card(listing_locator, link, main_listing_idx) -> Listing:
+def _process_large_card(listing_locator: Any, link: str, main_listing_idx: int) -> Optional[Listing]:
     try:
         price = "N/A"
         beds = ""
@@ -179,8 +180,8 @@ def _process_large_card(listing_locator, link, main_listing_idx) -> Listing:
 
 
 def _process_card_with_mini_cards(
-    link, first_card_container, second_card_container, main_listing_idx
-):
+    link: str, first_card_container: Any, second_card_container: Any, main_listing_idx: int
+) -> list[Listing]:
     listing_items = []
     try:
         # the address is in the first card container:
@@ -227,7 +228,7 @@ def _process_card_with_mini_cards(
     return listing_items
 
 
-def _process_listings_on_page(listing_card_locators, all_listings_data, page_index):
+def _process_listings_on_page(listing_card_locators: Any, all_listings_data: list[Listing], page_index: int) -> None:
     count = listing_card_locators.count()
     print(f"Found {count} potential listing elements on page {page_index + 1}.")
 

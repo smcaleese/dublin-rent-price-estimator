@@ -4,6 +4,7 @@ from pydantic import BaseModel
 import uvicorn
 import logging
 from contextlib import asynccontextmanager
+from typing import AsyncGenerator, Optional, Any
 from models import DataProcessor, RentalPricePredictor
 
 # Configure logging
@@ -11,12 +12,12 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Global instances
-data_processor = None
-ml_model = None
+data_processor: DataProcessor | None = None
+ml_model: RentalPricePredictor | None = None
 
 
 @asynccontextmanager
-async def lifespan(app: FastAPI):
+async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     """Initialize ML model on startup"""
     global data_processor, ml_model
     
@@ -82,7 +83,7 @@ class PropertyDetails(BaseModel):
 
 
 @app.post("/predict")
-async def predict_rent(details: PropertyDetails):
+async def predict_rent(details: PropertyDetails) -> dict[str, int]:
     """Predict rental price based on property features"""
     try:
         # Validate required fields
@@ -143,7 +144,7 @@ async def predict_rent(details: PropertyDetails):
 
 
 @app.get("/model-info")
-async def get_model_info():
+async def get_model_info() -> dict[str, Any]:
     """Get information about the trained model"""
     try:
         model = app.state.ml_model
@@ -190,7 +191,7 @@ async def get_model_info():
 
 
 @app.get("/healthcheck")
-async def health_check():
+async def health_check() -> dict[str, Any]:
     """Health check endpoint"""
     try:
         model = app.state.ml_model

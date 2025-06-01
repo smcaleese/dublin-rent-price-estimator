@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import csv  # To save data to a CSV file
+from typing import Any
 
 # --- Configuration ---
 # Base URL for constructing page URLs
@@ -15,7 +16,7 @@ START_PAGE_NUMBER = 1
 REQUEST_DELAY = 3
 
 
-def scrape_page_data(url):
+def scrape_page_data(url: str) -> list[dict[str, str]]:
     """
     Scrapes a single page of listings.
     Returns a list of dictionaries (each representing a listing).
@@ -95,7 +96,7 @@ def scrape_page_data(url):
     return listings_data
 
 
-def main():
+def main() -> None:
     all_listings_data = []
 
     print(

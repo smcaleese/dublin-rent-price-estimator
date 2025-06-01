@@ -3,6 +3,7 @@ import time
 import csv
 from utils import _process_listings_on_page, accept_cookies_if_present
 from dataclasses import asdict
+from typing import Any
 
 DUBLIN_RENT_URL = "https://www.daft.ie/property-for-rent/dublin-city"  # Base URL for Dublin City rentals
 DUBLIN_SHARING_URL = "https://www.daft.ie/sharing/dublin-city"
@@ -20,7 +21,7 @@ LISTING_CARD_SELECTOR = (
 )
 
 
-def scrape_daft_playwright():
+def scrape_daft_playwright() -> None:
     all_listings_data = []
 
     with sync_playwright() as p:

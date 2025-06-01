@@ -6,10 +6,11 @@ import logging
 import os
 import joblib
 import json
+from typing import Optional, Any, Tuple
 
 
 class DataProcessor:
-    def __init__(self):
+    def __init__(self) -> None:
         self.df = None
         self.prop_type_encoder = OneHotEncoder(
             sparse_output=False, handle_unknown="ignore"
@@ -20,7 +21,7 @@ class DataProcessor:
         self.feature_names = None
         self.logger = logging.getLogger(__name__)
 
-    def load_data(self, file_path):
+    def load_data(self, file_path: str) -> bool:
         """Load and clean the rental data"""
         try:
             self.df = pd.read_csv(file_path)
@@ -36,7 +37,7 @@ class DataProcessor:
             self.logger.error(f"Error loading data: {str(e)}")
             return False
 
-    def _clean_data(self):
+    def _clean_data(self) -> None:
         """Clean the training data by handling missing values and converting data types"""
         if self.df is None:
             raise ValueError("Data not loaded")
@@ -60,10 +61,10 @@ class DataProcessor:
         # Filter out unrealistic prices (less than 500 or greater than 20000)
         self.df = self.df[(self.df["price"] >= 500) & (self.df["price"] <= 20000)]
 
-    def _extract_dublin_postal_code(self, address_series):
+    def _extract_dublin_postal_code(self, address_series: pd.Series) -> pd.Series:
         """Extract numeric Dublin postal codes from address strings"""
 
-        def extract_code(address):
+        def extract_code(address: Any) -> Any:
             if pd.isna(address):
                 return np.nan
 
@@ -89,7 +90,7 @@ class DataProcessor:
 
         return address_series.apply(extract_code)
 
-    def prepare_features(self):
+    def prepare_features(self) -> Tuple[np.ndarray, np.ndarray]:
         """Prepare features (X) and target (y) for model training"""
         if self.df is None:
             raise ValueError("Data not loaded. Call load_data() first.")
@@ -125,7 +126,7 @@ class DataProcessor:
 
         return X, y
 
-    def encode_input(self, bedrooms, bathrooms, property_type, dublin_area):
+    def encode_input(self, bedrooms: str, bathrooms: str, property_type: str, dublin_area: str) -> np.ndarray:
         """Encode user input for prediction"""
         try:
             # Convert bedrooms and bathrooms to numeric
@@ -159,7 +160,7 @@ class DataProcessor:
             self.logger.error(f"Error encoding input: {str(e)}")
             raise
 
-    def _extract_numeric_area_from_frontend(self, dublin_area_str):
+    def _extract_numeric_area_from_frontend(self, dublin_area_str: str) -> int:
         """Extract numeric area from frontend format"""
         if pd.isna(dublin_area_str):
             return 1  # Default fallback
@@ -176,7 +177,7 @@ class DataProcessor:
 
         return 1  # Default fallback
 
-    def get_property_types(self):
+    def get_property_types(self) -> list[str]:
         """Get list of available property types"""
         if (
             hasattr(self.prop_type_encoder, "categories_")
@@ -185,7 +186,7 @@ class DataProcessor:
             return self.prop_type_encoder.categories_[0].tolist()
         return ["Apartment", "House", "Studio"]
 
-    def get_dublin_areas(self):
+    def get_dublin_areas(self) -> list[int]:
         """Get list of available Dublin areas"""
         if (
             hasattr(self.dublin_area_encoder, "categories_")
@@ -196,7 +197,7 @@ class DataProcessor:
             )
         return []
 
-    def get_data_summary(self):
+    def get_data_summary(self) -> dict[str, Any]:
         """Get summary statistics of the data"""
         if self.df is None:
             return {}
@@ -210,6 +211,6 @@ class DataProcessor:
             "dublin_areas": self.df["dublin_area"].value_counts().to_dict(),
         }
 
-    def get_feature_names(self):
+    def get_feature_names(self) -> list[str]:
         """Get the feature names after encoding"""
         return self.feature_names.copy() if self.feature_names else []
