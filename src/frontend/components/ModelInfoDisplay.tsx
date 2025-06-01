@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import axios from "axios"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs" // Added Tabs
 import { BarChart3, Database, Settings, TrendingUp, Users, Home } from "lucide-react"
 import { Label } from "@/components/ui/label"
 
@@ -35,45 +36,35 @@ interface ModelInfo {
 }
 
 export default function ModelInfoDisplay() {
+  const [activeModelType, setActiveModelType] = useState<'property' | 'sharing'>('property')
   const [modelInfo, setModelInfo] = useState<ModelInfo | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const [filterSharedStats, setFilterSharedStats] = useState<boolean | null>(null)
 
   useEffect(() => {
     const fetchModelInfo = async () => {
+      setError(null)
       try {
-        let url = "http://localhost:8000/model-info"
-        if (filterSharedStats === true) {
-          url += "?filter_shared=true"
-        } else if (filterSharedStats === false) {
-          url += "?filter_shared=false"
-        }
+        const url = `http://localhost:8000/model-info?model_type=${activeModelType}`
         const response = await axios.get(url)
         setModelInfo(response.data)
-        setError(null)
       } catch (err) {
         console.error("Error fetching model info:", err)
-        setError("Failed to load model information")
+        setError(`Failed to load model information for ${activeModelType} model.`)
       }
     }
 
     fetchModelInfo()
-  }, [filterSharedStats])
-
-  const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value
-    if (value === "all") {
-      setFilterSharedStats(null)
-    } else if (value === "shared") {
-      setFilterSharedStats(true)
-    } else {
-      setFilterSharedStats(false)
-    }
-  }
+  }, [activeModelType])
 
   if (error) {
     return (
-      <div className="space-y-8">
+      <div className="space-y-8 mt-8">
+        <Tabs value={activeModelType} onValueChange={(value: string) => setActiveModelType(value as 'property' | 'sharing')} className="w-full mb-8">
+          <TabsList className="grid w-full grid-cols-2">
+            <TabsTrigger value="property">Property Model</TabsTrigger>
+            <TabsTrigger value="sharing">Sharing Model</TabsTrigger>
+          </TabsList>
+        </Tabs>
         <Card className="shadow-lg border-red-200 bg-red-50">
           <CardContent className="p-8">
             <div className="text-center">
@@ -86,7 +77,17 @@ export default function ModelInfoDisplay() {
   }
 
   if (!modelInfo) {
-    return null
+    return (
+      <div className="space-y-8 mt-8">
+        <Tabs value={activeModelType} onValueChange={(value: string) => setActiveModelType(value as 'property' | 'sharing')} className="w-full mb-8">
+          <TabsList className="grid w-full grid-cols-2">
+            <TabsTrigger value="property">Property Model</TabsTrigger>
+            <TabsTrigger value="sharing">Sharing Model</TabsTrigger>
+          </TabsList>
+        </Tabs>
+        <div className="text-center">Loading model information or no model information available...</div>
+      </div>
+    )
   }
 
   // Sort feature importances by value (descending)
@@ -96,12 +97,20 @@ export default function ModelInfoDisplay() {
 
   return (
     <div className="space-y-8 mt-8">
+      <Tabs value={activeModelType} onValueChange={(value: string) => setActiveModelType(value as 'property' | 'sharing')} className="w-full">
+        <TabsList className="grid w-full grid-cols-2 mb-8">
+          <TabsTrigger value="property">Property Model</TabsTrigger>
+          <TabsTrigger value="sharing">Sharing Model</TabsTrigger>
+        </TabsList>
+        {/* Content will be rendered below based on activeModelType and modelInfo */}
+      </Tabs>
+
       {/* Model Performance Metrics */}
       <Card className="shadow-lg">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <TrendingUp className="h-5 w-5" />
-            Model Performance
+            Model Performance ({activeModelType === 'property' ? 'Property' : 'Sharing'} Model)
           </CardTitle>
           <CardDescription>Key metrics showing how well the model performs</CardDescription>
         </CardHeader>
@@ -144,7 +153,7 @@ export default function ModelInfoDisplay() {
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <BarChart3 className="h-5 w-5" />
-            Feature Importance
+            Feature Importance ({activeModelType === 'property' ? 'Property' : 'Sharing'} Model)
           </CardTitle>
           <CardDescription>Which factors most influence rent predictions</CardDescription>
         </CardHeader>
@@ -187,55 +196,6 @@ export default function ModelInfoDisplay() {
           <CardDescription>Overview of the data used to train the model</CardDescription>
         </CardHeader>
         <CardContent>
-          {/* Filter Checkbox */}
-          <div className="mb-6 space-y-2">
-            <Label className="text-sm font-medium">Filter Data Summary:</Label>
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center">
-                <input
-                  type="radio"
-                  id="filter-all"
-                  name="data-filter"
-                  value="all"
-                  checked={filterSharedStats === null}
-                  onChange={handleFilterChange}
-                  className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
-                />
-                <Label htmlFor="filter-all" className="ml-2 text-sm text-gray-700 cursor-pointer">
-                  All Properties
-                </Label>
-              </div>
-              <div className="flex items-center">
-                <input
-                  type="radio"
-                  id="filter-shared"
-                  name="data-filter"
-                  value="shared"
-                  checked={filterSharedStats === true}
-                  onChange={handleFilterChange}
-                  className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
-                />
-                <Label htmlFor="filter-shared" className="ml-2 text-sm text-gray-700 cursor-pointer flex items-center">
-                  <Users className="h-4 w-4 mr-1" /> Shared Rooms Only
-                </Label>
-              </div>
-              <div className="flex items-center">
-                <input
-                  type="radio"
-                  id="filter-non-shared"
-                  name="data-filter"
-                  value="non-shared"
-                  checked={filterSharedStats === false}
-                  onChange={handleFilterChange}
-                  className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
-                />
-                <Label htmlFor="filter-non-shared" className="ml-2 text-sm text-gray-700 cursor-pointer flex items-center">
-                  <Home className="h-4 w-4 mr-1" /> Non-Shared Only
-                </Label>
-              </div>
-            </div>
-          </div>
-          
           {modelInfo.data_summary.message && (
             <div className="text-center py-4 text-gray-600 bg-gray-50 rounded-md">
               {modelInfo.data_summary.message}
@@ -275,7 +235,7 @@ export default function ModelInfoDisplay() {
                     {/* Add "All Properties" entry */}
                     {modelInfo.data_summary.total_records > 0 && (
                       <div className="flex justify-between items-center font-semibold text-gray-700">
-                        <span className="capitalize">All Properties (Current Filter):</span>
+                        <span className="capitalize">All Properties:</span>
                         <div className="flex items-center space-x-2">
                           <span>{modelInfo.data_summary.total_records}</span>
                           <div className="w-16 bg-gray-200 rounded-full h-2">
@@ -309,7 +269,7 @@ export default function ModelInfoDisplay() {
                       ))}
                   </div>
                 ) : (
-                  <p className="text-sm text-gray-500">No property type data for this filter.</p>
+                  <p className="text-sm text-gray-500">No property type data available.</p>
                 )}
               </div>
             </div>
