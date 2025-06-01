@@ -80,6 +80,8 @@ class PropertyDetails(BaseModel):
     bathrooms: str
     propertyType: str
     dublinArea: str
+    isShared: bool | None = False
+    roomType: str | None = None
 
 
 @app.post("/predict")
@@ -109,7 +111,9 @@ async def predict_rent(details: PropertyDetails) -> dict[str, int]:
                 details.bedrooms,
                 details.bathrooms,
                 details.propertyType,
-                details.dublinArea
+                details.dublinArea,
+                details.isShared,
+                details.roomType
             )
         except Exception as e:
             logger.error(f"Error encoding features: {str(e)}")
@@ -144,17 +148,17 @@ async def predict_rent(details: PropertyDetails) -> dict[str, int]:
 
 
 @app.get("/model-info")
-async def get_model_info() -> dict[str, Any]:
-    """Get information about the trained model"""
+async def get_model_info(filter_shared: bool | None = None) -> dict[str, Any]:
+    """Get information about the trained model, optionally filtering data summary by shared status"""
     try:
         model = app.state.ml_model
         processor = app.state.data_processor
         
-        if not model.is_trained:
+        if not model or not processor or not model.is_trained:
             return {
                 "feature_importances": {},
                 "model_type": "not_trained",
-                "status": "Model not trained"
+                "status": "Model not trained or components not initialized"
             }
         
         # Get model metrics
@@ -163,8 +167,8 @@ async def get_model_info() -> dict[str, Any]:
         # Get feature importance
         feature_importance = model.get_feature_importance()
         
-        # Get data summary
-        data_summary = processor.get_data_summary()
+        # Get data summary, passing the filter
+        data_summary = processor.get_data_summary(shared_filter=filter_shared)
         
         # Get available options
         property_types = processor.get_property_types()

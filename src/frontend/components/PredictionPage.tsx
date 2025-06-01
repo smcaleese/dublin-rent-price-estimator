@@ -6,13 +6,15 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Home, MapPin, Bed, Bath } from "lucide-react"
+import { Home, MapPin, Bed, Bath, Users } from "lucide-react"
 
 export default function PredictionPage() {
   const [bedrooms, setBedrooms] = useState("")
   const [bathrooms, setBathrooms] = useState("")
   const [propertyType, setPropertyType] = useState("")
   const [dublinArea, setDublinArea] = useState("")
+  const [isShared, setIsShared] = useState(false)
+  const [roomType, setRoomType] = useState("")
   const [predictedPrice, setPredictedPrice] = useState<number | null>(null)
   const [isLoading, setIsLoading] = useState(false)
 
@@ -63,8 +65,20 @@ export default function PredictionPage() {
     { value: "dublin-24", label: "Dublin 24 (Tallaght)" },
   ]
 
+  const roomTypeOptions = [
+    { value: "single", label: "Single Room" },
+    { value: "double", label: "Double Room" },
+    { value: "twin", label: "Twin Room" },
+    { value: "shared", label: "Shared Room" },
+  ]
+
   const handlePredict = async () => {
     if (!bedrooms || !bathrooms || !propertyType || !dublinArea) {
+      return
+    }
+
+    // If shared room is selected, room type is required
+    if (isShared && !roomType) {
       return
     }
 
@@ -75,6 +89,8 @@ export default function PredictionPage() {
         bathrooms,
         propertyType,
         dublinArea,
+        isShared,
+        roomType: isShared ? roomType : null,
       })
       setPredictedPrice(response.data.predictedPrice)
     } catch (error) {
@@ -84,7 +100,7 @@ export default function PredictionPage() {
     }
   }
 
-  const isFormValid = bedrooms && bathrooms && propertyType && dublinArea
+  const isFormValid = bedrooms && bathrooms && propertyType && dublinArea && (!isShared || roomType)
 
   return (
     <div className="space-y-8 mt-8">
@@ -175,6 +191,49 @@ export default function PredictionPage() {
             </div>
           </div>
 
+          {/* Shared Room Section */}
+          <div className="space-y-4 border-t pt-6">
+            <div className="flex items-center space-x-2">
+              <input
+                type="checkbox"
+                id="is-shared"
+                checked={isShared}
+                onChange={(e) => {
+                  setIsShared(e.target.checked)
+                  if (!e.target.checked) {
+                    setRoomType("")
+                  }
+                }}
+                className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+              />
+              <Label htmlFor="is-shared" className="flex items-center gap-2 cursor-pointer">
+                <Users className="h-4 w-4" />
+                This is a shared room/accommodation
+              </Label>
+            </div>
+
+            {isShared && (
+              <div className="space-y-2">
+                <Label htmlFor="room-type" className="flex items-center gap-2">
+                  <Users className="h-4 w-4" />
+                  Room Type
+                </Label>
+                <Select value={roomType} onValueChange={setRoomType}>
+                  <SelectTrigger id="room-type" className="w-full">
+                    <SelectValue placeholder="Select room type" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {roomTypeOptions.map((option) => (
+                      <SelectItem key={option.value} value={option.value}>
+                        {option.label}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+            )}
+          </div>
+
           <Button
             onClick={handlePredict}
             disabled={!isFormValid || isLoading}
@@ -201,6 +260,11 @@ export default function PredictionPage() {
                 {bathroomOptions.find((b) => b.value === bathrooms)?.label},{" "}
                 {propertyTypeOptions.find((p) => p.value === propertyType)?.label} in{" "}
                 {dublinAreaOptions.find((a) => a.value === dublinArea)?.label}
+                {isShared && roomType && (
+                  <span>
+                    {" "}- {roomTypeOptions.find((r) => r.value === roomType)?.label} (Shared)
+                  </span>
+                )}
               </div>
             </div>
           </CardContent>

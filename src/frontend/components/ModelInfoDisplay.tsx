@@ -4,7 +4,8 @@ import { useState, useEffect } from "react"
 import axios from "axios"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { BarChart3, Database, Settings, TrendingUp } from "lucide-react"
+import { BarChart3, Database, Settings, TrendingUp, Users, Home } from "lucide-react"
+import { Label } from "@/components/ui/label"
 
 interface ModelInfo {
   feature_importances: Record<string, number>
@@ -25,6 +26,7 @@ interface ModelInfo {
     max_price: number
     property_types: Record<string, number>
     dublin_areas: Record<string, number>
+    message?: string
   }
   available_options: {
     property_types: string[]
@@ -36,12 +38,19 @@ export default function ModelInfoDisplay() {
   const [modelInfo, setModelInfo] = useState<ModelInfo | null>(null)
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [filterSharedStats, setFilterSharedStats] = useState<boolean | null>(null)
 
   useEffect(() => {
     const fetchModelInfo = async () => {
       try {
         setIsLoading(true)
-        const response = await axios.get("http://localhost:8000/model-info")
+        let url = "http://localhost:8000/model-info"
+        if (filterSharedStats === true) {
+          url += "?filter_shared=true"
+        } else if (filterSharedStats === false) {
+          url += "?filter_shared=false"
+        }
+        const response = await axios.get(url)
         setModelInfo(response.data)
         setError(null)
       } catch (err) {
@@ -53,7 +62,18 @@ export default function ModelInfoDisplay() {
     }
 
     fetchModelInfo()
-  }, [])
+  }, [filterSharedStats])
+
+  const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value
+    if (value === "all") {
+      setFilterSharedStats(null)
+    } else if (value === "shared") {
+      setFilterSharedStats(true)
+    } else {
+      setFilterSharedStats(false)
+    }
+  }
 
   if (isLoading) {
     return (
@@ -95,39 +115,6 @@ export default function ModelInfoDisplay() {
 
   return (
     <div className="space-y-8 mt-8">
-      {/* Model Status */}
-      <Card className="shadow-lg">
-        <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Settings className="h-5 w-5" />
-            Model Status
-          </CardTitle>
-          <CardDescription>Current model information and status</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="text-center">
-              <Badge variant="secondary" className="mb-2">
-                {modelInfo.model_type}
-              </Badge>
-              <p className="text-sm text-gray-600">Model Type</p>
-            </div>
-            <div className="text-center">
-              <Badge variant={modelInfo.status === "ML model active" ? "default" : "destructive"} className="mb-2">
-                {modelInfo.status}
-              </Badge>
-              <p className="text-sm text-gray-600">Status</p>
-            </div>
-            <div className="text-center">
-              <Badge variant="outline" className="mb-2">
-                {modelInfo.data_summary.total_records} Records
-              </Badge>
-              <p className="text-sm text-gray-600">Training Data</p>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
-
       {/* Model Performance Metrics */}
       <Card className="shadow-lg">
         <CardHeader>
@@ -219,9 +206,65 @@ export default function ModelInfoDisplay() {
           <CardDescription>Overview of the data used to train the model</CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Price Statistics */}
-            <div>
+          {/* Filter Checkbox */}
+          <div className="mb-6 space-y-2">
+            <Label className="text-sm font-medium">Filter Data Summary:</Label>
+            <div className="flex items-center space-x-4">
+              <div className="flex items-center">
+                <input
+                  type="radio"
+                  id="filter-all"
+                  name="data-filter"
+                  value="all"
+                  checked={filterSharedStats === null}
+                  onChange={handleFilterChange}
+                  className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
+                />
+                <Label htmlFor="filter-all" className="ml-2 text-sm text-gray-700 cursor-pointer">
+                  All Properties
+                </Label>
+              </div>
+              <div className="flex items-center">
+                <input
+                  type="radio"
+                  id="filter-shared"
+                  name="data-filter"
+                  value="shared"
+                  checked={filterSharedStats === true}
+                  onChange={handleFilterChange}
+                  className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
+                />
+                <Label htmlFor="filter-shared" className="ml-2 text-sm text-gray-700 cursor-pointer flex items-center">
+                  <Users className="h-4 w-4 mr-1" /> Shared Rooms Only
+                </Label>
+              </div>
+              <div className="flex items-center">
+                <input
+                  type="radio"
+                  id="filter-non-shared"
+                  name="data-filter"
+                  value="non-shared"
+                  checked={filterSharedStats === false}
+                  onChange={handleFilterChange}
+                  className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300"
+                />
+                <Label htmlFor="filter-non-shared" className="ml-2 text-sm text-gray-700 cursor-pointer flex items-center">
+                  <Home className="h-4 w-4 mr-1" /> Non-Shared Only
+                </Label>
+              </div>
+            </div>
+          </div>
+          
+          {modelInfo.data_summary.message && (
+            <div className="text-center py-4 text-gray-600 bg-gray-50 rounded-md">
+              {modelInfo.data_summary.message}
+            </div>
+          )}
+
+          {!modelInfo.data_summary.message && (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Price Statistics */}
+              <div>
               <h4 className="font-semibold mb-4">Price Statistics</h4>
               <div className="space-y-3">
                 <div className="flex justify-between">
@@ -243,31 +286,38 @@ export default function ModelInfoDisplay() {
               </div>
             </div>
 
-            {/* Property Types */}
-            <div>
-              <h4 className="font-semibold mb-4">Property Types</h4>
-              <div className="space-y-2">
-                {Object.entries(modelInfo.data_summary.property_types)
-                  .sort(([, a], [, b]) => b - a)
-                  .map(([type, count]) => (
-                    <div key={type} className="flex justify-between items-center">
-                      <span className="text-gray-600 capitalize">{type}:</span>
-                      <div className="flex items-center space-x-2">
-                        <span className="font-medium">{count}</span>
-                        <div className="w-16 bg-gray-200 rounded-full h-2">
-                          <div
-                            className="bg-green-600 h-2 rounded-full"
-                            style={{
-                              width: `${(count / modelInfo.data_summary.total_records) * 100}%`
-                            }}
-                          ></div>
+              {/* Property Types */}
+              <div>
+                <h4 className="font-semibold mb-4">Property Types</h4>
+                {Object.keys(modelInfo.data_summary.property_types).length > 0 ? (
+                  <div className="space-y-2">
+                    {Object.entries(modelInfo.data_summary.property_types)
+                      .sort(([, a], [, b]) => b - a)
+                      .map(([type, count]) => (
+                        <div key={type} className="flex justify-between items-center">
+                          <span className="text-gray-600 capitalize">{type}:</span>
+                          <div className="flex items-center space-x-2">
+                            <span className="font-medium">{count}</span>
+                            {modelInfo.data_summary.total_records > 0 && (
+                              <div className="w-16 bg-gray-200 rounded-full h-2">
+                                <div
+                                  className="bg-green-600 h-2 rounded-full"
+                                  style={{
+                                    width: `${(count / modelInfo.data_summary.total_records) * 100}%`
+                                  }}
+                                ></div>
+                              </div>
+                            )}
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                  ))}
+                      ))}
+                  </div>
+                ) : (
+                  <p className="text-sm text-gray-500">No property type data for this filter.</p>
+                )}
               </div>
             </div>
-          </div>
+          )}
 
           {/* Dublin Areas */}
           <div className="mt-8">
