@@ -32,16 +32,18 @@ export default function RootLayout({
           {/* Header */}
           <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
             <div className="max-w-6xl mx-auto px-4 py-4">
-              <div className="flex items-center justify-between">
-                <div className="text-center space-y-2">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0">
+                <div className="text-center md:text-left space-y-2">
                   <h1 className="text-3xl font-bold text-gray-900">Dublin Rent Predictor</h1>
-                  <div className="flex items-center justify-center gap-4">
-                    <p className="text-gray-600">Get an estimated rental price for properties in Dublin</p>
+                  <div className="flex items-center justify-center md:justify-start gap-4">
+                    <p className="text-gray-600 w-[100vw] md:w-auto">Get an estimated rental price for properties in Dublin</p>
                   </div>
                 </div>
                 
                 {/* Navigation */}
-                <Navigation />
+                <div className="flex justify-center md:justify-end">
+                  <Navigation />
+                </div>
               </div>
             </div>
           </header>

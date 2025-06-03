@@ -129,7 +129,7 @@ class BaseDataProcessor(ABC):
         if self.df.empty:
             return {
                 "total_records": 0,
-                "avg_price": 0,
+                "median_price": 0,
                 "min_price": 0,
                 "max_price": 0,
                 "property_types": {},
@@ -139,7 +139,7 @@ class BaseDataProcessor(ABC):
 
         return {
             "total_records": len(self.df),
-            "avg_price": float(self.df["price"].mean()) if not self.df["price"].empty else 0,
+            "median_price": float(self.df["price"].median()) if not self.df["price"].empty else 0,
             "min_price": float(self.df["price"].min()) if not self.df["price"].empty else 0,
             "max_price": float(self.df["price"].max()) if not self.df["price"].empty else 0,
             "property_types": self.df["prop_type"].value_counts().to_dict(),

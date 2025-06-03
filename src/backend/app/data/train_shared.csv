@@ -1,0 +1,960 @@
+price,room_type,prop_type,address,link
+1990,double,Apartment,"Niche Living, Serviced Studio Apartments, Ardee Road, Rathmines, Dublin 6",https://www.daft.ie/for-rent/niche-living-private-studios-all-bills-incl-ardee-road-rathmines-dublin-6/5705487
+1850,,,"DX Living , Donnybrook Road, Dublin 4",https://www.daft.ie/for-rent/dx-living-donnybrook-road-dublin-4/5926595
+1800,double,House,"Vernon Avenue, Dublin 2",https://www.daft.ie/share/vernon-avenue-dublin-2/6119213
+1800,twin,House,"Vernon Avenue, Dublin 1",https://www.daft.ie/share/vernon-avenue-dublin-1/6110426
+1800,double,House,"Vernon Avenue,Dublin 3, Dublin 3",https://www.daft.ie/share/vernon-avenue-dublin-3-dublin-3/6058122
+1750,double,House,"Daneswell Place, Drumcondra, Dublin 3",https://www.daft.ie/share/daneswell-place-dublin-9/5657540
+1700,double,Apartment,"Apartment 6 ,Block A,18-21 Mount Street Lower,Dublin 2, Dublin 2",https://www.daft.ie/share/apartment-6-block-a-18-21-mount-street-lower-dublin-2-dublin-2/6138165
+1700,double,House,"5 , Ballybough, Dublin 3",https://www.daft.ie/share/51-clonliffe-road-dublin-3-ballybough-dublin-3/6134852
+1630,,,"Node D2 - Fitzwilliam Square, 25 Pembroke Street Upper, Dublin 2",https://www.daft.ie/for-rent/node-living-25-pembroke-street-upper-dublin-2/1527608
+1629,double,Apartment,"Tara View Apartments, Dublin 4, Booterstown, Co. Dublin",https://www.daft.ie/share/tara-view-apartments-dublin-4-booterstown-co-dublin/6128222
+1600,double,Apartment,"Dublin 4 The Pines, Herbert Park Lane, Angles D04PF68, Donnybrook, Dublin 4",https://www.daft.ie/share/the-pines-herbert-park-lane-anglesea-road-dublin-4-donnybrook-dublin-4/6146006
+1600,double,House,"Serviced Property - Berkeley Road.                                              City Living in chic Phibsborough.            ALL UTILITIES INCLUDED, Dublin 7",https://www.daft.ie/share/serviced-property-berkeley-road-phibsborough-city-living-in-chic-phibsborough-north-circular-road-dublin-7/6136209
+1600,single,,"Crannagh Road,Rathfarnham,Dublin 14, Churchtown, Co. Dublin",https://www.daft.ie/share/-crannagh-road-rathfarnham-dublin-14-churchtown-dublin-14/6138517
+1600,single,House,"Kingswood, Dublin 24, Kilnamanagh, Dublin 24",https://www.daft.ie/share/kingswood-dublin-24-kilnamanagh-dublin-24/6009818
+1523,,,"Node D2 - Fitzwilliam Square, 25 Pembroke Street Upper, Dublin 2",https://www.daft.ie/for-rent/node-living-25-pembroke-street-upper-dublin-2/1527608
+1500,double,Apartment,"Waterville Row,Waterville,Dublin 15, Ballycoolin, Dublin 15",https://www.daft.ie/share/-waterville-row-waterville-dublin-15-ballycoolin-dublin-15/6048816
+1500,double,Apartment,"54a Thomas Street,Dublin 8, Christchurch, Dublin 8",https://www.daft.ie/share/54a-thomas-street-dublin-8-christchurch-dublin-8/6142543
+1500,double,House,"Sandyford Village, Sandyford, Dublin 18",https://www.daft.ie/share/sandyford-village-sandyford-dublin-18/6066024
+1500,single,House,"Cathal Brugha Street, Dublin 1",https://www.daft.ie/share/cathal-brugha-street-dublin-1/6028665
+1500,twin,Apartment,"Greg Court Apartments, Dublin 1",https://www.daft.ie/share/greg-court-apartments-dublin-1/6144722
+1500,double,Apartment,"Apartment 30, Fern Court, Stepaside Park, Dublin 1, Kilternan, Dublin 18",https://www.daft.ie/share/apartment-30-fern-court-stepaside-park-dublin-1-kilternan-dublin-18/6056094
+1500,double,Apartment,"Charlemont Square, Dublin 2, Portobello, Dublin 8",https://www.daft.ie/share/charlemont-square-dublin-2-portobello-dublin-8/6050033
+1500,double,Apartment,"Clarinda Court, Clarinda Park West, Dun Laoghaire, Co. Dublin",https://www.daft.ie/share/clarinda-court-clarinda-park-west-dun-laoghaire-co-dublin/6144545
+1500,double,House,"Rye Water Apts , Leixlip, Co. Kildare",https://www.daft.ie/share/rye-water-apts-leixlip-co-kildare/6135552
+1480,double,Apartment,"Templeogue Village, Templeogue, Dublin 6W",https://www.daft.ie/share/templeogue-village-templeogue-dublin-6w/6141765
+1475,double,Apartment,"22 Northumberland Place, Dublin 4, Grand Canal Dock, Dublin 4",https://www.daft.ie/share/22-northumberland-place-dublin-4-grand-canal-dock-dublin-4/6134015
+1450,double,House,"Sandwith St, Dublin 2",https://www.daft.ie/share/sandwith-st-dublin-2/6122487
+1440,twin,House,"The Grove,Kingswood Heights,Tallaght ,Dublin 24, Kilnamanagh, Dublin 24",https://www.daft.ie/share/the-grove-kingswood-heights-tallaght-dublin-24-kilnamanagh-dublin-24/6130965
+1425,double,House,"Lucan, Lucan, Co. Dublin",https://www.daft.ie/share/lucan-lucan-co-dublin/6030496
+1422,double,Apartment,"Apartment 45, Block A, Smithfield Market, Smithfie, Smithfield, Dublin 7",https://www.daft.ie/share/apartment-45-block-a-smithfield-market-smithfie-smithfield-dublin-7/6138612
+1400,,,"Point Campus, Dublin , Dublin 1",https://www.daft.ie/for-rent/point-campus-dublin-dublin-2/5998645
+1400,single,House,"28 Upper Leeson Street., Dublin 4",https://www.daft.ie/share/28-upper-leeson-street-dublin-4/4486085
+1400,single,House,"Stillorgan Road,Donnybrook,Dublin 4, Donnybrook, Dublin 4",https://www.daft.ie/share/-stillorgan-road-donnybrook-dublin-4-donnybrook-dublin-4/6138562
+1400,single,Apartment,"The Hudson, Stillorgan Dublin 18, Stillorgan, Co. Dublin",https://www.daft.ie/share/the-hudson-stillorgan-dublin-18-stillorgan-co-dublin/6147062
+1400,double,Apartment,"Longboat Quay Management Clg, 436 Longboat Quay No, Hanover Quay, Dublin 2",https://www.daft.ie/share/longboat-quay-management-clg-436-longboat-quay-no-hanover-quay-dublin-2/6146138
+1400,single,House,"Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/dublin-18-leopardstown-dublin-18/6062468
+1400,double,Apartment,"Apartment 35, Block F The Windmill, Windmill Lane, Grand Canal Dock, Dublin 2",https://www.daft.ie/share/apartment-35-block-f-the-windmill-windmill-lane-grand-canal-dock-dublin-2/6100026
+1400,double,House,"Belltree Avenue, Clongriffin, Dublin 13",https://www.daft.ie/share/belltree-avenue-clongriffin-dublin-13/6142028
+1400,double,House,"Sussex Road, Dublin 4, Ranelagh, Dublin 6",https://www.daft.ie/share/sussex-road-dublin-4-ranelagh-dublin-6/6147066
+1400,double,House,"2 The Grove, Griffith Wood, Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/2-the-grove-griffith-wood-dublin-9-whitehall-dublin-9/6146874
+1400,double,House,"11 Sussex road, Ballsbridge, Dublin 4, Ballsbridge, Dublin 4",https://www.daft.ie/share/11-sussex-road-ballsbridge-dublin-4-ballsbridge-dublin-4/6046842
+1400,double,Apartment,"Murphystown Way, Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/murphystown-way-dublin-18-leopardstown-dublin-18/6144021
+1400,single,Apartment,"Walled Garden,Wyckham Way,Dundrum,Dublin 16, Ballinteer, Dublin 16",https://www.daft.ie/share/walled-garden-wyckham-way-dundrum-dublin-16-ballinteer-dublin-16/6109872
+1400,double,Apartment,"Charlemont Street, Dublin 2",https://www.daft.ie/share/charlemont-street-dublin-2/6074668
+1390,double,Apartment,"Apartment 1, 28 Booterstown Avenue,Booterstown,Co. Dublin, Booterstown, Co. Dublin",https://www.daft.ie/share/apartment-1-28-booterstown-avenue-booterstown-co-dublin-booterstown-co-dublin/6045667
+1381,double,Apartment,"Griffith Wood, Whitehall, Dublin 9",https://www.daft.ie/share/griffith-wood-whitehall-dublin-9/6149449
+1380,double,House,"Erne Street Upper, Dublin 2",https://www.daft.ie/share/erne-street-upper-dublin-2/6029758
+1380,double,House,"Erne Street Upper, Dublin 2",https://www.daft.ie/share/erne-street-upper-dublin-2/5935665
+1375,single,House,"Earlsfort Gardens, Lucan, Co. Dublin, Lucan, Co. Dublin",https://www.daft.ie/share/earlsfort-gardens-lucan-co-dublin-lucan-co-dublin/6147820
+1370,single,Apartment,"Gallery Quay,  Pearse Street, Dublin 2, Grand Canal Dock, Dublin 2",https://www.daft.ie/share/gallery-quay-pearse-street-dublin-2-grand-canal-dock-dublin-2/6146348
+1360,double,Apartment,"Tabolt Street, 5 O'Connell Street, Dublin 1",https://www.daft.ie/share/tabolt-street-5-oconnell-street-dublin-1/6126336
+1353,double,Apartment,"Elmpark Green, Merrion Road, Dublin 4, Merrion, Dublin 4",https://www.daft.ie/share/elmpark-green-merrion-road-dublin-4-merrion-dublin-4/6141343
+1350,double,Apartment,"""6 Month maximum stay"" Bushy Park House, Templeogue Road, Templeogue, Dublin 6W",https://www.daft.ie/share/-bushy-park-house-templeogue-road-templeogue-dublin-6w/6122784
+1350,double,Apartment,"Apartment, Block A, Smithfield Market,Smithfield,Dublin 7, Dublin 7",https://www.daft.ie/share/apartment-block-a-smithfield-market-smithfield-dublin-7-dublin-7/6129120
+1350,double,House,"Faith,Dublin 3, North Strand, Dublin 3",https://www.daft.ie/share/faith-dublin-3-north-strand-dublin-3/6120716
+1350,double,House,"Pearse Street, Dublin 2",https://www.daft.ie/share/pearse-street-dublin-2/6145064
+1350,double,Apartment,"The Alders,Saint Edmunds Avenue,Lucan,Co. Dublin, Dublin 20",https://www.daft.ie/share/the-alders-saint-edmunds-avenue-lucan-co-dublin-dublin-20/6019666
+1350,single,Apartment,"Market Square, Green street, Dublin 7",https://www.daft.ie/share/market-square-green-street-dublin-7/6138944
+1350,double,House,"Leinster Park, Dublin 6, Harold's Cross, Dublin 6W",https://www.daft.ie/share/leinster-park-dublin-6-harolds-cross-dublin-6w/6116821
+1350,double,House,"6 Oxford Court, Oxford Road, Dublin 6, Ranelagh, Dublin 6",https://www.daft.ie/share/6-oxford-court-oxford-road-dublin-6-ranelagh-dublin-6/6140407
+1350,double,Apartment,"Árd Lorcain Grove,Stillorgan,Blackrock,Co. Dublin, Stillorgan, Co. Dublin",https://www.daft.ie/share/-rd-lorcain-grove-stillorgan-blackrock-co-dublin-stillorgan-co-dublin/6120606
+1350,double,House,"80 Castle Way, Cherrywood, Cherrywood, Co. Dublin",https://www.daft.ie/share/castle-way-cherrywood-co-dublin-cherrywood-co-dublin/6133073
+1350,single,Apartment,"Walled Garden,Wyckham Way,Dundrum,Dublin 16, Ballinteer, Dublin 16",https://www.daft.ie/share/walled-garden-wyckham-way-dundrum-dublin-16-ballinteer-dublin-16/6049323
+1300,double,House,"Belarmine / Enniskerry Road, Stepaside, Dublin 18",https://www.daft.ie/share/belarmine-enniskerry-road-stepaside-dublin-18/6146918
+1300,double,Apartment,"Santry Cross,Dublin 11, Poppintree, Dublin 11",https://www.daft.ie/share/santry-cross-dublin-11-poppintree-dublin-11/6130429
+1300,double,Apartment,"Ballsbridge Court,Serpentine Avenue,Dublin 4, Sandymount, Dublin 4",https://www.daft.ie/share/ballsbridge-court-serpentine-avenue-dublin-4-sandymount-dublin-4/6117368
+1300,double,House,"Saint Anne's Avenue, Raheny, Dublin 5, Raheny, Dublin 5",https://www.daft.ie/share/-saint-annes-avenue-raheny-dublin-5-raheny-dublin-5/6133285
+1300,double,Apartment,"Flat 4, 28 Woodlands Road, Glenageary, Cabinteely, Dublin 18",https://www.daft.ie/share/flat-4-28-woodlands-road-glenageary-cabinteely-dublin-18/6095291
+1300,double,Apartment,"Riverview,Church Road,Mulhuddart,Dublin 15, Damastown, Co. Dublin",https://www.daft.ie/share/riverview-church-road-mulhuddart-dublin-15-damastown-co-dublin/6142736
+1300,single,House,"Santry, Dublin 9",https://www.daft.ie/share/santry-dublin-9/6147182
+1300,double,House,"Windsor Avenue,Dublin 3, Fairview, Dublin 3",https://www.daft.ie/share/windsor-avenue-dublin-3-fairview-dublin-3/6143289
+1300,double,House,"Hawthorn Walk, Kilcarbery, Dublin 22, Dublin 1",https://www.daft.ie/share/hawthorn-walk-kilcarbery-dublin-22-dublin-1/6069003
+1300,double,Apartment,"Beside Beacon Quarter Sandyford Dublin 18, Sandyford, Dublin 18",https://www.daft.ie/share/beside-beacon-quarter-sandyford-dublin-18-sandyford-dublin-18/6142904
+1300,double,Apartment,"The Kestrel Building Block 9a, Heuston South Quart, Kilmainham, Dublin 8",https://www.daft.ie/share/the-kestrel-building-block-9a-heuston-south-quart-kilmainham-dublin-8/6112988
+1300,double,Apartment,"Apartment 42, The Oval, Tullyvale, Dublin 18, Cherrywood, Co. Dublin",https://www.daft.ie/share/apartment-42-the-oval-tullyvale-dublin-18-cherrywood-co-dublin/6112610
+1300,double,Apartment,"Dublin 18, Cherrywood, Co. Dublin",https://www.daft.ie/share/dublin-18-cherrywood-co-dublin/6113665
+1288,double,Apartment,"Walled Garden, Dundrum, Dublin 16, Ballinteer, Dublin 16",https://www.daft.ie/share/walled-garden-wyckham-way-dundrum-dublin-16-ballinteer-dublin-16/6059745
+1280,double,Apartment,"Pembroke Square, Grand Canal Street Upper,Dublin 4, Grand Canal Dock, Dublin 4",https://www.daft.ie/share/pembroke-square-grand-canal-street-upper-dublin-4-grand-canal-dock-dublin-4/6146114
+1273,double,Apartment,"Building 7 Vantage West, Central Park, Leopardstown, Dublin 18",https://www.daft.ie/share/building-7-vantage-west-central-park-leopardstown-dublin-18/6091854
+1270,double,Apartment,"The Hunt Building, Grand Parade,Cherrywood Town Centre,Dublin 18, Cherrywood, Co. Dublin",https://www.daft.ie/share/the-hunt-building-grand-parade-cherrywood-town-centre-dublin-18-cherrywood-co-dublin/6143247
+1270,double,Apartment,"Apartment 94, Block F, Fernbank Square, Churchtown, Churchtown, Dublin 14",https://www.daft.ie/share/apartment-94-block-f-fernbank-square-churchtown-churchtown-dublin-14/6123935
+1260,,,"Stoneybatter Place, Rope Walk, 20 Stoneybatter, Dublin 7, D07 NP2K, Dublin 7",https://www.daft.ie/for-rent/stoneybatter-place-rope-walk-20-stoneybatter-dublin-7-d07-np2k-dublin-7/6139765
+1260,double,Apartment,"Harcourt Green,Charlemont Street,Dublin 2, Portobello, Dublin 8",https://www.daft.ie/share/harcourt-green-charlemont-street-dublin-2-portobello-dublin-8/6141522
+1250,single,House,"Hollystown, Dublin 15, Hollystown, Dublin 15",https://www.daft.ie/share/8-hollywoodrath-meadows-hollystown-dublin-15-hollystown-dublin-15/6122746
+1250,double,House,"Rathborne Boulevard, Dublin 15, Ashtown, Dublin 15",https://www.daft.ie/share/9-rathborne-boulevard-dublin-15-ashtown-dublin-15/6136447
+1250,double,House,"Stillorgan, Stillorgan, Co. Dublin",https://www.daft.ie/share/15-saint-heliers-copse-stillorgan-blackrock-co-stillorgan-co-dublin/6115402
+1250,twin,House,"Cork Street,Dublin 8, The Coombe, Dublin 8",https://www.daft.ie/share/cork-street-dublin-8-the-coombe-dublin-8/6133125
+1250,double,Apartment,"Clay Farm Drive, Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/apartment-9-barn-hill-clay-farm-drive-dublin-18-leopardstown-dublin-18/6096974
+1250,single,House,"12a Cremore Villas, Dublin 11, Glasnevin, Dublin 11",https://www.daft.ie/share/12a-cremore-villas-dublin-11-drumcondra-dublin-3/6142142
+1250,double,,"Wyckham Point,Wyckham Way,Dundrum,Dublin 16, Ballinteer, Co. Dublin",https://www.daft.ie/share/wyckham-point-wyckham-way-dundrum-dublin-16-ballinteer-dublin-16/6148516
+1250,single,House,"26 Castlecourt, Dublin 3, Clontarf, Dublin 3",https://www.daft.ie/share/26-castlecourt-dublin-3-clontarf-dublin-3/5965708
+1250,single,House,"Ground Floor, 6 Vesey Place, Dun Laoghaire, Co. Dublin",https://www.daft.ie/share/ground-floor-6-vesey-place-dun-laoghaire-co-dublin/6116250
+1250,double,Apartment,"Railway Street, Dublin 1, Dublin 1",https://www.daft.ie/share/railway-street-dublin-1-dublin-1/6096705
+1250,double,House,"Rathdown Park, Terenure, Dublin 6",https://www.daft.ie/share/rathdown-park-terenure-dublin-6/6073954
+1250,double,Apartment,"Apartment 44, Camden Lock, South Dock Road, Dublin, Hanover Quay, Dublin 2",https://www.daft.ie/share/apartment-camden-lock-south-dock-road-dublin-4-hanover-quay-dublin-2/6128770
+1250,double,Apartment,"Apartment 46 , Park Lodge, 7/9 North Circular Road, North Circular Road, Dublin 7",https://www.daft.ie/share/apartment-46-park-lodge-7-9-north-circular-road-north-circular-road-dublin-7/6146821
+1250,double,House,"51 Donnybrook Manor, Dublin 4, Donnybrook, Dublin 4",https://www.daft.ie/share/51-donnybrook-manor-dublin-4-donnybrook-dublin-4/6116152
+1250,double,Apartment,"Clancy Quay,South Circular Road,Dublin 8, Kilmainham, Dublin 8",https://www.daft.ie/share/clancy-quay-south-circular-road-dublin-8-kilmainham-dublin-8/6111665
+1250,double,Apartment,"Camden Street Lower, Dublin 2, Portobello, Dublin 8",https://www.daft.ie/share/camden-street-lower-dublin-2-portobello-dublin-8/6139969
+1250,double,Apartment,"Cherrywood, Dublin 18, Cherrywood, Co. Dublin",https://www.daft.ie/share/cherrywood-dublin-18-cherrywood-co-dublin/6140020
+1250,double,House,"Clay Farm, Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/clay-farm-dublin-18-leopardstown-dublin-18/6135650
+1250,double,Apartment,"Walled Garden,Wyckham Way,Dundrum,Dublin 16, Ballinteer, Dublin 16",https://www.daft.ie/share/walled-garden-wyckham-way-dundrum-dublin-16-ballinteer-dublin-16/6071341
+1250,double,Apartment,"Walled Garden, Wyckham Way, Dundrum, Dublin 16, Ballinteer, Dublin 16",https://www.daft.ie/share/walled-garden-wyckham-way-dundrum-dublin-16-ballinteer-dublin-16/6121215
+1250,double,Apartment,"Cranmer Place Dublin 4, Grand Canal Dock, Dublin 4",https://www.daft.ie/share/cranmer-place-dublin-4-grand-canal-dock-dublin-4/6075665
+1250,double,Apartment,"Fairway Hall, Cualanor, Dun Laoghaire, Co. Dublin, Glenageary, Co. Dublin",https://www.daft.ie/share/fairway-hall-cualanor-dun-laoghaire-co-dublin-glenageary-co-dublin/6123030
+1236,double,House,"Heytesbury Lane, Dublin 4",https://www.daft.ie/share/heytesbury-lane-dublin-4/6069991
+1235,double,Apartment,"The rise, Whitehall, D9, Whitehall, Dublin 9",https://www.daft.ie/share/the-rise-whitehall-d9-whitehall-dublin-9/5944240
+1235,double,Apartment,"Blessington Street,Dublin 7, Phibsborough, Dublin 7",https://www.daft.ie/share/blessington-street-dublin-7-phibsborough-dublin-7/6125338
+1235,single,House,"Phibsborough Road, Dublin 7, North Circular Road, Dublin 7",https://www.daft.ie/share/phibsborough-road-dublin-7-north-circular-road-dublin-7/6125313
+1235,double,Apartment,"The Rise,Dublin 9, Drumcondra, Dublin 9",https://www.daft.ie/share/the-rise-dublin-9-drumcondra-dublin-9/6125377
+1223,double,Apartment,"The Grove, Goatstown Road, Dublin 14, Goatstown, Dublin 14",https://www.daft.ie/share/the-grove-goatstown-road-dublin-14-goatstown-dublin-14/6147813
+1204,,,"Mayor Square, Mayor Street Lower, IFSC, Dublin 1, Dublin 1",https://www.daft.ie/for-rent/mayor-square-mayor-street-lower-ifsc-dublin-1-ifsc-dublin-1/6035838
+1200,,,"Hazelwood Student Village, North Wood Santry, Santry, Dublin 9",https://www.daft.ie/for-rent/hazelwood-student-village-north-wood-santry-santry-dublin-9/2626696
+1200,double,House,"Albert College Park, Whitehall,  Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/albert-college-park-whitehall-dublin-9-whitehall-dublin-9/6138538
+1200,single,House,"Charleville, 131 Newtownpark Avenue, Blackrock, Co, Blackrock, Co. Dublin",https://www.daft.ie/share/charleville-131-newtownpark-avenue-blackrock-co-blackrock-co-dublin/6148916
+1200,double,House,"12 Annesley Bridge Road, Fairview, Dublin 3",https://www.daft.ie/share/12-annesley-bridge-road-fairview-dublin-3/6124763
+1200,double,House,"Glenomena , Booterstown, Co. Dublin",https://www.daft.ie/share/glenomena-booterstown-co-dublin/6118356
+1200,single,House,"42 Shrewsbury, Dublin 4, Sandymount, Dublin 4",https://www.daft.ie/share/42-shrewsbury-dublin-4-sandymount-dublin-4/6146309
+1200,double,Apartment,"Apartment 16, 99 Capel Street, Dublin 1, Smithfield, Dublin 1",https://www.daft.ie/share/apartment-16-99-capel-street-dublin-1-smithfield-dublin-1/6146047
+1200,single,House,"18 Sandycove Road, Sandycove, Co. Dublin",https://www.daft.ie/share/18-sandycove-road-sandycove-co-dublin/6117835
+1200,single,House,"Clontarf Road, Clontarf, Dublin 3",https://www.daft.ie/share/clontarf-road-clontarf-dublin-3/6141272
+1200,double,Apartment,"Thormanby Rd, Howth, Co. Dublin, Howth, Dublin 13",https://www.daft.ie/share/thormanby-rd-howth-co-dublin-howth-dublin-13/6135981
+1200,double,House,"3 Saint John's Terrace, Mount Brown, Dublin 8, Kilmainham, Dublin 8",https://www.daft.ie/share/3-saint-johns-terrace-mount-brown-dublin-8-kilmainham-dublin-8/6143149
+1200,double,Apartment,"Rosanule, Phoenix Park Racecourse, Castleknock, Dublin 15",https://www.daft.ie/share/rosanule-phoenix-park-racecourse-castleknock-dublin-15/6120356
+1200,double,Apartment,"Clondalkin  , New Grange Hall, Hawthorn Avenue, K, Dublin 1",https://www.daft.ie/share/apartment-22-new-grange-hall-hawthorn-avenue-k-dublin-1/6135021
+1200,double,Apartment,"Apt 1, Fortwilliam, Mount Merrion Avenue, Blackroc, Blackrock, Co. Dublin",https://www.daft.ie/share/apt-1-fortwilliam-mount-merrion-avenue-blackroc-blackrock-co-dublin/6149522
+1200,double,House,"Kilbarron Road,Dublin 5, Kilmore, Dublin 5",https://www.daft.ie/share/kilbarron-road-dublin-5-kilmore-dublin-5/6148854
+1200,double,House,"Bellevue Copse, Booterstown, Co. Dublin",https://www.daft.ie/share/bellevue-copse-booterstown-co-dublin/6137931
+1200,double,Apartment,"365 Wyckham Point Dundrum, Dundrum, Dublin 14",https://www.daft.ie/share/365-wyckham-point-dundrum-dundrum-dublin-14/6001518
+1200,double,Apartment,"Redcourt Oaks, Seafield Road East, Dublin 3, Clontarf, Dublin 3",https://www.daft.ie/share/redcourt-oaks-seafield-road-east-dublin-3-clontarf-dublin-3/6129020
+1200,double,House,"Saint Aidan'S Park Road,Dublin 3, Marino, Dublin 3",https://www.daft.ie/share/saint-aidans-park-road-dublin-3-marino-dublin-3/6146626
+1200,double,House,"Merrion Road, Dublin 4, Ballsbridge, Dublin 4",https://www.daft.ie/share/merrion-road-dublin-4-ballsbridge-dublin-4/6148560
+1200,double,Apartment,"Apartment 37 , Gloucester Square, Railway Street, Dublin 1",https://www.daft.ie/share/apartment-37-gloucester-square-railway-street-dublin-1/6068334
+1200,double,House,"Inchicore Rd, Inchicore, Dublin 8",https://www.daft.ie/share/inchicore-rd-inchicore-dublin-8/6140839
+1200,single,Apartment,"Pembroke Road, Ballsbridge, Dublin 4, Dublin 4",https://www.daft.ie/share/pembroke-road-ballsbridge-dublin-4-dublin-4/6111980
+1200,twin,House,"Short-Term Rental: Master Bedroom in Cherry Lane, Cherrywood (Dublin 18) – June 2025, Cherrywood, Co. Dublin",https://www.daft.ie/share/tully-green-cherrywood-co-dublin/6111604
+1200,single,Apartment,"Slaney House, Custom House Square, Dublin 1, East Wall, Dublin 3",https://www.daft.ie/share/slaney-house-custom-house-square-dublin-1-east-wall-dublin-3/6147111
+1200,single,Apartment,"Greenmount Lane, Dublin 12, Harold's Cross, Dublin 6",https://www.daft.ie/share/greenmount-lane-dublin-12-harolds-cross-dublin-6/6134163
+1200,single,House,"White Oaks, Roebuck Road, Dublin 14, Goatstown, Dublin 14",https://www.daft.ie/share/white-oaks-roebuck-road-dublin-14-goatstown-dublin-14/6133313
+1200,double,Apartment,"Dursey Row,Waterville,Dublin 15, Ballycoolin, Dublin 15",https://www.daft.ie/share/dursey-row-waterville-dublin-15-ballycoolin-dublin-15/6146962
+1200,double,House,"Glenvara Park, Knocklyon, Knocklyon, Dublin 16",https://www.daft.ie/share/glenvara-park-knocklyon-knocklyon-dublin-16/6096288
+1200,double,House,"12 Annesley Bridge Road, Fairview, Dublin 3",https://www.daft.ie/share/12-annesley-bridge-road-fairview-dublin-3/6124760
+1200,double,House,"22 Newtown Avenue, Blackrock, Blackrock, Co. Dublin",https://www.daft.ie/share/22-newtown-avenue-blackrock-blackrock-co-dublin/6144595
+1200,double,Apartment,"Aungier Street, Dublin 2",https://www.daft.ie/share/aungier-street-dublin-2/6101937
+1200,single,House,"30 Trimleston Avenue, Booterstown, Co. Dublin",https://www.daft.ie/share/30-trimleston-avenue-booterstown-co-dublin/6138210
+1200,double,House,"Blackrock Village,Co. Dublin, Blackrock, Co. Dublin",https://www.daft.ie/share/blackrock-village-co-dublin-blackrock-co-dublin/6145761
+1200,double,House,"42 Shrewsbury, Dublin 4, Dublin 4",https://www.daft.ie/share/42-shrewsbury-dublin-4-dublin-4/6031190
+1200,double,Apartment,"Castleforbes Square, Dublin 01, IFSC, Dublin 1",https://www.daft.ie/share/apartment-226-block-e-castleforbes-square-dubli-ifsc-dublin-1/6143150
+1200,double,House,"Annfield View, Castleknock, Dublin 15",https://www.daft.ie/share/annfield-view-castleknock-dublin-15/6071577
+1200,double,House,"Donnybrook, Dublin 4, Donnybrook, Dublin 4",https://www.daft.ie/share/7-beech-hill-crescent-dublin-4-donnybrook-dublin-4/6059417
+1200,double,Apartment,"Apartment 53, The Willow, Parkview, Dublin 18, Sandyford, Dublin 18",https://www.daft.ie/share/apartment-53-the-willow-parkview-dublin-18-sandyford-dublin-18/6141006
+1200,double,Apartment,"Castleforbes Square, Dublin 1, D01., IFSC, Dublin 1",https://www.daft.ie/share/dock-lands-dublin-1-ifsc-dublin-1/6096911
+1200,double,House,"173 Saint Margaret'S Road, Hampton Wood, Dublin 11, Poppintree, Dublin 11",https://www.daft.ie/share/173-saint-margarets-road-hampton-wood-dublin-11-poppintree-dublin-11/6113920
+1198,double,House,"The Rise, Dublin 9, Drumcondra, Dublin 9",https://www.daft.ie/share/the-rise-dublin-9-drumcondra-dublin-9/6143629
+1195,double,Apartment,"Apartment, The Laburnum, Knockrabo Court, Mount , Mount Merrion, Co. Dublin",https://www.daft.ie/share/apartment-the-laburnum-knockrabo-court-mount-mount-merrion-co-dublin/6134984
+1195,double,Apartment,"The Malthouse,Marrowbone Lane,Dublin 8, The Coombe, Dublin 8",https://www.daft.ie/share/the-malthouse-marrowbone-lane-dublin-8-the-coombe-dublin-8/6124953
+1195,twin,Apartment,"29 Oatlands Manor, Mount Merrion, Blackrock, Mount Merrion, Co. Dublin",https://www.daft.ie/share/29-oatlands-manor-mount-merrion-blackrock-mount-merrion-co-dublin/6091943
+1195,single,House,"Emmet Street Dublin, Dublin 1",https://www.daft.ie/share/emmet-street-dublin-dublin-1/6026532
+1190,double,House,"4 Coke Oven Cottages, Glasnevin, Dublin 11",https://www.daft.ie/share/4-coke-oven-cottages-glasnevin-dublin-11/6149527
+1190,single,Apartment,"Gallery Quay Pharmacy, Unit G6, Block 11, Gallery , Grand Canal Dock, Dublin 2",https://www.daft.ie/share/gallery-quay-pharmacy-unit-g6-block-11-gallery-grand-canal-dock-dublin-2/6146883
+1190,double,House,"Belarmine, Sandyford, Dublin 18, Sandyford, Dublin 18",https://www.daft.ie/share/belarmine-sandyford-dublin-18-sandyford-dublin-18/6092978
+1188,,,"Stoneybatter Place, Rope Walk, 20 Stoneybatter, Dublin 7, D07 NP2K, Dublin 7",https://www.daft.ie/for-rent/stoneybatter-place-rope-walk-20-stoneybatter-dublin-7-d07-np2k-dublin-7/6139765
+1175,double,House,"Valentia Parade, Phibsborough D7, North Circular Road, Dublin 7",https://www.daft.ie/share/valentia-parade-phibsborough-d7-north-circular-road-dublin-7/6092718
+1170,double,House,"3 Saint John'S Terrace, Mount Brown, Dublin 8, Kilmainham, Dublin 8",https://www.daft.ie/share/3-saint-johns-terrace-mount-brown-dublin-8-kilmainham-dublin-8/6146794
+1166,double,Apartment,"78 Grange Abbey Grove, Grange Abbey, Dublin 13, Donaghmede, Dublin 13",https://www.daft.ie/share/78-grange-abbey-grove-grange-abbey-dublin-13-donaghmede-dublin-13/6051329
+1166,double,House,"Killart, Cabinteely, Dublin 18",https://www.daft.ie/share/killart-cabinteely-dublin-18/6077318
+1165,double,House,"Rathborne Boulevard, Ashtown, Dublin 15, Ashtown, Dublin 15",https://www.daft.ie/share/rathborne-boulevard-ashtown-dublin-15-ashtown-dublin-15/6127453
+1160,,,"Montrose, Stillorgan Rd, Dublin, D04 AE48, Stillorgan, Co. Dublin",https://www.daft.ie/for-rent/montrose-stillorgan-rd-dublin-d04-ae48-stillorgan-co-dublin/6149850
+1160,double,,"Silver Ensuite, Montrose, Stillorgan Rd, Dublin, D04 AE48, Stillorgan, Co. Dublin",https://www.daft.ie/share/silver-ensuite-montrose-stillorgan-rd-dublin-d04-ae48-stillorgan-co-dublin/6149849
+1157,double,Apartment,"Merrion Court Apartments Complex, Ailesbury Road, Dublin 4, Sandymount, Dublin 4",https://www.daft.ie/share/merrion-court-apartments-complex-ailesbury-road-dublin-4-sandymount-dublin-4/6129110
+1150,double,Apartment,"2 Blessington Street, Dublin 7, Dublin 7",https://www.daft.ie/share/2-blessington-street-dublin-7-dublin-7/6143011
+1150,double,House,"Lakelands Park,Dublin 6w, Terenure, Dublin 6W",https://www.daft.ie/share/lakelands-park-dublin-6w-terenure-dublin-6w/6146453
+1150,double,House,"Belgrave Square, Monkstown, Co. Dublin",https://www.daft.ie/share/belgrave-square-monkstown-co-dublin/6132658
+1150,double,Apartment,"Westland Square complex, Pearse Street, Dublin City Centre",https://www.daft.ie/share/-westland-square-complex-pearse-street-dublin-city-centre/6128257
+1150,double,Apartment,"The Cubes 3, Beacon South Quarter, Dublin 18, Stillorgan, Co. Dublin",https://www.daft.ie/share/the-cubes-3-beacon-south-quarter-dublin-18-stillorgan-co-dublin/6134097
+1150,double,Apartment,"Cows Lane, Dublin 8, Temple Bar, Dublin 8",https://www.daft.ie/share/cows-lane-dublin-8-temple-bar-dublin-8/6136556
+1150,single,House,"Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/dublin-18-leopardstown-dublin-18/6062492
+1150,double,Apartment,"102 Cornmill, Distillery Road, Dublin 3, Drumcondra, Dublin 3",https://www.daft.ie/share/102-cornmill-distillery-road-dublin-3-drumcondra-dublin-3/6149524
+1150,double,House,"Fishermans Wharf, York Road, Ringsend, Dublin 4, Ringsend, Dublin 4",https://www.daft.ie/share/fishermans-wharf-york-road-ringsend-dublin-4-ringsend-dublin-4/6132178
+1150,double,House,"The Gallops, Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/-the-gallops-dublin-18-leopardstown-dublin-18/6106741
+1150,double,House,"145 Cromwellsfort Road, Walkinstown, Dublin 12",https://www.daft.ie/share/145-cromwellsfort-road-walkinstown-dublin-12/6147338
+1150,double,House,"145 Cromwellsfort Road, Walkinstown, Dublin 12",https://www.daft.ie/share/145-cromwellsfort-road-walkinstown-dublin-12/6149082
+1150,single,House,"Blacquiere Villas, Phibsborough, Dublin 7",https://www.daft.ie/share/blacquiere-villas-phibsborough-dublin-7/6133541
+1150,single,House,"4 Blacquiere Villas, Phibsborough, Dublin 7",https://www.daft.ie/share/4-blacquiere-villas-phibsborough-dublin-7/6147435
+1150,double,House,"Kilcarbery Grange, Dublin 22, Baldonnell, Dublin 22",https://www.daft.ie/share/kilcarbery-grange-dublin-22-baldonnell-dublin-22/6139921
+1150,single,Apartment,"Apartment 90 , Millrace Road, Phoenix Park Racecou, Navan Road (D7), Dublin 7",https://www.daft.ie/share/apartment-90-millrace-road-phoenix-park-racecou-navan-road-d7-dublin-7/6068397
+1150,double,House,"9 Whitebeam Avenue, Dublin 14, Milltown, Dublin 6",https://www.daft.ie/share/9-whitebeam-avenue-dublin-14-milltown-dublin-6/6128959
+1150,double,Apartment,"Forbes Quay Apartments, Grand Canal, Grand Canal Dock, Dublin 2",https://www.daft.ie/share/forbes-quay-apartments-grand-canal-grand-canal-dock-dublin-2/6141559
+1150,double,House,"Kilmartin Grove, Hollystown, Hollystown, Dublin 15",https://www.daft.ie/share/30-the-courtyard-kilmartin-grove-hollystown-dub-hollystown-dublin-15/6117341
+1150,single,Apartment,"Dromawling, Beaumont, Dublin 9, Beaumont, Dublin 9",https://www.daft.ie/share/dromawling-beaumont-dublin-9-beaumont-dublin-9/6146599
+1150,double,House,"26 Wainsfort Manor Crescent, Dublin 6w, Kimmage, Dublin 6W",https://www.daft.ie/share/26-wainsfort-manor-crescent-dublin-6w-kimmage-dublin-6w/6105195
+1150,double,Apartment,"The Alliance, Grand Canal Dock, Dublin 4",https://www.daft.ie/share/the-alliance-grand-canal-dock-dublin-4/6144598
+1150,double,Apartment,"Smithfield,Dublin 7, Dublin 7",https://www.daft.ie/share/smithfield-dublin-7-dublin-7/6142498
+1136,single,,"Silver Ensuite, Bonham Street, Bonham Street, Dublin 8, Dublin 8",https://www.daft.ie/share/silver-ensuite-bonham-street-bonham-street-dublin-8-dublin-8/5459569
+1130,double,Apartment,"Building 9 Vantage West,Central Park,Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/building-9-vantage-west-central-park-dublin-18-leopardstown-dublin-18/6057640
+1125,single,House,"Beech Hill Drive, Dublin 4, Donnybrook, Dublin 4",https://www.daft.ie/share/beech-hill-drive-dublin-4-donnybrook-dublin-4/6113753
+1120,double,House,"18 Brookwood Rise,Dublin 5, Killester, Dublin 5",https://www.daft.ie/share/brookwood-rise-dublin-5-killester-dublin-5/6047828
+1110,double,House,"Summerhill Parade, North Circular Road, Dublin 1",https://www.daft.ie/share/summerhill-parade-north-circular-road-dublin-1/6148207
+1100,double,House,"242 Lower Kilmacud Road, Dublin 14, Kilmacud, Co. Dublin",https://www.daft.ie/share/242-lower-kilmacud-road-dublin-14-kilmacud-co-dublin/6052490
+1100,double,House,"Westminster Road, Foxrock, Dublin 18, Foxrock, Dublin 18",https://www.daft.ie/share/westminster-road-foxrock-dublin-18-foxrock-dublin-18/6106378
+1100,double,Apartment,"The Stockyard, The Steelworks, Foley St, Dublin City Centre",https://www.daft.ie/share/-the-stockyard-the-steelworks-foley-st-dublin-city-centre/6122776
+1100,double,House,"Collegefort, Castleknock, Dublin 15, Strawberry Beds, Co. Dublin",https://www.daft.ie/share/collegefort-castleknock-dublin-15-strawberry-beds-co-dublin/6138283
+1100,double,Apartment,"Brennanstown Square, Cabinteely, Dublin 18, Cabinteely, Dublin 18",https://www.daft.ie/share/brennanstown-square-cabinteely-dublin-18-cabinteely-dublin-18/6142657
+1100,single,Apartment,"Smithfield Market, Smithfield, Dublin 7",https://www.daft.ie/share/smithfield-market-smithfield-dublin-7/6143493
+1100,double,House,"Flat 1 , 46a Grove Park, Dublin 6, Rathmines, Dublin 6",https://www.daft.ie/share/flat-1-46a-grove-park-dublin-6-rathmines-dublin-6/6122835
+1100,double,House,"Castlegrange, Hansfield Road, Blanchardstown, Dublin 15",https://www.daft.ie/share/castlegrange-hansfield-road-blanchardstown-dublin-15/5523001
+1100,double,House,"Room to let Dublin 7, Navan Road (D7), Dublin 7",https://www.daft.ie/share/room-to-let-dublin-7-navan-road-d7-dublin-7/6146976
+1100,double,Apartment,"Castleforbes Square,Dublin 1, IFSC, Dublin 1",https://www.daft.ie/share/castleforbes-square-dublin-1-ifsc-dublin-1/6122647
+1100,double,House,"Cabra, Phibsborough, Dublin 7",https://www.daft.ie/share/cabra-phibsborough-dublin-7/6136489
+1100,double,House,"Russell House, Russell Avenue, Dublin 3, Drumcondra, Dublin 3",https://www.daft.ie/share/russell-house-russell-avenue-dublin-3-drumcondra-dublin-3/6135557
+1100,double,House,"Casimir Road, Harold's Cross, Dublin 6",https://www.daft.ie/share/casimir-road-harolds-cross-dublin-6/6133277
+1100,double,Apartment,"Wintergarden, Erne Street, Grand Canal Dock, Dublin 2",https://www.daft.ie/share/wintergarden-erne-street-grand-canal-dock-dublin-2/6134046
+1100,double,Apartment,"Islandbridge, Dublin 8 , Kilmainham, Dublin 8",https://www.daft.ie/share/islandbridge-dublin-8-kilmainham-dublin-8/6131470
+1100,double,House,"Churchlands, Sandyford village, Dublin 18., Sandyford, Dublin 18",https://www.daft.ie/share/-churchlands-sandyford-village-dublin-18-sandyford-dublin-18/6148992
+1100,double,House,"Kickham road, Inchicore, Dublin 8",https://www.daft.ie/share/91-kickham-road-dublin-8-inchicore-dublin-8/6104287
+1100,double,House,"James Walk, Rialto, Dublin 8",https://www.daft.ie/share/james-walk-rialto-dublin-8/6123367
+1100,single,Apartment,"131a Galtymore Road, Dublin 12, Drimnagh, Dublin 12",https://www.daft.ie/share/131a-galtymore-road-dublin-12-drimnagh-dublin-12/6096993
+1100,double,Apartment,"Spencer Dock, North Wall Quay, IFSC, Dublin 1",https://www.daft.ie/share/spencer-dock-north-wall-quay-ifsc-dublin-1/6094319
+1100,double,House,"Dromheath Avenue, Mulhuddart, Dublin 15, Mulhuddart, Dublin 15",https://www.daft.ie/share/dromheath-avenue-mulhuddart-dublin-15-mulhuddart-dublin-15/6142672
+1100,double,House,"Cedarmount Road, Mount Merrion, Co. Dublin",https://www.daft.ie/share/cedarmount-road-mount-merrion-co-dublin/6147255
+1100,double,House,"211 Brandon Road, Drimnagh, Dublin 12",https://www.daft.ie/share/211-brandon-road-drimnagh-dublin-12/6101116
+1100,double,House,"Saint Finbarrs, 134 Morehampton Road, Dublin 4, Donnybrook, Dublin 4",https://www.daft.ie/share/saint-finbarrs-134-morehampton-road-dublin-4-donnybrook-dublin-4/6128719
+1100,single,Apartment,"Hogan Avenue, Dublin 2, Grand Canal Dock, Dublin 2",https://www.daft.ie/share/-hogan-avenue-dublin-2-grand-canal-dock-dublin-2/6146998
+1100,double,Apartment,"Dublin 18, Sandyford, Cherrywood, Co. Dublin",https://www.daft.ie/share/dublin-18-sandyford-cherrywood-co-dublin/6137141
+1100,double,Apartment,"Tory Square, Waterville, Dublin 15, Ballycoolin, Dublin 15",https://www.daft.ie/share/tory-square-waterville-dublin-15-ballycoolin-dublin-15/6146723
+1100,double,Apartment,"The Elm, Parkview, Dublin 18, Stepaside, Dublin 18",https://www.daft.ie/share/the-elm-parkview-dublin-18-stepaside-dublin-18/6102912
+1100,double,Apartment,"Mimosa Hall, Levmoss Park, Leopardstown, Dublin 18",https://www.daft.ie/share/mimosa-hall-levmoss-park-leopardstown-dublin-18/6046537
+1100,single,Apartment,"wyckham way, Ballinteer, Dublin 16",https://www.daft.ie/share/wyckham-way-ballinteer-dublin-16/6093066
+1100,double,House,"Hansfield , Ongar, Dublin 15",https://www.daft.ie/share/hansfield-ongar-dublin-15/6091349
+1100,double,House,"Garville Drive, Rathgar, Rathgar, Dublin 6",https://www.daft.ie/share/garville-drive-rathgar-rathgar-dublin-6/6143970
+1100,single,House,"All Hallows Square, Drumcondra, Dublin 9",https://www.daft.ie/share/all-hallows-square-drumcondra-dublin-9/6069565
+1100,double,House,"Scholarstown Park, Knocklyon, Dublin 16",https://www.daft.ie/share/-scholarstown-park-knocklyon-dublin-16/6122796
+1100,double,House,"Saint Mark'S Avenue,Dublin 22, Ronanstown, Co. Dublin",https://www.daft.ie/share/saint-marks-avenue-dublin-22-ronanstown-co-dublin/6143134
+1100,single,Apartment,"83 Rosemount Avenue, Dublin 5, Artane, Dublin 5",https://www.daft.ie/share/83-rosemount-avenue-dublin-5-artane-dublin-5/6097339
+1100,double,House,"Townsend Street, Dublin 2",https://www.daft.ie/share/townsend-street-dublin-2/6093495
+1100,single,House,"2 Willow Wood View, Hartstown, Dublin 15, Hartstown, Dublin 15",https://www.daft.ie/share/2-willow-wood-view-hartstown-dublin-15-hartstown-dublin-15/6074675
+1100,single,House,"23 Hughes Road North, Dublin 12, Crumlin, Dublin 12",https://www.daft.ie/share/23-hughes-road-north-dublin-12-crumlin-dublin-12/6129317
+1095,double,House,"20 Avenue Road, Portobello, Dublin 8",https://www.daft.ie/share/20-avenue-road-portobello-dublin-8/6036612
+1095,double,House,"Fairview Strand, Fairview, Dublin 3",https://www.daft.ie/share/fairview-strand-fairview-dublin-3/6116366
+1092,single,Apartment,"Yugo, Ardcairn House, 8 Grangegorman Lower, Dublin, Smithfield, Dublin 7",https://www.daft.ie/share/yugo-ardcairn-house-8-grangegorman-lower-dublin-smithfield-dublin-7/6035256
+1090,double,House,"Pearse Street, Grand Canal Dock, Dublin 2",https://www.daft.ie/share/pearse-street-grand-canal-dock-dublin-2/6138696
+1085,double,Apartment,"Charlotte Apartments, Honeypark, Dun Laoghaire, Co. Dublin, Dun Laoghaire, Co. Dublin",https://www.daft.ie/share/charlotte-apartments-honeypark-dun-laoghaire-co-dublin-dun-laoghaire-co-dublin/6041697
+1084,double,Apartment,"Apartment 134, Cheevers Court, Cualanor, Dun Laogh, Glenageary, Co. Dublin",https://www.daft.ie/share/apartment-134-cheevers-court-cualanor-dun-laogh-glenageary-co-dublin/6138098
+1080,double,House,"Castlecurragh Heath,Mulhuddart,Dublin 15, Mulhuddart, Dublin 15",https://www.daft.ie/share/castlecurragh-heath-mulhuddart-dublin-15-mulhuddart-dublin-15/6147015
+1080,double,Apartment,"16 King's Inns Street,Dublin 1, Dublin 1",https://www.daft.ie/share/16-kings-inns-street-dublin-1-dublin-1/6105586
+1060,single,House,"**STUDENT ACCOMMODATION** - Kilmore & Cill Dara Houses, Reach Campus, Navan Road, D07 KNV3, Navan Road (D7), Dublin 7",https://www.daft.ie/share/-student-accommodation-kilmore-cill-dara-houses-reach-campus-navan-road-d07-knv3-navan-road-d7-dublin-7/6137143
+1056,single,Apartment,"Merrion Court Apartments, Sandymount, Dublin 4",https://www.daft.ie/share/merrion-court-apartments-sandymount-dublin-4/6114518
+1050,double,House,"104 Tyrconnell Road, Dublin 8, Inchicore, Dublin 8",https://www.daft.ie/share/104-tyrconnell-road-dublin-8-inchicore-dublin-8/6148218
+1050,single,House,"Rosemount Road, Phibsborough, Dublin 7",https://www.daft.ie/share/rosemount-road-phibsborough-dublin-7/6133343
+1050,double,Apartment,"The George,Charlotte Quay Dock,Ringsend Road,Dublin 4, Grand Canal Dock, Dublin 4",https://www.daft.ie/share/the-george-charlotte-quay-dock-ringsend-road-dublin-4-grand-canal-dock-dublin-4/6138548
+1050,double,House,"Holywell, Kilmacud Road Upper, Dublin 14, Kilmacud, Co. Dublin",https://www.daft.ie/share/holywell-kilmacud-road-upper-dublin-14-kilmacud-co-dublin/6149122
+1050,single,Apartment,"Bellevue Avenue, Glenageary, Glenageary, Co. Dublin",https://www.daft.ie/share/bellevue-avenue-glenageary-glenageary-co-dublin/6148566
+1050,double,House,"Baggot Street Upper, Ballsbridge, Dublin 4",https://www.daft.ie/share/baggot-street-upper-ballsbridge-dublin-4/6146175
+1050,double,House,"Mulgrave Street, Dun Laoghaire, Co. Dub, Dun Laoghaire, Co. Dublin",https://www.daft.ie/share/mulgrave-street-dun-laoghaire-co-dub-dun-laoghaire-co-dublin/6051764
+1050,double,Apartment,"Chesterfield, Riverpark Apartments, Conyngham Road, Islandbridge, Dublin 8",https://www.daft.ie/share/apartment-51-chesterfield-riverpark-apartments-islandbridge-dublin-8/6132424
+1050,double,Apartment,"Discovery, Royal Canal Park, Dublin 15",https://www.daft.ie/share/discovery-royal-canal-park-dublin-15/6139109
+1050,double,Apartment,"Belfort House Sydenham Villas, Dundrum, Dublin 14",https://www.daft.ie/share/belfort-house-sydenham-villas-dundrum-dublin-14/6074606
+1050,double,Apartment,"East Road, East Wall, Dublin 3, North Wall, Dublin 1",https://www.daft.ie/share/east-road-east-wall-dublin-3-north-wall-dublin-1/6061476
+1045,double,Apartment,"Ardee Street, The Liberties, Dublin 8, The Coombe, Dublin 8",https://www.daft.ie/share/ardee-street-the-liberties-dublin-8-the-coombe-dublin-8/6135352
+1040,double,House,"Dublin 8, Kilmainham, Dublin 8",https://www.daft.ie/share/dublin-8-kilmainham-dublin-8/6101911
+1040,double,House,"Jamestown Road, Dublin 8",https://www.daft.ie/share/jamestown-road-dublin-8/6143948
+1040,double,House,"Jamestown Road, Inchicore, Dublin 8",https://www.daft.ie/share/jamestown-road-inchicore-dublin-8/6148171
+1025,double,Apartment,"Wellington Lodge, Serpentine Avenue, Sandymount, Dublin 4",https://www.daft.ie/share/wellington-lodge-serpentine-avenue-sandymount-dublin-4/6143282
+1020,,,"Hazelwood Accommodation, Northwood, Santry, Dublin 9",https://www.daft.ie/for-rent/hazelwood-accommodation-northwood-santry-dublin-9/3741188
+1005,double,Apartment,"Crosbie House, Northbrook Avenue, Dublin 6, Ranelagh, Dublin 6",https://www.daft.ie/share/crosbie-house-northbrook-avenue-dublin-6-ranelagh-dublin-6/6097391
+1000,,,"Mayor Square, Mayor Street Lower, IFSC, Dublin 1, Dublin 1",https://www.daft.ie/for-rent/mayor-square-mayor-street-lower-ifsc-dublin-1-ifsc-dublin-1/6035838
+1000,double,Apartment,"Apartment 17, Dundrum View, The Laurels, Sweetmoun, Dundrum, Dublin 14",https://www.daft.ie/share/apartment-17-dundrum-view-the-laurels-sweetmoun-dundrum-dublin-14/6150154
+1000,double,House,"Belfry Grove, Citywest, Co. Dublin",https://www.daft.ie/share/belfry-grove-citywest-co-dublin/6096294
+1000,double,Apartment,"harolds Cross Road Dublin 6w, Harold's Cross, Dublin 6W",https://www.daft.ie/share/harolds-cross-road-dublin-6w-harolds-cross-dublin-6w/6133206
+1000,double,Apartment,"Apartment, The Richmond,Brunswick Street North,Dublin 7, Smithfield, Dublin 7",https://www.daft.ie/share/apartment-the-richmond-brunswick-street-north-dublin-7-smithfield-dublin-7/6147130
+1000,double,House,"Laraghcon, Lucan, Lucan, Co. Dublin",https://www.daft.ie/share/laraghcon-lucan-lucan-co-dublin/5967109
+1000,double,House,"83 Old County Glen, Old County Road, Dublin 12, Crumlin, Dublin 12",https://www.daft.ie/share/83-old-county-glen-old-county-road-dublin-12-crumlin-dublin-12/6117661
+1000,double,Apartment,"Apartment 15 , Airpark House, Stocking Lane, Rathf, Edmondstown, Dublin 16",https://www.daft.ie/share/apartment-15-airpark-house-stocking-lane-rathf-edmondstown-dublin-16/6126698
+1000,single,House,"73 Pembroke Gardens, Dublin 4, Ballsbridge, Dublin 4",https://www.daft.ie/share/73-pembroke-gardens-dublin-4-ballsbridge-dublin-4/6112142
+1000,single,House,"91 Donnycarney Road, Dublin 9, Donnycarney, Dublin 9",https://www.daft.ie/share/91-donnycarney-road-dublin-9-donnycarney-dublin-9/6117537
+1000,double,Apartment,"Alexander House, Belgard Square North, Dublin 24, Tallaght, Dublin 24",https://www.daft.ie/share/alexander-house-belgard-square-north-dublin-24-tallaght-dublin-24/6148680
+1000,single,Apartment,"58 Bolton Street, Dublin 1, Phibsborough, Dublin 7",https://www.daft.ie/share/58-bolton-street-dublin-1-phibsborough-dublin-7/6114488
+1000,double,House,"Oliver Plunkett Avenue,Dun Laoghaire,Co. Dublin, Monkstown, Co. Dublin",https://www.daft.ie/share/oliver-plunkett-avenue-dun-laoghaire-co-dublin-monkstown-co-dublin/6113619
+1000,double,House,"Lennox Place, Dublin 8, Portobello, Dublin 8",https://www.daft.ie/share/lennox-place-dublin-8-portobello-dublin-8/6141593
+1000,double,Apartment,"Dublin 16, Kilmacud, Co. Dublin",https://www.daft.ie/share/dublin-16-kilmacud-co-dublin/6112191
+1000,single,Apartment,"The Timber Mill,Kilmore Road,Dublin 5, Artane, Dublin 5",https://www.daft.ie/share/the-timber-mill-kilmore-road-dublin-5-artane-dublin-5/6133338
+1000,double,Apartment,"Apartment 44, South Gate Apartments, Cork Street, The Coombe, Dublin 8",https://www.daft.ie/share/apartment-44-south-gate-apartments-cork-street-the-coombe-dublin-8/6145150
+1000,double,House,"1 Wellpark Avenue, Dublin 9, Drumcondra, Dublin 9",https://www.daft.ie/share/1-wellpark-avenue-dublin-9-drumcondra-dublin-9/6129334
+1000,double,Apartment,"Fontenoy Street, Dublin 7, Phibsborough, Dublin 7",https://www.daft.ie/share/fontenoy-street-dublin-7-phibsborough-dublin-7/6046445
+1000,double,House,"Clonsilla,Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/clonsilla-dublin-15-clonsilla-dublin-15/6149627
+1000,double,House,"Glenbourne, Leopardstown Valley, Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/glenbourne-leopardstown-valley-dublin-18-leopardstown-dublin-18/6149543
+1000,single,House,"Huntstown Ave, Clonsilla, Dublin 15",https://www.daft.ie/share/huntstown-ave-clonsilla-dublin-15/6105237
+1000,double,Apartment,"Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/dublin-18-leopardstown-dublin-18/6066665
+1000,double,Apartment,"Cremorne, Terenure, Dublin 6, Terenure, Dublin 6",https://www.daft.ie/share/cremorne-terenure-dublin-6-terenure-dublin-6/6120560
+1000,double,Apartment,"Burnell Court, Mayne River street, Malahide Rd, Northern Cross",https://www.daft.ie/share/burnell-court-mayne-river-street-malahide-rd/6141086
+1000,double,House,"Broadford, Ballinteer, Dublin 16",https://www.daft.ie/share/broadford-dublin-16-ballinteer-dublin-16/6118649
+1000,single,House,"Dublin 5, Artane, Dublin 5",https://www.daft.ie/share/dublin-5-artane-dublin-5/6118630
+1000,single,House,"202 Pace Avenue, Dublin 15, Clonee, Dublin 15",https://www.daft.ie/share/202-pace-avenue-dublin-15-clonee-dublin-15/6148079
+1000,double,House,"Greystones City/Wicklow 20 min from Shankill/Dubli, Shankill, Dublin 18",https://www.daft.ie/share/greystones-city-wicklow-20-min-from-shankill-dubli-shankill-dublin-18/6098736
+1000,double,House,"Collins Park, Beaumont, Dublin 9, Beaumont, Dublin 9",https://www.daft.ie/share/collins-park-beaumont-dublin-9-beaumont-dublin-9/6060596
+1000,double,House,"Broadford, Ballinteer, Dublin 16",https://www.daft.ie/share/broadford-ballinteer-dublin-16/6147878
+1000,double,House,"Barry Road Finglas Dublin 11, Finglas, Dublin 11",https://www.daft.ie/share/barry-road-finglas-dublin-11-finglas-dublin-11/6049615
+1000,double,House,"63 Anner Road, Dublin 8, Inchicore, Dublin 8",https://www.daft.ie/share/63-anner-road-dublin-8-inchicore-dublin-8/6148182
+1000,double,House,"Kilcarbery Grange, Grange Castle, Co. Dublin",https://www.daft.ie/share/23-rowan-walk-kilcarbery-dublin-22-grange-castle-co-dublin/6106680
+1000,double,House,"Aikens Village,Dublin 18, Stepaside, Dublin 18",https://www.daft.ie/share/aikens-village-dublin-18-stepaside-dublin-18/6098582
+1000,double,Apartment,"Compass Court North, Pelletstown Av, Royal Canal Park, Dublin 15",https://www.daft.ie/share/-compass-court-north-pelletstown-av-royal-canal-park-dublin-15/5988257
+1000,double,House,"Saint Mochta's Estate, Clonsilla, Dublin 15, Porterstown, Dublin 15",https://www.daft.ie/share/saint-mochtas-estate-clonsilla-dublin-15-porterstown-dublin-15/6128766
+1000,double,House,"Greenmount Lawns, Rathgar, Dublin 6",https://www.daft.ie/share/greenmount-lawns-rathgar-dublin-6/6124200
+1000,single,Apartment,"Portland Lock, Dublin 1",https://www.daft.ie/share/portland-lock-dublin-1/6147045
+1000,double,Apartment,"Apartment 14, O'Casey Hall, Collegewood, Castlekno, Castleknock, Dublin 15",https://www.daft.ie/share/apartment-14-ocasey-hall-collegewood-castlekno-castleknock-dublin-15/6104847
+1000,double,House,"5 Mountpleasant Avenue Lower, Dublin 6, Ranelagh, Dublin 6",https://www.daft.ie/share/5-mountpleasant-avenue-lower-dublin-6-ranelagh-dublin-6/6140049
+1000,double,Apartment,"Barrow st, Grand Canal Dock, Grand Canal Dock, Dublin 4",https://www.daft.ie/share/gaswork-barrow-st-grand-canal-dock-dublin-4/6146074
+1000,double,Apartment,"Creevagh House, Dundrum Road, Dundrum, Windy Arbour, Dublin 14",https://www.daft.ie/share/creevagh-house-dundrum-road-dundrum-windy-arbour-dublin-14/6138265
+1000,double,Apartment,"Clongriffin,Dublin 13, Clongriffin, Dublin 13",https://www.daft.ie/share/clongriffin-dublin-13-clongriffin-dublin-13/6146573
+1000,double,House,"Tyrrelstown, Bealing Village, Dublin 15, Tyrrelstown, Dublin 15",https://www.daft.ie/share/23-bealing-crescent-bealing-village-dublin-15-tyrrelstown-dublin-15/6136667
+1000,double,House,"Brighton Gardens, Dublin 6, Rathgar, Dublin 6",https://www.daft.ie/share/brighton-gardens-dublin-6-rathgar-dublin-6/6129057
+1000,double,House,"Eaton Square, Terenure, Dublin 6W",https://www.daft.ie/share/eaton-square-terenure-dublin-6w/6145597
+1000,double,House,"Bishop Street, Loughlinstown, Co. Dublin",https://www.daft.ie/share/bishop-street-loughlinstown-co-dublin/6144655
+1000,double,House,"Brian Road Marino, Marino, Dublin 3",https://www.daft.ie/share/brian-road-marino-marino-dublin-3/6144466
+1000,double,House,"The Coast,Dublin 13, Baldoyle, Dublin 13",https://www.daft.ie/share/the-coast-dublin-13-baldoyle-dublin-13/6009612
+1000,double,House,"Stoneybatter, Dublin 7, Arbour Hill, Dublin 7",https://www.daft.ie/share/stoneybatter-dublin-7-arbour-hill-dublin-7/6133228
+1000,single,House,"Sion Hill Road, Drumcondra, Dublin 9",https://www.daft.ie/share/sion-hill-road-drumcondra-dublin-9/6103296
+1000,single,Apartment,"1 Brunswick Court, North Brunswick St., Dublin 7, Stoneybatter, Dublin 7",https://www.daft.ie/share/1-brunswick-court-north-brunswick-st-dublin-7-stoneybatter-dublin-7/6101765
+1000,double,Apartment,"Apartment 16, Alexandra Place, East Road, Dublin 3, North Wall, Dublin 1",https://www.daft.ie/share/apartment-16-alexandra-place-east-road-dublin-3-north-wall-dublin-1/6142630
+1000,double,House,"100 saint Aidan’s drive, Goatstown, Dublin 14",https://www.daft.ie/share/100-saint-aidan-s-drive-goatstown-dublin-14/6113790
+1000,double,House,"72 Foxrock Manor, Dublin 18, Foxrock, Dublin 18",https://www.daft.ie/share/72-foxrock-manor-dublin-18-foxrock-dublin-18/6069977
+1000,double,Apartment,"Wyckham Point,Wyckham Way,Dundrum,Dublin 16, Ballinteer, Dublin 16",https://www.daft.ie/share/wyckham-point-wyckham-way-dundrum-dublin-16-ballinteer-dublin-16/6122212
+1000,double,House,"2 Addison Road, Fairview, Dublin 3",https://www.daft.ie/share/2-addison-road-fairview-dublin-3/5586413
+1000,double,Apartment,"Apartment Harbour View,Harbour Square,Crofton Road,Dun Laoghaire,Co. Dublin, Dun Laoghaire, Co. Dublin",https://www.daft.ie/share/apartment-harbour-view-harbour-square-crofton-road-dun-laoghaire-co-dublin-dun-laoghaire-co-dublin/6140193
+1000,double,Apartment,"Compass Court South, Ashtown, Dublin 15, Royal Canal Park, Dublin 15",https://www.daft.ie/share/compass-court-south-royal-canal-park-dublin-15-royal-canal-park-dublin-15/6129576
+1000,double,House,"Kill Avenune, Dun Laoghaire, Co. Dublin",https://www.daft.ie/share/kill-avenune-dun-laoghaire-co-dublin/6139963
+996,double,House,"Richmond Crescent,Dublin 1, Ballybough, Dublin 3",https://www.daft.ie/share/richmond-crescent-dublin-1-ballybough-dublin-3/6066264
+995,single,House,"Belgrave Square, Monkstown, Co. Dublin",https://www.daft.ie/share/belgrave-square-monkstown-co-dublin/6133289
+995,double,House,"Herbert Street, Ballsbridge, Dublin 4",https://www.daft.ie/share/herbert-street-ballsbridge-dublin-4/5315172
+990,single,Apartment,"Block D, Castleforbes Square, North Dock, Dublin 1",https://www.daft.ie/share/block-d-castleforbes-square-north-dock-dublin-1/6147132
+990,single,House,"Killarney Street, Dublin 1",https://www.daft.ie/share/killarney-street-dublin-1/6108517
+985,single,Apartment,"Sherborne,26 Aungier Street,Dublin 2, Dublin 2",https://www.daft.ie/share/sherborne-26-aungier-street-dublin-2-dublin-2/6118658
+985,double,Apartment,"Surehaven Lawn, Phoenix Park Racecourse, Dublin 15, Navan Road (D7), Dublin 7",https://www.daft.ie/share/surehaven-lawn-phoenix-park-racecourse-dublin-15-navan-road-d7-dublin-7/6068225
+980,double,House,"Laurel Manor,Rathfarnham,Dublin 16, Ballyboden, Dublin 16",https://www.daft.ie/share/laurel-manor-rathfarnham-dublin-16-ballyboden-dublin-16/6146792
+980,double,House,"Grace Park Wood , Drumcondra, Dublin 3",https://www.daft.ie/share/grace-park-wood-drumcondra-dublin-3/6147841
+980,double,Apartment,"York Rd, Ringsend, Dublin 4",https://www.daft.ie/share/york-rd-ringsend-dublin-4/6133195
+980,double,Apartment,"Swan Hall,Belgard Square,Belgard Square West,Dublin 24, Tallaght, Dublin 24",https://www.daft.ie/share/swan-hall-belgard-square-belgard-square-west-dublin-24-tallaght-dublin-24/6033456
+980,double,Apartment,"Apartment ,King'S Court,Parnell Street,Dublin 1, Dublin 1",https://www.daft.ie/share/apartment-kings-court-parnell-street-dublin-1-dublin-1/6104928
+980,double,Apartment,"Wyckham Point, Dundrum, Ballinteer, Dublin 16",https://www.daft.ie/share/wyckham-point-dundrum-ballinteer-dublin-16/6143171
+978,single,Apartment,"IFSC Custom House Harbour, IFSC, Dublin 1",https://www.daft.ie/share/custom-house-harbour-ifsc-dublin-1/6136334
+975,single,House,"98 Kilmore Road, Dublin 5, Artane, Dublin 5",https://www.daft.ie/share/98-kilmore-road-dublin-5-artane-dublin-5/6124820
+975,double,Apartment,"Fernleigh Crescent,Dublin 15, Carpenterstown, Dublin 15",https://www.daft.ie/share/fernleigh-crescent-dublin-15-carpenterstown-dublin-15/6122905
+970,double,House,"Ranelagh Avenue, Ranelagh, Dublin 6, Ranelagh, Dublin 6",https://www.daft.ie/share/ranelagh-avenue-ranelagh-dublin-6-ranelagh-dublin-6/6148638
+965,double,Apartment,"Flat 6, 45 Parnell Square West, Dublin 1, Dublin City Centre",https://www.daft.ie/share/flat-6-45-parnell-square-west-dublin-1-dublin-city-centre/6014843
+965,single,Apartment,"Dublin Castle, Christchurch, Dublin 8",https://www.daft.ie/share/dublin-castle-christchurch-dublin-8/5992274
+960,,,"Hazelwood Student Village, North Wood Santry, Santry, Dublin 9",https://www.daft.ie/for-rent/hazelwood-student-village-north-wood-santry-santry-dublin-9/2626696
+960,single,House,"Coppinger Close, Stillorgan Park, Blackrock, Co. Dublin",https://www.daft.ie/share/coppinger-close-stillorgan-park-blackrock-co-dublin/6144854
+960,double,House,"Cruise Park Drive,Dublin 15, Tyrrelstown, Dublin 15",https://www.daft.ie/share/cruise-park-drive-dublin-15-tyrrelstown-dublin-15/6121381
+955,double,Apartment,"Dundrum View, Dublin 14, Dundrum, Dublin 16",https://www.daft.ie/share/wyckham-point-dundrum-dublin-16-dundrum-dublin-16/6148538
+955,double,House,"The Elms,Citywest Demesne,Dublin 24, Citywest, Co. Dublin",https://www.daft.ie/share/-the-elms-citywest-demesne-dublin-24-citywest-co-dublin/6129111
+951,double,House,"Churchtown, Dublin 14, Churchtown, Dublin 14",https://www.daft.ie/share/6-castle-park-whitehall-road-dublin-14-churchtown-dublin-14/6146166
+950,single,House,"72 Collins Avenue East, Killester Dublin 5, Killester, Dublin 5",https://www.daft.ie/share/72-collins-avenue-east-killester-dublin-5-killester-dublin-5/6106705
+950,double,House,"Park Drive Avenue,Castleknock,Dublin 15, Castleknock, Dublin 15",https://www.daft.ie/share/park-drive-avenue-castleknock-dublin-15-castleknock-dublin-15/6085617
+950,double,House,"Cardiffsbridge Avenue,Dublin 11, Finglas, Dublin 11",https://www.daft.ie/share/cardiffsbridge-avenue-dublin-11-finglas-dublin-11/6131495
+950,double,Apartment,"Melville , Poppintree, Dublin 11",https://www.daft.ie/share/melville-poppintree-dublin-11/6068194
+950,double,House,"Diswellstown Park,Hamilton Park, Castleknock,Dublin 15, Carpenterstown, Dublin 15",https://www.daft.ie/share/-diswellstown-park-hamilton-park-castleknock-dublin-15-carpenterstown-dublin-15/6093490
+950,double,House,"Sutton Park, Bayside, Co. Dublin, Bayside, Dublin 13",https://www.daft.ie/share/112a-sutton-park-sutton-bayside-dublin-13/6040299
+950,double,Apartment,"Stonebridge wood, Shankill, Loughlinstown, Co. Dublin",https://www.daft.ie/share/stonebridge-wood-shankill-loughlinstown-co-dublin/6026337
+950,double,House,"5 Willan'S Green, Dublin 15, Ongar, Dublin 15",https://www.daft.ie/share/5-willans-green-dublin-15-ongar-co-dublin/6143507
+950,double,Apartment,"Dublin 13 , Clongriffin, Dublin 13",https://www.daft.ie/share/dublin-13-clongriffin-dublin-13/6060069
+950,single,House,"Clonee, Huntstown, Dublin 15, Huntstown, Dublin 15",https://www.daft.ie/share/clonee-huntstown-dublin-15-huntstown-dublin-15/6129184
+950,double,Apartment,"14 waterville row, Blanchardstown, Dublin 15",https://www.daft.ie/share/14-waterville-row-blanchardstown-dublin-15/6146081
+950,single,Apartment,"Apartment 292, Block 6, Parklands, Northwood, Dubl, Dublin 9",https://www.daft.ie/share/apartment-292-block-6-parklands-northwood-dubl-dublin-9/6138623
+950,double,Apartment,"Bailey green road, Howth, Dublin 13",https://www.daft.ie/share/bailey-green-road-howth-dublin-13/6147094
+950,double,House,"Barton Road East, Dundrum, Dublin, Ballinteer, Dublin 16",https://www.daft.ie/share/barton-road-east-dundrum-dublin-14-ballinteer-dublin-16/6146833
+950,double,House,"Ailesbury Oaks Dublin 4, Donnybrook, Dublin 4",https://www.daft.ie/share/ailesbury-oaks-dublin-4-donnybrook-dublin-4/6145230
+950,double,House,"Clanbrassil Street Lower, Dublin 8, Portobello, Dublin 8",https://www.daft.ie/share/-clanbrassil-street-lower-dublin-8-portobello-dublin-8/6139938
+950,double,House,"Claremont Crescent, Glasnevin, Dublin 11",https://www.daft.ie/share/claremont-crescent-glasnevin-dublin-11/6064079
+950,double,Apartment,"26 Stationcourt Park, Dublin 15, Coolmine, Dublin 15",https://www.daft.ie/share/26-stationcourt-park-dublin-15-coolmine-dublin-15/6148497
+950,double,Apartment,"Parklands Court,Dublin 24, Firhouse, Dublin 24",https://www.daft.ie/share/parklands-court-dublin-24-firhouse-dublin-24/6148531
+950,double,Apartment,"Apartment 54, Core E, Rosse Court Heights, Rosse C, Clondalkin, Dublin 22",https://www.daft.ie/share/apartment-54-core-e-rosse-court-heights-rosse-c-clondalkin-dublin-22/6138583
+950,double,House,"Killester, Dublin 5, Killester, Dublin 5",https://www.daft.ie/share/killester-dublin-5-killester-dublin-5/6043175
+950,single,House,"Caledon road, East Wall, Dublin 3, North Strand, Dublin 3",https://www.daft.ie/share/caledon-road-east-wall-dublin-3-north-strand-dublin-3/6148523
+950,double,Apartment,"Seapark Apartments, Mount Prospect Avenue, Clontarf, Dublin 3",https://www.daft.ie/share/seapark-apartments-mount-prospect-avenue-clontarf-dublin-3/6031898
+950,double,House,"42 Woodbine Close, Dublin 5, Raheny, Dublin 5",https://www.daft.ie/share/42-woodbine-close-dublin-5-raheny-dublin-5/6138611
+950,double,Apartment,"18 New Seskin Court, Arena, Whitestown Way, Dublin, Oldbawn, Dublin 24",https://www.daft.ie/share/18-new-seskin-court-arena-whitestown-way-dublin-oldbawn-dublin-24/6118493
+950,single,House,"Haddon road, Clontarf, Dublin 3",https://www.daft.ie/share/haddon-road-clontarf-dublin-3/6138116
+950,double,Apartment,"Windmill Square, Dublin 15, Coolmine, Dublin 15",https://www.daft.ie/share/windmill-square-dublin-15-coolmine-dublin-15/6110574
+950,double,Apartment,"The Grange, Brewery Road, Stillorgan, Blackrock, C, Galloping Green, Co. Dublin",https://www.daft.ie/share/the-grange-brewery-road-stillorgan-blackrock-c-galloping-green-co-dublin/6120066
+950,double,Apartment,"Knockmaree,Lucan Road,Dublin 20, Chapelizod, Dublin 20",https://www.daft.ie/share/knockmaree-lucan-road-dublin-20-chapelizod-dublin-20/6112644
+950,double,Apartment,"Balgriffin, Dublin 13, Donaghmede, Dublin 13",https://www.daft.ie/share/balgriffin-dublin-13-donaghmede-dublin-13/6115355
+950,double,House,"2 Fernleigh Court, Dublin 15, Carpenterstown, Dublin 15",https://www.daft.ie/share/2-fernleigh-court-dublin-15-carpenterstown-dublin-15/6025087
+950,double,House,"56 The Boulevard, Kilmartin Grove, Hollystown, Dub, Hollystown, Dublin 15",https://www.daft.ie/share/56-the-boulevard-kilmartin-grove-hollystown-dub-hollystown-dublin-15/6069907
+950,double,Apartment,"Centra Swords Road,Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/centra-swords-road-dublin-9-whitehall-dublin-9/6106446
+950,double,Apartment,"Tonlegee Road, Dublin 5, Ayrfield, Dublin 13",https://www.daft.ie/share/-tonlegee-road-dublin-5-ayrfield-dublin-13/6056247
+950,double,House,"Limekiln Road, Walkinstown, D12, Greenhills, Dublin 12",https://www.daft.ie/share/limekiln-road-walkinstown-d12-greenhills-dublin-12/6100042
+950,single,House,"blackhorse avenue, Cabra, Dublin 7",https://www.daft.ie/share/blackhorse-avenue-cabra-dublin-7/6143257
+950,double,House,"Russell Crescent, Russell Square, Dublin 24, Jobstown, Dublin 24",https://www.daft.ie/share/russell-crescent-russell-square-dublin-24-jobstown-dublin-24/6125175
+950,double,House,"78 Mount Albany, Blackrock, Deansgrange, Co. Dublin",https://www.daft.ie/share/78-mount-albany-blackrock-deansgrange-co-dublin/6106041
+950,double,House,"Castlemoyne, Balgriffin, Dublin 13, Clongriffin, Dublin 13",https://www.daft.ie/share/castlemoyne-balgriffin-dublin-13-clongriffin-dublin-13/6141234
+943,double,Apartment,"Bracken Hill, Blackglen Road, Dublin 18, Ballinteer, Dublin 16",https://www.daft.ie/share/bracken-hill-blackglen-road-dublin-18-ballinteer-dublin-16/6148583
+940,double,House,"Saint James'S Terrace, Dublin 8, South Circular Road, Dublin 8",https://www.daft.ie/share/saint-jamess-terrace-dublin-8-south-circular-road-dublin-8/6124523
+940,single,Apartment,"Clancy Quay, Islandbridge, Dublin 8",https://www.daft.ie/share/clancy-quay-islandbridge-dublin-8/6073153
+940,double,House,"13 Donnybrook Manor, Dublin 4, Donnybrook, Dublin 4",https://www.daft.ie/share/13-donnybrook-manor-dublin-4-donnybrook-dublin-4/6149357
+935,single,House,"Belfry Square, Citywest, Co. Dublin",https://www.daft.ie/share/belfry-square-citywest-co-dublin/6064744
+933,double,House,"3 Moran'S Cottages, Charleston Road, Dublin 6, Ranelagh, Dublin 6",https://www.daft.ie/share/3-morans-cottages-charleston-road-dublin-6-ranelagh-dublin-6/6140202
+930,single,Apartment,"Orchard Way,Dublin 13, Ayrfield, Dublin 13",https://www.daft.ie/share/orchard-way-dublin-13-ayrfield-dublin-13/6138705
+930,double,Apartment,"Apartment 14 , Belville Court, Johnstown Road, Cab, Cabinteely, Dublin 18",https://www.daft.ie/share/apartment-14-belville-court-johnstown-road-cab-cabinteely-dublin-18/6137876
+925,double,Apartment,"13A Grattan Crescent, Kilmainham, Dublin 8, Kilmainham, Dublin 8",https://www.daft.ie/share/13a-grattan-crescent-kilmainham-dublin-8-kilmainham-dublin-8/6138387
+925,double,Apartment,"Milltown Parish Pastoral Centre, Maple Hall, Millt, Milltown, Dublin 6",https://www.daft.ie/share/milltown-parish-pastoral-centre-maple-hall-millt-milltown-dublin-6/6146196
+925,double,House,"221a Sperrin Road, Dublin 12, Drimnagh, Dublin 12",https://www.daft.ie/share/221a-sperrin-road-dublin-12-drimnagh-dublin-12/6147353
+925,double,House,"1 Tower Villas, Kilmainham Lane, Dublin 8, Inchicore, Dublin 8",https://www.daft.ie/share/1-tower-villas-kilmainham-lane-dublin-8-inchicore-dublin-8/6121274
+925,double,House,"off Castle Avenue, Clontarf, Dublin 3",https://www.daft.ie/share/off-castle-avenue-clontarf-dublin-3/6139167
+920,double,House,"Leix Road Cabra Dublin 7, Dublin 7",https://www.daft.ie/share/-leix-road-cabra-dublin-7-dublin-7/6144672
+920,single,House,"Swords Road,Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/-swords-road-dublin-9-whitehall-dublin-9/6127109
+920,double,House,"Bancroft Park, Tallaght, Dublin 24",https://www.daft.ie/share/bancroft-park-tallaght-dublin-24/5820998
+920,double,House,"Moeran Road, Walkinstown, Dublin 12",https://www.daft.ie/share/moeran-road-walkinstown-dublin-12/6144647
+920,double,House,"Knocklyon area Dublin 16, Firhouse, Dublin 24",https://www.daft.ie/share/glenvara-park-dublin-16-firhouse-dublin-24/6052237
+920,double,House,"74a Seagrange Road, Dublin 13, Baldoyle, Dublin 13",https://www.daft.ie/share/74a-seagrange-road-dublin-13-baldoyle-dublin-13/6105406
+900,double,House,"14a Tonlegee Avenue, Dublin 5, Edenmore, Dublin 5",https://www.daft.ie/share/14a-tonlegee-avenue-dublin-5-edenmore-dublin-5/6138665
+900,double,Apartment,"Woodbrook Court, Castleknock, Dublin 15., Carpenterstown, Dublin 15",https://www.daft.ie/share/woodbrook-court-castleknock-dublin-15-carpenterstown-dublin-15/6139588
+900,double,House,"Ormond Road, Drumcondra, Dublin 3",https://www.daft.ie/share/ormond-road-drumcondra-dublin-3/6021664
+900,double,House,"Racecourse Park, The Coast, Dublin 13, Baldoyle, Dublin 13",https://www.daft.ie/share/racecourse-park-the-coast-dublin-13-baldoyle-dublin-13/5963207
+900,single,Apartment,"Glenamuck Rd, Carrickmines, Dublin 18",https://www.daft.ie/share/glenamuck-rd-carrickmines-dublin-18/6099281
+900,double,House,"Riverwood Court , Castleknock, Dublin 15",https://www.daft.ie/share/riverwood-court-castleknock-dublin-15/6131640
+900,double,House,"42 Vernon Heath, Dublin 3, Dublin 3",https://www.daft.ie/share/42-vernon-heath-dublin-3-dublin-3/6147129
+900,double,Apartment,"Richmond Road, Drumcondra, Marino, Dublin 3",https://www.daft.ie/share/richmond-road-drumcondra-marino-dublin-3/6138045
+900,double,House,"Abbots Grove Park, Knocklyon, Dublin 16",https://www.daft.ie/share/abbots-grove-park-knocklyon-dublin-16/6048983
+900,double,House,"Court View,Dublin 15, Royal Canal Park, Dublin 15",https://www.daft.ie/share/court-view-dublin-15-royal-canal-park-dublin-15/6144567
+900,double,House,"Camden Avenue, Ashtown, Dublin 15",https://www.daft.ie/share/camden-avenue-ashtown-dublin-15/6115804
+900,shared,Apartment,"25 Lower Leeson Street, Dublin 2",https://www.daft.ie/share/25-lower-leeson-street-dublin-2/6126337
+900,double,House,"1 Park Lodge, Castleknock, Dublin 15, Castleknock, Dublin 15",https://www.daft.ie/share/1-park-lodge-castleknock-dublin-15-castleknock-dublin-15/6141419
+900,double,House,"178 Sundrive Road, Dublin 12, Crumlin, Dublin 12",https://www.daft.ie/share/178-sundrive-road-dublin-12-crumlin-dublin-12/6131414
+900,double,Apartment,"Old Blessington Road,Dublin 24, Tallaght, Dublin 24",https://www.daft.ie/share/westend-gate-old-blessington-road-dublin-24-tallaght-dublin-24/6146288
+900,double,House,"blackhorse avenue, Cabra, Dublin 7",https://www.daft.ie/share/blackhorse-avenue-cabra-dublin-7/6040164
+900,double,House,"Mount Symon Avenue,Clonsilla,Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/mount-symon-avenue-clonsilla-dublin-15-clonsilla-dublin-15/6148016
+900,single,House,"Saint Aidan'S Park Road,Dublin 3, Marino, Dublin 3",https://www.daft.ie/share/saint-aidans-park-road-dublin-3-marino-dublin-3/6043977
+900,double,House,"Longdale Terrace,Dublin 9, Ballymun, Dublin 9",https://www.daft.ie/share/longdale-terrace-dublin-9-ballymun-dublin-9/6065617
+900,single,House,"near Castle Avenue, Clontarf, Dublin 3",https://www.daft.ie/share/near-castle-avenue-clontarf-dublin-3/6050547
+900,double,House,"104 Naas Road, Bluebell, Dublin 12",https://www.daft.ie/share/104-naas-road-bluebell-dublin-12/6143685
+900,single,House,"145 Cromwellsfort Road, Walkinstown, Dublin 12",https://www.daft.ie/share/145-cromwellsfort-road-walkinstown-dublin-12/6147345
+900,single,House,"Monastery Gate Avenue, Clondalkin, Dublin 22",https://www.daft.ie/share/monastery-gate-avenue-dublin-22-clondalkin-dublin-22/6138231
+900,double,House,"No. 19 Raheen Park, Tallaght, Dublin 24, D24 W2R2., Tallaght, Dublin 24",https://www.daft.ie/share/no-19-raheen-park-tallaght-dublin-24-d24-w2r2-tallaght-dublin-24/6113441
+900,double,Apartment,"Dublin 8, Christchurch, Dublin 8",https://www.daft.ie/share/dublin-8-christchurch-dublin-8/6135966
+900,double,Apartment,"Block A, Lymewood Mews, Northwood, Santry, Dublin 9",https://www.daft.ie/share/block-a-lymewood-mews-northwood-santry-dublin-9/6148645
+900,single,House,"27 Shantalla Avenue, Santry, Dublin 9",https://www.daft.ie/share/27-shantalla-avenue-santry-dublin-9/3799240
+900,single,Apartment,"TALLAGHT CROSS WEST DUBLIN 24 , Tallaght, Dublin 24",https://www.daft.ie/share/tallaght-cross-west-dublin-24-tallaght-dublin-24/6128216
+900,double,Apartment,"Melville Cove, Dublin 11, Finglas, Dublin 11",https://www.daft.ie/share/melville-cove-dublin-11-finglas-dublin-11/6148176
+900,double,House,"Tyrconnell Road, Inchicore, Dublin 8",https://www.daft.ie/share/tyrconnell-road-inchicore-dublin-8/6147739
+900,double,House,"Sundale Park, Citywest, Co. Dublin",https://www.daft.ie/share/sundale-park-citywest-co-dublin/6127546
+900,double,House,"Collins Avenue,Dublin 9, Beaumont, Dublin 9",https://www.daft.ie/share/collins-avenue-dublin-9-beaumont-dublin-9/6142626
+900,double,Apartment,"23, Main Street, Clongriffin, Dublin 13, Clongriffin, Dublin 13",https://www.daft.ie/share/23-main-street-clongriffin-dublin-13-clongriffin-dublin-13/6105385
+900,double,Apartment,"stradbrook road, Blackrock, Co. Dublin",https://www.daft.ie/share/stradbrook-road-blackrock-co-dublin/6074743
+900,single,Apartment,"Mountjoy Square South D1 no 34 , Dublin 1",https://www.daft.ie/share/mountjoy-square-south-d1-no-34-dublin-1/6069876
+900,double,Apartment,"Apartment 38, Saint James's Woods, South Circular , Inchicore, Dublin 8",https://www.daft.ie/share/apartment-38-saint-jamess-woods-south-circular-inchicore-dublin-8/6146824
+900,double,House,"45 Lorcan Villas, Dublin 9, Beaumont, Dublin 9",https://www.daft.ie/share/45-lorcan-villas-dublin-9-beaumont-dublin-9/6146673
+900,double,House,"Whitehall, D9, Whitehall, Dublin 9",https://www.daft.ie/share/whitehall-d9-whitehall-dublin-9/6146738
+900,double,House,"Monasterboice Road, Dublin 12, Crumlin, Dublin 12",https://www.daft.ie/share/monasterboice-road-dublin-12-crumlin-dublin-12/6146461
+900,single,House,"Swords Road, Whitehall Santry, Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/swords-road-whitehall-santry-dublin-9-whitehall-dublin-9/6121190
+900,double,Apartment,"Block J,Castleforbes Square,Dublin 1, IFSC, Dublin 1",https://www.daft.ie/share/block-j-castleforbes-square-dublin-1-ifsc-dublin-1/6096689
+900,double,House,"4 Glenageary Woods, Glenageary, Co. Dublin",https://www.daft.ie/share/4-glenageary-woods-glenageary-co-dublin/6146181
+900,double,House,"The Laurels, Terenure, Dublin 6",https://www.daft.ie/share/the-laurels-terenure-dublin-6/6115541
+900,single,House,"57 Smyth'S Villas, Dun Laoghaire, Monkstown, Co. Dublin",https://www.daft.ie/share/57-smyths-villas-dun-laoghaire-monkstown-co-dublin/6146139
+900,double,House,"31 Annfield Court, Dublin 15, Carpenterstown, Dublin 15",https://www.daft.ie/share/31-annfield-court-dublin-15-carpenterstown-dublin-15/6121047
+900,double,House,"4 Larch Grove, Clonsilla, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/4-larch-grove-clonsilla-dublin-15-clonsilla-dublin-15/6067814
+900,double,House,"Allendale Terrace, Clonsilla, Dublin 15, Hartstown, Dublin 15",https://www.daft.ie/share/allendale-terrace-clonsilla-dublin-15-hartstown-dublin-15/6097510
+900,double,House,"57 Leopardstown Park, Foxrock, Dublin 18",https://www.daft.ie/share/57-leopardstown-park-foxrock-dublin-18/6143962
+900,double,House,"10 The Grove, Kilmartin Grove, Hollystown, Dublin 1, Hollystown, Dublin 15",https://www.daft.ie/share/2-the-grove-kilmartin-grove-hollystown-dublin-1-hollystown-dublin-15/6142578
+900,double,House,"Burford drive honeypark Dun laoghaire, Dun Laoghaire, Co. Dublin",https://www.daft.ie/share/burford-drive-honeypark-dun-laoghaire-dun-laoghaire-co-dublin/6138629
+900,single,House,"1 St.Brendans Cottages, Irishtown, Dublin 4",https://www.daft.ie/share/1-st-brendans-cottages-irishtown-dublin-4/6141465
+900,double,Apartment,"Phibblestown House, Ongar, Dublin 15, Ongar, Dublin 15",https://www.daft.ie/share/phibblestown-house-ongar-dublin-15-ongar-dublin-15/6022749
+900,double,House,"The Close, Kingswood Heights, Tallaght, Dublin 24",https://www.daft.ie/share/the-close-kingswood-heights-tallaght-dublin-24/6049341
+900,single,House,"Kickham Road, Dublin 8, Kilmainham, Dublin 8",https://www.daft.ie/share/kickham-road-dublin-8-kilmainham-dublin-8/6140771
+900,double,Apartment,"Trimbleston, Goatstown, Dublin 14",https://www.daft.ie/share/trimbleston-goatstown-dublin-14/6059409
+900,single,House,"Gerald Street,Dublin 4, Grand Canal Dock, Dublin 4",https://www.daft.ie/share/gerald-street-dublin-4-grand-canal-dock-dublin-4/6130932
+900,double,House,"Beach Rd, Sandymount, Dublin 4",https://www.daft.ie/share/beach-rd-sandymount-dublin-4/6140411
+900,single,House,"41 Barton Road West, Rathfarnham, Dublin 14, Dublin 14",https://www.daft.ie/share/41-barton-road-west-rathfarnham-dublin-14-dublin-14/6058625
+900,double,Apartment,"Parkside Gardens,Dublin 13, Clongriffin, Dublin 13",https://www.daft.ie/share/parkside-gardens-dublin-13-clongriffin-dublin-13/6121832
+900,double,House,"Beechdale Way, Ballycullen, Dublin 24",https://www.daft.ie/share/beechdale-way-ballycullen-dublin-24/6099665
+897,double,House,"Malahide Road, Dublin 3, Marino, Dublin 3",https://www.daft.ie/share/malahide-road-dublin-3-marino-dublin-3/6141438
+890,double,Apartment,"Queens Park, Monkstown, Co. Dublin",https://www.daft.ie/share/queens-park-monkstown-co-dublin/6139204
+885,double,House,"Harold'S Cross Cottages, Dublin 6, Harold's Cross, Dublin 6",https://www.daft.ie/share/harolds-cross-cottages-dublin-6-harolds-cross-dublin-6/6049866
+880,single,Apartment,"Grange Park Dublin 5, Raheny, Dublin 5",https://www.daft.ie/share/grange-park-dublin-5-raheny-dublin-5/6146781
+880,double,House,"Bayside Boulevard North, Bayside, Dublin 13",https://www.daft.ie/share/bayside-boulevard-north-bayside-dublin-13/6028493
+880,double,House,"St. Assams, Raheny, Dublin 5",https://www.daft.ie/share/st-assams-raheny-dublin-5/6060111
+880,double,House,"Beechlawn Avenue, Kilmore, Dublin 5",https://www.daft.ie/share/beechlawn-avenue-kilmore-dublin-5/6146466
+880,single,House,"Rosemount Estate, Goatstown, Dublin 14",https://www.daft.ie/share/rosemount-estate-goatstown-dublin-14/6145638
+880,single,House,"Hazelwood View, Clondalkin, Dublin 22",https://www.daft.ie/share/hazelwood-view-clondalkin-dublin-22/6139992
+877,double,Apartment,"Apartment 1, Dunville Avenue,Dublin 6, Ranelagh, Dublin 6",https://www.daft.ie/share/apartment-1-dunville-avenue-dublin-6-ranelagh-dublin-6/6150187
+875,double,House,"Whitehall, Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/3-crestfield-avenue-dublin-9-city-dublin-whitehall-dublin-9/6135259
+875,double,House,"Georgian Hamlet, Dublin 13, Baldoyle, Dublin 13",https://www.daft.ie/share/georgian-hamlet-dublin-13-baldoyle-dublin-13/6138038
+875,double,House,"36 Arklow Street, Stoneybatter, Dublin 7",https://www.daft.ie/share/36-arklow-street-stoneybatter-dublin-7/6121432
+875,double,House,"Royal Canal Bank, Phibsborough, Dublin 7",https://www.daft.ie/share/royal-canal-bank-phibsborough-dublin-7/6150200
+875,double,House,"Poppintree, D11, Poppintree, Dublin 11",https://www.daft.ie/share/15-cromlech-court-poppintree-dublin-11/6129176
+875,double,House,"Alderwood Avenue, Springfield, Tallaght, Dublin 24, Tallaght, Dublin 24",https://www.daft.ie/share/alderwood-avenue-springfield-tallaght-dublin-24-tallaght-dublin-24/6148188
+875,double,House,"84 Abbey Drive, Dublin 7, Ashington, Dublin 7",https://www.daft.ie/share/84-abbey-drive-dublin-7-ashington-dublin-7/6137124
+875,double,House,"Tallaght ,Dublin 24, Tallaght, Dublin 24",https://www.daft.ie/share/tallaght-dublin-24-tallaght-dublin-24/6044030
+875,double,Apartment,"The Tramyard, Inchicore, Dublin 8, Inchicore, Dublin 8",https://www.daft.ie/share/the-tramyard-inchicore-dublin-8-inchicore-dublin-8/6109373
+875,double,House,"Fairyhill, 58b Carrickbrack Road, Howth, Howth, Dublin 13",https://www.daft.ie/share/fairyhill-58b-carrickbrack-road-howth-howth-dublin-13/6147821
+870,double,House,"46 Fingal Street, Dublin 8, South Circular Road, Dublin 8",https://www.daft.ie/share/46-fingal-street-dublin-8-south-circular-road-dublin-8/6148973
+860,single,House,"14 Tower Avenue, Dublin 6, Rathgar, Dublin 6",https://www.daft.ie/share/14-tower-avenue-dublin-6-rathgar-dublin-6/6131008
+860,shared,House,"Apartment 2, 11 Pembroke Street Upper, Dublin 2, Dublin City Centre",https://www.daft.ie/share/apartment-2-11-pembroke-street-upper-dublin-2-dublin-city-centre/6106253
+859,double,Apartment,"The Dargan Building, HSQ, Dublin 8, Kilmainham, Dublin 8",https://www.daft.ie/share/the-dargan-building-hsq-dublin-8-kilmainham-dublin-8/6148592
+850,,,"Archway Court Student Accommodation, Mountjoy St, Dublin 1",https://www.daft.ie/for-rent/archway-court-student-accommodation-mountjoy-st-dublin-1/5382570
+850,double,House,"Wood Dale Close, Dublin 24, Ballycullen, Dublin 24",https://www.daft.ie/share/wood-dale-close-dublin-24-ballycullen-dublin-24/6147000
+850,double,House,"9 Dromnanane Road, Dublin 9, Beaumont, Dublin 9",https://www.daft.ie/share/9-dromnanane-road-dublin-9-beaumont-dublin-9/6121352
+850,double,House,"Mill Court Avenue,Dublin 22, Grange Castle, Co. Dublin",https://www.daft.ie/share/mill-court-avenue-dublin-22-grange-castle-co-dublin/6138534
+850,double,Apartment,"Old Church Way, Clondalkin, Dublin 22",https://www.daft.ie/share/old-church-way-clondalkin-dublin-22/6120695
+850,single,House,"Ellesmere avenue, Dublin 7",https://www.daft.ie/share/ellesmere-avenue-dublin-7/6128857
+850,double,House,"Ratoath Estate,Dublin 7, Navan Road (D7), Dublin 7",https://www.daft.ie/share/ratoath-estate-dublin-7-navan-road-d7-dublin-7/6138486
+850,double,House,"ardlea road , Artane, Dublin 5",https://www.daft.ie/share/ardlea-road-artane-dublin-5/6122142
+850,double,House,"19 Hawthorn Way, Kilcarbery Grange, Dublin 22, Grange Castle, Co. Dublin",https://www.daft.ie/share/19-hawthorn-way-kilcarbery-grange-dublin-22-grange-castle-co-dublin/6113872
+850,double,Apartment,"Grange House,Taylors Hill,Dublin 16, Ballinteer, Dublin 16",https://www.daft.ie/share/grange-house-taylors-hill-dublin-16-ballinteer-dublin-16/6147039
+850,double,House,"Ballentree Village, Tyrrelstown, Dublin 15, Tyrrelstown, Dublin 15",https://www.daft.ie/share/ballentree-village-tyrrelstown-dublin-15-tyrrelstown-dublin-15/6146413
+850,single,House,"Ashwood Park,Dublin 22, Clondalkin, Dublin 22",https://www.daft.ie/share/ashwood-park-dublin-22-clondalkin-dublin-22/6146289
+850,single,House,"Liljoe, 25 Mulgrave Street, Dun Laoghaire, Dun Laoghaire, Co. Dublin",https://www.daft.ie/share/liljoe-25-mulgrave-street-dun-laoghaire-dun-laoghaire-co-dublin/6144589
+850,double,House,"Hansfield, Ongar (Near to railway station), Clonsilla, Dublin 15",https://www.daft.ie/share/hansfield-ongar-near-to-railway-station-clonsilla-dublin-15/6140046
+850,single,House,"20 Annfield Court, Dublin 15, Carpenterstown, Dublin 15",https://www.daft.ie/share/20-annfield-court-dublin-15-carpenterstown-dublin-15/6132391
+850,double,Apartment,"Olcovar,Shankill Dublin 18, Rathmichael, Co. Dublin",https://www.daft.ie/share/olcovar-shankill-dublin-18-rathmichael-co-dublin/6141374
+850,double,Apartment,"Hampton Wood Crescent,Hampton Wood,Dublin 11, Poppintree, Dublin 11",https://www.daft.ie/share/-hampton-wood-crescent-hampton-wood-dublin-11-poppintree-dublin-11/6141565
+850,double,House,"Wilkinsons Brook, Hollystown, Dublin 15, Hollystown, Dublin 15",https://www.daft.ie/share/wilkinsons-brook-hollystown-dublin-15-hollystown-dublin-15/6126749
+850,single,House,"Leopardstown The Gallops, Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/leopardstown-leopardstown-dublin-18/6104539
+850,double,House,"81 Ferguson Road, Dublin 9, Drumcondra, Dublin 9",https://www.daft.ie/share/81-ferguson-road-dublin-9-drumcondra-dublin-9/6091946
+850,double,House,"Clay Farm, Kilgobbin,Leopardstown ,Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/clay-farm-kilgobbin-leopardstown-dublin-18-leopardstown-dublin-18/6125809
+850,single,House,"Navan Road / Cabra (beside Phoenix Park), Dublin 7, Navan Road (D7), Dublin 7",https://www.daft.ie/share/navan-road-cabra-beside-phoenix-park-dublin-7-navan-road-d7-co-dublin/6101921
+850,double,House,"Reuben Avenue, Dublin 8, Dolphin's Barn, Dublin 8",https://www.daft.ie/share/reuben-avenue-dublin-8-dolphins-barn-dublin-8/6109731
+850,double,House,"Brookhaven Grove,Dublin 15, Blanchardstown, Dublin 15",https://www.daft.ie/share/brookhaven-grove-dublin-15-blanchardstown-dublin-15/6149427
+850,double,Apartment,"Mespil Estate, Sussex Road, Dublin 4, Ballsbridge, Dublin 4",https://www.daft.ie/share/mespil-estate-sussex-road-dublin-4-ballsbridge-dublin-4/6143564
+850,double,House,"No.46 Commons Road, Clondalkin, Dublin 22",https://www.daft.ie/share/no-46-commons-road-clondalkin-dublin-22/6009451
+850,double,Apartment,"Belfry hall, Dublin 24",https://www.daft.ie/share/belfry-hall-dublin-24/6105081
+850,double,Apartment,"Apartment, Boyne Court, Harold'S Cross Road, Harold's Cross, Dublin 6W",https://www.daft.ie/share/apartment-boyne-court-harolds-cross-road-harolds-cross-dublin-6w/6139901
+850,single,Apartment,"West Gate, Bridge Street Up, Christchurch, Dublin 8",https://www.daft.ie/share/apartment-32-buckler-west-gate-bridge-street-up-christchurch-dublin-8/6147509
+850,single,House,"Dorset str, Dublin 1",https://www.daft.ie/share/dorset-str-dublin-1/6041704
+850,double,Apartment,"Apt Rosehaven,Carpernterstown rd, Castleknock, D15, Coolmine, Dublin 15",https://www.daft.ie/share/apt-rosehaven-carpernterstown-rd-castleknock-d15-coolmine-dublin-15/6051654
+850,double,House,"Avondale court, Blackrock, Co. Dublin",https://www.daft.ie/share/avondale-court-blackrock-co-dublin/6116858
+850,double,House,"Nutgrove Avenue, Dublin 14, Churchtown, Dublin 14",https://www.daft.ie/share/nutgrove-avenue-dublin-14-churchtown-dublin-14/6137126
+850,double,House,"Rafters Road , Drimnagh, Dublin 12",https://www.daft.ie/share/rafters-road-drimnagh-dublin-12/6095617
+850,double,House,"Westpark Drive, Glasnevin, Dublin 11",https://www.daft.ie/share/westpark-drive-glasnevin-dublin-11/6066499
+850,double,Apartment,"Lansdowne Gate,Long Mile Road,Dublin 12, Inchicore, Dublin 8",https://www.daft.ie/share/lansdowne-gate-long-mile-road-dublin-12-inchicore-dublin-8/6137980
+850,double,House,"12 Woodford Parade, Dublin 22, Clondalkin, Dublin 22",https://www.daft.ie/share/12-woodford-parade-dublin-22-clondalkin-dublin-22/6109481
+850,double,House,"Templeogue, Templeogue, Dublin 6W",https://www.daft.ie/share/templeogue-templeogue-dublin-6w/6139058
+850,single,Apartment,"Portland st North Dublin 1, Dublin 1",https://www.daft.ie/share/portland-st-north-dublin-1-dublin-1/6077296
+850,double,Apartment,"St. Peter's Road, Phibsboro, Dublin 7",https://www.daft.ie/share/st-peters-road-phibsboro-dublin-7/6057688
+850,double,Apartment,"Royal Canal Court, Ashtown, Dublin 15",https://www.daft.ie/share/royal-canal-court-ashtown-dublin-15/6106467
+850,single,House,"Rutland Place North, Dublin 1",https://www.daft.ie/share/rutland-place-north-dublin-1/6048852
+850,single,House,"10 Knocknashee, Dublin 14, Kilmacud, Co. Dublin",https://www.daft.ie/share/10-knocknashee-dublin-14-kilmacud-co-dublin/6143267
+850,double,House,"Hollybank Road,Dublin 9, Drumcondra, Dublin 9",https://www.daft.ie/share/hollybank-road-dublin-9-drumcondra-dublin-9/6143170
+850,single,House,"10 Knocknashee, Dublin 14, Kilmacud, Co. Dublin",https://www.daft.ie/share/10-knocknashee-dublin-14-kilmacud-co-dublin/6122111
+850,single,Apartment,",Bailey View,Harbour Road,Dalkey,Co. Dublin, Dalkey, Co. Dublin",https://www.daft.ie/share/-bailey-view-harbour-road-dalkey-co-dublin-dalkey-co-dublin/6141557
+850,double,House,"Fairview, Fairview, Dublin 3",https://www.daft.ie/share/fairview-fairview-dublin-3/6026450
+850,double,House,"Boulevard,Mount Garrett,Dublin 15, Tyrrelstown, Dublin 15",https://www.daft.ie/share/boulevard-mount-garrett-dublin-15-tyrrelstown-dublin-15/6071103
+850,double,Apartment,"Tolka Vale Apartments , Finglas Road, Dublin 11, Finglas, Dublin 11",https://www.daft.ie/share/tolka-vale-apartments-finglas-road-dublin-11-finglas-dublin-11/6051815
+845,single,House,"Belarmine, Stepaside, Dublin 18",https://www.daft.ie/share/belarmine-stepaside-dublin-18/6116902
+840,double,House,"Dublin 10, Ballyfermot, Dublin 10",https://www.daft.ie/share/dublin-10-ballyfermot-dublin-10/6108440
+840,single,House,"Limekiln Road,Dublin 12, Templeogue, Dublin 6W",https://www.daft.ie/share/limekiln-road-dublin-12-templeogue-dublin-6w/6104854
+840,double,House,"45 avondale road, Killiney, Co. Dublin",https://www.daft.ie/share/45-avondale-road-killiney-co-dublin/6060247
+840,single,House,"Marley Drive, Rathfarnham, Dublin 16",https://www.daft.ie/share/marley-drive-rathfarnham-dublin-16/6145617
+840,double,House,"Claddagh Road,Dublin 10, Ballyfermot, Dublin 10",https://www.daft.ie/share/claddagh-road-dublin-10-ballyfermot-dublin-10/6049135
+840,single,House,"Lucan, Dublin, Ronanstown, Co. Dublin",https://www.daft.ie/share/saint-ronans-avenue-lucan-dublin-22-ronanstown-co-dublin/5965404
+832,twin,Apartment,"Apartment for rent Rathmines, Dublin 6. (7DAYS), Rathgar, Dublin 6",https://www.daft.ie/share/apartment-for-rent-rathmines-dublin-6-7days-rathgar-dublin-6/6140173
+825,double,House,"The Park Beaumont Woods Beaumont, Beaumont, Dublin 9",https://www.daft.ie/share/the-park-beaumont-woods-beaumont-beaumont-dublin-9/6129338
+825,double,House,"Latchford Park, Castaheany, Dublin 15, Clonee, Dublin 15",https://www.daft.ie/share/latchford-park-castaheany-dublin-15-clonee-dublin-15/6049934
+820,double,House,"Highes road north, Walkinstown, Dublin 12",https://www.daft.ie/share/highes-road-north-walkinstown-dublin-12/6146136
+800,single,House,"18 Woodlawn Park Drive, Dublin 24, Firhouse, Dublin 24",https://www.daft.ie/share/18-woodlawn-park-drive-dublin-24-firhouse-dublin-24/6104498
+800,double,House,"52 Hazel Road, Dublin 9, Donnycarney, Dublin 9",https://www.daft.ie/share/52-hazel-road-dublin-9-donnycarney-dublin-9/6034183
+800,double,House,"Kylemore Road, Ballyfermot, Dublin 10",https://www.daft.ie/share/kylemore-road-ballyfermot-dublin-10/6120282
+800,double,House,"26 Old Court Lodge, Firhouse, Dublin 24",https://www.daft.ie/share/26-old-court-lodge-firhouse-dublin-24/6104335
+800,double,Apartment,"Saint Samson'S Square, Dublin 13, Clongriffin, Dublin 13",https://www.daft.ie/share/saint-samsons-square-dublin-13-clongriffin-dublin-13/6012755
+800,double,Apartment,"Sunnybank Court, Dundrum, Dublin 14",https://www.daft.ie/share/sunnybank-court-dundrum-dublin-14/6142561
+800,double,House,"Elizabeth street, Drumcondra, Dublin 3",https://www.daft.ie/share/elizabeth-street-drumcondra-dublin-3/6149461
+800,single,Apartment,"Apartment 52 , Block C, Shanowen Hall, Shanowen Ro, Whitehall, Dublin 9",https://www.daft.ie/share/apartment-52-block-c-shanowen-hall-shanowen-ro-whitehall-dublin-9/6111964
+800,double,House,"27 Killala road, Cabra, Dublin 7",https://www.daft.ie/share/27-killala-road-cabra-dublin-7/6148678
+800,double,House,"Heatfield walk, Finglas, Dublin 11",https://www.daft.ie/share/heatfield-walk-finglas-dublin-11/6146339
+800,double,House,"84 St Columbanus Road, Milltown, Dublin 6",https://www.daft.ie/share/84-st-columbanus-road-milltown-dublin-6/6122836
+800,single,House,"26 Park Drive Green, Castleknock, Dublin 15, Castleknock, Dublin 15",https://www.daft.ie/share/26-park-drive-green-castleknock-dublin-15-castleknock-dublin-15/6137998
+800,single,Apartment,"Apartment 28, Block B, The Courtyard, Hill Street, Dublin 1",https://www.daft.ie/share/apartment-28-block-b-the-courtyard-hill-street-dublin-1/6144700
+800,double,House,"Thomas Moore Road, Walkinstown, Crumlin, Dublin 12",https://www.daft.ie/share/thomas-moore-road-walkinstown-crumlin-dublin-12/6141611
+800,single,Apartment,"Stonebridge Wood, Shankill, Loughlinstown, Co. Dublin",https://www.daft.ie/share/stonebridge-wood-dublin-18-loughlinstown-co-dublin/6025835
+800,double,House,"Bunting road, Crumlin, Dublin 12",https://www.daft.ie/share/bunting-road-crumlin-dublin-12/6130500
+800,double,House,"Kilcross  Dublin 18, Sandyford, Dublin 18",https://www.daft.ie/share/kilcross-dublin-18-sandyford-dublin-18/6068595
+800,double,House,"Sandymount Avenue, Sandymount, Dublin 4",https://www.daft.ie/share/sandymount-avenue-sandymount-dublin-4/6149865
+800,double,House,"8 Whitestown Green. D15 YXAO, Huntstown, Dublin 15",https://www.daft.ie/share/8-whitestown-green-d15-yxao-huntstown-dublin-15/6149215
+800,double,House,"Pace Avenue, Dublin 15, Clonee, Dublin 15",https://www.daft.ie/share/211-pace-avenue-dublin-15-clonee-dublin-15/6148797
+800,double,Apartment,"The Liffey Trust Centre,117-126 Sheriff Street Upper,Dublin 1, IFSC, Dublin 1",https://www.daft.ie/share/the-liffey-trust-centre-117-126-sheriff-street-upper-dublin-1-ifsc-dublin-1/6146344
+800,double,House,"Belmont , Stepaside, Dublin 18",https://www.daft.ie/share/-monday-to-thursday-rental-belmont-stepaside-dublin-18/6103797
+800,single,House,"Holywell Road, Dublin 13, Donaghmede, Dublin 13",https://www.daft.ie/share/1-holywell-road-dublin-13-donaghmede-dublin-13/6097582
+800,double,House,"Cois Na Habhann, Old Bawn, Tallaght, Dublin 24",https://www.daft.ie/share/cois-na-habhann-old-bawn-tallaght-dublin-24/6092017
+800,single,House,"Seafield, Booterstown, Blackrock, Co. Dublin",https://www.daft.ie/share/seafield-crescent-booterstown-blackrock-co-dublin/6143678
+800,double,House,"Sycamore Drive, Kingswood, Dublin 24",https://www.daft.ie/share/sycamore-drive-kingswood-dublin-24/6096833
+800,single,House,"La Touche Drive, Bluebell, Dublin 12",https://www.daft.ie/share/la-touche-drive-bluebell-dublin-12/6128154
+800,double,House,"Lower Kimmage Road, Kimmage, Dublin 6W",https://www.daft.ie/share/lower-kimmage-road-kimmage-dublin-6w/6135210
+800,single,House,"Belfry Grove, Citywest, Co. Dublin",https://www.daft.ie/share/belfry-grove-citywest-co-dublin/6071511
+800,double,Apartment,"13 parnell green mulhuddart dublin 15, Blanchardstown, Dublin 15",https://www.daft.ie/share/13-parnell-green-mulhuddart-dublin-15-blanchardstown-dublin-15/6076077
+800,single,House,"27 Woodberry, Castleknock, Dublin 15, Carpenterstown, Dublin 15",https://www.daft.ie/share/27-woodberry-castleknock-dublin-15-carpenterstown-dublin-15/6134847
+800,double,Apartment,"HARBOUR HILL, Smithfield, Dublin 1",https://www.daft.ie/share/harbour-hill-smithfield-dublin-1/6129223
+800,double,House,"Glengarrif parade, Phibsborough, Dublin 7",https://www.daft.ie/share/glengarrif-parade-phibsborough-dublin-7/6129072
+800,single,House,"Barn Close, Shanganagh Road, Shankill, Dublin 18",https://www.daft.ie/share/barn-close-shanganagh-road-shankill-dublin-18/6035184
+800,single,House,"9 Whitebeam Avenue, Dublin 14, Milltown, Dublin 6",https://www.daft.ie/share/whitebeam-avenue-milltown-dublin-6/6128964
+800,double,House,"20 Belarmine Close, Belarmine, Dublin 18, Stepaside, Dublin 18",https://www.daft.ie/share/20-belarmine-close-belarmine-dublin-18-stepaside-dublin-18/6148112
+800,double,Apartment,"Clifden Court Apartment, Smithfield, Dublin 1",https://www.daft.ie/share/clifden-court-apartment-smithfield-dublin-1/6146222
+800,single,House,"Hilton Gardens, Ballinteer, Dublin 16",https://www.daft.ie/share/hilton-gardens-ballinteer-dublin-16/6147860
+800,single,House,"Monastery Walk, Clondalkin, Dublin 22",https://www.daft.ie/share/monastery-walk-clondalkin-dublin-22/6146155
+800,double,House,"Selskar, 91 Rochestown Avenue, Dun Laoghaire, Dun Laoghaire, Co. Dublin",https://www.daft.ie/share/selskar-91-rochestown-avenue-dun-laoghaire-dun-laoghaire-co-dublin/6147118
+800,single,House,"Opposite Mount Argos church, Harold's Cross, Dublin 6",https://www.daft.ie/share/opposite-mount-argos-church-harolds-cross-dublin-6/6095174
+800,single,House,"Dublin 4, Irishtown, Dublin 4",https://www.daft.ie/share/dublin-4-irishtown-dublin-4/6147003
+800,double,House,"81 Dromheath Drive, Mulhuddart, Dublin 15, Mulhuddart, Dublin 15",https://www.daft.ie/share/81-dromheath-drive-mulhuddart-dublin-15-mulhuddart-dublin-15/6068183
+800,double,House,"35 Cedarview, northwood, Santry, Dublin 9",https://www.daft.ie/share/35-cedarview-northwood-santry-dublin-9/6119469
+800,double,House,"89 Walkinstown Park, Dublin 12, Ballymount, Dublin 12",https://www.daft.ie/share/89-walkinstown-park-dublin-12-ballymount-dublin-12/6033878
+800,double,House,"Stillorgan, Blackrock, Co. Dublin, Stillorgan, Co. Dublin",https://www.daft.ie/share/1-allen-park-road-stillorgan-blackrock-stillorgan-co-dublin/6107926
+800,double,House,"50 Nass Road, Inchicore, Dublin 8",https://www.daft.ie/share/50-nass-road-inchicore-dublin-8/6146897
+800,single,House,"Cashel Road,Dublin 12, Crumlin, Dublin 12",https://www.daft.ie/share/cashel-road-dublin-12-crumlin-dublin-12/6097770
+800,double,Apartment,"Apartment 7 , Burnell Square, Malahide Road, North, Darndale, Dublin 17",https://www.daft.ie/share/burnell-square-malahide-road-northern-cross-dublin-17-darndale-dublin-17/6060003
+800,single,House,"Loreto road
+, Dublin 8",https://www.daft.ie/share/loreto-road-dublin-8/6105393
+800,single,House,"Clonliffe Road, Drumcondra Dublin 3, Ballybough, Dublin 3",https://www.daft.ie/share/clonliffe-road-drumcondra-dublin-3-ballybough-dublin-3/6134805
+800,single,House,"Keeper Road, Drimnagh, Dublin 12, Rialto, Dublin 8",https://www.daft.ie/share/keeper-road-drimnagh-dublin-12-rialto-dublin-8/6030300
+800,double,House,"Cremore Road, Glasnevin, Dublin 11",https://www.daft.ie/share/cremore-road-glasnevin-dublin-11/6146362
+800,single,House,"Mountdown Drive, Whitehall, Dublin 9",https://www.daft.ie/share/mountdown-drive-whitehall-dublin-9/6146368
+800,double,House,"Westway Close, Blanchardstown, Dublin 15",https://www.daft.ie/share/westway-close-blanchardstown-dublin-15/6137938
+800,double,House,"Killarney Parade, Dublin 7, North Circular Road, Dublin 7",https://www.daft.ie/share/7-killarney-parade-dublin-7-north-circular-road-dublin-7/6096508
+800,double,House,"Glenbourne Road, Dublin 18, Leopardstown, Dublin 18",https://www.daft.ie/share/glenbourne-road-dublin-18-leopardstown-dublin-18/6136619
+800,single,House,"The Willows, 2 Dromheath Gardens, Mulhuddart, Dubl, Mulhuddart, Dublin 15",https://www.daft.ie/share/the-willows-2-dromheath-gardens-mulhuddart-dubl-mulhuddart-dublin-15/6126128
+800,single,House,"Cypress Grove Road, Templeogue, Dublin 6W",https://www.daft.ie/share/cypress-grove-road-templeogue-dublin-6w/6146186
+800,double,House,"Virginia Heights,Dublin 24, Tallaght, Dublin 24",https://www.daft.ie/share/virginia-heights-dublin-24-tallaght-dublin-24/6096683
+800,double,House,"Sandycove/killiney, Killiney, Co. Dublin",https://www.daft.ie/share/sandycove-killiney-killiney-co-dublin/6069786
+800,double,House,"Knockcullen Rise, Knocklyon, Dublin 16",https://www.daft.ie/share/knockcullen-rise-knocklyon-dublin-16/6144649
+800,single,House,"6 Parkleigh Square, Seven Mills, Dublin 22, Dublin 1",https://www.daft.ie/share/6-parkleigh-square-seven-mills-dublin-22-dublin-1/6111680
+800,single,House,"Earl Street South Dublin 8, The Coombe, Dublin 8",https://www.daft.ie/share/earl-street-south-dublin-8-the-coombe-dublin-8/6144868
+800,double,House,"Beneavin Park, Glasnevin, Dublin 11",https://www.daft.ie/share/beneavin-park-glasnevin-dublin-11/6134810
+800,double,House,"31 Aspen Avenue, Clonsilla, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/31-aspen-avenue-clonsilla-dublin-15-clonsilla-dublin-15/6094449
+800,double,House,"Cadogan Road, Dublin 3, Fairview, Dublin 3",https://www.daft.ie/share/cadogan-road-fairview-dublin-3-ballybough-dublin-3/6035958
+800,twin,House,"7 Redwood Drive, Dublin 24, Kilnamanagh, Dublin 24",https://www.daft.ie/share/7-redwood-drive-dublin-24-kilnamanagh-dublin-24/6096773
+800,double,House,"Ballygall Crescent, Finglas, Dublin 11",https://www.daft.ie/share/ballygall-crescent-finglas-dublin-11/6031337
+800,double,Apartment,"Thorncastle Court, Ringsend, Dublin 4",https://www.daft.ie/share/thorncastle-court-ringsend-dublin-4/6143118
+800,double,House,"Griffith Road, Finglas, Dublin 11",https://www.daft.ie/share/-griffith-road-finglas-dublin-11/6061717
+800,double,House,"27 Fortlawn Drive, Blanchardstown, Dublin 15",https://www.daft.ie/share/27-fortlawn-drive-blanchardstown-dublin-15/6133649
+800,double,Apartment,"Hunters Hill, Hunters Wood, Dublin 24, Ballycullen, Dublin 24",https://www.daft.ie/share/hunters-hill-hunters-wood-dublin-24-ballycullen-dublin-24/6048426
+800,double,House,"Aiken'S Village,Dublin 18, Stepaside, Dublin 18",https://www.daft.ie/share/aikens-village-dublin-18-stepaside-dublin-18/6131425
+800,double,Apartment,"Sunnyside,Malahide Road,Dublin 5, Killester, Dublin 5",https://www.daft.ie/share/-sunnyside-malahide-road-dublin-5-killester-dublin-5/6126077
+800,single,House,"45 Wilson Road, Mount Merrion, Blackrock, Mount Merrion, Co. Dublin",https://www.daft.ie/share/45-wilson-road-mount-merrion-blackrock-mount-merrion-co-dublin/6140346
+800,double,House,"211 Cooley Road, Dublin 12, Drimnagh, Dublin 12",https://www.daft.ie/share/211-cooley-road-dublin-12-drimnagh-dublin-12/6136433
+800,double,House,"Saint Teresa's Road, Glasnevin, Dublin 9",https://www.daft.ie/share/saint-teresas-road-glasnevin-dublin-9/6139968
+795,double,House,"H, Dundrum, Dublin 14",https://www.daft.ie/share/h-dundrum-dublin-14/6117710
+795,double,House,"Cherrywood Grove, Clondalkin, Dublin 22",https://www.daft.ie/share/cherrywood-grove-clondalkin-dublin-22/6135215
+795,double,House,"Hunterswood, Ballycullen, Dublin 16",https://www.daft.ie/share/hunterswood-ballycullen-dublin-16/6148035
+795,double,House,"Home Farm Road, Drumcondra, Dublin 3",https://www.daft.ie/share/home-farm-road-drumcondra-dublin-3/6058948
+790,twin,House,"12 Clare Street, Dublin 2, Dublin 2",https://www.daft.ie/share/12-clare-street-dublin-2-dublin-2/6143330
+790,single,House,"Dublin 24, Firhouse, Dublin 24",https://www.daft.ie/share/dublin-24-firhouse-dublin-24/6121130
+790,double,House,"Belvidere Avenue, Dublin 1",https://www.daft.ie/share/belvidere-avenue-dublin-1/6026796
+786,single,House,"Rere Of 80, Whitebarn Road, Dublin 14, Churchtown, Dublin 14",https://www.daft.ie/share/rere-of-80-whitebarn-road-dublin-14-churchtown-dublin-14/6145171
+785,double,House,"Templeroan Avenue, Knocklyon, Dublin 16",https://www.daft.ie/share/templeroan-avenue-knocklyon-dublin-16/6147514
+785,double,House,"Bird avenue, Clonskeagh, Dublin 14",https://www.daft.ie/share/bird-avenue-clonskeagh-dublin-14/6138498
+780,twin,Apartment,"St alphonsus rd, Drumcondra, Dublin 3",https://www.daft.ie/share/st-alphonsus-rd-drumcondra-dublin-3/6120094
+780,double,House,"Corrib Road, Dublin 6w, Terenure, Dublin 6W",https://www.daft.ie/share/157-corrib-road-dublin-6w-terenure-dublin-6w/6135647
+780,single,House,"8 Rockville Park, Blackrock, Co. Dublin",https://www.daft.ie/share/8-rockville-park-blackrock-co-dublin/6056126
+780,double,House,"Kilary Grove, Donaghmede, Dublin 13",https://www.daft.ie/share/kilary-grove-donaghmede-dublin-13/6143725
+780,double,House,"Alpine Rise,Dublin 24, Tallaght, Dublin 24",https://www.daft.ie/share/alpine-rise-dublin-24-tallaght-dublin-24/6148631
+780,single,House,"21 Saint Brigid's Road Lower, Dublin 9, Drumcondra, Dublin 9",https://www.daft.ie/share/21-saint-brigids-road-lower-dublin-9-drumcondra-dublin-9/6077015
+780,single,House,"Dublin 10 Ballyfermot , Perrystown, Dublin 12",https://www.daft.ie/share/dublin-10-ballyfermot-perrystown-dublin-12/5998187
+777,single,House,"1 Avoca Terrace, Avoca Road, Blackrock, Stillorgan, Co. Dublin",https://www.daft.ie/share/1-avoca-terrace-avoca-road-blackrock-stillorgan-co-dublin/6143817
+776,double,Apartment,"Southmede Apartments,Dundrum,Dublin 16, Ballinteer, Dublin 16",https://www.daft.ie/share/southmede-apartments-dundrum-dublin-16-ballinteer-dublin-16/6144704
+776,double,House,"34 Cluny Grove, Killiney, Glenageary, Co. Dublin",https://www.daft.ie/share/34-cluny-grove-killiney-glenageary-co-dublin/6098477
+775,double,Apartment,"Distillery road, Drumcondra, Dublin 3",https://www.daft.ie/share/distillery-road-drumcondra-dublin-3/4485715
+770,double,House,",Rathfarnham,Dublin 16, Ballyboden, Dublin 16",https://www.daft.ie/share/-rathfarnham-dublin-16-ballyboden-dublin-16/6127482
+770,double,House,"Dublin 15, Tyrrelstown, Dublin 15",https://www.daft.ie/share/dublin-15-tyrrelstown-dublin-15/6041156
+770,double,House,"willow wood, Hartstown, Dublin 15",https://www.daft.ie/share/willow-wood-hartstown-dublin-15/6146866
+764,double,House,"Mount Saint Annes, Milltown, Milltown, Dublin 6",https://www.daft.ie/share/mount-saint-annes-milltown-milltown-dublin-6/6112245
+760,single,House,"Price PER  PERSON plus bills in twin / single room , Clonskeagh, Dublin 14",https://www.daft.ie/share/-ardilea-dublin-14-per-bed-twin-clonskeagh-dublin-14/5889991
+760,double,House,"Seafield Road, Booterstown, Co. Dublin",https://www.daft.ie/share/seafield-road-booterstown-co-dublin/6106763
+760,single,House,"Limewood Avenue, Raheny, Dublin 5",https://www.daft.ie/share/limewood-avenue-raheny-dublin-5/6146086
+760,double,House,"Scholarstown Road, Knocklyon, Dublin 16",https://www.daft.ie/share/scholarstown-road-knocklyon-dublin-16/6145766
+760,double,House,"shantalla rd, Santry, Dublin 9",https://www.daft.ie/share/shantalla-rd-santry-dublin-9/6018387
+760,double,House,"6 Cill Eanna, Dublin 5, Raheny, Dublin 5",https://www.daft.ie/share/6-cill-eanna-dublin-5-raheny-dublin-5/6041453
+750,double,House,"Castlegrange Drive, Dublin 22, Grange Castle, Co. Dublin",https://www.daft.ie/share/castlegrange-drive-dublin-22-grange-castle-co-dublin/6138094
+750,single,House,"86 Glenmarron Road, Palmerstown, dublin 20, Palmerstown, Dublin 20",https://www.daft.ie/share/86-glenmarron-road-palmerstown-dublin-20-palmerstown-dublin-20/6137985
+750,single,House,"Carndonagh Road, Dublin 13, Clongriffin, Dublin 13",https://www.daft.ie/share/grange-abbey-road-dublin-13-clongriffin-dublin-13/6104223
+750,single,Apartment,"Parkview, Verdemont, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/parkview-verdemont-dublin-15-clonsilla-dublin-15/6141570
+750,double,House,"Butterfield Park, Dublin 14",https://www.daft.ie/share/butterfield-park-dublin-14/6150320
+750,double,House,"castlecurragh heath, Mulhuddart, Dublin 15",https://www.daft.ie/share/castlecurragh-heath-mulhuddart-dublin-15/6125967
+750,double,House,"Inchicore, Dublin 8, Inchicore, Dublin 8",https://www.daft.ie/share/inchicore-dublin-inchicore-dublin-8/6146947
+750,single,House,"Seven Mills,Dublin 22, Clondalkin, Dublin 22",https://www.daft.ie/share/seven-mills-dublin-22-clondalkin-dublin-22/6128969
+750,single,House,"Dublin, Ballyfermot, Dublin 10",https://www.daft.ie/share/285-ballyfermot-road-ballyfermot-dublin-10/6122136
+750,double,Apartment,"Woodbrook Court, Castleknock, Dublin 15",https://www.daft.ie/share/woodbrook-court-castleknock-dublin-15/6146788
+750,double,House,"The Dale Belgard Heights , Tallaght, Dublin 24",https://www.daft.ie/share/the-dale-belgard-heights-tallaght-dublin-24/6096664
+750,double,House,"Clondalkin woodford Dublin 22, Clondalkin, Dublin 22",https://www.daft.ie/share/clondalkin-woodford-dublin-22-clondalkin-dublin-22/6133461
+750,double,Apartment,"*Double* Lanesborough Crescent, Finglas, Dublin 11",https://www.daft.ie/share/-double-lanesborough-crescent-finglas-dublin-11/6148078
+750,double,House,"Saint Brigid's Road Upper, Drumcondra, Dublin 9",https://www.daft.ie/share/saint-brigids-road-upper-drumcondra-dublin-9/5929465
+750,double,House,"Sycamore View, Dublin  15. , Carpenterstown, Dublin 15",https://www.daft.ie/share/sycamore-view-dublin-15-carpenterstown-dublin-15/6094995
+750,single,House,"Kilakee Close, Walkinstown, Dublin 12",https://www.daft.ie/share/kilakee-close-walkinstown-dublin-12/6143015
+750,double,House,"98 Grangebrook Avenue,  Rathfarnham, D16, Ballyboden, Dublin 16",https://www.daft.ie/share/98-grangebrook-avenue-rathfarnham-d16-ballyboden-dublin-16/6128572
+750,double,House,"Ballyroan Road, Dublin 16, Templeogue, Dublin 16",https://www.daft.ie/share/39-ballyroan-road-dublin-16-templeogue-dublin-16/6111670
+750,double,House,"Killarney Parade, Phibsborough, Dublin 7",https://www.daft.ie/share/killarney-parade-phibsborough-dublin-7/6136723
+750,single,House,"128 Park Drive Avenue, Castleknock, Dublin 15, Castleknock, Dublin 15",https://www.daft.ie/share/128-park-drive-avenue-castleknock-dublin-15-castleknock-dublin-15/6126578
+750,single,House,"LLewellyn Grove, Dundrum, Dublin 14",https://www.daft.ie/share/llewellyn-grove-dundrum-dublin-14/6063133
+750,single,House,"Saint Albans Road,Dublin 8, South Circular Road, Dublin 8",https://www.daft.ie/share/saint-albans-road-dublin-8-south-circular-road-dublin-8/6141638
+750,double,House,"Laurel Park,Dublin 22, Clondalkin, Dublin 22",https://www.daft.ie/share/laurel-park-dublin-22-clondalkin-dublin-22/6123154
+750,double,Apartment,"Unit 22, Belarmine Plaza, Belarmine Avenue, Dublin, Sandyford, Dublin 18",https://www.daft.ie/share/unit-22-belarmine-plaza-belarmine-avenue-dublin-sandyford-dublin-18/6119585
+750,single,House,"Cabinteely Avenue, Dublin 18, Cabinteely, Dublin 18",https://www.daft.ie/share/-cabinteely-avenue-dublin-18-cabinteely-dublin-18/6146847
+750,double,Apartment,"Deerpark, Kiltipper, Dublin 24, Kiltipper, Dublin 24",https://www.daft.ie/share/deerpark-kiltipper-dublin-24-kiltipper-dublin-24/6116442
+750,single,House,"Stillorgan Wood , Stillorgan, Co. Dublin",https://www.daft.ie/share/stillorgan-wood-stillorgan-co-dublin/6135832
+750,single,House,"Peters Road, Phibsborough, Dublin 7",https://www.daft.ie/share/peters-road-phibsborough-dublin-7/5913641
+750,double,House,"warrenstown way Dublin 15, Mulhuddart, Dublin 15",https://www.daft.ie/share/warrenstown-way-blanchardstown-dublin-15-mulhuddart-dublin-15/6116070
+750,double,House,"27 Arklow Street, Dublin 7, North Circular Road, Dublin 7",https://www.daft.ie/share/27-arklow-street-dublin-7-north-circular-road-dublin-7/6113873
+750,double,House,"Sillogue Park, Dublin 11, Poppintree, Dublin 11",https://www.daft.ie/share/43-sillogue-park-dublin-11-poppintree-dublin-11/6135532
+750,double,House,"kilmainham lane, Kilmainham, Dublin 8",https://www.daft.ie/share/kilmainham-lane-kilmainham-dublin-8/6044425
+750,double,House,"Newbury Avenue,Dublin 17, Clonshaugh, Dublin 17",https://www.daft.ie/share/newbury-avenue-dublin-17-clonshaugh-dublin-17/6105212
+750,double,House,"18 Huntstown park, Huntstown, Blanchardstown, Dublin 15",https://www.daft.ie/share/18-huntstown-park-huntstown-blanchardstown-dublin-15/6131199
+750,single,House,"Raglan Lane,Dublin 4, Dublin 4",https://www.daft.ie/share/raglan-lane-dublin-4-dublin-4/5619873
+750,single,House,"38 Willow Wood Park, Hartstown, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/38-willow-wood-park-hartstown-dublin-15-clonsilla-dublin-15/6135556
+748,twin,Apartment,"Royal canal Terrace, Phibsborough, Dublin 7",https://www.daft.ie/share/royal-canal-terrace-phibsborough-dublin-7/6143640
+745,single,House,"Herberton Drive, Rialto, Dublin 8",https://www.daft.ie/share/herberton-drive-rialto-dublin-8/6147879
+742,double,Apartment,"16 Red Arches Drive, The Coast, Dublin 13, Baldoyle, Dublin 13",https://www.daft.ie/share/16-red-arches-drive-the-coast-dublin-13-baldoyle-dublin-13/6123986
+740,double,House,"Cranmer Lane,Dublin 4, Ballsbridge, Dublin 4",https://www.daft.ie/share/cranmer-lane-dublin-4-ballsbridge-dublin-4/6121194
+740,single,House,"Castlecurragh Vale, Blanchardstown, Dublin 15",https://www.daft.ie/share/castlecurragh-vale-blanchardstown-dublin-15/6138033
+740,double,House,"Seapoint, Blackrock, Co. Dublin , Monkstown, Co. Dublin",https://www.daft.ie/share/seapoint-blackrock-co-dublin-monkstown-co-dublin/6028368
+739,single,House,"Cuffe Lane,Dublin 2, Dublin 2",https://www.daft.ie/share/cuffe-lane-dublin-2-dublin-2/6064090
+735,single,House,"Rushbrook Road       D6W , Templeogue, Dublin 6W",https://www.daft.ie/share/rushbrook-road-d6w-templeogue-dublin-6w/6049280
+735,double,House,"11 The Rise , Carrickmines Manor, Carrickmines D18, Carrickmines, Dublin 18",https://www.daft.ie/share/11-the-rise-carrickmines-manor-carrickmines-d18-carrickmines-dublin-18/6146312
+730,double,Apartment,"Sharing ENSUITE ROOM available for Two in 2 Bedroom Apartment in Dublin 15, Carpenterstown, Dublin 15",https://www.daft.ie/share/dublin-15-carpenterstown-dublin-15/5880717
+725,double,House,"7 Alderwood Avenue, Tallaght, Dublin 24",https://www.daft.ie/share/7-alderwood-avenue-tallaght-dublin-24/6145353
+725,double,House,"De Selby Lawns,Dublin 24, Ballinascorney, Dublin 16",https://www.daft.ie/share/de-selby-lawns-dublin-24-ballinascorney-dublin-16/6129911
+720,double,House,"Glendoher Park,Rathfarnham,Dublin 16, Willbrook, Dublin 16",https://www.daft.ie/share/-glendoher-park-rathfarnham-dublin-16-willbrook-dublin-16/6049380
+720,double,House,"Booterstown Avenue, Booterstown, Co. Dublin",https://www.daft.ie/share/booterstown-avenue-booterstown-co-dublin/6120597
+720,double,Apartment,"Cassian Court South, Royal Canal Park, Dublin 15",https://www.daft.ie/share/cassian-court-south-royal-canal-park-dublin-15/6117683
+720,double,Apartment,"Scarriff House,Custom House Square,Mayor Street Lower,I.F.S.C.,Dublin 1, IFSC, Dublin 1",https://www.daft.ie/share/scarriff-house-custom-house-square-mayor-street-lower-i-f-s-c-dublin-1-ifsc-dublin-1/6092583
+720,double,House,"Cruise Park Drive,Dublin 15, Tyrrelstown, Dublin 15",https://www.daft.ie/share/cruise-park-drive-dublin-15-tyrrelstown-dublin-15/6139989
+720,double,House,"Hollywoodrath Avenue, Hollystown, Dublin 15",https://www.daft.ie/share/hollywoodrath-avenue-hollystown-dublin-15/6145661
+720,single,House,"Willow Park Crescent, Glasnevin, Dublin 11",https://www.daft.ie/share/willow-park-crescent-glasnevin-dublin-11/6145750
+720,double,House,"Castlegrange Lawns, Clondalkin, Dublin 22",https://www.daft.ie/share/castlegrange-lawns-clondalkin-dublin-22/6142851
+720,double,House,"89 oak court, Palmerstown, Dublin 20",https://www.daft.ie/share/89-oak-court-palmerstown-dublin-20/6140059
+720,single,House,"Lennox Place, Portobello, Dublin 8",https://www.daft.ie/share/lennox-place-portobello-dublin-8/6120915
+700,shared,House,"Mark Street, Dublin 2, Dublin 2",https://www.daft.ie/share/mark-street-dublin-2-dublin-2/6007791
+700,single,House,"Saddlers Grove, Dublin 15, Mulhuddart, Dublin 15",https://www.daft.ie/share/saddlers-grove-dublin-15-mulhuddart-dublin-15/6143049
+700,single,House,"Riverwood Court, Dublin 15, Dublin 15",https://www.daft.ie/share/38-riverwood-court-dublin-15-dublin-15/5685111
+700,single,House,"Ivy Court, Beaumont Woods, Beaumont, Dublin 9",https://www.daft.ie/share/ivy-court-beaumont-woods-beaumont-dublin-9/6146996
+700,double,House,"Tonlegee Road,Dublin 5, Ayrfield, Dublin 13",https://www.daft.ie/share/tonlegee-road-dublin-5-ayrfield-dublin-13/6131529
+700,shared,Apartment,"Amiens Street, Dublin 2",https://www.daft.ie/share/amiens-street-dublin-2/6145041
+700,double,House,"Rathdown Avenue, Dublin 6W, Terenure, Dublin 6W",https://www.daft.ie/share/rathdown-avenue-dublin-6w-terenure-dublin-6w/6129329
+700,double,Apartment,"281 Castlecurragh Heath, Mulhuddart, Dublin 15, Mulhuddart, Dublin 15",https://www.daft.ie/share/281-castlecurragh-heath-mulhuddart-dublin-15-mulhuddart-dublin-15/6146515
+700,single,House,"Tallaght,Dublin 24, Tallaght, Dublin 24",https://www.daft.ie/share/brookmount-dublin-24-tallaght-dublin-24/6060063
+700,shared,House,"2b Tonlegee Road, Dublin 5, Artane, Dublin 5",https://www.daft.ie/share/2b-tonlegee-road-dublin-5-artane-dublin-5/6148316
+700,single,House,"Westbourne Green, Dublin 22, Grange Castle, Co. Dublin",https://www.daft.ie/share/westbourne-green-dublin-22-grange-castle-co-dublin/6106658
+700,double,House,"Mount Garrett Crescent, Tyrrelstown, Dublin 15",https://www.daft.ie/share/mount-garrett-crescent-tyrrelstown-dublin-15/6142601
+700,single,House,"Old Bawn Road, Tallaght, Dublin 24",https://www.daft.ie/share/old-bawn-road-tallaght-dublin-24/6135710
+700,single,House,"Glenlyon Grove, Knocklyon, Dublin 16",https://www.daft.ie/share/glenlyon-grove-knocklyon-dublin-16/6122090
+700,double,House,"Gurteen Avenue, Ballyfermot, Dublin 10",https://www.daft.ie/share/gurteen-avenue-ballyfermot-dublin-10/6143541
+700,single,House,"Mckee Avenue, Dublin 11, Finglas, Dublin 11",https://www.daft.ie/share/-mckee-avenue-dublin-11-finglas-dublin-11/6108228
+700,double,Apartment,"Rosehaven, Carpenterstown, Dublin 15",https://www.daft.ie/share/rosehaven-carpenterstown-dublin-15/6115329
+700,single,House,"Old, Crumlin, Dublin 12",https://www.daft.ie/share/old-crumlin-dublin-12/6035288
+700,double,House,"43 SESKIN VIEW ROAD OLDBAWN TALLAGHT DUBLIN 24 , Oldbawn, Dublin 24",https://www.daft.ie/share/43-seskin-view-road-oldbawn-tallaght-dublin-24-oldbawn-dublin-24/6062099
+700,single,House,"Palmers Copse, Palmerstown, Dublin 20",https://www.daft.ie/share/palmers-copse-palmerstown-dublin-20/6128264
+700,single,House,"69 Careysfort Avenue,Blackrock, Blackrock, Co. Dublin",https://www.daft.ie/share/69-careysfort-avenue-blackrock-blackrock-co-dublin/5967389
+700,double,House,"Mount Anville Wood, Lower Killmacud Road, Stillorgan, Co. Dublin",https://www.daft.ie/share/mount-anville-wood-lower-killmacud-road-stillorgan-co-dublin/6146782
+700,double,House,"Carrickmount avenue, Churchtown, Dublin 14",https://www.daft.ie/share/carrickmount-avenue-churchtown-dublin-14/6111891
+700,shared,Apartment,"St Stephens Green, Dublin 2",https://www.daft.ie/share/st-stephens-green-dublin-2/6110872
+700,single,House,"Mount Symon Close, Clonsilla, Dublin 15",https://www.daft.ie/share/mount-symon-close-dublin-15-clonsilla-dublin-15/6115371
+700,double,House,"Montpelier, 11A Ballyroan Park, Templeogue, Dublin 16",https://www.daft.ie/share/montpelier-11a-ballyroan-park-templeogue-dublin-16/6146637
+700,double,House,"24 Whitechurch View, Rathfarnham, Dublin 16, Ballyboden, Dublin 16",https://www.daft.ie/share/24-whitechurch-view-rathfarnham-dublin-16-ballyboden-dublin-16/6035898
+700,double,Apartment,"50 Woodbrook Square, Dublin 15, Carpenterstown, Dublin 15",https://www.daft.ie/share/50-woodbrook-square-dublin-15-carpenterstown-dublin-15/6146501
+700,single,Apartment,"Terenure Road North, Dublin 6w, Terenure, Dublin 6W",https://www.daft.ie/share/terenure-road-north-dublin-6w-terenure-dublin-6w/6130463
+700,shared,Apartment,"Apartment 4, 36/37 Earl Street, Dublin 8, Christchurch, Dublin 8",https://www.daft.ie/share/apartment-4-36-37-earl-street-dublin-8-christchurch-dublin-8/6092384
+700,double,Apartment,"Hampton Wood Drive,Hampton Wood,Dublin 11, Poppintree, Dublin 11",https://www.daft.ie/share/hampton-wood-drive-hampton-wood-dublin-11-poppintree-dublin-11/6050019
+700,double,House,"Beechfield, Castaheany, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/beechfield-castaheany-dublin-15-clonsilla-dublin-15/6097078
+700,single,House,"westway rise, corduff, Blanchardstown, Dublin 15",https://www.daft.ie/share/-westway-rise-corduff-blanchardstown-dublin-15/6104420
+700,single,House,"Cremona Road,Dublin 10, Ballyfermot, Dublin 10",https://www.daft.ie/share/cremona-road-dublin-10-ballyfermot-dublin-10/6131264
+700,single,House,"43 Palmerstown Green, Dublin 20, Palmerstown, Dublin 20",https://www.daft.ie/share/43-palmerstown-green-dublin-20-palmerstown-dublin-20/6141487
+700,double,House,"Killester Park, Killester, Dublin 5",https://www.daft.ie/share/killester-park-killester-dublin-5/6084178
+698,twin,Apartment,"King'S Inns Court, Phibsborough Road, Dublin 7, North Circular Road, Dublin 7",https://www.daft.ie/share/1-kings-inns-court-phibsborough-road-dublin-7-north-circular-road-dublin-7/6114708
+695,double,Apartment,"Beechwood Court, Stillorgan, Co. Dublin",https://www.daft.ie/share/-beechwood-court-stillorgan-co-dublin/6098046
+695,shared,House,"Erne Street, Dublin 2, Dublin 2",https://www.daft.ie/share/erne-street-dublin-2-dublin-2/6132336
+693,twin,Apartment,"Royal Canal Terrace,Phibsborough Road,Dublin 7, North Circular Road, Dublin 7",https://www.daft.ie/share/royal-canal-terrace-phibsborough-road-dublin-7-north-circular-road-dublin-7/6120186
+690,shared,Apartment,"Talbot Place, Dublin 1, Dublin 1",https://www.daft.ie/share/talbot-place-dublin-1-dublin-1/6132339
+690,single,House,"4 Errigal Gardens, Dublin 12, Drimnagh, Dublin 12",https://www.daft.ie/share/4-errigal-gardens-dublin-12-drimnagh-dublin-12/6131701
+690,single,House,"ashington dale, Ashington, Dublin 7",https://www.daft.ie/share/ashington-dale-ashington-dublin-7/6062556
+690,double,House,"Hazelbury Park, Castaheany, Dublin 15, Clonee, Dublin 15",https://www.daft.ie/share/hazelbury-park-castaheany-dublin-15-clonee-dublin-15/6096901
+688,shared,Apartment,"Temple Bar West Essex Street, Dublin 2",https://www.daft.ie/share/temple-bar-west-essex-street-dublin-2/6138461
+685,shared,Apartment,"Talbot Street, Dublin, Dublin 2",https://www.daft.ie/share/talbot-street-dublin-dublin-2/6067172
+682,double,House,"Blessington Lane, Phibsborough, Dublin 7",https://www.daft.ie/share/blessington-lane-phibsborough-dublin-7/6134060
+680,single,House,"Cromwellsfort Road, Walkinstown, Dublin 12, Dublin 12",https://www.daft.ie/share/cromwellsfort-road-walkinstown-dublin-12-dublin-12/6123167
+680,single,House,"Glenhill Road, Dublin 11, Finglas, Dublin 11",https://www.daft.ie/share/glenhill-road-dublin-11-finglas-dublin-11/6134827
+680,single,House,"Tymon Crescent, Tallaght, Dublin 24",https://www.daft.ie/share/tymon-crescent-tallaght-dublin-24/6123979
+680,double,House,"Dunawley Drive, Clondalkin, Dublin 22",https://www.daft.ie/share/dunawley-drive-clondalkin-dublin-22/6128157
+680,shared,House,"Pearse Street, Dublin 2, Dublin 2",https://www.daft.ie/share/pearse-street-dublin-2-dublin-2/6093904
+680,double,House,"Beverly Green, Knocklyon, Dublin 16",https://www.daft.ie/share/beverly-green-knocklyon-dublin-16/6145506
+680,twin,House,"27 Kilmore Avenue, Dublin 5, Kilmore, Dublin 5",https://www.daft.ie/share/27-kilmore-avenue-dublin-5-kilmore-dublin-5/6091852
+678,twin,Apartment,"the rise, Whitehall, Dublin 9",https://www.daft.ie/share/the-rise-whitehall-dublin-9/6120076
+675,shared,Apartment,"Apartment 1, 70-72 Talbot street, Dublin 1, Dublin 1",https://www.daft.ie/share/apartment-1-70-72-talbot-street-dublin-1-dublin-1/6142985
+675,double,House,"Oldcourt, Dublin 24, Firhouse, Dublin 24",https://www.daft.ie/share/oldcourt-dublin-24-firhouse-dublin-24/6138130
+670,single,House,"East Cabra, Cabra, Dublin 7",https://www.daft.ie/share/east-cabra-cabra-dublin-7/6112160
+670,shared,Apartment,"Dublin 7 Carnlough Road, Cabra, Dublin 7",https://www.daft.ie/share/dublin-7-carnlough-road-cabra-dublin-7/6095445
+667,double,House,"Brooklawn,Blackrock,Co. Dublin, Monkstown, Co. Dublin",https://www.daft.ie/share/brooklawn-blackrock-co-dublin-monkstown-co-dublin/6120896
+665,double,House,"Stonepark Abbey, Rathfarnham, Dublin 14, Dublin 14",https://www.daft.ie/share/stonepark-abbey-rathfarnham-dublin-14-dublin-14/6150199
+665,single,Apartment,"10 Windmill Court, Dublin 15, Coolmine, Dublin 15",https://www.daft.ie/share/10-windmill-court-dublin-15-coolmine-dublin-15/6144675
+660,double,Apartment,"River Road, Dublin 15, Ashtown, Dublin 15",https://www.daft.ie/share/river-road-dublin-15-ashtown-dublin-15/6147609
+660,single,House,"Maryfield Crescent, Artane, Dublin 5",https://www.daft.ie/share/-maryfield-crescent-artane-dublin-5/6113742
+660,single,House,"Cedarwood Avenue, Finglas, Dublin 11",https://www.daft.ie/share/cedarwood-avenue-finglas-dublin-11/6146372
+660,single,House,"Saint Columba's Road, Dublin , Drumcondra, Dublin 9",https://www.daft.ie/share/saint-columbas-road-dublin-drumcondra-dublin-9/6011085
+660,single,House,"Blakestown Road, Clonsilla, Dublin 15",https://www.daft.ie/share/blakestown-road-clonsilla-dublin-15/6144635
+660,single,House,"157 Limekiln Road, Dublin 12, Greenhills, Dublin 12",https://www.daft.ie/share/157-limekiln-road-dublin-12-greenhills-dublin-12/6103445
+655,single,House,"8 Clanmoyle Road, Dublin 5, Donnycarney, Dublin 5",https://www.daft.ie/share/8-clanmoyle-road-dublin-5-donnycarney-dublin-5/6146925
+650,single,House,"Clonee, Hunstown, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/clonee-hunstown-dublin-15-clonsilla-dublin-15/6137928
+650,double,Apartment,"Silverbanks, Red Arches Park, Baldoyle, Dublin 13, Baldoyle, Dublin 13",https://www.daft.ie/share/silverbanks-red-arches-park-baldoyle-dublin-13-baldoyle-dublin-13/6142960
+650,single,House,"19 Sorrel Dale, Clonsilla, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/19-sorrel-dale-clonsilla-dublin-15-clonsilla-dublin-15/6111942
+650,double,Apartment,"3 Marine Cove, Dublin 13, Sutton, Dublin 13",https://www.daft.ie/share/3-marine-cove-dublin-13-sutton-dublin-13/6146931
+650,single,Apartment,"Beechwood Avenue Lower Raneragh, Ranelagh, Dublin 6",https://www.daft.ie/share/beechwood-avenue-lower-raneragh-ranelagh-dublin-6/6146272
+650,single,House,"Ballymun Road, Dublin 11, Ballymun, Dublin 11",https://www.daft.ie/share/ballymun-road-dublin-11-ballymun-dublin-11/6134258
+650,single,House,"10 Bellgree Heights, Dublin 15, Tyrrelstown, Dublin 15",https://www.daft.ie/share/10-bellgree-heights-dublin-15-tyrrelstown-dublin-15/6049034
+650,single,House,"Stoneybatter, Dublin 7 , Stoneybatter, Dublin 7",https://www.daft.ie/share/stoneybatter-dublin-7-stoneybatter-dublin-7/6147017
+650,double,House,"Roselawn Road, Castleknock, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/179-roselawn-road-dublin-15-clonsilla-dublin-15/6134843
+650,twin,House,"Hazelbrook, Tallaght, Dublin 24",https://www.daft.ie/share/hazelbrook-tallaght-dublin-24/6143995
+650,single,House,"27 Ashleigh Green, d15k0yh, Castleknock, Dublin 15",https://www.daft.ie/share/27-ashleigh-green-d15k0yh-castleknock-dublin-15/6073628
+650,single,House,"13 Castlemoyne, Dublin 13, Clarehall, Dublin 13",https://www.daft.ie/share/13-parkside-clarehall-dublin-13/6077351
+650,double,House,"Glenaulin, Chapelizod, Dublin 20, Chapelizod, Dublin 20",https://www.daft.ie/share/glenaulin-chapelizod-dublin-20-chapelizod-dublin-20/6148598
+650,double,House,"4 The Green, Mulhuddart Wood, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/4-the-green-mulhuddart-wood-dublin-15-clonsilla-dublin-15/6109716
+650,double,House,"L4010, Knocklyon, Dublin 16",https://www.daft.ie/share/l4010-knocklyon-dublin-16/6025161
+650,single,House,"14 Beechfield Lawn, Castaheany, Clonee, Dublin 15",https://www.daft.ie/share/14-beechfield-lawn-castaheany-clonee-dublin-15/6122041
+650,single,House,"46 Willow Wood Park, Hartstown, Dublin 15, Hartstown, Dublin 15",https://www.daft.ie/share/46-willow-wood-park-hartstown-dublin-15-hartstown-dublin-15/6131468
+650,single,House,"47 Gleann Na Sml, Dublin 24, Oldbawn, Dublin 24",https://www.daft.ie/share/47-gleann-na-sml-dublin-24-oldbawn-dublin-24/6128970
+650,twin,House,"Stoneybatter Dublin 7, North Circular Road, Dublin 7",https://www.daft.ie/share/stoneybatter-dublin-7-north-circular-road-dublin-7/6112274
+650,double,House,"Palmerston Place, Dublin 7, North Circular Road, Dublin 7",https://www.daft.ie/share/palmerston-place-dublin-7-north-circular-road-dublin-7/6145570
+650,single,House,"213 Richmond Road, Fairview, Dublin 3, Fairview, Dublin 3",https://www.daft.ie/share/213-richmond-road-fairview-dublin-3-fairview-dublin-3/6043898
+648,twin,,"Glasnevin Hill,Dublin 9, Drumcondra, Co. Dublin",https://www.daft.ie/share/glasnevin-hill-dublin-9-drumcondra-dublin-9/6120127
+648,twin,Apartment,"Blessington Street, Dublin 7, North Circular Road, Dublin 7",https://www.daft.ie/share/blessington-street-dublin-7-north-circular-road-dublin-7/6120139
+647,double,House,"110 Beaufort Downs, Rathfarnham, Dublin 14, Willbrook, Dublin 16",https://www.daft.ie/share/110-beaufort-downs-rathfarnham-dublin-14-willbrook-dublin-16/6143071
+640,,,"Hazelwood Accommodation, Northwood, Santry, Dublin 9",https://www.daft.ie/for-rent/hazelwood-accommodation-northwood-santry-dublin-9/3741188
+640,single,House,"96 clancy road, Finglas, Dublin 11",https://www.daft.ie/share/96-clancy-road-finglas-dublin-11/6068534
+640,double,House,"Grange View, Clondalkin, Dublin 22",https://www.daft.ie/share/grange-view-clondalkin-dublin-22/6149525
+640,single,House,"4 Errigal Gardens, Dublin 12, Drimnagh, Dublin 12",https://www.daft.ie/share/4-errigal-gardens-dublin-12-drimnagh-dublin-12/6148662
+640,single,House,"Arches, 13 Westbourne Park, Dublin 22, Grange Castle, Co. Dublin",https://www.daft.ie/share/arches-13-westbourne-park-dublin-22-grange-castle-co-dublin/6138826
+640,double,Apartment,"Grace Park, Whitehall D9R722, Beaumont, Dublin 9",https://www.daft.ie/share/grace-park-whitehall-d9r722-beaumont-dublin-9/6035210
+640,single,House,"Bangor Road, Crumlin, Dublin 12",https://www.daft.ie/share/bangor-road-crumlin-dublin-12/6145754
+640,single,House,"Plunkett Grove, Finglas, Dublin 11",https://www.daft.ie/share/plunkett-grove-finglas-dublin-11/6142871
+640,double,House,"29 Violet Hill Road, Glasnevin, Dublin 11",https://www.daft.ie/share/29-violet-hill-road-glasnevin-dublin-11/6138645
+640,double,House,"Moyclare Drive, Baldoyle, Dublin 13",https://www.daft.ie/share/moyclare-drive-baldoyle-dublin-13/6139948
+640,double,House,"Stiles Court, Clontarf, Dublin 3",https://www.daft.ie/share/stiles-court-clontarf-dublin-3/6139955
+635,twin,Apartment,"Nottingham House, 2a Nottingham Street, Dublin 3, Ballybough, Dublin 3",https://www.daft.ie/share/nottingham-house-2a-nottingham-street-dublin-3-ballybough-dublin-3/6049648
+630,single,Apartment,"4 Annagh Court, Waterville, D15 NX23, Blanchardstown, Dublin 15",https://www.daft.ie/share/4-annagh-court-waterville-d15-nx23-blanchardstown-dublin-15/6140443
+627,single,House,"72 The Green, Beaumont Woods, Dublin 9, Beaumont, Dublin 9",https://www.daft.ie/share/72-the-green-beaumont-woods-dublin-9-beaumont-dublin-9/6147766
+625,double,House,"54 Granitefield, Dun Laoghaire, Cabinteely, Dublin 18",https://www.daft.ie/share/54-granitefield-dun-laoghaire-cabinteely-dublin-18/6138171
+625,shared,House,"241 Carnlough Road, Dublin 7, Cabra, Dublin 7",https://www.daft.ie/share/241-carnlough-road-dublin-7-cabra-dublin-7/6121646
+625,single,House,"68 Balally Drive, Dundrum, Dublin 16",https://www.daft.ie/share/68-balally-drive-dundrum-dublin-16/6131115
+625,twin,House,"Emmet Rd, Inchicore, Dublin 8",https://www.daft.ie/share/emmet-rd-inchicore-dublin-8/6132715
+625,twin,House,"Bow Bridge, St. James Gate, Dublin 8",https://www.daft.ie/share/bow-bridge-st-james-gate-dublin-8/6132751
+625,twin,House,"68 White Oaks, Roebuck Road, Dublin 14, Goatstown, Dublin 14",https://www.daft.ie/share/68-white-oaks-roebuck-road-dublin-14-goatstown-dublin-14/6114050
+620,twin,House,"2 a Whitehall Park,Dublin 12, Terenure, Dublin 12",https://www.daft.ie/share/2-a-whitehall-park-dublin-12-terenure-dublin-12/6045814
+620,double,House,"Rathfarnham Wood, Dublin 14, Dublin 14",https://www.daft.ie/share/rathfarnham-wood-dublin-14-dublin-14/6088176
+610,double,House,"Glenlyon Grove, Dublin 16, Firhouse, Dublin 24",https://www.daft.ie/share/glenlyon-grove-dublin-16-firhouse-dublin-24/6144711
+610,double,House,"Dublin 13, Balgriffin, Dublin 13",https://www.daft.ie/share/dublin-13-balgriffin-dublin-13/6134812
+605,double,House,"Courtlands , Drumcondra, Dublin 3",https://www.daft.ie/share/courtlands-drumcondra-dublin-3/6139586
+600,twin,House,"Bayside Sutton,Co. Dublin, Bayside, Dublin 13",https://www.daft.ie/share/-bayside-sutton-co-dublin-bayside-dublin-13/6117854
+600,single,House,"28 Saint Mary'S Road, Dublin 12, Crumlin, Dublin 12",https://www.daft.ie/share/28-saint-marys-road-dublin-12-crumlin-dublin-12/6146975
+600,shared,House,"3 Cherryfield Walk, Hartstown, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/3-cherryfield-walk-hartstown-dublin-15-clonsilla-dublin-15/6129955
+600,double,House,"Tolka Estate,Glasnevin,Dublin 11, Finglas, Dublin 11",https://www.daft.ie/share/tolka-estate-dublin-11-finglas-dublin-11/6143160
+600,double,House,"Belgard , Clondalkin, Dublin 22",https://www.daft.ie/share/belgard-ballymount-dublin-12/6138642
+600,single,House,"Belfry Road,Citywest,Co. Dublin, Citywest, Co. Dublin",https://www.daft.ie/share/-belfry-road-citywest-co-dublin-citywest-co-dublin/6138500
+600,twin,Apartment,"Apartment 16 , Block A, Cameron Court, Cork Street, Dolphin's Barn, Dublin 8",https://www.daft.ie/share/apartment-16-block-a-cameron-court-cork-street-dolphins-barn-dublin-8/6145777
+600,double,Apartment,"Orchard Way,Dublin 13, Donaghmede, Dublin 13",https://www.daft.ie/share/orchard-way-dublin-13-donaghmede-dublin-13/6121283
+600,single,House,"Ashington Close, Dublin 7",https://www.daft.ie/share/ashington-close-dublin-7/6118671
+600,double,House,"Cabinteely Park, Dublin 18, Cabinteely, Dublin 18",https://www.daft.ie/share/cabinteely-park-dublin-18-cabinteely-dublin-18/6071395
+600,twin,House,"Bayside,Sutton,Co. Dublin, Bayside, Dublin 13",https://www.daft.ie/share/-bayside-sutton-co-dublin-bayside-dublin-13/6110682
+600,double,House,"Howth Road, Clontarf , Dublin 3",https://www.daft.ie/share/howth-road-clontarf-dublin-3/6145465
+600,single,House,"O'Carolan Road,Dublin 8, South Circular Road, Dublin 8",https://www.daft.ie/share/ocarolan-road-dublin-8-south-circular-road-dublin-8/6135651
+600,single,House,"Hansfield Ongar , Clonsilla, Dublin 15",https://www.daft.ie/share/hansfield-ongar-clonsilla-dublin-15/6124887
+600,double,House,"Killester ,Dublin 5, Killester, Dublin 5",https://www.daft.ie/share/killester-dublin-5-killester-dublin-5/6139879
+600,double,House,"Weston Road, Churchtown, Dublin 14",https://www.daft.ie/share/weston-road-churchtown-dublin-14/6129149
+600,single,House,"Upper Drumcondra Road/Griffith Avenue, Drumcondra, Dublin 9",https://www.daft.ie/share/upper-drumcondra-road-griffith-avenue-drumcondra-dublin-9/6104817
+600,twin,House,"Crumlin Road, Crumlin, Dublin 12",https://www.daft.ie/share/crumlin-road-crumlin-dublin-12/6096837
+600,single,House,"Oakcourt Grove, Palmerstown, Dublin 20",https://www.daft.ie/share/oakcourt-grove-palmerstown-dublin-20/6141225
+600,single,House,"Warrenstown Dublin 15, Mulhuddart, Dublin 15",https://www.daft.ie/share/warrenstown-dublin-15-mulhuddart-dublin-15/6148689
+600,single,House,"65 Stonebridge Court, Dublin 18, Loughlinstown, Co. Dublin",https://www.daft.ie/share/65-stonebridge-court-dublin-18-loughlinstown-co-dublin/6147524
+600,double,Apartment,"Apartment 4, Block 9, New Priory, Dublin 13, Donaghmede, Dublin 13",https://www.daft.ie/share/apartment-4-block-9-new-priory-dublin-13-donaghmede-dublin-13/6125819
+600,single,House,"Killiney,Co. Dublin, Ballybrack, Co. Dublin",https://www.daft.ie/share/killiney-co-dublin-ballybrack-co-dublin/6120780
+600,shared,House,"Gazelle Lane, Tyrrelstown, Dublin 15",https://www.daft.ie/share/gazelle-lane-tyrrelstown-dublin-15/6146096
+600,twin,Apartment,"S Circular Rd, Kilmainham, Dublin 8",https://www.daft.ie/share/s-circular-rd-kilmainham-dublin-8/6122599
+600,double,House,"Enniskerry Road, Kilternan, Dublin 18",https://www.daft.ie/share/enniskerry-road-kilternan-dublin-18/6118378
+600,double,House,"Dublin 14, Belfield, Dublin 4",https://www.daft.ie/share/-roebuck-castle-dublin-14-belfield-dublin-4/6049660
+600,single,House,"67 Claremont Crescent, Glasnevin, Dublin 11",https://www.daft.ie/share/67-claremont-crescent-glasnevin-dublin-11/6146357
+600,double,House,"Wyattville Rd, Loughlinstown, Co. Dublin",https://www.daft.ie/share/wyattville-rd-loughlinstown-co-dublin/6146439
+600,single,House,"Castle Park, Tallaght, Dublin 24",https://www.daft.ie/share/castle-park-tallaght-dublin-24/6146479
+600,single,House,"Elm Mount Close,Dublin 9, Beaumont, Dublin 9",https://www.daft.ie/share/elm-mount-close-dublin-9-beaumont-dublin-9/6137891
+600,single,House,"55 Clogher Road, Dublin 12, Crumlin, Dublin 12",https://www.daft.ie/share/55-clogher-road-dublin-12-crumlin-dublin-12/6075348
+600,shared,House,"East Wall, East Wall, Dublin 3",https://www.daft.ie/share/east-wall-east-wall-dublin-3/6124996
+600,double,House,"Cathedral Lane, Portobello, Dublin 8",https://www.daft.ie/share/cathedral-lane-portobello-dublin-8/6145629
+600,double,House,"265 Swords Road, Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/265-swords-road-dublin-9-whitehall-dublin-9/6134799
+600,twin,House,"bayview ave, The Coombe, Dublin 8",https://www.daft.ie/share/bayview-ave-the-coombe-dublin-8/6051249
+600,single,Apartment,"Flat 3, 211 Clonliffe Road, Dublin 3, Drumcondra, Dublin 3",https://www.daft.ie/share/flat-3-211-clonliffe-road-dublin-3-drumcondra-dublin-3/6142443
+600,shared,Apartment,"King's Court,Parnell Street, Dublin 1, Dublin 1",https://www.daft.ie/share/kings-court-parnell-street-dublin-1-dublin-1/6121286
+590,double,House,"Collegefort,Castleknock,Dublin 15, Strawberry Beds, Co. Dublin",https://www.daft.ie/share/collegefort-castleknock-dublin-15-strawberry-beds-co-dublin/6144167
+588,double,House,"Meadow Park, Churchtown, Dublin 14",https://www.daft.ie/share/meadow-park-churchtown-dublin-14/6134138
+584,double,Apartment,"Leinster Road West, Rathmines, Dublin 6",https://www.daft.ie/share/leinster-road-west-rathmines-dublin-6/6130416
+580,twin,House,"Sandford Road, Ranelagh, Dublin 6",https://www.daft.ie/share/sandford-road-ranelagh-dublin-6/6131446
+580,single,House,"55 Castlefield Park, Knocklyon, Dublin 16",https://www.daft.ie/share/55-castlefield-park-knocklyon-dublin-16/6146786
+575,twin,House,"Killiney Hill Road, Killiney, Co. Dublin",https://www.daft.ie/share/killiney-hill-road-killiney-co-dublin/6042460
+575,shared,Apartment,"30 Glasilawn Road, Dublin 11, Drumcondra, Dublin 3",https://www.daft.ie/share/30-glasilawn-road-dublin-11-drumcondra-dublin-3/6074726
+575,double,House,"White Pines Dale, Stocking Avenue, Rathfarnham, Dublin 14",https://www.daft.ie/share/white-pines-dale-stocking-avenue-rathfarnham-dublin-14/6106051
+575,double,House,"Stiles Lodge, 55 Kincora Grove, Dublin 3, Dublin 3",https://www.daft.ie/share/stiles-lodge-55-kincora-grove-dublin-3-dublin-3/6129065
+570,double,House,"Wainsfort Manor Drive, Dublin 6W, Templeogue, Dublin 6W",https://www.daft.ie/share/wainsfort-manor-drive-dublin-6w-templeogue-dublin-6w/6148418
+560,single,House,"33 Rockford Manor, Stradbrook Rd, Blackrock, Blackrock, Co. Dublin",https://www.daft.ie/share/33-rockford-manor-stradbrook-rd-blackrock-blackrock-co-dublin/6131366
+560,single,House,"Bancroft Road, Tallaght, Dublin 24",https://www.daft.ie/share/bancroft-road-tallaght-dublin-24/5935058
+560,single,House,"Parkmore Drive, Terenure, Dublin 6",https://www.daft.ie/share/parkmore-drive-terenure-dublin-6/6133539
+560,single,House,"Ashfield , Huntstown, Dublin 15",https://www.daft.ie/share/ashfield-huntstown-dublin-15/6114373
+560,single,House,"Sandford Road, Ranelagh, Dublin 6",https://www.daft.ie/share/sandford-road-ranelagh-dublin-6/6131457
+560,twin,House,"41 Millmount Avenue, Dublin 9, Drumcondra, Dublin 9",https://www.daft.ie/share/41-millmount-avenue-dublin-9-drumcondra-dublin-9/6074633
+560,single,House,"Goatstown Road, Goatstown, Dublin 14",https://www.daft.ie/share/goatstown-road-goatstown-dublin-14/6131451
+560,twin,House,"Collins Avenue Extension, Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/collins-avenue-extension-dublin-9-whitehall-dublin-9/6063277
+555,shared,Apartment,"Castleknock Rd, Castleknock, Dublin 15",https://www.daft.ie/share/castleknock-rd-castleknock-dublin-15/6040342
+550,twin,House,"Granville Road,Blackrock,Co. Dublin, Foxrock, Dublin 18",https://www.daft.ie/share/granville-road-blackrock-co-dublin-foxrock-dublin-18/6133314
+550,twin,House,"Killiney, Ballybrack, Co. Dublin",https://www.daft.ie/share/killiney-ballybrack-co-dublin/6122829
+550,twin,House,"Canal Terrace, Bluebell, Dublin 12",https://www.daft.ie/share/canal-terrace-bluebell-dublin-12/6137941
+550,double,House,"Haverty Road, Marino, Dublin 3",https://www.daft.ie/share/haverty-road-marino-dublin-3/6148558
+550,shared,House,"Iveragh Road, Dublin 9, Drumcondra, Dublin 9",https://www.daft.ie/share/iveragh-road-dublin-9-drumcondra-dublin-9/6035808
+550,single,House,"Griffith Court,Dublin 3, Marino, Dublin 3",https://www.daft.ie/share/griffith-court-dublin-3-marino-dublin-3/6144615
+550,shared,House,"shanard road, Whitehall, Dublin 9",https://www.daft.ie/share/shanard-road-whitehall-dublin-9/6146645
+550,twin,House,"Baggot Street Upper, Ballsbridge, Dublin 4",https://www.daft.ie/share/baggot-street-upper-ballsbridge-dublin-4/6140885
+550,twin,House,"Sandford Rd, Ranelagh, Dublin 6",https://www.daft.ie/share/sandford-rd-ranelagh-dublin-6/6140860
+550,twin,House,"Oldtown Ave, Whitehall, Dublin 9",https://www.daft.ie/share/oldtown-ave-whitehall-dublin-9/6146165
+550,twin,House,"Dodder Rd Lower, Rathfarnham, Dublin 14",https://www.daft.ie/share/dodder-rd-lower-rathfarnham-dublin-14/6132827
+550,twin,House,"Whitestown drive, Coolmine, Dublin 15",https://www.daft.ie/share/whitestown-drive-coolmine-dublin-15/6140132
+550,twin,House,"Cromcastle Drive, Dublin 5, Kilmore, Dublin 5",https://www.daft.ie/share/cromcastle-drive-dublin-5-kilmore-dublin-5/6144778
+550,double,House,"Barry Road,Dublin 11, Finglas, Dublin 11",https://www.daft.ie/share/barry-road-dublin-11-finglas-dublin-11/6136917
+550,double,House,"Sundrive Road, Dublin 12 (Close to Clogher Road), Crumlin, Dublin 12",https://www.daft.ie/share/sundrive-road-dublin-12-close-to-clogher-road-crumlin-dublin-12/6067908
+540,single,House,"Sperrin Road, Dublin 12, Inchicore, Dublin 8",https://www.daft.ie/share/60-sperrin-road-dublin-12-inchicore-dublin-8/6147210
+540,twin,House,"Greenwood Close, Ayrfield, Dublin 13",https://www.daft.ie/share/greenwood-close-ayrfield-dublin-13/6060993
+540,twin,House,"Greenwood Close, Ayrfield, Dublin 13",https://www.daft.ie/share/greenwood-close-ayrfield-dublin-13/5946291
+540,twin,House,"53a Grange Road Rathfarnham, Rathfarnham, Dublin 14",https://www.daft.ie/share/53a-grange-road-rathfarnham-rathfarnham-dublin-14/6045809
+540,double,House,"Upper Buckingham Street, Dublin 1, Dublin 1",https://www.daft.ie/share/upper-buckingham-street-dublin-1-dublin-1/6121071
+538,shared,Apartment,"Kingscourt,48-59 King Street North,Dublin 7, Smithfield, Dublin 7",https://www.daft.ie/share/kingscourt-48-59-king-street-north-dublin-7-smithfield-dublin-7/6042362
+525,twin,Apartment,"Mckee Road, Dublin 11, Finglas, Dublin 11",https://www.daft.ie/share/mckee-road-dublin-11-finglas-dublin-11/6107587
+525,single,House,"Number 2, Saint Columbanus Road, Windy Arbour, Dublin 14",https://www.daft.ie/share/number-2-saint-columbanus-road-windy-arbour-dublin-14/6144945
+520,single,House,"Grange Road, Rathfarnham,Dublin 16, Rathfarnham, Dublin 16",https://www.daft.ie/share/grange-road-rathfarnham-dublin-16-rathfarnham-dublin-16/6146290
+520,single,House,"Grange Abbey Grove, Baldoyle, Dublin 13",https://www.daft.ie/share/grange-abbey-grove-baldoyle-dublin-13/6142520
+520,double,House,"Villa Blanchard, Main Street, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/villa-blanchard-main-street-dublin-15-clonsilla-dublin-15/6142646
+520,single,House,"Swords Road, Whitehall, Dublin 9",https://www.daft.ie/share/swords-road-whitehall-dublin-9/6147071
+520,single,House,"18 Iveragh Road, Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/18-iveragh-road-dublin-9-whitehall-dublin-9/6143021
+520,single,House,"Grange Road,Dublin 13, Baldoyle, Dublin 13",https://www.daft.ie/share/grange-road-dublin-13-baldoyle-dublin-13/6133901
+520,single,House,"Iveragh Road,Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/iveragh-road-dublin-9-whitehall-dublin-9/6143124
+519,single,House,"Bancroft, Dublin 24, Tallaght, Dublin 24",https://www.daft.ie/share/bancroft-dublin-24-tallaght-dublin-24/6144599
+500,shared,House,"Ballyfermot Crescent,Dublin 10, Inchicore, Dublin 8",https://www.daft.ie/share/ballyfermot-crescent-dublin-10-inchicore-dublin-8/6149174
+500,single,House,"Clonsilla, Dublin 15, Clonsilla, Dublin 15",https://www.daft.ie/share/clonsilla-dublin-15-clonsilla-dublin-15/6126136
+500,single,House,"Newbury Park, Clonshaugh, Dublin 17",https://www.daft.ie/share/newbury-park-clonshaugh-dublin-17/6030326
+500,twin,House,"Cabra Rd, Cabra, Dublin 7",https://www.daft.ie/share/cabra-rd-cabra-dublin-7/6140876
+500,twin,House,"Royston, Kimmage, Dublin 12",https://www.daft.ie/share/royston-kimmage-dublin-12/6146168
+500,twin,House,"La Touche Rd, Inchicore, Dublin 8",https://www.daft.ie/share/la-touche-rd-inchicore-dublin-8/6146160
+500,twin,House,"Monastery Walk, Clondalkin, Dublin 22",https://www.daft.ie/share/monastery-walk-clondalkin-dublin-22/6146151
+500,twin,House,"Benbulbin Rd, Drimnagh, Dublin 12",https://www.daft.ie/share/benbulbin-rd-drimnagh-dublin-12/6132808
+500,twin,Apartment,"Mill Pond, Mill Lane, Dublin 22, Clondalkin, Dublin 22",https://www.daft.ie/share/mill-pond-mill-lane-dublin-22-clondalkin-dublin-22/6031714
+500,shared,House,"blackhorse avenue, Dublin 7",https://www.daft.ie/share/blackhorse-avenue-dublin-7/6120598
+500,shared,House,"Claremont Court, Dublin 11, Cabra, Dublin 7",https://www.daft.ie/share/-claremont-court-dublin-11-cabra-dublin-7/6132924
+480,twin,Apartment,"TU Tallaght, Tallaght, Dublin 24",https://www.daft.ie/share/tu-tallaght-tallaght-dublin-24/6145561
+480,twin,Apartment,"TU Tallaght, Tallaght, Dublin 24",https://www.daft.ie/share/tu-tallaght-tallaght-dublin-24/6068394
+480,single,House,"Shanliss Drive, Dublin 9, Whitehall, Dublin 9",https://www.daft.ie/share/shanliss-drive-dublin-9-whitehall-dublin-9/6025001
+475,twin,House,"Prospect Hill, Finglas, Dublin 11",https://www.daft.ie/share/prospect-hill-finglas-dublin-11/6137396
+475,twin,House,"Cappagh Ave, Finglas, Dublin 11",https://www.daft.ie/share/cappagh-ave-finglas-dublin-11/6132680
+460,single,House,"Ashton , Knocklyon, Dublin 16",https://www.daft.ie/share/ashton-knocklyon-dublin-16/6142632
+450,single,Apartment,"unit 4, 90 Lagan Road, Dublin Industrial Estate,D11XC4A, The Coombe, Dublin 8",https://www.daft.ie/share/apartment-cassian-court-ea-dublin-15-the-coombe-dublin-8/6016488
+450,twin,Apartment,"Belfry Hall, Citywest, Co. Dublin",https://www.daft.ie/share/belfry-hall-citywest-co-dublin/6122633
+450,single,House,"25 Littlepace pk dublin 15, Clonee, Dublin 15",https://www.daft.ie/share/25-littlepace-pk-dublin-15-clonee-dublin-15/6113145
+450,shared,House,"blackhorse avenue, Cabra, Dublin 7",https://www.daft.ie/share/blackhorse-avenue-cabra-dublin-7/6049718
+450,single,House,"Beaumont, Dublin 9, Collinswood, Dublin 9",https://www.daft.ie/share/beaumont-dublin-9-collinswood-dublin-9/6146450
+450,shared,Apartment,"James Joyce Street, Dublin 1, Dublin City Centre, Dublin 1",https://www.daft.ie/share/james-joyce-street-dublin-1-dublin-city-centre-dublin-1/6112314
+430,single,House,"Porter's Gate Crescent, Clonsilla, Dublin 15",https://www.daft.ie/share/porters-gate-crescent-clonsilla-dublin-15/6087710
+425,twin,House,"Taoibh Na Coille, Knocklyon, Dublin 16",https://www.daft.ie/share/taoibh-na-coille-knocklyon-dublin-16/6146172
+425,twin,House,"Belmont Park, Donaghmede, Dublin 13",https://www.daft.ie/share/belmont-park-donaghmede-dublin-13/6122732
+415,shared,Apartment,"Apt 18 New Market hall, Dublin 8",https://www.daft.ie/share/apt-18-new-market-hall-dublin-8/6136604
+400,single,House,"Fernleigh, Carpenterstown, Dublin 15",https://www.daft.ie/share/fernleigh-carpenterstown-dublin-15/6146207
+290,shared,Apartment,"blessington street , Dublin 1",https://www.daft.ie/share/blessington-street-dublin-1/6110343
+240,double,House,"Casimir Road, Harold's Cross, Dublin 6",https://www.daft.ie/share/casimir-road-harolds-cross-dublin-6/6142770
+240,single,House,"Beaumont Road, Beaumont, Dublin 9",https://www.daft.ie/share/beaumont-road-beaumont-dublin-9/6135282
+240,single,House,"Barton Road East, Dundrum, Dublin 14",https://www.daft.ie/share/barton-road-east-dundrum-co-dublin/6118553

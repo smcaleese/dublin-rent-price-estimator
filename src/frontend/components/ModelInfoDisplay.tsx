@@ -22,7 +22,7 @@ interface ModelInfo {
   }
   data_summary: {
     total_records: number
-    avg_price: number
+    median_price: number
     min_price: number
     max_price: number
     property_types: Record<string, number>
@@ -206,31 +206,31 @@ export default function ModelInfoDisplay() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Price Statistics */}
               <div>
-              <h4 className="font-semibold mb-4">Price Statistics</h4>
-              <div className="space-y-3">
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Average Price:</span>
-                  <span className="font-medium">€{Math.round(modelInfo.data_summary.avg_price)}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Minimum Price:</span>
-                  <span className="font-medium">€{Math.round(modelInfo.data_summary.min_price)}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Maximum Price:</span>
-                  <span className="font-medium">€{Math.round(modelInfo.data_summary.max_price)}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Total Records:</span>
-                  <span className="font-medium">{modelInfo.data_summary.total_records}</span>
+                <h4 className="font-semibold mb-4">Price Statistics</h4>
+                <div className="space-y-3">
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Median Price:</span>
+                    <span className="font-medium">€{Math.round(modelInfo.data_summary.median_price)}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Minimum Price:</span>
+                    <span className="font-medium">€{Math.round(modelInfo.data_summary.min_price)}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Maximum Price:</span>
+                    <span className="font-medium">€{Math.round(modelInfo.data_summary.max_price)}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-gray-600">Total Records:</span>
+                    <span className="font-medium">{modelInfo.data_summary.total_records}</span>
+                  </div>
                 </div>
               </div>
-            </div>
 
               {/* Property Types */}
               <div>
                 <h4 className="font-semibold mb-4">Property Types</h4>
-                {Object.keys(modelInfo.data_summary.property_types).length > 0 || modelInfo.data_summary.total_records > 0 ? (
+                {(modelInfo?.data_summary?.property_types && Object.keys(modelInfo.data_summary.property_types).length > 0) || modelInfo?.data_summary?.total_records > 0 ? (
                   <div className="space-y-2">
                     {/* Add "All Properties" entry */}
                     {modelInfo.data_summary.total_records > 0 && (
