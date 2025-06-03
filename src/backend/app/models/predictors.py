@@ -68,7 +68,7 @@ class BasePricePredictor(ABC):
             return False
 
     @abstractmethod
-    def predict(self, features: np.ndarray) -> float:
+    def predict(self, features: np.ndarray) -> dict[str, float]:
         """Make a price prediction - to be implemented by subclasses"""
         pass
 
@@ -153,16 +153,46 @@ class BasePricePredictor(ABC):
 class PropertyPricePredictor(BasePricePredictor):
     """Price predictor for whole property rentals"""
     
-    def predict(self, features: np.ndarray) -> float:
-        """Make a price prediction for whole properties"""
+    def predict(self, features: np.ndarray) -> dict[str, float]:
+        """Make a price prediction for whole properties, including a confidence interval."""
         if not self.is_trained:
             raise ValueError("Model not trained. Call train() first or load_model().")
         
         try:
-            prediction = self.model.predict(features)
-            # Ensure prediction is positive and within reasonable bounds for whole properties
-            prediction = max(500, min(20000, prediction[0]))
-            return float(prediction)
+            # Get predictions from all trees in the forest
+            # features is expected to be a 2D array for a single sample, e.g., [[f1, f2, ...]]
+            # tree.predict(features) returns an array like [prediction_value]
+            tree_predictions_raw = np.array([tree.predict(features) for tree in self.model.estimators_])
+            
+            # Flatten the array to get [pred_tree1, pred_tree2, ...]
+            tree_predictions = tree_predictions_raw.flatten()
+
+            point_estimate = float(np.mean(tree_predictions))
+            lower_bound = float(np.percentile(tree_predictions, 5))  # 5th percentile for 90% CI
+            upper_bound = float(np.percentile(tree_predictions, 95)) # 95th percentile for 90% CI
+
+            # Apply clamping
+            min_price, max_price = 500, 20000
+            point_estimate_clamped = max(min_price, min(max_price, point_estimate))
+            lower_bound_clamped = max(min_price, min(max_price, lower_bound))
+            upper_bound_clamped = max(min_price, min(max_price, upper_bound))
+
+            # Ensure lower_bound <= point_estimate <= upper_bound after clamping
+            # Adjust bounds relative to the clamped point estimate if necessary
+            final_lower_bound = min(lower_bound_clamped, point_estimate_clamped)
+            final_upper_bound = max(upper_bound_clamped, point_estimate_clamped)
+            
+            # Further ensure lower is not greater than upper after all adjustments
+            if final_lower_bound > final_upper_bound:
+                # This case might happen if clamping severely distorts the interval.
+                # Default to point_estimate for bounds or a small interval around it.
+                final_lower_bound = final_upper_bound = point_estimate_clamped
+
+            return {
+                "prediction": point_estimate_clamped,
+                "lower_bound": final_lower_bound,
+                "upper_bound": final_upper_bound,
+            }
             
         except Exception as e:
             self.logger.error(f"Error making prediction: {str(e)}")
@@ -172,17 +202,38 @@ class PropertyPricePredictor(BasePricePredictor):
 class SharedRoomPricePredictor(BasePricePredictor):
     """Price predictor for shared room rentals"""
     
-    def predict(self, features: np.ndarray) -> float:
-        """Make a price prediction for shared rooms"""
+    def predict(self, features: np.ndarray) -> dict[str, float]:
+        """Make a price prediction for shared rooms, including a confidence interval."""
         if not self.is_trained:
             raise ValueError("Model not trained. Call train() first or load_model().")
         
         try:
-            prediction = self.model.predict(features)
-            # Ensure prediction is positive and within reasonable bounds for shared rooms
-            # Shared rooms typically have lower prices than whole properties
-            prediction = max(200, min(15000, prediction[0]))
-            return float(prediction)
+            # Get predictions from all trees in the forest
+            tree_predictions_raw = np.array([tree.predict(features) for tree in self.model.estimators_])
+            tree_predictions = tree_predictions_raw.flatten()
+
+            point_estimate = float(np.mean(tree_predictions))
+            lower_bound = float(np.percentile(tree_predictions, 5))  # 5th percentile
+            upper_bound = float(np.percentile(tree_predictions, 95)) # 95th percentile
+
+            # Apply clamping
+            min_price, max_price = 200, 15000
+            point_estimate_clamped = max(min_price, min(max_price, point_estimate))
+            lower_bound_clamped = max(min_price, min(max_price, lower_bound))
+            upper_bound_clamped = max(min_price, min(max_price, upper_bound))
+
+            # Ensure lower_bound <= point_estimate <= upper_bound after clamping
+            final_lower_bound = min(lower_bound_clamped, point_estimate_clamped)
+            final_upper_bound = max(upper_bound_clamped, point_estimate_clamped)
+
+            if final_lower_bound > final_upper_bound:
+                final_lower_bound = final_upper_bound = point_estimate_clamped
+
+            return {
+                "prediction": point_estimate_clamped,
+                "lower_bound": final_lower_bound,
+                "upper_bound": final_upper_bound,
+            }
             
         except Exception as e:
             self.logger.error(f"Error making prediction: {str(e)}")

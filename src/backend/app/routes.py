@@ -20,7 +20,7 @@ class PropertyDetails(BaseModel):
 
 
 @router.post("/predict")
-async def predict_rent(details: PropertyDetails, request: Request) -> dict[str, int]:
+async def predict_rent(details: PropertyDetails, request: Request) -> dict[str, Any]:
     """Predict rental price based on property features"""
     try:
         # Determine which model to use based on isShared flag
@@ -84,15 +84,19 @@ async def predict_rent(details: PropertyDetails, request: Request) -> dict[str, 
 
         # Make prediction
         try:
-            predicted_price = model.predict(features)
+            prediction_result = model.predict(features)
         except Exception as e:
             logger.error(f"Error making prediction: {str(e)}")
             raise HTTPException(
                 status_code=500, detail="Unable to generate price prediction"
             )
 
-        # Return prediction
-        return {"predictedPrice": int(round(predicted_price))}
+        # Return prediction with confidence interval
+        return {
+            "predictedPrice": int(round(prediction_result["prediction"])),
+            "lowerBound": int(round(prediction_result["lower_bound"])),
+            "upperBound": int(round(prediction_result["upper_bound"])),
+        }
 
     except HTTPException:
         raise

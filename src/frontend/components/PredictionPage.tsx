@@ -18,6 +18,12 @@ interface SubmittedDetails {
   roomType?: string | null
 }
 
+interface PricePrediction {
+  predictedPrice: number
+  lowerBound: number
+  upperBound: number
+}
+
 export default function PredictionPage() {
   const [activeFormType, setActiveFormType] = useState<'property' | 'sharing'>('property')
   const [bedrooms, setBedrooms] = useState("")
@@ -26,6 +32,8 @@ export default function PredictionPage() {
   const [dublinArea, setDublinArea] = useState("")
   const [roomType, setRoomType] = useState("")
   const [predictedPrice, setPredictedPrice] = useState<number | null>(null)
+  const [predictedPriceLower, setPredictedPriceLower] = useState<number | null>(null)
+  const [predictedPriceUpper, setPredictedPriceUpper] = useState<number | null>(null)
   const [isLoading, setIsLoading] = useState(false)
   const [submittedDetails, setSubmittedDetails] = useState<SubmittedDetails | null>(null)
 
@@ -87,6 +95,8 @@ export default function PredictionPage() {
   const handlePredict = async () => {
     setIsLoading(true)
     setPredictedPrice(null)
+    setPredictedPriceLower(null)
+    setPredictedPriceUpper(null)
     setSubmittedDetails(null)
 
     let payload: any = {}
@@ -121,8 +131,13 @@ export default function PredictionPage() {
     }
 
     try {
-      const response = await axios.post("http://localhost:8000/predict", payload)
+      const response = await axios.post<PricePrediction>(
+        "http://localhost:8000/predict",
+        payload
+      )
       setPredictedPrice(response.data.predictedPrice)
+      setPredictedPriceLower(response.data.lowerBound)
+      setPredictedPriceUpper(response.data.upperBound)
       setSubmittedDetails(currentSubmittedDetails)
     } catch (error) {
       console.error("Network or other error:", error)
@@ -149,6 +164,8 @@ export default function PredictionPage() {
     setDublinArea("")
     setRoomType("")
     setPredictedPrice(null) // Clear prediction when tab changes
+    setPredictedPriceLower(null)
+    setPredictedPriceUpper(null)
     setSubmittedDetails(null)
   }
 
@@ -337,38 +354,71 @@ export default function PredictionPage() {
         </CardContent>
       </Card>
 
-      {predictedPrice && submittedDetails && (
-        <Card className="shadow-lg border-green-200 bg-green-50">
-          <CardHeader>
-            <CardTitle className="text-green-800">Predicted Rent Price</CardTitle>
-            <CardDescription className="text-green-600">
-              Based on {submittedDetails.isShared ? "shared room" : "property"} details
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="text-center space-y-2">
-              <div className="text-4xl font-bold text-green-800">€{predictedPrice.toLocaleString()}</div>
-              <div className="text-green-600">per month</div>
-              <div className="text-sm text-green-600 mt-4 p-4 bg-green-100 rounded-lg">
-                <strong>Summary:</strong>
-                {!submittedDetails.isShared && submittedDetails.bedrooms && (
-                  <> {bedroomOptions.find((b) => b.value === submittedDetails.bedrooms)?.label},</>
-                )}
-                {!submittedDetails.isShared && submittedDetails.bathrooms && (
-                  <> {bathroomOptions.find((b) => b.value === submittedDetails.bathrooms)?.label},</>
-                )}
-                <> {propertyTypeOptions.find((p) => p.value === submittedDetails.propertyType)?.label}</>
-                <> in {dublinAreaOptions.find((a) => a.value === submittedDetails.dublinArea)?.label}</>
-                {submittedDetails.isShared && submittedDetails.roomType && (
-                  <span>
-                    {" "}- {roomTypeOptions.find((r) => r.value === submittedDetails.roomType)?.label} (Shared)
-                  </span>
-                )}
+      {predictedPrice && predictedPriceLower !== null && predictedPriceUpper !== null && submittedDetails && (() => {
+        const confidenceRange = predictedPriceUpper - predictedPriceLower
+        const estimatePosition = confidenceRange > 0 ? ((predictedPrice - predictedPriceLower) / confidenceRange) * 100 : 50
+
+        return (
+          <Card className="shadow-lg border-green-200 bg-green-50">
+            <CardHeader>
+              <CardTitle className="text-green-800">Predicted Rent Price</CardTitle>
+              <CardDescription className="text-green-600">
+                Based on {submittedDetails.isShared ? "shared room" : "property"} details
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="text-center space-y-4">
+                <div className="text-4xl font-bold text-green-800">€{predictedPrice.toLocaleString()}</div>
+                <div className="text-green-600">per month</div>
+
+                {/* Price Range Visualizer */}
+                <div className="mt-12 mb-4">
+                  {/* Green bar */}
+                  <div className="relative w-full h-4 bg-green-400 rounded-full shadow-sm">
+                    {/* Best estimate marker */}
+                    <div
+                      className="absolute top-1/2 h-6 w-6 bg-green-700 rounded-full border-2 border-white shadow-lg transform -translate-y-1/2"
+                      style={{
+                        left: `calc(${estimatePosition}% - 0.75rem)`,
+                        zIndex: 10,
+                      }}
+                      title={`Best Estimate: €${predictedPrice.toLocaleString()}`}
+                    >
+                      {/* Best estimate label */}
+                      <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 text-xs bg-black text-white px-2 py-1 rounded whitespace-nowrap">
+                        €{predictedPrice.toLocaleString()}
+                      </div>
+                    </div>
+                  </div>
+                  {/* Labels for bounds */}
+                  <div className="flex justify-between text-xs text-gray-600 mt-2">
+                    <span>€{predictedPriceLower.toLocaleString()}</span>
+                    <span>90% Confidence Interval</span>
+                    <span>€{predictedPriceUpper.toLocaleString()}</span>
+                  </div>
+                </div>
+
+                <div className="text-sm text-green-600 mt-4 p-4 bg-green-100 rounded-lg">
+                  <strong>Summary:</strong>
+                  {!submittedDetails.isShared && submittedDetails.bedrooms && (
+                    <> {bedroomOptions.find((b) => b.value === submittedDetails.bedrooms)?.label},</>
+                  )}
+                  {!submittedDetails.isShared && submittedDetails.bathrooms && (
+                    <> {bathroomOptions.find((b) => b.value === submittedDetails.bathrooms)?.label},</>
+                  )}
+                  <> {propertyTypeOptions.find((p) => p.value === submittedDetails.propertyType)?.label}</>
+                  <> in {dublinAreaOptions.find((a) => a.value === submittedDetails.dublinArea)?.label}</>
+                  {submittedDetails.isShared && submittedDetails.roomType && (
+                    <span>
+                      {" "}- {roomTypeOptions.find((r) => r.value === submittedDetails.roomType)?.label} (Shared)
+                    </span>
+                  )}
+                </div>
               </div>
-            </div>
-          </CardContent>
-        </Card>
-      )}
+            </CardContent>
+          </Card>
+        )
+      })()}
     </div>
   )
 }

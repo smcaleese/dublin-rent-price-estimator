@@ -277,7 +277,7 @@ export default function ModelInfoDisplay() {
 
           {/* Dublin Areas */}
           <div className="mt-8">
-            <h4 className="font-semibold mb-4">Dublin Areas Covered</h4>
+            <h4 className="font-semibold mb-4">Dublin Areas Covered {modelInfo.available_options.dublin_areas.length > 0 ? `(${modelInfo.available_options.dublin_areas.length})` : ''}</h4>
             <div className="flex flex-wrap gap-2">
               {modelInfo.available_options.dublin_areas
                 .sort((a, b) => a - b)
@@ -288,7 +288,7 @@ export default function ModelInfoDisplay() {
                 ))}
             </div>
             <p className="text-sm text-gray-600 mt-4">
-              Model trained on {modelInfo.available_options.dublin_areas.length} Dublin postal areas
+              Training data collected from daft.ie in May 2025
             </p>
           </div>
         </CardContent>
