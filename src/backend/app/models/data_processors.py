@@ -295,6 +295,11 @@ class PropertyDataProcessor(BaseDataProcessor):
                 beds = 1
             if pd.isna(baths):
                 baths = 1
+
+            # Studios have zero baths and bedrooms
+            if prop_type_df["prop_type"][0].lower() == "studio":
+                beds = 0
+                baths = 0
             
             # Combine features in the same order as prepare_features
             X_numeric = np.array([[beds, baths]])
