@@ -18,7 +18,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { CircleUser, LogIn, LogOut, UserPlus } from "lucide-react"
+import { CircleUser, LogIn, LogOut, UserPlus, History } from "lucide-react"
 import { Avatar } from "@/components/ui/avatar"
 
 interface HealthStatus {
@@ -107,6 +107,13 @@ function UserMenu() {
                 </p>
               </div>
             </DropdownMenuLabel>
+            <DropdownMenuSeparator />
+            <Link href="/search-history">
+              <DropdownMenuItem className="cursor-pointer">
+                <History className="mr-2 h-4 w-4" />
+                <span>Search History</span>
+              </DropdownMenuItem>
+            </Link>
             <DropdownMenuSeparator />
             <DropdownMenuItem onClick={logout} className="cursor-pointer text-red-600">
               <LogOut className="mr-2 h-4 w-4" />

@@ -1,7 +1,9 @@
-from sqlalchemy import Column, Integer, String, select
+from sqlalchemy import Column, Integer, String, select, ForeignKey, DateTime, JSON
+from sqlalchemy.orm import relationship
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.db.session import Base
 from passlib.context import CryptContext
+from datetime import datetime, timezone
 
 # Import UserCreateSchema from the schemas module at the app level
 from app import schemas
@@ -37,3 +39,18 @@ class User(Base):
 
     def verify_password(self, plain_password: str):
         return pwd_context.verify(plain_password, self.hashed_password)
+
+    # Relationship to SearchHistory
+    search_history_items = relationship("SearchHistory", back_populates="user", cascade="all, delete-orphan")
+
+
+class SearchHistory(Base):
+    __tablename__ = "search_history"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    search_parameters = Column(JSON, nullable=False)
+    prediction_result = Column(JSON, nullable=False)
+    timestamp = Column(DateTime, default=datetime.now(timezone.utc), nullable=False)
+
+    user = relationship("User", back_populates="search_history_items")

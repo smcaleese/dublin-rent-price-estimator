@@ -20,4 +20,5 @@ dependencies = [
     "python-jose[cryptography]>=3.3.0", # For JWT
     "python-multipart>=0.0.9", # For FastAPI form data (login)
     "python-dotenv>=1.0.0", # For loading .env files
+    "alembic>=1.13.1", # For database migrations
 ]
