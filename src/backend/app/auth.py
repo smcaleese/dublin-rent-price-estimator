@@ -3,13 +3,17 @@ from typing import Optional
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
-from sqlalchemy.orm import Session
+from sqlalchemy.ext.asyncio import AsyncSession
 
-from .db.session import get_db
-from .db.models import User  # User model for fetching user
+import os  # Import os
+from app.db.session import get_db
+from app.db.models import User  # User model for fetching user
 
 # Configuration for JWT
-SECRET_KEY = "your-secret-key"  # CHANGE THIS! Use a strong, random key, preferably from env variables
+# Load SECRET_KEY from environment variable, with a fallback for safety (though .env should be used)
+SECRET_KEY = os.getenv(
+    "SECRET_KEY", "a_very_default_and_insecure_secret_key_please_change"
+)
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
@@ -17,9 +21,10 @@ oauth2_scheme = OAuth2PasswordBearer(
     tokenUrl="login"
 )  # tokenUrl is the path to the login endpoint
 
-from . import schemas # Import schemas
+from app import schemas  # Import TokenDataSchema directly
 
 # Removed local TokenData class definition
+
 
 def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
     to_encode = data.copy()
@@ -35,7 +40,7 @@ def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
 
 
 async def get_current_user(
-    token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)
+    token: str = Depends(oauth2_scheme), db: AsyncSession = Depends(get_db)
 ):
     credentials_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
@@ -49,11 +54,13 @@ async def get_current_user(
         )  # "sub" is standard claim for subject (user identifier)
         if email is None:
             raise credentials_exception
-        token_data = schemas.TokenDataSchema(email=email) # Use imported schema
+        token_data = schemas.TokenDataSchema(
+            email=email
+        )  # Use imported schema directly
     except JWTError:
         raise credentials_exception
 
-    user = User.get_by_email(db, email=token_data.email)
+    user = await User.get_by_email(db, email=token_data.email)
     if user is None:
         raise credentials_exception
     return user

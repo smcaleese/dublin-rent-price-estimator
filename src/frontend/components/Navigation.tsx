@@ -8,7 +8,18 @@ import { Button } from "@/components/ui/button"
 // import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip" 
 import axios from "axios"
 import { FaCheckCircle } from "react-icons/fa"
+import { LuCircleUser } from "react-icons/lu"
 import { useAuth } from "@/context/AuthContext" // Import useAuth
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import { CircleUser, LogIn, LogOut, UserPlus } from "lucide-react"
+import { Avatar } from "@/components/ui/avatar"
 
 interface HealthStatus {
   status: string
@@ -67,13 +78,70 @@ function HealthIndicator() {
   )
 }
 
+function UserMenu() {
+  const { user, logout, isLoading } = useAuth()
+
+  if (isLoading) {
+    return <p className="text-sm text-gray-500">Loading...</p>
+  }
+
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button
+          variant="ghost"
+          size="icon"
+          className="relative h-10 w-10 rounded-full"
+        >
+          <LuCircleUser className="h-10 w-10" />
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent className="w-56" align="end" forceMount>
+        {user ? (
+          <>
+            <DropdownMenuLabel className="font-normal">
+              <div className="flex flex-col space-y-1">
+                <p className="text-sm font-medium leading-none">My Account</p>
+                <p className="text-xs leading-none text-muted-foreground">
+                  {user.email}
+                </p>
+              </div>
+            </DropdownMenuLabel>
+            <DropdownMenuSeparator />
+            <DropdownMenuItem onClick={logout} className="cursor-pointer text-red-600">
+              <LogOut className="mr-2 h-4 w-4" />
+              <span>Log out</span>
+            </DropdownMenuItem>
+          </>
+        ) : (
+          <>
+            <DropdownMenuLabel>Guest</DropdownMenuLabel>
+            <DropdownMenuSeparator />
+            <Link href="/signup">
+              <DropdownMenuItem className="cursor-pointer">
+                <UserPlus className="mr-2 h-4 w-4" />
+                <span>Sign Up</span>
+              </DropdownMenuItem>
+            </Link>
+            <Link href="/login">
+              <DropdownMenuItem className="cursor-pointer">
+                <LogIn className="mr-2 h-4 w-4" />
+                <span>Log In</span>
+              </DropdownMenuItem>
+            </Link>
+          </>
+        )}
+      </DropdownMenuContent>
+    </DropdownMenu>
+  )
+}
+
 export default function Navigation() {
   const pathname = usePathname()
-  const { user, logout, isLoading } = useAuth()
 
   return (
     <nav className="flex items-center justify-between w-full">
-      <div className="flex items-center space-x-2 ml-auto"> {/* Added items-center for vertical alignment */}
+      <div className="flex items-center space-x-2 ml-auto">
         <HealthIndicator />
         <Link href="/">
           <Button
@@ -97,46 +165,7 @@ export default function Navigation() {
             Model Info
           </Button>
         </Link>
-
-        {isLoading ? (
-          <p className="text-sm text-gray-500">Loading...</p>
-        ) : user ? (
-          <>
-            <span className="text-sm text-gray-700 hidden sm:inline">Welcome, {user.email}</span>
-            <Button
-              variant="ghost"
-              onClick={logout}
-              className="text-red-600 hover:text-red-800 cursor-pointer"
-            >
-              Log Out
-            </Button>
-          </>
-        ) : (
-          <>
-            <Link href="/signup">
-              <Button
-                variant={pathname === "/signup" ? "default" : "ghost"}
-                className={pathname === "/signup"
-                  ? "text-white bg-green-600 hover:bg-green-700 cursor-pointer"
-                  : "text-gray-700 hover:text-gray-900 cursor-pointer"
-                }
-              >
-                Sign Up
-              </Button>
-            </Link>
-            <Link href="/login">
-              <Button
-                variant={pathname === "/login" ? "default" : "ghost"}
-                className={pathname === "/login"
-                  ? "text-white bg-indigo-600 hover:bg-indigo-700 cursor-pointer"
-                  : "text-gray-700 hover:text-gray-900 cursor-pointer"
-                }
-              >
-                Log In
-              </Button>
-            </Link>
-          </>
-        )}
+        <UserMenu />
       </div>
     </nav>
   )

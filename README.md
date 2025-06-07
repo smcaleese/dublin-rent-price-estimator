@@ -12,3 +12,30 @@ Web app to estimate Dublin rent prices
 - Add error bars to the prediction
 - Show the percentile of the price compared to other samples in the dataset with the same number of bedrooms and bathrooms
 - Containerize the application and deploy it to AWS in several different ways
+
+# How to run the application
+
+
+## Backend
+
+Run this command from the `src/backend` directory:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+## Frontend
+
+Run this command from the `src/frontend` directory:
+
+```bash
+pnpm dev
+```
+
+## Database
+
+Run this command from the `src/backend` directory:
+
+```bash
+docker compose up -d
+```

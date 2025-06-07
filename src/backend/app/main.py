@@ -5,10 +5,10 @@ import uvicorn
 import logging
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator, Optional, Any
-from models.data_processors import PropertyDataProcessor, SharedRoomDataProcessor
-from models.predictors import PropertyPricePredictor, SharedRoomPricePredictor
-from routes import router
-from .db.session import init_db as initialize_database # Corrected relative import
+from app.models.data_processors import PropertyDataProcessor, SharedRoomDataProcessor
+from app.models.predictors import PropertyPricePredictor, SharedRoomPricePredictor
+from app.routes import router
+from app.db.session import init_db as initialize_database
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -35,7 +35,7 @@ def initialize_property_model() -> tuple[PropertyDataProcessor, PropertyPricePre
     )
 
     # Load property data and train/load model
-    if data_processor.load_data("data/train_property.csv"):
+    if data_processor.load_data("app/data/train_property.csv"):
         X_prop, y_prop = data_processor.prepare_features()
         feature_names_prop = data_processor.get_feature_names()
 
@@ -76,7 +76,7 @@ def initialize_shared_model() -> tuple[
     )
 
     # Load shared data and train/load model
-    if data_processor.load_data("data/train_shared.csv"):
+    if data_processor.load_data("app/data/train_shared.csv"):
         X_shared, y_shared = data_processor.prepare_features()
         feature_names_shared = data_processor.get_feature_names()
 
@@ -110,7 +110,7 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
 
     try:
         logger.info("Initializing database...")
-        initialize_database() # Call the database initializer
+        await initialize_database()  # Call the database initializer
         logger.info("Database initialization complete.")
 
         logger.info("Initializing ML components...")
@@ -152,4 +152,7 @@ app.include_router(router)
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    # To run this app for development, stand in the `src/backend` directory
+    # and run the following command in your terminal:
+    # uvicorn app.main:app --reload
+    uvicorn.run("app.main:app", host="127.0.0.1", port=8000, reload=True)

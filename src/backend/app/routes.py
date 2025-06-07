@@ -3,12 +3,16 @@ from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel
 import logging
 from typing import Any
-from sqlalchemy.orm import Session
+from sqlalchemy.ext.asyncio import AsyncSession
 
-from .db.session import get_db
-from .db.models import User
-from .auth import create_access_token, get_current_active_user, ACCESS_TOKEN_EXPIRE_MINUTES
-from . import schemas # Import the new schemas module
+from app.db.session import get_db
+from app.db.models import User
+from app.auth import (
+    create_access_token,
+    get_current_active_user,
+    ACCESS_TOKEN_EXPIRE_MINUTES,
+)
+from app import schemas
 from datetime import timedelta
 
 # Configure logging
@@ -19,19 +23,27 @@ router = APIRouter()
 
 # --- Authentication Endpoints ---
 
+
 @router.post("/signup", response_model=schemas.UserResponseSchema)
-async def signup(user_data: schemas.UserCreateSchema, db: Session = Depends(get_db)):
-    db_user = User.get_by_email(db, email=user_data.email)
+async def signup(
+    user_data: schemas.UserCreateSchema, db: AsyncSession = Depends(get_db)
+):
+    db_user = await User.get_by_email(db, email=user_data.email)
     if db_user:
         raise HTTPException(status_code=400, detail="Email already registered")
     # Use the aliased DbUserCreateSchema for creating user in DB if it's different
     # For now, UserCreateSchema is compatible with User.create method's expectation
-    created_user = User.create(db=db, user_data=user_data)
+    created_user = await User.create(db=db, user_data=user_data)
     return created_user
 
+
 @router.post("/login", response_model=schemas.TokenSchema)
-async def login(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):
-    user = User.get_by_email(db, email=form_data.username) # form_data.username is the email
+async def login(
+    db: AsyncSession = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()
+):
+    user = await User.get_by_email(
+        db, email=form_data.username
+    )  # form_data.username is the email
     if not user or not user.verify_password(form_data.password):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -44,11 +56,14 @@ async def login(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestF
     )
     return {"access_token": access_token, "token_type": "bearer"}
 
+
 @router.get("/users/me", response_model=schemas.UserResponseSchema)
 async def read_users_me(current_user: User = Depends(get_current_active_user)):
     return current_user
 
+
 # --- Existing Endpoints ---
+
 
 class PropertyDetails(BaseModel):
     bedrooms: str | None = None
@@ -149,7 +164,9 @@ async def predict_rent(details: PropertyDetails, request: Request) -> dict[str, 
 
 
 @router.get("/model-info")
-async def get_model_info(request: Request, model_type: str | None = "property") -> dict[str, Any]:
+async def get_model_info(
+    request: Request, model_type: str | None = "property"
+) -> dict[str, Any]:
     """Get information about the trained models, based on model_type"""
     try:
         # Determine which model to use based on model_type
@@ -163,13 +180,14 @@ async def get_model_info(request: Request, model_type: str | None = "property") 
             processor = request.app.state.property_data_processor
             model_name = "Property Model"
             actual_model_type_name = "property"
-        else: # Default to property model if model_type is invalid or None
-            logger.warning(f"Invalid model_type '{model_type}' received, defaulting to property model.")
+        else:  # Default to property model if model_type is invalid or None
+            logger.warning(
+                f"Invalid model_type '{model_type}' received, defaulting to property model."
+            )
             model = request.app.state.property_model
             processor = request.app.state.property_data_processor
             model_name = "Property Model (default)"
             actual_model_type_name = "property"
-
 
         if not model or not processor or not model.is_trained:
             return {
@@ -196,7 +214,7 @@ async def get_model_info(request: Request, model_type: str | None = "property") 
 
         return {
             "feature_importances": feature_importance,
-            "model_type": actual_model_type_name, # Reflects the actual model type being reported
+            "model_type": actual_model_type_name,  # Reflects the actual model type being reported
             "model_name": model_name,
             "status": f"{model_name} active",
             "model_metrics": metrics,
