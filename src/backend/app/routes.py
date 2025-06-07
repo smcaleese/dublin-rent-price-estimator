@@ -1,7 +1,15 @@
-from fastapi import APIRouter, HTTPException, Request
+from fastapi import APIRouter, HTTPException, Request, Depends, status
+from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel
 import logging
 from typing import Any
+from sqlalchemy.orm import Session
+
+from .db.session import get_db
+from .db.models import User
+from .auth import create_access_token, get_current_active_user, ACCESS_TOKEN_EXPIRE_MINUTES
+from . import schemas # Import the new schemas module
+from datetime import timedelta
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -9,6 +17,38 @@ logger = logging.getLogger(__name__)
 # Create the router
 router = APIRouter()
 
+# --- Authentication Endpoints ---
+
+@router.post("/signup", response_model=schemas.UserResponseSchema)
+async def signup(user_data: schemas.UserCreateSchema, db: Session = Depends(get_db)):
+    db_user = User.get_by_email(db, email=user_data.email)
+    if db_user:
+        raise HTTPException(status_code=400, detail="Email already registered")
+    # Use the aliased DbUserCreateSchema for creating user in DB if it's different
+    # For now, UserCreateSchema is compatible with User.create method's expectation
+    created_user = User.create(db=db, user_data=user_data)
+    return created_user
+
+@router.post("/login", response_model=schemas.TokenSchema)
+async def login(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):
+    user = User.get_by_email(db, email=form_data.username) # form_data.username is the email
+    if not user or not user.verify_password(form_data.password):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Incorrect email or password",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    access_token = create_access_token(
+        data={"sub": user.email}, expires_delta=access_token_expires
+    )
+    return {"access_token": access_token, "token_type": "bearer"}
+
+@router.get("/users/me", response_model=schemas.UserResponseSchema)
+async def read_users_me(current_user: User = Depends(get_current_active_user)):
+    return current_user
+
+# --- Existing Endpoints ---
 
 class PropertyDetails(BaseModel):
     bedrooms: str | None = None

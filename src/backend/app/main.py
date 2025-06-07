@@ -8,6 +8,7 @@ from typing import AsyncGenerator, Optional, Any
 from models.data_processors import PropertyDataProcessor, SharedRoomDataProcessor
 from models.predictors import PropertyPricePredictor, SharedRoomPricePredictor
 from routes import router
+from .db.session import init_db as initialize_database # Corrected relative import
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -108,6 +109,10 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     global property_data_processor, property_model, shared_data_processor, shared_model
 
     try:
+        logger.info("Initializing database...")
+        initialize_database() # Call the database initializer
+        logger.info("Database initialization complete.")
+
         logger.info("Initializing ML components...")
 
         # Initialize property model using the dedicated function

@@ -2,11 +2,13 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { useEffect, useState } from "react"
+import { useEffect, useState, Fragment } from "react" // Added Fragment
 import { Button } from "@/components/ui/button"
-import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip"
+// Tooltip not used directly in Navigation after this change, but HealthIndicator might use it.
+// import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip" 
 import axios from "axios"
 import { FaCheckCircle } from "react-icons/fa"
+import { useAuth } from "@/context/AuthContext" // Import useAuth
 
 interface HealthStatus {
   status: string
@@ -67,15 +69,16 @@ function HealthIndicator() {
 
 export default function Navigation() {
   const pathname = usePathname()
+  const { user, logout, isLoading } = useAuth()
 
   return (
     <nav className="flex items-center justify-between w-full">
-      <div className="flex space-x-2 ml-auto">
+      <div className="flex items-center space-x-2 ml-auto"> {/* Added items-center for vertical alignment */}
         <HealthIndicator />
         <Link href="/">
-          <Button 
-            variant={pathname === "/" ? "default" : "ghost"} 
-            className={pathname === "/" 
+          <Button
+            variant={pathname === "/" ? "default" : "ghost"}
+            className={pathname === "/"
               ? "text-white bg-blue-600 hover:bg-blue-700 cursor-pointer"
               : "text-gray-700 hover:text-gray-900 cursor-pointer"
             }
@@ -84,16 +87,56 @@ export default function Navigation() {
           </Button>
         </Link>
         <Link href="/model-info">
-          <Button 
-            variant={pathname === "/model-info" ? "default" : "ghost"} 
-            className={pathname === "/model-info" 
-              ? "text-white bg-blue-600 hover:bg-blue-700 cursor-pointer" 
+          <Button
+            variant={pathname === "/model-info" ? "default" : "ghost"}
+            className={pathname === "/model-info"
+              ? "text-white bg-blue-600 hover:bg-blue-700 cursor-pointer"
               : "text-gray-700 hover:text-gray-900 cursor-pointer"
             }
           >
             Model Info
           </Button>
         </Link>
+
+        {isLoading ? (
+          <p className="text-sm text-gray-500">Loading...</p>
+        ) : user ? (
+          <>
+            <span className="text-sm text-gray-700 hidden sm:inline">Welcome, {user.email}</span>
+            <Button
+              variant="ghost"
+              onClick={logout}
+              className="text-red-600 hover:text-red-800 cursor-pointer"
+            >
+              Log Out
+            </Button>
+          </>
+        ) : (
+          <>
+            <Link href="/signup">
+              <Button
+                variant={pathname === "/signup" ? "default" : "ghost"}
+                className={pathname === "/signup"
+                  ? "text-white bg-green-600 hover:bg-green-700 cursor-pointer"
+                  : "text-gray-700 hover:text-gray-900 cursor-pointer"
+                }
+              >
+                Sign Up
+              </Button>
+            </Link>
+            <Link href="/login">
+              <Button
+                variant={pathname === "/login" ? "default" : "ghost"}
+                className={pathname === "/login"
+                  ? "text-white bg-indigo-600 hover:bg-indigo-700 cursor-pointer"
+                  : "text-gray-700 hover:text-gray-900 cursor-pointer"
+                }
+              >
+                Log In
+              </Button>
+            </Link>
+          </>
+        )}
       </div>
     </nav>
   )

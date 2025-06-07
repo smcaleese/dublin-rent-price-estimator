@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google"
 import Navigation from "@/components/Navigation"
+import { AuthProvider } from "@/context/AuthContext" // Import AuthProvider
 import "./globals.css"
 
 const geistSans = Geist({
@@ -28,9 +29,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="min-h-screen bg-gradient-to-br from-blue-100 to-gray-50">
-          {/* Header */}
-          <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
+        <AuthProvider> {/* Wrap with AuthProvider */}
+          <div className="min-h-screen bg-gradient-to-br from-blue-100 to-gray-50">
+            {/* Header */}
+            <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
             <div className="max-w-6xl mx-auto px-4 py-4">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between space-y-4 md:space-y-0">
                 <div className="text-center md:text-left space-y-2">
@@ -55,6 +57,7 @@ export default function RootLayout({
             </div>
           </main>
         </div>
+      </AuthProvider> {/* Close AuthProvider */}
       </body>
     </html>
   )
