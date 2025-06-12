@@ -21,6 +21,9 @@ oauth2_scheme = OAuth2PasswordBearer(
     tokenUrl="login"
 )  # tokenUrl is the path to the login endpoint
 
+# New scheme for optional authentication
+optional_oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login", auto_error=False)
+
 from app import schemas  # Import TokenDataSchema directly
 
 # Removed local TokenData class definition
@@ -67,8 +70,21 @@ async def get_current_user(
 
 
 async def get_current_active_user(current_user: User = Depends(get_current_user)):
-    # If we add an is_active field to the User model, we can check it here.
-    # For now, just returning the user.
-    # if not current_user.is_active:
-    #     raise HTTPException(status_code=400, detail="Inactive user")
     return current_user
+
+
+async def get_optional_current_user(
+    token: Optional[str] = Depends(optional_oauth2_scheme),
+    db: AsyncSession = Depends(get_db),
+) -> Optional[User]:
+    if token is None:
+        return None
+    try:
+        # Re-use get_current_user logic, but catch the exception
+        user = await get_current_user(token, db)
+        # You could also add the active check here if needed
+        return user
+    except HTTPException:
+        # This will happen if the token is invalid or expired.
+        # For an optional user, we just return None instead of failing.
+        return None

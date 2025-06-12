@@ -21,7 +21,11 @@ Web app to estimate Dublin rent prices
 Run this command from the `src/backend` directory:
 
 ```bash
-uvicorn app.main:app --reload
+uv run uvicorn app.main:app --reload
+
+or
+
+python -m uvicorn app.main:app --reload
 ```
 
 ## Frontend

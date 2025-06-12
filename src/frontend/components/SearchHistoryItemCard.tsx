@@ -16,7 +16,7 @@ interface SearchHistoryItemCardProps {
 }
 
 const SearchHistoryItemCard: React.FC<SearchHistoryItemCardProps> = ({ item }) => {
-  const { search_parameters, prediction_result, timestamp } = item
+  const { search_parameters, prediction_result } = item
 
   // Helper to format parameters for display
   const formatParameters = (params: typeof search_parameters) => {
@@ -36,7 +36,6 @@ const SearchHistoryItemCard: React.FC<SearchHistoryItemCardProps> = ({ item }) =
   return (
     <Card className="w-full">
       <CardHeader>
-        <CardTitle>Search on {new Date(timestamp).toLocaleDateString()}</CardTitle>
         <CardDescription>{formatParameters(search_parameters)}</CardDescription>
       </CardHeader>
       <CardContent>
@@ -48,9 +47,6 @@ const SearchHistoryItemCard: React.FC<SearchHistoryItemCardProps> = ({ item }) =
           </p>
         </div>
       </CardContent>
-      <CardFooter className="text-xs text-gray-500">
-        Searched at: {new Date(timestamp).toLocaleTimeString()}
-      </CardFooter>
     </Card>
   )
 }

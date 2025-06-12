@@ -24,16 +24,17 @@ class TokenDataSchema(BaseModel):
 
 # --- Pydantic Schemas for Search History ---
 class SearchHistoryBaseSchema(BaseModel):
-    search_parameters: Dict[str, Any]
-    prediction_result: Dict[str, Any]
+    search_parameters: dict[str, Any]
+    prediction_result: dict[str, Any]
 
 class SearchHistoryCreateSchema(SearchHistoryBaseSchema):
     pass
 
 class SearchHistoryResponseSchema(SearchHistoryBaseSchema):
     id: int
-    user_id: int # Added user_id for response clarity
-    timestamp: datetime
+    user_id: int
+    search_parameters: dict[str, Any]
+    prediction_result: dict[str, Any]
 
     class Config:
         from_attributes = True

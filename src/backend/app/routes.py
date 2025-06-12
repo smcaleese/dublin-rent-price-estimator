@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException, Request, Depends, status
 from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel
 import logging
-from typing import Any, List
+from typing import Any, List, Optional
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 
@@ -11,6 +11,7 @@ from app.db.models import User, SearchHistory
 from app.auth import (
     create_access_token,
     get_current_active_user,
+    get_optional_current_user,
     ACCESS_TOKEN_EXPIRE_MINUTES,
 )
 from app import schemas
@@ -80,9 +81,9 @@ async def predict_rent(
     details: PropertyDetails,
     request: Request,
     db: AsyncSession = Depends(get_db),
-    current_user: User = Depends(get_current_active_user)
+    current_user: Optional[User] = Depends(get_optional_current_user),
 ) -> dict[str, Any]:
-    """Predict rental price based on property features and save search for logged-in users"""
+    """Predict rental price based on property features and optionally save search for logged-in users"""
     try:
         # Determine which model to use based on isShared flag
         if details.isShared:
@@ -145,7 +146,7 @@ async def predict_rent(
 
         # Make prediction
         try:
-            prediction_result_raw = model.predict(features) # Renamed to avoid conflict
+            prediction_result_raw = model.predict(features)  # Renamed to avoid conflict
         except Exception as e:
             logger.error(f"Error making prediction: {str(e)}")
             raise HTTPException(
@@ -159,23 +160,20 @@ async def predict_rent(
             "upperBound": int(round(prediction_result_raw["upper_bound"])),
         }
 
-        # This block should also be indented 8 spaces
-        # Save search history for the logged-in user
-        # get_current_active_user raises HTTPException if user is not authenticated,
-        # so current_user will always be a valid User object here.
-        search_history_data = schemas.SearchHistoryCreateSchema(
-            search_parameters=details.model_dump(), # Pydantic v2
-            prediction_result=prediction_output_dict
-        )
-        
-        db_search_history = SearchHistory(
-            user_id=current_user.id,
-            search_parameters=search_history_data.search_parameters,
-            prediction_result=search_history_data.prediction_result
-        )
-        db.add(db_search_history)
-        await db.commit()
-        # await db.refresh(db_search_history) # Optional
+        # If a user is logged in, save their search history
+        if current_user:
+            search_history_data = schemas.SearchHistoryCreateSchema(
+                search_parameters=details.model_dump(),
+                prediction_result=prediction_output_dict,
+            )
+            db_search_history = SearchHistory(
+                user_id=current_user.id,
+                search_parameters=search_history_data.search_parameters,
+                prediction_result=search_history_data.prediction_result,
+            )
+            db.add(db_search_history)
+            await db.commit()
+            await db.refresh(db_search_history)
 
         return prediction_output_dict
 
@@ -284,22 +282,19 @@ async def health_check(request: Request) -> dict[str, Any]:
 
 # --- Search History Endpoints ---
 
-@router.get("/users/me/search-history", response_model=List[schemas.SearchHistoryResponseSchema])
+
+@router.get(
+    "/users/me/search-history", response_model=List[schemas.SearchHistoryResponseSchema]
+)
 async def get_user_search_history(
     current_user: User = Depends(get_current_active_user),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
 ):
     """
     Retrieve search history for the currently authenticated user.
     """
-    statement = (
-        select(SearchHistory)
-        .where(SearchHistory.user_id == current_user.id)
-        .order_by(SearchHistory.timestamp.desc())
-    )
+    statement = select(SearchHistory).where(SearchHistory.user_id == current_user.id)
     result = await db.execute(statement)
     history_items = result.scalars().all()
-    
-    # It's common to return an empty list if no items are found,
-    # response_model=List[...] handles this correctly.
+
     return history_items

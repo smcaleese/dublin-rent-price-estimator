@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, select, ForeignKey, DateTime, JSON
+from sqlalchemy import Column, Integer, String, select, ForeignKey, DateTime, JSON, func
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.asyncio import AsyncSession
 from app.db.session import Base
@@ -41,7 +41,9 @@ class User(Base):
         return pwd_context.verify(plain_password, self.hashed_password)
 
     # Relationship to SearchHistory
-    search_history_items = relationship("SearchHistory", back_populates="user", cascade="all, delete-orphan")
+    search_history_items = relationship(
+        "SearchHistory", back_populates="user", cascade="all, delete-orphan"
+    )
 
 
 class SearchHistory(Base):
@@ -51,6 +53,13 @@ class SearchHistory(Base):
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
     search_parameters = Column(JSON, nullable=False)
     prediction_result = Column(JSON, nullable=False)
-    timestamp = Column(DateTime, default=datetime.now(timezone.utc), nullable=False)
 
     user = relationship("User", back_populates="search_history_items")
+
+    def serialize(self):
+        return {
+            "id": self.id,
+            "user_id": self.user_id,
+            "search_parameters": self.search_parameters,
+            "prediction_result": self.prediction_result,
+        }
