@@ -8,6 +8,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 import os  # Import os
 from app.db.session import get_db
 from app.db.models import User  # User model for fetching user
+from app import schemas  # Import TokenDataSchema directly
 
 # Configuration for JWT
 # Load SECRET_KEY from environment variable, with a fallback for safety (though .env should be used)
@@ -19,14 +20,10 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 oauth2_scheme = OAuth2PasswordBearer(
     tokenUrl="login"
-)  # tokenUrl is the path to the login endpoint
+)
 
 # New scheme for optional authentication
 optional_oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login", auto_error=False)
-
-from app import schemas  # Import TokenDataSchema directly
-
-# Removed local TokenData class definition
 
 
 def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):
@@ -59,7 +56,7 @@ async def get_current_user(
             raise credentials_exception
         token_data = schemas.TokenDataSchema(
             email=email
-        )  # Use imported schema directly
+        )
     except JWTError:
         raise credentials_exception
 

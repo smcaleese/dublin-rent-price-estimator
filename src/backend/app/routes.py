@@ -76,6 +76,47 @@ class PropertyDetails(BaseModel):
     roomType: str | None = None
 
 
+def _get_prediction_components(details: PropertyDetails, request: Request):
+    """
+    Validates input details and returns the correct model, processor, and input data.
+    """
+    if details.isShared:
+        if not all([details.propertyType, details.dublinArea, details.roomType]):
+            raise HTTPException(
+                status_code=400,
+                detail="For shared properties, propertyType, dublinArea, and roomType are required",
+            )
+        model = request.app.state.shared_model
+        processor = request.app.state.shared_data_processor
+        input_data = {
+            "property_type": details.propertyType,
+            "address": details.dublinArea,
+            "room_type": details.roomType,
+        }
+    else:
+        if not all(
+            [
+                details.bedrooms,
+                details.bathrooms,
+                details.propertyType,
+                details.dublinArea,
+            ]
+        ):
+            raise HTTPException(
+                status_code=400,
+                detail="For whole properties, bedrooms, bathrooms, propertyType, and dublinArea are required",
+            )
+        model = request.app.state.property_model
+        processor = request.app.state.property_data_processor
+        input_data = {
+            "bedrooms": details.bedrooms,
+            "bathrooms": details.bathrooms,
+            "property_type": details.propertyType,
+            "address": details.dublinArea,
+        }
+    return model, processor, input_data
+
+
 @router.post("/predict")
 async def predict_rent(
     details: PropertyDetails,
@@ -85,51 +126,7 @@ async def predict_rent(
 ) -> dict[str, Any]:
     """Predict rental price based on property features and optionally save search for logged-in users"""
     try:
-        # Determine which model to use based on isShared flag
-        if details.isShared:
-            # Validate required fields for shared model
-            if not all([details.propertyType, details.dublinArea, details.roomType]):
-                raise HTTPException(
-                    status_code=400,
-                    detail="For shared properties, propertyType, dublinArea, and roomType are required",
-                )
-
-            # Get shared model and processor
-            model = request.app.state.shared_model
-            processor = request.app.state.shared_data_processor
-
-            # Prepare input data for shared model
-            input_data = {
-                "property_type": details.propertyType,
-                "address": details.dublinArea,
-                "room_type": details.roomType,
-            }
-        else:
-            # Validate required fields for property model
-            if not all(
-                [
-                    details.bedrooms,
-                    details.bathrooms,
-                    details.propertyType,
-                    details.dublinArea,
-                ]
-            ):
-                raise HTTPException(
-                    status_code=400,
-                    detail="For whole properties, bedrooms, bathrooms, propertyType, and dublinArea are required",
-                )
-
-            # Get property model and processor
-            model = request.app.state.property_model
-            processor = request.app.state.property_data_processor
-
-            # Prepare input data for property model
-            input_data = {
-                "bedrooms": details.bedrooms,
-                "bathrooms": details.bathrooms,
-                "property_type": details.propertyType,
-                "address": details.dublinArea,
-            }
+        model, processor, input_data = _get_prediction_components(details, request)
 
         if not model or not model.is_trained:
             raise HTTPException(status_code=500, detail="Model not trained")
