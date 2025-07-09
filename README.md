@@ -1,22 +1,24 @@
-# dublin-rent-price-estimator
-Web app to estimate Dublin rent prices
+# Dublin Rent Price Estimator
 
-## Done 
-- Daft scraper
-- Set up the new Next.js frontend
-- Build out the initial frontend UI using Shadcn with dummy data
-- Implement a simple backend with dummy data using FastAPI
-- Add the sharing dataset too so that users can select 'single room' and 'double room' as well as 'studio' or the number of bedrooms
+Web app to estimate Dublin rent prices.
 
-## To do
-- Add error bars to the prediction
-- Show the percentile of the price compared to other samples in the dataset with the same number of bedrooms and bathrooms
-- Containerize the application and deploy it to AWS in several different ways
+![](./dublin-rent-predictor-screenshot.png)
+
+## Features
+- Estimate the price of a property or shared room in Dublin.
+- See model stats in the Model Info tab.
+- Sign up and login to save your search history.
+
+## Tech Stack
+- Next.js
+- Shadcn UI
+- FastAPI
+- PostgreSQL
+- Docker
 
 # How to run the application
 
-
-## Backend
+## 1. Run the backend
 
 Run this command from the `src/backend` directory:
 
@@ -28,7 +30,7 @@ or
 python -m uvicorn app.main:app --reload
 ```
 
-## Frontend
+## 2. Run the frontend
 
 Run this command from the `src/frontend` directory:
 
@@ -36,10 +38,25 @@ Run this command from the `src/frontend` directory:
 pnpm dev
 ```
 
-## Database
+## 3. Run the database
 
 Run this command from the `src/backend` directory:
 
 ```bash
 docker compose up -d
 ```
+
+## PgAdmin
+
+Connect to the database using PgAdmin to view the users and search history tables.
+
+- Host name: localhost
+- Port: 5432
+- Database: postgres
+- Maintainance database: postgres
+- Username: postgres
+- Password: postgres
+
+## 4. View the application
+
+Go to http://localhost:3000 to see the application.
