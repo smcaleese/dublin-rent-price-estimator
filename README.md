@@ -1,7 +1,5 @@
 # Dublin Rent Price Estimator
 
-Web app to estimate Dublin rent prices.
-
 ![](./dublin-rent-predictor-screenshot.png)
 
 ## Features
@@ -10,53 +8,31 @@ Web app to estimate Dublin rent prices.
 - Sign up and login to save your search history.
 
 ## Tech Stack
-- Next.js
-- Shadcn UI
+- Next.js 15
+- Shadcn
 - FastAPI
+- Scikit-learn
 - PostgreSQL
 - Docker
 
 # How to run the application
 
-## 1. Run the backend
+1. Add a src/.env file with the following content:
 
-Run this command from the `src/backend` directory:
-
-```bash
-uv run uvicorn app.main:app --reload
-
-or
-
-python -m uvicorn app.main:app --reload
 ```
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=db
+POSTGRES_PORT=5432
 
-## 2. Run the frontend
+DATABASE_URL="postgresql+asyncpg://postgres:postgres@db:5432/db"
 
-Run this command from the `src/frontend` directory:
-
-```bash
-pnpm dev
+SECRET_KEY="secret"
 ```
-
-## 3. Run the database
-
-Run this command from the `src/backend` directory:
+2. Run this command from the `src` directory:
 
 ```bash
 docker compose up -d
 ```
 
-## PgAdmin
-
-Connect to the database using PgAdmin to view the users and search history tables.
-
-- Host name: localhost
-- Port: 5432
-- Database: postgres
-- Maintainance database: postgres
-- Username: postgres
-- Password: postgres
-
-## 4. View the application
-
-Go to http://localhost:3000 to see the application.
+3. Go to http://localhost:3000 to see the application.

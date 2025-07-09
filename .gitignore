@@ -10,3 +10,6 @@ src/backend/saved_models/
 .venv/
 
 *.egg-info/
+
+.python-version
+.env
