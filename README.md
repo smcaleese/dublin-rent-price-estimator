@@ -15,24 +15,38 @@
 - PostgreSQL
 - Docker
 
-# How to run the application
+---
 
-1. Add a src/.env file with the following content:
+## Getting Started
 
-```
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-POSTGRES_DB=db
-POSTGRES_PORT=5432
+### Prerequisites
+- Docker & Docker Compose
+- AWS CLI configured with credentials
 
-DATABASE_URL="postgresql+asyncpg://postgres:postgres@db:5432/db"
+### Running Locally with Docker Compose
 
-SECRET_KEY="secret"
-```
-2. Run this command from the `src` directory:
+1.  **Create Backend Environment File:**
+    Create a file at `src/backend/.env` with the following variables:
+    ```env
+    POSTGRES_USER=postgres
+    POSTGRES_PASSWORD=postgres
+    POSTGRES_DB=db
+    POSTGRES_PORT=5432
+    DATABASE_URL="postgresql+asyncpg://postgres:postgres@db:5432/db"
+    SECRET_KEY="a-very-secret-key"
+    ```
 
-```bash
-docker compose up -d
-```
+2.  **Create Frontend Environment File:**
+    Create a file at `src/frontend/.env` with the following variable. This allows the frontend to communicate with the backend.
+    ```env
+    NEXT_PUBLIC_API_URL=http://localhost:8000
+    ```
 
-3. Go to http://localhost:3000 to see the application.
+3.  **Run the Application:**
+    Navigate to the `src` directory and run the following command:
+    ```bash
+    docker-compose up -d --build
+    ```
+
+4.  **Access the Application:**
+    Open your browser and go to [http://localhost:3000](http://localhost:3000).

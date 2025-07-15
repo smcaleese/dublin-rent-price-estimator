@@ -44,7 +44,7 @@ export default function ModelInfoDisplay() {
     const fetchModelInfo = async () => {
       setError(null)
       try {
-        const url = `http://localhost:8000/model-info?model_type=${activeModelType}`
+        const url = `${process.env.NEXT_PUBLIC_API_URL}/model-info?model_type=${activeModelType}`
         const response = await axios.get(url)
         setModelInfo(response.data)
       } catch (err) {

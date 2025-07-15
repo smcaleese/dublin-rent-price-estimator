@@ -132,7 +132,7 @@ export default function PredictionPage() {
 
     try {
       const response = await axios.post<PricePrediction>(
-        "http://localhost:8000/predict",
+        `${process.env.NEXT_PUBLIC_API_URL}/predict`,
         payload
       )
       setPredictedPrice(response.data.predictedPrice)

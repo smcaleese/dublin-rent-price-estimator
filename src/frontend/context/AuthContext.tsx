@@ -27,7 +27,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [isLoading, setIsLoading] = useState(true) // Start true to check for token
   const router = useRouter()
 
-  const API_URL = "http://localhost:8000"
+  const API_URL = process.env.NEXT_PUBLIC_API_URL
 
   const fetchUser = async (currentToken?: string) => {
     const tokenToUse = currentToken || token

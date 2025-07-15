@@ -9,7 +9,7 @@ export function cn(...inputs: ClassValue[]) {
 import { SearchHistoryItem } from "./types"
 
 export async function fetchUserSearchHistory(token: string): Promise<SearchHistoryItem[]> {
-  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000" // Fallback for local dev if not set
+  const backendUrl = process.env.NEXT_PUBLIC_API_URL
   const endpoint = `${backendUrl}/users/me/search-history`
 
   try {
