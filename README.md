@@ -1,4 +1,4 @@
-# Dublin Rent Price Estimator
+# Dublin Rent Price Predictor
 
 ![](./dublin-rent-predictor-screenshot.png)
 
