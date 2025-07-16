@@ -1,0 +1,32 @@
+version: 1.0
+# We specify the Python 3.11 runtime to match your project's requirements.
+runtime: python311
+
+# The 'build' section defines the commands needed to prepare your application.
+build:
+  commands:
+    # 'pre-build' commands run before installing dependencies.
+    # We need to install uv itself, as it's not included in the base Python runtime.
+    pre-build:
+      - pip install uv
+    # The 'build' command installs your project's dependencies from the uv.lock file.
+    # This is the equivalent of 'pip install -r requirements.txt'.
+    build:
+      - uv sync --no-cache
+
+# The 'run' section defines the command to start your application.
+run:
+  # This command starts the Uvicorn server to run your FastAPI application.
+  # It listens on port 8080, which App Runner will expose.
+  command: uv run uvicorn app.main:app --host 0.0.0.0 --port 8080
+  network:
+    # This must match the port in the run command.
+    port: 8080
+
+# We'll keep the health check configuration for fast feedback.
+health_check:
+  path: /healthcheck
+  interval: 5
+  timeout: 2
+  healthy_threshold: 1
+  unhealthy_threshold: 2 
