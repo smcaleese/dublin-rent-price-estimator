@@ -23,6 +23,12 @@ logger = logging.getLogger(__name__)
 # Create the router
 router = APIRouter()
 
+
+@router.get("/healthcheck")
+def healthcheck():
+    return {"status": "ok"}
+
+
 # --- Authentication Endpoints ---
 
 
@@ -253,7 +259,7 @@ async def get_model_info(
         )
 
 
-@router.get("/healthcheck")
+@router.get("/status")
 async def health_check(request: Request) -> dict[str, Any]:
     """Health check endpoint"""
     try:

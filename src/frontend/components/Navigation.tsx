@@ -35,7 +35,7 @@ function HealthIndicator() {
   useEffect(() => {
     const checkHealth = async () => {
       try {
-        const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/healthcheck`)
+        const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/status`)
         const data = response.data
         setHealthStatus(data)
       } catch (error) {
