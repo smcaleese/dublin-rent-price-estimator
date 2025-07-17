@@ -13,8 +13,17 @@ run:
   network:
     port: 8000
 
+  instance_role: "arn:aws:iam::665577125891:role/AppRunnerDublinRentPredictorInstanceRole"
+
   secrets:
     - name: DATABASE_URL
       value-from: "arn:aws:secretsmanager:eu-west-1:665577125891:secret:dublin-rent-predictor-backend/DATABASE_URL-qxtbL6"
     - name: SECRET_KEY
       value-from: "arn:aws:secretsmanager:eu-west-1:665577125891:secret:dublin-rent-predictor-backend/SECRET_KEY-kPoOrc"
+
+health_check:
+  path: /healthcheck
+  interval: 5
+  timeout: 2
+  healthy_threshold: 1
+  unhealthy_threshold: 2
