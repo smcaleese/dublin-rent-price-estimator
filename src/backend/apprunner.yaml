@@ -3,9 +3,8 @@ runtime: python311
 
 build:
   commands:
-    pre-build:
-      - pip install uv
     build:
+      - pip install uv
       - uv sync --no-cache
 
 run:
