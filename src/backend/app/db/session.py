@@ -47,5 +47,12 @@ async def init_db():
 
 # Dependency to get DB session
 async def get_db() -> AsyncGenerator[AsyncSession, None]:
-    async with AsyncSessionLocal() as session:
-        yield session
+    try:
+        async with AsyncSessionLocal() as session:
+            yield session
+    except Exception as e:
+        logger.error(f"Database connection failed: {e}")
+        # For endpoints that don't require DB, we could yield None
+        # But since this is used with Depends(), we'll let the error propagate
+        # and handle it in the route handlers
+        raise

@@ -111,9 +111,14 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     global property_data_processor, property_model, shared_data_processor, shared_model
 
     try:
+        # Try to initialize database, but don't fail if it's not available
         logger.info("Initializing database...")
-        await initialize_database()  # Call the database initializer
-        logger.info("Database initialization complete.")
+        try:
+            await initialize_database()  # Call the database initializer
+            logger.info("Database initialization complete.")
+        except Exception as db_error:
+            logger.warning(f"Database initialization failed: {db_error}")
+            logger.info("Continuing without database - some features may not work")
 
         logger.info("Initializing ML components...")
 

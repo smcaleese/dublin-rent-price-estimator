@@ -163,20 +163,25 @@ async def predict_rent(
             "upperBound": int(round(prediction_result_raw["upper_bound"])),
         }
 
-        # If a user is logged in, save their search history
+        # If a user is logged in, try to save their search history (gracefully handle DB errors)
         if current_user:
-            search_history_data = schemas.SearchHistoryCreateSchema(
-                search_parameters=details.model_dump(),
-                prediction_result=prediction_output_dict,
-            )
-            db_search_history = SearchHistory(
-                user_id=current_user.id,
-                search_parameters=search_history_data.search_parameters,
-                prediction_result=search_history_data.prediction_result,
-            )
-            db.add(db_search_history)
-            await db.commit()
-            await db.refresh(db_search_history)
+            try:
+                search_history_data = schemas.SearchHistoryCreateSchema(
+                    search_parameters=details.model_dump(),
+                    prediction_result=prediction_output_dict,
+                )
+                db_search_history = SearchHistory(
+                    user_id=current_user.id,
+                    search_parameters=search_history_data.search_parameters,
+                    prediction_result=search_history_data.prediction_result,
+                )
+                db.add(db_search_history)
+                await db.commit()
+                await db.refresh(db_search_history)
+                logger.info(f"Saved search history for user {current_user.id}")
+            except Exception as db_error:
+                logger.warning(f"Failed to save search history: {db_error}")
+                # Continue without saving - prediction still works
 
         return prediction_output_dict
 
