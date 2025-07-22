@@ -19,6 +19,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
+      - /app/.venv # Avoid overwriting by local volume
       - ./backend:/app
     depends_on:
       - db
