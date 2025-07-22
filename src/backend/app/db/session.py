@@ -8,12 +8,17 @@ from sqlalchemy.ext.asyncio import (
     create_async_engine,
 )
 from sqlalchemy.orm import declarative_base
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Load variables from .env file into environment
 load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 if not DATABASE_URL:
+    logger.error("No DATABASE_URL found in environment variables")
     raise ValueError("No DATABASE_URL found in environment variables")
 
 # SQLAlchemy 2.0 requires the URL to be async for async operations.
@@ -30,6 +35,7 @@ Base = declarative_base()
 
 
 async def init_db():
+    logger.info("Initializing database...")
     # Import all modules here that might define models so that
     # they will be registered properly on the metadata. Otherwise
     # you will have to import them first before calling init_db()
